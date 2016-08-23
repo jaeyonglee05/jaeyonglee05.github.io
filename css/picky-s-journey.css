@@ -1,0 +1,5314 @@
+.version.picky_s_journey /* version checker */
+{
+	color: #0000E8;
+	background-color: #CAA2BB;
+}
+
+.js body
+{
+	visibility: hidden;
+}
+
+.js body.initialized
+{
+	visibility: visible;
+}
+
+#page
+{
+	margin-right: auto;
+	border-color: #000000;
+	background-image: none;
+	background-color: transparent;
+	border-width: 0px;
+	margin-left: auto;
+	width: 100%;
+	z-index: 1;
+}
+
+#u23864
+{
+	margin-right: -10000px;
+	position: relative;
+	background-color: #231F20;
+}
+
+#u23865-4
+{
+	text-align: center;
+	-webkit-transition-delay: 0s;
+	transition-duration: 1s;
+	font-weight: bold;
+	-webkit-transition-timing-function: ease;
+	position: relative;
+	margin-right: -10000px;
+	-webkit-transition-duration: 1s;
+	background-image: url("../images/blank.gif");
+	background-color: transparent;
+	transition-timing-function: ease;
+	color: #FFFFFF;
+	transition-delay: 0s;
+}
+
+#u23865-4:hover
+{
+	background-color: #FFDE00;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u23865-4:hover p
+{
+	visibility: inherit;
+	color: #000000;
+}
+
+#u24208-4
+{
+	position: relative;
+	background-color: #000000;
+}
+
+#u24207-17
+{
+	left: 0px;
+	position: relative;
+	font-weight: 400;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: #231F20;
+}
+
+#u24207-2
+{
+	font-style: normal;
+	letter-spacing: 1px;
+	font-family: league-gothic, sans-serif;
+}
+
+#u24207-3
+{
+	text-align: left;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-family: open-sans, sans-serif;
+	line-height: 18px;
+}
+
+#u24207-15
+{
+	text-align: left;
+	letter-spacing: 0px;
+	font-family: open-sans, sans-serif;
+}
+
+#u24207-4,#u24207-7,#u24207-10,#u24207-13
+{
+	font-family: open-sans, sans-serif;
+	font-weight: 600;
+}
+
+#u24405-4
+{
+	left: 0px;
+	font-weight: 600;
+	background-color: transparent;
+	position: relative;
+	font-family: open-sans, sans-serif;
+}
+
+#u24390
+{
+	min-width: 40px;
+	border-width: 0px;
+	border-color: transparent;
+	position: relative;
+	max-width: 100000px;
+	background-color: transparent;
+}
+
+#u24936
+{
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: cover;
+}
+
+#u25074-14
+{
+	min-height: 313px;
+	background-color: transparent;
+	position: relative;
+}
+
+#u25074-3
+{
+	text-align: left;
+	line-height: 20px;
+}
+
+#u25074-9
+{
+	text-transform: uppercase;
+}
+
+#u25074-10
+{
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#u25100
+{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: cover;
+}
+
+#u25169
+{
+	background-color: #FFDE00;
+}
+
+#u25124-4
+{
+	line-height: 16px;
+	background-color: transparent;
+	position: relative;
+}
+
+#u25124-2
+{
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u25124
+{
+	font-size: 10px;
+	font-style: italic;
+	font-weight: 400;
+	font-family: open-sans, sans-serif;
+	line-height: 12px;
+}
+
+#u25160-8
+{
+	min-height: 141px;
+	background-color: transparent;
+	position: relative;
+}
+
+#u25160-2
+{
+	text-align: left;
+	color: #231F20;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: league-gothic, sans-serif;
+}
+
+#u25160-4
+{
+	letter-spacing: 1px;
+}
+
+#u25193-13
+{
+	min-height: 340px;
+	background-color: transparent;
+	position: relative;
+}
+
+#u25193-3
+{
+	font-weight: 700;
+	font-family: open-sans, sans-serif;
+}
+
+#u25177,#u25206
+{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: contain;
+}
+
+#u25556
+{
+	background-position: right center;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#u25310,#u25859
+{
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: cover;
+}
+
+#u25302-4,#u25608-4,#u25846-4,#u26109-4
+{
+	position: relative;
+	font-weight: 400;
+	background-color: transparent;
+	text-transform: uppercase;
+	font-family: league-gothic, sans-serif;
+}
+
+#u25278-4,#u25543-4,#u25833-5,#u26122-4
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u26065
+{
+	margin-right: -10000px;
+	background-position: right center;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+}
+
+#u25334,#u25286,#u25582,#u25802,#u26161,#u26148
+{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	position: relative;
+	background-size: contain;
+}
+
+#u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+#pu25556,#pu563
+{
+	width: 100%;
+}
+
+#u563,#u563-bw
+{
+	height: 70px;
+}
+
+#u44573-4,#u44573-4-bw
+{
+	min-height: 14px;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+body
+{
+	position: relative;
+}
+
+@media (min-width: 1141px)
+{
+	#muse_css_mq
+	{
+		background-color: #FFFFFF;
+	}
+
+	#bp_infinity.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 935.9750000000004px;
+		padding-bottom: 0px;
+	}
+
+	#pslideshowu26213
+	{
+		padding-bottom: 600px;
+		width: 100%;
+	}
+
+	#slideshowu26213
+	{
+		z-index: 2;
+		width: 0.01px;
+		height: 600px;
+		position: fixed;
+		top: 0px;
+		left: 50%;
+		margin-left: -720px;
+	}
+
+	#u26227
+	{
+		position: absolute;
+		width: 1440px;
+		height: 600px;
+		background-color: transparent;
+	}
+
+	#u26227popup
+	{
+		z-index: 3;
+	}
+
+	#u26569
+	{
+		z-index: 4;
+		width: 1440px;
+		height: 600px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	#u26830
+	{
+		z-index: 6;
+		width: 1440px;
+		height: 600px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+	{
+		cursor: pointer;
+	}
+
+	.SSSlideLoading /* slideshowFreeStyle */
+	{
+		background: url("../images/loading.gif") no-repeat center center;
+	}
+
+	#u23861
+	{
+		z-index: 171;
+		width: 70px;
+		height: 70px;
+		background-color: #231F20;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#u23862-4
+	{
+		z-index: 172;
+		width: 70px;
+		min-height: 70px;
+		-webkit-transition-duration: 1s;
+		-webkit-transition-delay: 0s;
+		-webkit-transition-timing-function: ease;
+		transition-duration: 1s;
+		transition-delay: 0s;
+		transition-timing-function: ease;
+		background-image: url("../images/blank.gif");
+		background-color: transparent;
+		color: #FFFFFF;
+		line-height: 30px;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#u23862-4:hover
+	{
+		background-color: #FFDE00;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 70px;
+		width: 70px;
+		margin: 0px;
+	}
+
+	#u23862-4:hover p
+	{
+		color: #000000;
+		visibility: inherit;
+	}
+
+	#pu168
+	{
+		margin-top: -600px;
+		width: 100%;
+	}
+
+	#u168
+	{
+		z-index: 124;
+		width: 350px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#menuu170
+	{
+		z-index: 125;
+		width: 305px;
+		position: relative;
+		margin-right: -10000px;
+		left: 70px;
+	}
+
+	#u171
+	{
+		width: 74px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#u174
+	{
+		width: 74px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u174:hover
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u174.MuseMenuActive
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u177-4
+	{
+		width: 74px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u174:hover #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u174.MuseMenuActive #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u192
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 76px;
+	}
+
+	#u193
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u195-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193:hover #u195-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u185
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 153px;
+	}
+
+	#u186
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193.MuseMenuActive,#u186:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u187-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193.MuseMenuActive #u195-4,#u186:hover #u187-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u178
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 230px;
+	}
+
+	#u181
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u186.MuseMenuActive,#u181:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u181.MuseMenuActive
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u182-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u186.MuseMenuActive #u187-4,#u181:hover #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u181.MuseMenuActive #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#top
+	{
+		position: relative;
+		width: 22px;
+		margin-right: -10000px;
+	}
+
+	#u23864
+	{
+		z-index: 177;
+		width: 70px;
+	}
+
+	#u23865-4
+	{
+		z-index: 178;
+		width: 70px;
+		min-height: 70px;
+		line-height: 30px;
+		font-size: 25px;
+	}
+
+	#u23865-4:hover
+	{
+		min-height: 70px;
+		width: 70px;
+	}
+
+	#u23862-2,#u23865-2
+	{
+		padding-top: 21px;
+	}
+
+	#u27047
+	{
+		z-index: 8;
+		min-height: 7152.500000000003px;
+		background-color: #FFFFFF;
+		padding-bottom: 0px;
+	}
+
+	#u27047_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+		padding-bottom: 50px;
+	}
+
+	#u24208-4
+	{
+		z-index: 120;
+		min-height: 26px;
+		color: #FFFFFF;
+		line-height: 12px;
+		text-align: center;
+		font-size: 10px;
+		font-weight: bold;
+		width: 4.17%;
+		left: 17.85%;
+	}
+
+	#u24208-2
+	{
+		padding-top: 7px;
+	}
+
+	#pu24207-17
+	{
+		margin-top: 50px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u24207-17
+	{
+		z-index: 10;
+		min-height: 222px;
+		margin-right: -10000px;
+		width: 64.38%;
+		margin-left: 17.82%;
+	}
+
+	#u24207-2
+	{
+		font-size: 100px;
+		line-height: 120px;
+	}
+
+	#u24207-15
+	{
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#u24405-4
+	{
+		z-index: 28;
+		min-height: 197px;
+		margin-right: -10000px;
+		margin-top: 272px;
+		width: 64.31%;
+		margin-left: 17.85%;
+	}
+
+	#u24390
+	{
+		z-index: 27;
+		height: 520px;
+		margin-top: 50px;
+		width: 64.31%;
+		margin-left: 17.85%;
+		left: 0px;
+	}
+
+	#u24936
+	{
+		z-index: 46;
+		height: 550px;
+		background-image: url("../images/pickysjourney_1.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 64.38%;
+		margin-left: 17.82%;
+		left: 0px;
+	}
+
+	#u25074-14
+	{
+		z-index: 32;
+		margin-top: 30px;
+		width: 64.31%;
+		margin-left: 17.85%;
+		left: 0px;
+	}
+
+	#u25100
+	{
+		z-index: 47;
+		height: 350px;
+		background-image: url("../images/pickysjourney_2.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 64.38%;
+		margin-left: 17.82%;
+		left: 0px;
+	}
+
+	#u25124-4
+	{
+		z-index: 48;
+		min-height: 6px;
+		margin-top: 9px;
+		width: 20.49%;
+		left: 61.67%;
+	}
+
+	#u25169
+	{
+		z-index: 9;
+		padding-bottom: 44px;
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u25160-8
+	{
+		z-index: 53;
+		margin-right: -10000px;
+		margin-top: 45px;
+		width: 64.38%;
+		left: 17.78%;
+	}
+
+	#u25160-2
+	{
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	#u25160-6
+	{
+		line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+	}
+
+	#u25160-4
+	{
+		line-height: 16px;
+	}
+
+	#u25160-5
+	{
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	#u25177
+	{
+		z-index: 61;
+		height: 376px;
+		background-image: url("../images/pickysjourney_2.png");
+		margin-top: 30px;
+		position: relative;
+		width: 64.38%;
+		margin-left: 17.82%;
+		left: 0px;
+	}
+
+	#u25193-13
+	{
+		z-index: 62;
+		margin-top: 30px;
+		width: 64.38%;
+		margin-left: 17.82%;
+		left: 0px;
+	}
+
+	#u25193-3
+	{
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	#u25222
+	{
+		z-index: 76;
+		height: 257px;
+		margin-top: 30px;
+		position: relative;
+		width: 64.38%;
+		margin-left: 17.82%;
+		left: 0px;
+		background: transparent url("../images/pickysjourney_4.png") no-repeat center center;
+		background-size: contain;
+	}
+
+	#u25206
+	{
+		z-index: 75;
+		height: 819px;
+		background-image: url("../images/pickysjourney_3.png");
+		margin-top: 30px;
+		position: relative;
+		width: 64.38%;
+		margin-left: 17.82%;
+		left: 0px;
+	}
+
+	#u25334
+	{
+		z-index: 114;
+		height: 128px;
+		background-image: url("../images/pickysjourney_8.png");
+		margin-right: -10000px;
+		margin-top: 355px;
+		width: 5.28%;
+		left: 1.39%;
+	}
+
+	#pu25302-4
+	{
+		margin-right: -10000px;
+		width: 31.53%;
+		margin-left: 17.78%;
+	}
+
+	#u25302-4
+	{
+		z-index: 81;
+		width: 453px;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+	}
+
+	#u25278-4
+	{
+		z-index: 97;
+		width: 454px;
+		min-height: 298px;
+		margin-top: 30px;
+	}
+
+	#u25310
+	{
+		z-index: 77;
+		height: 500px;
+		background-image: url("../images/pickysjourney_7.png");
+		position: relative;
+		margin-right: -10000px;
+		width: 57.5%;
+		margin-left: 42.51%;
+		left: 0px;
+	}
+
+	#u25286
+	{
+		z-index: 80;
+		height: 99px;
+		background-image: url("../images/pickysjourney_6-u25286-fr.png");
+		margin-right: -10000px;
+		margin-top: 373px;
+		width: 19.66%;
+		left: 52.09%;
+	}
+
+	#pu25556
+	{
+		margin-top: 30px;
+		position: relative;
+	}
+
+	#u25556
+	{
+		z-index: 78;
+		height: 500px;
+		background-image: url("../images/pickysjourney_9%20copy-u25556-fr.png");
+		position: relative;
+		margin-right: -10000px;
+		width: 45.91%;
+	}
+
+	#pu25608-4
+	{
+		margin-right: -10000px;
+		width: 31.53%;
+		margin-left: 50.7%;
+	}
+
+	#u25608-4
+	{
+		z-index: 89;
+		width: 454px;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+	}
+
+	#u25543-4
+	{
+		z-index: 106;
+		width: 454px;
+		min-height: 287px;
+		margin-top: 30px;
+	}
+
+	#u25582
+	{
+		z-index: 116;
+		height: 140px;
+		background-image: url("../images/pickysjourney_8_3.png");
+		margin-right: -10000px;
+		margin-top: 114px;
+		width: 4.52%;
+		left: 91.74%;
+	}
+
+	#u25802
+	{
+		z-index: 115;
+		height: 121px;
+		background-image: url("../images/pickysjourney_8.png");
+		margin-right: -10000px;
+		margin-top: 395px;
+		width: 6.32%;
+		left: 3.96%;
+	}
+
+	#pu25846-4
+	{
+		margin-right: -10000px;
+		width: 31.46%;
+		margin-left: 17.78%;
+	}
+
+	#u25846-4
+	{
+		z-index: 85;
+		width: 453px;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+	}
+
+	#u25833-5
+	{
+		z-index: 101;
+		width: 453px;
+		min-height: 310px;
+		margin-top: 30px;
+	}
+
+	#u25859
+	{
+		z-index: 52;
+		height: 427px;
+		background-image: url("../images/pickysjourney_11-u25859-fr.png");
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 99px;
+		width: 42.5%;
+		margin-left: 57.5%;
+		left: 0px;
+	}
+
+	#u25927
+	{
+		z-index: 119;
+		height: 99px;
+		position: relative;
+		margin-right: -10000px;
+		width: 32.92%;
+		left: 62.3%;
+		background: transparent url("../images/pickysjourney_12.png") no-repeat center center;
+		background-size: contain;
+	}
+
+	#pu25334,#pu25802,#pu26065
+	{
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u26065
+	{
+		z-index: 79;
+		height: 550px;
+		background-image: url("../images/pickysjourney_13.png");
+		width: 45.91%;
+	}
+
+	#pu26109-4
+	{
+		margin-right: -10000px;
+		margin-top: 1px;
+		width: 31.53%;
+		margin-left: 50.7%;
+	}
+
+	#u26109-4
+	{
+		z-index: 93;
+		width: 454px;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+	}
+
+	#u26122-4
+	{
+		z-index: 110;
+		width: 454px;
+		min-height: 214px;
+		margin-top: 30px;
+	}
+
+	#u26148
+	{
+		z-index: 117;
+		background-image: url("../images/pickysjourney_8_3.png");
+		margin-right: -10000px;
+		margin-top: 447px;
+		width: 6.46%;
+		left: 89.66%;
+	}
+
+	#u26161
+	{
+		z-index: 118;
+		height: 44px;
+		background-image: url("../images/pickysjourney_8_1.png");
+		margin-bottom: -16px;
+		margin-right: -10000px;
+		margin-top: 59px;
+		width: 40.87%;
+	}
+
+	#u27047-bw
+	{
+		z-index: 8;
+		min-height: 7152.500000000003px;
+	}
+
+	#pu44404-4
+	{
+		width: 100%;
+	}
+
+	#u44404-4
+	{
+		z-index: 151;
+		min-height: 360px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+	}
+
+	#u44405-4
+	{
+		z-index: 155;
+		min-height: 360px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 25%;
+	}
+
+	#u44407-4
+	{
+		z-index: 163;
+		min-height: 360px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 50%;
+	}
+
+	#u44406-4
+	{
+		z-index: 159;
+		min-height: 360px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 75%;
+	}
+
+	#u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
+	{
+		margin-right: -10000px;
+		min-height: 360px;
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	#u563,#u563-bw
+	{
+		z-index: 150;
+	}
+
+	#u44573-4
+	{
+		z-index: 167;
+	}
+
+	#u44573-4-bw
+	{
+		z-index: 167;
+		margin-top: 27px;
+	}
+}
+
+@media (min-width: 961px) and (max-width: 1140px)
+{
+	#muse_css_mq
+	{
+		background-color: #000474;
+	}
+
+	#bp_1140.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 748px;
+		max-width: 1140px;
+	}
+
+	#pslideshowu26213
+	{
+		padding-bottom: 850px;
+		width: 100%;
+	}
+
+	#slideshowu26213
+	{
+		z-index: 2;
+		width: 0.01px;
+		height: 850px;
+		position: fixed;
+		top: 0px;
+		left: 50%;
+		margin-left: -570px;
+	}
+
+	#u26227
+	{
+		position: absolute;
+		width: 1140px;
+		height: 850px;
+		background-color: transparent;
+	}
+
+	#u26227popup
+	{
+		z-index: 3;
+	}
+
+	#u26569
+	{
+		z-index: 4;
+		width: 1140px;
+		height: 850px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	#u26830
+	{
+		z-index: 6;
+		width: 1140px;
+		height: 850px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+	{
+		cursor: pointer;
+	}
+
+	.SSSlideLoading /* slideshowFreeStyle */
+	{
+		background: url("../images/loading.gif") no-repeat center center;
+	}
+
+	#u23861
+	{
+		z-index: 171;
+		width: 70px;
+		height: 70px;
+		background-color: #231F20;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#u23862-4
+	{
+		z-index: 172;
+		width: 70px;
+		min-height: 70px;
+		-webkit-transition-duration: 1s;
+		-webkit-transition-delay: 0s;
+		-webkit-transition-timing-function: ease;
+		transition-duration: 1s;
+		transition-delay: 0s;
+		transition-timing-function: ease;
+		background-image: url("../images/blank.gif");
+		background-color: transparent;
+		color: #FFFFFF;
+		line-height: 30px;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#u23862-4:hover
+	{
+		background-color: #FFDE00;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 70px;
+		width: 70px;
+		margin: 0px;
+	}
+
+	#u23862-4:hover p
+	{
+		color: #000000;
+		visibility: inherit;
+	}
+
+	#pu168
+	{
+		margin-top: -850px;
+		width: 100%;
+	}
+
+	#u168
+	{
+		z-index: 124;
+		width: 350px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#menuu170
+	{
+		z-index: 125;
+		width: 305px;
+		position: relative;
+		margin-right: -10000px;
+		left: 70px;
+	}
+
+	#u171
+	{
+		width: 74px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#u174
+	{
+		width: 74px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u174:hover
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u174.MuseMenuActive
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u177-4
+	{
+		width: 74px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u174:hover #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u174.MuseMenuActive #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u192
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 76px;
+	}
+
+	#u193
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u195-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193:hover #u195-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u185
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 153px;
+	}
+
+	#u186
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193.MuseMenuActive,#u186:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u187-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193.MuseMenuActive #u195-4,#u186:hover #u187-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u178
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 230px;
+	}
+
+	#u181
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u186.MuseMenuActive,#u181:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u181.MuseMenuActive
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u182-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u186.MuseMenuActive #u187-4,#u181:hover #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u181.MuseMenuActive #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#top
+	{
+		position: relative;
+		width: 22px;
+		margin-right: -10000px;
+	}
+
+	#u23864
+	{
+		z-index: 177;
+		width: 70px;
+	}
+
+	#u23865-4
+	{
+		z-index: 178;
+		width: 70px;
+		min-height: 70px;
+		line-height: 30px;
+		font-size: 25px;
+	}
+
+	#u23865-4:hover
+	{
+		min-height: 70px;
+		width: 70px;
+	}
+
+	#u23862-2,#u23865-2
+	{
+		padding-top: 21px;
+	}
+
+	#u27047
+	{
+		z-index: 8;
+		min-height: 6823px;
+		background-color: #FFFFFF;
+	}
+
+	#u27047_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+		padding-bottom: 50px;
+	}
+
+	#u24208-4
+	{
+		z-index: 120;
+		width: 60px;
+		min-height: 26px;
+		color: #FFFFFF;
+		line-height: 12px;
+		text-align: center;
+		font-size: 10px;
+		font-weight: bold;
+		left: 9.92%;
+	}
+
+	#u24208-2
+	{
+		padding-top: 7px;
+	}
+
+	#pu24207-17
+	{
+		margin-top: 50px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u24207-17
+	{
+		z-index: 10;
+		min-height: 222px;
+		margin-right: -10000px;
+		width: 80.18%;
+		margin-left: 9.92%;
+	}
+
+	#u24207-2
+	{
+		font-size: 90px;
+		line-height: 108px;
+	}
+
+	#u24207-15
+	{
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#u24405-4
+	{
+		z-index: 28;
+		min-height: 197px;
+		margin-right: -10000px;
+		margin-top: 272px;
+		width: 80.18%;
+		margin-left: 9.92%;
+	}
+
+	#u24390
+	{
+		z-index: 27;
+		height: 520px;
+		margin-top: 50px;
+		width: 80.18%;
+		margin-left: 9.92%;
+		left: -1px;
+	}
+
+	#u24936
+	{
+		z-index: 46;
+		height: 553px;
+		background-image: url("../images/pickysjourney_1.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 80.09%;
+		left: 9.92%;
+	}
+
+	#u25074-14
+	{
+		z-index: 32;
+		margin-top: 30px;
+		width: 80.18%;
+		margin-left: 9.92%;
+		left: -1px;
+	}
+
+	#u25100
+	{
+		z-index: 47;
+		height: 350px;
+		background-image: url("../images/pickysjourney_2.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 80.18%;
+		left: 9.83%;
+	}
+
+	#u25124-4
+	{
+		z-index: 48;
+		min-height: 12px;
+		margin-top: 10px;
+		width: 28.34%;
+		left: 61.67%;
+	}
+
+	#u25169
+	{
+		z-index: 9;
+		padding-bottom: 46px;
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u25160-8
+	{
+		z-index: 53;
+		margin-right: -10000px;
+		margin-top: 43px;
+		width: 80.18%;
+		left: 9.83%;
+	}
+
+	#u25160-2
+	{
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	#u25160-6
+	{
+		line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+	}
+
+	#u25160-4
+	{
+		line-height: 16px;
+	}
+
+	#u25160-5
+	{
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	#u25177
+	{
+		z-index: 61;
+		height: 376px;
+		background-image: url("../images/pickysjourney_2.png");
+		margin-top: 30px;
+		position: relative;
+		width: 80.09%;
+		left: 9.92%;
+	}
+
+	#u25193-13
+	{
+		z-index: 62;
+		margin-top: 30px;
+		width: 80.18%;
+		left: 9.83%;
+	}
+
+	#u25193-3
+	{
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	#u25222
+	{
+		z-index: 76;
+		height: 257px;
+		margin-top: 30px;
+		position: relative;
+		width: 80.27%;
+		left: 9.83%;
+		background: transparent url("../images/pickysjourney_4.png") no-repeat center center;
+		background-size: contain;
+	}
+
+	#u25334
+	{
+		z-index: 114;
+		height: 101px;
+		background-image: url("../images/pickysjourney_8.png");
+		margin-right: -10000px;
+		margin-top: 629px;
+		width: 6.23%;
+	}
+
+	#u25206
+	{
+		z-index: 75;
+		height: 737px;
+		background-image: url("../images/pickysjourney_3.png");
+		position: relative;
+		margin-right: -10000px;
+		width: 80.18%;
+		margin-left: 9.92%;
+		left: 0px;
+	}
+
+	#ppu25302-4
+	{
+		margin-top: 29px;
+		position: relative;
+		width: 100%;
+	}
+
+	#pu25302-4
+	{
+		margin-right: -10000px;
+		width: 39.48%;
+		margin-left: 9.83%;
+	}
+
+	#u25302-4
+	{
+		z-index: 81;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 99.78%;
+	}
+
+	#u25278-4
+	{
+		z-index: 97;
+		min-height: 300px;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	#u25310
+	{
+		z-index: 77;
+		height: 470px;
+		background-image: url("../images/pickysjourney_7.png");
+		position: relative;
+		margin-right: -10000px;
+		width: 59.04%;
+		margin-left: 40.97%;
+		left: 0px;
+	}
+
+	#u25286
+	{
+		z-index: 80;
+		height: 134px;
+		background-image: url("../images/pickysjourney_6.png");
+		margin-right: -10000px;
+		margin-top: 336px;
+		width: 29.04%;
+		left: 52.11%;
+	}
+
+	#pu25556
+	{
+		margin-top: 29px;
+		position: relative;
+	}
+
+	#u25556
+	{
+		z-index: 78;
+		height: 380px;
+		background-image: url("../images/pickysjourney_9%20copy-u25556-fr2.png");
+		position: relative;
+		margin-right: -10000px;
+		width: 45.88%;
+	}
+
+	#pu25608-4
+	{
+		margin-right: -10000px;
+		width: 38.95%;
+		margin-left: 51.06%;
+	}
+
+	#u25608-4
+	{
+		z-index: 89;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 100%;
+	}
+
+	#u25543-4
+	{
+		z-index: 106;
+		min-height: 198px;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	#u25582
+	{
+		z-index: 116;
+		height: 85px;
+		background-image: url("../images/pickysjourney_8_3-u25582-fr.png");
+		margin-right: -10000px;
+		margin-top: 105px;
+		width: 4.48%;
+		left: 93.78%;
+	}
+
+	#pu25334,#pu25802
+	{
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u25802
+	{
+		z-index: 115;
+		height: 117px;
+		background-image: url("../images/pickysjourney_8-u25802-fr.png");
+		margin-right: -10000px;
+		margin-top: 423px;
+		width: 5.97%;
+	}
+
+	#u26065
+	{
+		z-index: 79;
+		height: 454px;
+		background-image: url("../images/pickysjourney_13.png");
+		margin-top: 511px;
+		width: 47.46%;
+	}
+
+	#pu25846-4
+	{
+		margin-right: -10000px;
+		width: 39.48%;
+		margin-left: 9.92%;
+	}
+
+	#u25846-4
+	{
+		z-index: 85;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 100%;
+	}
+
+	#u25833-5
+	{
+		z-index: 101;
+		min-height: 310px;
+		margin-top: 30px;
+		width: 99.34%;
+		margin-left: 0.23%;
+	}
+
+	#pu26109-4
+	{
+		margin-right: -10000px;
+		margin-top: 511px;
+		width: 39.39%;
+		margin-left: 50.71%;
+	}
+
+	#u26109-4
+	{
+		z-index: 93;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 100%;
+	}
+
+	#u26122-4
+	{
+		z-index: 110;
+		min-height: 214px;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	#u25859
+	{
+		z-index: 52;
+		height: 384px;
+		background-image: url("../images/pickysjourney_11-u25859-fr2.png");
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 97px;
+		width: 42.46%;
+		margin-left: 57.55%;
+		left: 0px;
+	}
+
+	#pu25927
+	{
+		margin-right: -10000px;
+		width: 35.97%;
+		margin-left: 62.29%;
+	}
+
+	#u25927
+	{
+		z-index: 119;
+		height: 99px;
+		position: relative;
+		width: 91.47%;
+		background: transparent url("../images/pickysjourney_12.png") no-repeat center center;
+		background-size: contain;
+	}
+
+	#u26148
+	{
+		z-index: 117;
+		background-image: url("../images/pickysjourney_8_3.png");
+		margin-top: 794px;
+		width: 15.13%;
+		margin-left: 84.88%;
+	}
+
+	#u26161
+	{
+		z-index: 118;
+		height: 43px;
+		background-image: url("../images/pickysjourney_8_1.png");
+		margin-right: -10000px;
+		margin-top: 29px;
+		width: 58.07%;
+	}
+
+	#u27047-bw
+	{
+		z-index: 8;
+		min-height: 6823px;
+	}
+
+	#pu44404-4
+	{
+		width: 100%;
+	}
+
+	#u44404-4
+	{
+		z-index: 151;
+		min-height: 284px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+	}
+
+	#u44405-4
+	{
+		z-index: 155;
+		min-height: 284px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 25%;
+	}
+
+	#u44407-4
+	{
+		z-index: 163;
+		min-height: 284px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 50%;
+	}
+
+	#u44406-4
+	{
+		z-index: 159;
+		min-height: 284px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 75%;
+	}
+
+	#u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
+	{
+		margin-right: -10000px;
+		min-height: 284px;
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	#pu563
+	{
+		margin-top: 1px;
+	}
+
+	#u563,#u563-bw
+	{
+		z-index: 150;
+	}
+
+	#u44573-4
+	{
+		z-index: 167;
+	}
+
+	#u44573-4-bw
+	{
+		z-index: 167;
+		margin-top: 27px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 960px)
+{
+	#muse_css_mq
+	{
+		background-color: #0003c0;
+	}
+
+	#bp_960.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 820px;
+		max-width: 960px;
+	}
+
+	#pslideshowu26213
+	{
+		padding-bottom: 850px;
+		width: 100%;
+	}
+
+	#slideshowu26213
+	{
+		z-index: 2;
+		width: 0.01px;
+		height: 850px;
+		position: fixed;
+		top: 0px;
+		left: 50%;
+		margin-left: -480px;
+	}
+
+	#u26227
+	{
+		position: absolute;
+		width: 960px;
+		height: 850px;
+		background-color: transparent;
+	}
+
+	#u26227popup
+	{
+		z-index: 3;
+	}
+
+	#u26569
+	{
+		z-index: 4;
+		width: 960px;
+		height: 850px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	#u26830
+	{
+		z-index: 6;
+		width: 960px;
+		height: 850px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+	{
+		cursor: pointer;
+	}
+
+	.SSSlideLoading /* slideshowFreeStyle */
+	{
+		background: url("../images/loading.gif") no-repeat center center;
+	}
+
+	#u23861
+	{
+		z-index: 171;
+		width: 70px;
+		height: 70px;
+		background-color: #231F20;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#u23862-4
+	{
+		z-index: 172;
+		width: 70px;
+		min-height: 70px;
+		-webkit-transition-duration: 1s;
+		-webkit-transition-delay: 0s;
+		-webkit-transition-timing-function: ease;
+		transition-duration: 1s;
+		transition-delay: 0s;
+		transition-timing-function: ease;
+		background-image: url("../images/blank.gif");
+		background-color: transparent;
+		color: #FFFFFF;
+		line-height: 30px;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#u23862-4:hover
+	{
+		background-color: #FFDE00;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 70px;
+		width: 70px;
+		margin: 0px;
+	}
+
+	#u23862-4:hover p
+	{
+		color: #000000;
+		visibility: inherit;
+	}
+
+	#pu168
+	{
+		margin-top: -850px;
+		width: 100%;
+	}
+
+	#u168
+	{
+		z-index: 124;
+		width: 350px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#menuu170
+	{
+		z-index: 125;
+		width: 305px;
+		position: relative;
+		margin-right: -10000px;
+		left: 70px;
+	}
+
+	#u171
+	{
+		width: 74px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#u174
+	{
+		width: 74px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u174:hover
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u174.MuseMenuActive
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u177-4
+	{
+		width: 74px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u174:hover #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u174.MuseMenuActive #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u192
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 76px;
+	}
+
+	#u193
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u195-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193:hover #u195-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u185
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 153px;
+	}
+
+	#u186
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193.MuseMenuActive,#u186:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u187-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193.MuseMenuActive #u195-4,#u186:hover #u187-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u178
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 230px;
+	}
+
+	#u181
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u186.MuseMenuActive,#u181:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u181.MuseMenuActive
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u182-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u186.MuseMenuActive #u187-4,#u181:hover #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u181.MuseMenuActive #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#top
+	{
+		position: relative;
+		width: 22px;
+		margin-right: -10000px;
+	}
+
+	#u23864
+	{
+		z-index: 177;
+		width: 70px;
+	}
+
+	#u23865-4
+	{
+		z-index: 178;
+		width: 70px;
+		min-height: 70px;
+		line-height: 30px;
+		font-size: 25px;
+	}
+
+	#u23865-4:hover
+	{
+		min-height: 70px;
+		width: 70px;
+	}
+
+	#u23862-2,#u23865-2
+	{
+		padding-top: 21px;
+	}
+
+	#u27047
+	{
+		z-index: 8;
+		min-height: 6806.650000000005px;
+		background-color: #FFFFFF;
+		padding-bottom: 0px;
+	}
+
+	#u27047_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+		padding-bottom: 50px;
+		margin-bottom: -1px;
+	}
+
+	#u24208-4
+	{
+		z-index: 120;
+		width: 60px;
+		min-height: 26px;
+		color: #FFFFFF;
+		line-height: 12px;
+		text-align: center;
+		font-size: 10px;
+		font-weight: bold;
+		left: 2.09%;
+	}
+
+	#u24208-2
+	{
+		padding-top: 7px;
+	}
+
+	#pu24207-17
+	{
+		margin-top: 50px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u24207-17
+	{
+		z-index: 10;
+		min-height: 222px;
+		margin-right: -10000px;
+		width: 95.84%;
+		margin-left: 2.09%;
+	}
+
+	#u24207-2
+	{
+		font-size: 80px;
+		line-height: 96px;
+	}
+
+	#u24207-15
+	{
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#u24405-4
+	{
+		z-index: 28;
+		min-height: 197px;
+		margin-right: -10000px;
+		margin-top: 272px;
+		width: 95.84%;
+		margin-left: 2.09%;
+	}
+
+	#u24390
+	{
+		z-index: 27;
+		height: 520px;
+		margin-top: 50px;
+		width: 95.84%;
+		margin-left: 2.09%;
+		left: -1px;
+	}
+
+	#u24936
+	{
+		z-index: 46;
+		height: 550px;
+		background-image: url("../images/pickysjourney_1.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 95.84%;
+		left: 2.09%;
+	}
+
+	#u25074-14
+	{
+		z-index: 32;
+		margin-top: 30px;
+		width: 95.84%;
+		margin-left: 2.09%;
+		left: -1px;
+	}
+
+	#u25100
+	{
+		z-index: 47;
+		height: 350px;
+		background-image: url("../images/pickysjourney_2.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 95.84%;
+		left: 1.98%;
+	}
+
+	#u25124-4
+	{
+		z-index: 48;
+		min-height: 15px;
+		margin-top: 10px;
+		width: 32.92%;
+		left: 65%;
+	}
+
+	#u25169
+	{
+		z-index: 9;
+		padding-bottom: 46px;
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u25160-8
+	{
+		z-index: 53;
+		margin-right: -10000px;
+		margin-top: 43px;
+		width: 95.84%;
+		left: 2.09%;
+	}
+
+	#u25160-2
+	{
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	#u25160-6
+	{
+		line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+	}
+
+	#u25160-4
+	{
+		line-height: 16px;
+	}
+
+	#u25160-5
+	{
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	#u25177
+	{
+		z-index: 61;
+		height: 376px;
+		background-image: url("../images/pickysjourney_2.png");
+		margin-top: 30px;
+		position: relative;
+		width: 95.84%;
+		left: 2.09%;
+	}
+
+	#u25193-13
+	{
+		z-index: 62;
+		margin-top: 30px;
+		width: 95.84%;
+		left: 2.09%;
+	}
+
+	#u25193-3
+	{
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	#u25222
+	{
+		z-index: 76;
+		height: 257px;
+		margin-top: 30px;
+		position: relative;
+		width: 95.84%;
+		left: 2.09%;
+		background: transparent url("../images/pickysjourney_4.png") no-repeat center center;
+		background-size: contain;
+	}
+
+	#u25206
+	{
+		z-index: 75;
+		height: 708px;
+		background-image: url("../images/pickysjourney_3.png");
+		margin-top: 31px;
+		position: relative;
+		width: 95.84%;
+		margin-left: 2.09%;
+		left: 0px;
+	}
+
+	#ppu25302-4
+	{
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#pu25302-4
+	{
+		padding-bottom: 0px;
+		margin-right: -10000px;
+		width: 47.3%;
+		margin-left: 2.09%;
+	}
+
+	#u25302-4
+	{
+		z-index: 81;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 99.78%;
+	}
+
+	#u25278-4
+	{
+		z-index: 97;
+		min-height: 288px;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	#u25310
+	{
+		z-index: 77;
+		height: 464px;
+		background-image: url("../images/pickysjourney_7.png");
+		position: relative;
+		margin-right: -10000px;
+		width: 65.32%;
+		margin-left: 34.69%;
+		left: 0px;
+	}
+
+	#u25286
+	{
+		z-index: 80;
+		height: 134px;
+		background-image: url("../images/pickysjourney_6-u25286-fr2.png");
+		margin-right: -10000px;
+		margin-top: 330px;
+		width: 29.07%;
+		left: 52.09%;
+	}
+
+	#pu25556
+	{
+		margin-top: 30px;
+		position: relative;
+	}
+
+	#u25556
+	{
+		z-index: 78;
+		height: 383px;
+		background-image: url("../images/pickysjourney_9%20copy-u25556-fr3.png");
+		position: relative;
+		margin-right: -10000px;
+		width: 45.94%;
+	}
+
+	#u25334
+	{
+		z-index: 114;
+		height: 70px;
+		background-image: url("../images/pickysjourney_8-u25334-fr.png");
+		margin-right: -10000px;
+		width: 4.38%;
+		left: 41.57%;
+	}
+
+	#pu25608-4
+	{
+		margin-right: -10000px;
+		width: 47.3%;
+		margin-left: 50.63%;
+	}
+
+	#u25608-4
+	{
+		z-index: 89;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 99.78%;
+	}
+
+	#u25543-4
+	{
+		z-index: 106;
+		min-height: 201px;
+		margin-top: 33px;
+		width: 99.78%;
+	}
+
+	#pu25802
+	{
+		margin-top: 14px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u25802
+	{
+		z-index: 115;
+		height: 112px;
+		background-image: url("../images/pickysjourney_8-u25802-fr2.png");
+		margin-right: -10000px;
+		margin-top: 501px;
+		width: 5.11%;
+	}
+
+	#u26065
+	{
+		z-index: 79;
+		height: 485px;
+		background-image: url("../images/pickysjourney_13.png");
+		margin-top: 529px;
+		width: 48.96%;
+	}
+
+	#ppu25846-4
+	{
+		padding-bottom: 0px;
+		margin-right: -10000px;
+		margin-top: 15px;
+		width: 47.19%;
+		margin-left: 2.09%;
+	}
+
+	#u25846-4
+	{
+		z-index: 85;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		margin-right: -10000px;
+		width: 100%;
+	}
+
+	#u26148
+	{
+		z-index: 117;
+		height: 56px;
+		background-image: url("../images/pickysjourney_8_3-u26148-fr.png");
+		margin-right: -10000px;
+		margin-top: 84px;
+		width: 8.61%;
+		left: 91.4%;
+	}
+
+	#u25833-5
+	{
+		z-index: 101;
+		min-height: 310px;
+		margin-top: 30px;
+		width: 99.34%;
+		margin-left: 0.67%;
+	}
+
+	#u26161
+	{
+		z-index: 118;
+		height: 50px;
+		background-image: url("../images/pickysjourney_8_1.png");
+		margin-top: 468px;
+		width: 7.73%;
+		margin-left: 91.4%;
+	}
+
+	#pu26109-4
+	{
+		margin-right: -10000px;
+		margin-top: 525px;
+		width: 47.3%;
+		margin-left: 50.63%;
+	}
+
+	#u26109-4
+	{
+		z-index: 93;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 99.78%;
+	}
+
+	#u26122-4
+	{
+		z-index: 110;
+		min-height: 214px;
+		margin-top: 30px;
+		width: 99.78%;
+	}
+
+	#u25859
+	{
+		z-index: 52;
+		height: 396px;
+		background-image: url("../images/pickysjourney_11-u25859-fr3.png");
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 99px;
+		width: 45.94%;
+		margin-left: 54.07%;
+		left: 0px;
+	}
+
+	#pu25927
+	{
+		margin-right: -10000px;
+		width: 35.11%;
+		margin-left: 62.3%;
+	}
+
+	#u25927
+	{
+		z-index: 119;
+		height: 99px;
+		position: relative;
+		width: 93.77%;
+		background: transparent url("../images/pickysjourney_12-u25927-fr.png") no-repeat center center;
+		background-size: contain;
+	}
+
+	#u25582
+	{
+		z-index: 116;
+		height: 60px;
+		background-image: url("../images/pickysjourney_8_3-u25582-fr2.png");
+		margin-top: 372px;
+		width: 12.17%;
+		margin-left: 87.84%;
+	}
+
+	#u27047-bw
+	{
+		z-index: 8;
+		min-height: 6806.650000000005px;
+		margin-top: -1px;
+	}
+
+	#pu25846-4,#pu44404-4
+	{
+		width: 100%;
+	}
+
+	#u44404-4
+	{
+		z-index: 151;
+		min-height: 240px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+	}
+
+	#u44405-4
+	{
+		z-index: 155;
+		min-height: 240px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 25%;
+	}
+
+	#u44407-4
+	{
+		z-index: 163;
+		min-height: 240px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 50%;
+	}
+
+	#u44406-4
+	{
+		z-index: 159;
+		min-height: 240px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 75%;
+	}
+
+	#u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
+	{
+		margin-right: -10000px;
+		min-height: 240px;
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	#u563,#u563-bw
+	{
+		z-index: 150;
+	}
+
+	#u44573-4
+	{
+		z-index: 167;
+	}
+
+	#u44573-4-bw
+	{
+		z-index: 167;
+		margin-top: 27px;
+	}
+}
+
+@media (min-width: 517px) and (max-width: 768px)
+{
+	#muse_css_mq
+	{
+		background-color: #000300;
+	}
+
+	#bp_768.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 820px;
+		max-width: 768px;
+	}
+
+	#pslideshowu26213
+	{
+		padding-bottom: 850px;
+		width: 100%;
+	}
+
+	#slideshowu26213
+	{
+		z-index: 2;
+		width: 0.01px;
+		height: 850px;
+		position: fixed;
+		top: 0px;
+		left: 50%;
+		margin-left: -384px;
+	}
+
+	#u26227
+	{
+		position: absolute;
+		width: 768px;
+		height: 850px;
+		background-color: transparent;
+	}
+
+	#u26227popup
+	{
+		z-index: 3;
+	}
+
+	#u26569
+	{
+		z-index: 4;
+		width: 768px;
+		height: 850px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	#u26830
+	{
+		z-index: 6;
+		width: 768px;
+		height: 850px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+	{
+		cursor: pointer;
+	}
+
+	.SSSlideLoading /* slideshowFreeStyle */
+	{
+		background: url("../images/loading.gif") no-repeat center center;
+	}
+
+	#u23861
+	{
+		z-index: 171;
+		width: 70px;
+		height: 70px;
+		background-color: #231F20;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#u23862-4
+	{
+		z-index: 172;
+		width: 70px;
+		min-height: 70px;
+		-webkit-transition-duration: 1s;
+		-webkit-transition-delay: 0s;
+		-webkit-transition-timing-function: ease;
+		transition-duration: 1s;
+		transition-delay: 0s;
+		transition-timing-function: ease;
+		background-image: url("../images/blank.gif");
+		background-color: transparent;
+		color: #FFFFFF;
+		line-height: 30px;
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#u23862-4:hover
+	{
+		background-color: #FFDE00;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 70px;
+		width: 70px;
+		margin: 0px;
+	}
+
+	#u23862-4:hover p
+	{
+		color: #000000;
+		visibility: inherit;
+	}
+
+	#pu168
+	{
+		margin-top: -850px;
+		width: 100%;
+	}
+
+	#u168
+	{
+		z-index: 124;
+		width: 350px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#menuu170
+	{
+		z-index: 125;
+		width: 305px;
+		position: relative;
+		margin-right: -10000px;
+		left: 70px;
+	}
+
+	#u171
+	{
+		width: 74px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#u174
+	{
+		width: 74px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u174:hover
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u174.MuseMenuActive
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u177-4
+	{
+		width: 74px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u174:hover #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u174.MuseMenuActive #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u192
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 76px;
+	}
+
+	#u193
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u195-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193:hover #u195-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u185
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 153px;
+	}
+
+	#u186
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193.MuseMenuActive,#u186:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u187-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193.MuseMenuActive #u195-4,#u186:hover #u187-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u178
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 230px;
+	}
+
+	#u181
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u186.MuseMenuActive,#u181:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u181.MuseMenuActive
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u182-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u186.MuseMenuActive #u187-4,#u181:hover #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u181.MuseMenuActive #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#top
+	{
+		position: relative;
+		width: 22px;
+		margin-right: -10000px;
+	}
+
+	#u23864
+	{
+		z-index: 177;
+		width: 70px;
+	}
+
+	#u23865-4
+	{
+		z-index: 178;
+		width: 70px;
+		min-height: 70px;
+		line-height: 30px;
+		font-size: 25px;
+	}
+
+	#u23865-4:hover
+	{
+		min-height: 70px;
+		width: 70px;
+	}
+
+	#u23862-2,#u23865-2
+	{
+		padding-top: 21px;
+	}
+
+	#u27047
+	{
+		z-index: 8;
+		min-height: 7149px;
+		background-color: #FFFFFF;
+	}
+
+	#u27047_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#u27047_position_content
+	{
+		padding-bottom: 50px;
+		width: 100%;
+	}
+
+	#u24208-4
+	{
+		z-index: 120;
+		width: 60px;
+		min-height: 26px;
+		color: #FFFFFF;
+		line-height: 12px;
+		text-align: center;
+		font-size: 10px;
+		font-weight: bold;
+		left: 2.61%;
+	}
+
+	#u24208-2
+	{
+		padding-top: 7px;
+	}
+
+	#u24207-17
+	{
+		z-index: 10;
+		min-height: 222px;
+		margin-top: 50px;
+		width: 94.8%;
+		margin-left: 2.61%;
+	}
+
+	#u24207-2
+	{
+		font-size: 80px;
+		line-height: 96px;
+	}
+
+	#u24207-15
+	{
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#u24405-4
+	{
+		z-index: 28;
+		min-height: 197px;
+		margin-top: 50px;
+		width: 94.8%;
+		margin-left: 2.61%;
+	}
+
+	#u24390
+	{
+		z-index: 27;
+		height: 410px;
+		margin-top: 50px;
+		width: 94.8%;
+		margin-left: 2.61%;
+		left: -1px;
+	}
+
+	#u24936
+	{
+		z-index: 46;
+		height: 550px;
+		background-image: url("../images/pickysjourney_1.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 94.54%;
+		left: 2.74%;
+	}
+
+	#u25074-14
+	{
+		z-index: 32;
+		margin-top: 30px;
+		width: 94.8%;
+		margin-left: 2.61%;
+		left: -1px;
+	}
+
+	#u25100
+	{
+		z-index: 47;
+		height: 350px;
+		background-image: url("../images/pickysjourney_2.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 94.8%;
+		left: 2.48%;
+	}
+
+	#u25124-4
+	{
+		z-index: 48;
+		min-height: 12px;
+		margin-top: 10px;
+		width: 42.84%;
+		left: 55.08%;
+	}
+
+	#u25169
+	{
+		z-index: 9;
+		padding-bottom: 51px;
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u25160-8
+	{
+		z-index: 53;
+		margin-right: -10000px;
+		margin-top: 52px;
+		width: 94.8%;
+		left: 2.48%;
+	}
+
+	#u25160-2
+	{
+		font-size: 40px;
+		line-height: 48px;
+	}
+
+	#u25160-6
+	{
+		line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+	}
+
+	#u25160-4
+	{
+		line-height: 16px;
+	}
+
+	#u25160-5
+	{
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	#u25177
+	{
+		z-index: 61;
+		height: 376px;
+		background-image: url("../images/pickysjourney_2-u25177-fr.png");
+		margin-top: 30px;
+		position: relative;
+		width: 94.8%;
+		left: 2.48%;
+	}
+
+	#u25193-13
+	{
+		z-index: 62;
+		margin-top: 30px;
+		width: 94.8%;
+		left: 2.48%;
+	}
+
+	#u25193-3
+	{
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	#u25222
+	{
+		z-index: 76;
+		height: 257px;
+		margin-top: 29px;
+		position: relative;
+		width: 94.54%;
+		left: 2.74%;
+		background: transparent url("../images/pickysjourney_4-u25222-fr.png") no-repeat center center;
+		background-size: contain;
+	}
+
+	#u25206
+	{
+		z-index: 75;
+		height: 649px;
+		background-image: url("../images/pickysjourney_3-u25206-fr.png");
+		position: relative;
+		margin-right: -10000px;
+		width: 94.67%;
+		margin-left: 2.67%;
+		left: 0px;
+	}
+
+	#pu25302-4
+	{
+		margin-right: -10000px;
+		margin-top: 679px;
+		width: 46.75%;
+		margin-left: 2.48%;
+	}
+
+	#u25302-4
+	{
+		z-index: 81;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 100%;
+	}
+
+	#u25278-4
+	{
+		z-index: 97;
+		min-height: 375px;
+		margin-top: 30px;
+		width: 98.89%;
+	}
+
+	#u25310
+	{
+		z-index: 77;
+		height: 377px;
+		background-image: url("../images/pickysjourney_7-u25310-fr.png");
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 678px;
+		width: 64.85%;
+		margin-left: 35.16%;
+		left: 0px;
+	}
+
+	#pu25334
+	{
+		padding-bottom: 1px;
+		margin-right: -10000px;
+		margin-top: 591px;
+		width: 45.84%;
+		margin-left: 51.44%;
+	}
+
+	#u25334
+	{
+		z-index: 114;
+		height: 98px;
+		background-image: url("../images/pickysjourney_8-u25334-fr2.png");
+		width: 11.94%;
+		margin-left: 76.43%;
+	}
+
+	#u25286
+	{
+		z-index: 80;
+		height: 171px;
+		background-image: url("../images/pickysjourney_6.png");
+		margin-top: 366px;
+		width: 100%;
+	}
+
+	#pu25556
+	{
+		margin-top: 30px;
+		position: relative;
+	}
+
+	#u25556
+	{
+		z-index: 78;
+		height: 337px;
+		background-image: url("../images/pickysjourney_9%20copy-u25556-fr4.png");
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 101px;
+		width: 45.97%;
+	}
+
+	#u25582
+	{
+		z-index: 116;
+		height: 75px;
+		background-image: url("../images/pickysjourney_8_3-u25582-fr3.png");
+		margin-right: -10000px;
+		margin-top: 7px;
+		width: 5.86%;
+		left: 21.62%;
+	}
+
+	#pu25608-4
+	{
+		margin-right: -10000px;
+		width: 47.27%;
+		margin-left: 50%;
+	}
+
+	#u25608-4
+	{
+		z-index: 89;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 100%;
+	}
+
+	#u25543-4
+	{
+		z-index: 106;
+		min-height: 272px;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	#ppu25846-4
+	{
+		margin-top: 19px;
+		position: relative;
+		width: 100%;
+	}
+
+	#pu25846-4
+	{
+		margin-right: -10000px;
+		margin-top: 11px;
+		width: 47.53%;
+		margin-left: 2.48%;
+	}
+
+	#u25846-4
+	{
+		z-index: 85;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 99.73%;
+	}
+
+	#u25833-5
+	{
+		z-index: 101;
+		min-height: 310px;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	#u25927
+	{
+		z-index: 119;
+		height: 143px;
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 56px;
+		width: 41.41%;
+		left: 56.12%;
+		background: transparent url("../images/pickysjourney_12-u25927-fr2.png") no-repeat center center;
+		background-size: contain;
+	}
+
+	#u25859
+	{
+		z-index: 52;
+		height: 329px;
+		background-image: url("../images/pickysjourney_11-u25859-fr4.png");
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 199px;
+		width: 42.45%;
+		margin-left: 57.56%;
+		left: -2px;
+	}
+
+	#u25802
+	{
+		z-index: 115;
+		height: 81px;
+		background-image: url("../images/pickysjourney_8-u25802-fr3.png");
+		margin-right: -10000px;
+		width: 5.21%;
+		left: 86.46%;
+	}
+
+	#pu25206,#pu26065
+	{
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u26065
+	{
+		z-index: 79;
+		height: 403px;
+		background-image: url("../images/pickysjourney_13-u26065-fr.png");
+		margin-top: 62px;
+		width: 45.06%;
+	}
+
+	#u26161
+	{
+		z-index: 118;
+		height: 43px;
+		background-image: url("../images/pickysjourney_8_1-u26161-fr.png");
+		margin-right: -10000px;
+		margin-top: 9px;
+		width: 3.39%;
+		left: 23.96%;
+	}
+
+	#u26148
+	{
+		z-index: 117;
+		height: 88px;
+		background-image: url("../images/pickysjourney_8_3-u26148-fr2.png");
+		margin-right: -10000px;
+		margin-top: 377px;
+		width: 5.73%;
+		left: 40.63%;
+	}
+
+	#pu26109-4
+	{
+		margin-right: -10000px;
+		width: 46.62%;
+		margin-left: 50.66%;
+	}
+
+	#u26109-4
+	{
+		z-index: 93;
+		min-height: 88px;
+		line-height: 70px;
+		font-size: 50px;
+		width: 100%;
+	}
+
+	#u26122-4
+	{
+		z-index: 110;
+		min-height: 214px;
+		margin-top: 37px;
+		width: 100%;
+	}
+
+	#u27047-bw
+	{
+		z-index: 8;
+		min-height: 7149px;
+	}
+
+	#page_position_content,#pu44404-4
+	{
+		width: 100%;
+	}
+
+	#u44404-4
+	{
+		z-index: 151;
+		min-height: 192px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+	}
+
+	#u44405-4
+	{
+		z-index: 155;
+		min-height: 192px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 25%;
+	}
+
+	#u44407-4
+	{
+		z-index: 163;
+		min-height: 192px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 50%;
+	}
+
+	#u44406-4
+	{
+		z-index: 159;
+		min-height: 192px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 75%;
+	}
+
+	#u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
+	{
+		margin-right: -10000px;
+		min-height: 192px;
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	#u563,#u563-bw
+	{
+		z-index: 150;
+	}
+
+	#u44573-4
+	{
+		z-index: 167;
+	}
+
+	#u44573-4-bw
+	{
+		z-index: 167;
+		margin-top: 27px;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 516px)
+{
+	#muse_css_mq
+	{
+		background-color: #000204;
+	}
+
+	#bp_516.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 502px;
+		max-width: 516px;
+	}
+
+	#slideshowu26213
+	{
+		z-index: 2;
+		width: 0.01px;
+		height: 349px;
+		position: fixed;
+		top: 0px;
+		left: 50%;
+		margin-left: -258px;
+	}
+
+	#u26227
+	{
+		position: absolute;
+		width: 516px;
+		height: 349px;
+		background-color: transparent;
+	}
+
+	#u26227popup
+	{
+		z-index: 3;
+	}
+
+	#u26569
+	{
+		z-index: 4;
+		width: 516px;
+		height: 349px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	#u26830
+	{
+		z-index: 6;
+		width: 516px;
+		height: 349px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+	{
+		cursor: pointer;
+	}
+
+	.SSSlideLoading /* slideshowFreeStyle */
+	{
+		background: url("../images/loading.gif") no-repeat center center;
+	}
+
+	#u23861
+	{
+		z-index: 148;
+		width: 40px;
+		background-color: #231F20;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#u23862-4
+	{
+		z-index: 149;
+		width: 40px;
+		min-height: 40px;
+		-webkit-transition-duration: 1s;
+		-webkit-transition-delay: 0s;
+		-webkit-transition-timing-function: ease;
+		transition-duration: 1s;
+		transition-delay: 0s;
+		transition-timing-function: ease;
+		background-image: url("../images/blank.gif");
+		background-color: transparent;
+		color: #FFFFFF;
+		line-height: 24px;
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#u23862-4:hover
+	{
+		background-color: #FFDE00;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 40px;
+		width: 40px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u23862-4:hover p
+	{
+		color: #000000;
+		visibility: inherit;
+	}
+
+	#top
+	{
+		position: relative;
+		width: 22px;
+		margin-right: -10000px;
+	}
+
+	#u23864
+	{
+		z-index: 154;
+		width: 40px;
+	}
+
+	#u23865-4
+	{
+		z-index: 155;
+		width: 40px;
+		min-height: 40px;
+		line-height: 24px;
+		font-size: 20px;
+	}
+
+	#u23865-4:hover
+	{
+		min-height: 40px;
+		width: 40px;
+	}
+
+	#u23862-2,#u23865-2
+	{
+		padding-top: 8px;
+	}
+
+	#u1163
+	{
+		z-index: 124;
+		width: 28px;
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 10px;
+		margin-left: 100%;
+		left: -50px;
+	}
+
+	#u1040
+	{
+		z-index: 125;
+		width: 28px;
+		height: 4px;
+		position: relative;
+		margin-left: 100%;
+		left: -28px;
+	}
+
+	#u1041
+	{
+		z-index: 126;
+		width: 28px;
+		height: 4px;
+		margin-top: 4px;
+		position: relative;
+		margin-left: 100%;
+		left: -28px;
+	}
+
+	#u1042
+	{
+		z-index: 127;
+		width: 28px;
+		height: 4px;
+		margin-top: 4px;
+		position: relative;
+		margin-left: 100%;
+		left: -28px;
+	}
+
+	#u27047
+	{
+		z-index: 8;
+		min-height: 5196.8px;
+		background-color: #FFFFFF;
+		padding-bottom: 0px;
+	}
+
+	#u27047_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+		padding-top: 4px;
+		padding-bottom: 30px;
+	}
+
+	#u24208-4
+	{
+		z-index: 119;
+		width: 50px;
+		min-height: 20px;
+		line-height: 10px;
+		left: 3.88%;
+	}
+
+	#pu24207-17
+	{
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u24207-17
+	{
+		z-index: 10;
+		min-height: 108px;
+		margin-right: -10000px;
+		width: 92.25%;
+		margin-left: 3.88%;
+	}
+
+	#u24207-2
+	{
+		font-size: 40px;
+		line-height: 48px;
+	}
+
+	#u24405-4
+	{
+		z-index: 28;
+		min-height: 162px;
+		line-height: 14px;
+		font-size: 10px;
+		margin-right: -10000px;
+		margin-top: 144px;
+		width: 92.25%;
+		margin-left: 3.88%;
+	}
+
+	#u24390
+	{
+		z-index: 27;
+		height: 274px;
+		margin-top: 30px;
+		width: 92.25%;
+		margin-left: 3.88%;
+		left: 0px;
+	}
+
+	#u24936
+	{
+		z-index: 46;
+		height: 331px;
+		background-image: url("../images/pickysjourney_1-u24936-fr.jpg");
+		margin-top: 14px;
+		position: relative;
+		width: 92.25%;
+		left: 3.88%;
+	}
+
+	#u25074-14
+	{
+		z-index: 32;
+		margin-top: 15px;
+		width: 92.25%;
+		margin-left: 3.88%;
+		left: 0px;
+	}
+
+	#u25100
+	{
+		z-index: 47;
+		height: 179px;
+		background-image: url("../images/pickysjourney_2-u25100-fr.jpg");
+		margin-top: 15px;
+		position: relative;
+		width: 92.25%;
+		left: 3.88%;
+	}
+
+	#u25124-4
+	{
+		z-index: 48;
+		min-height: 12px;
+		margin-top: 5px;
+		width: 52.52%;
+		left: 43.8%;
+	}
+
+	#u25169
+	{
+		z-index: 9;
+		padding-bottom: 42px;
+		margin-top: 15px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u25160-8
+	{
+		z-index: 53;
+		margin-right: -10000px;
+		margin-top: 42px;
+		width: 92.06%;
+		left: 3.88%;
+	}
+
+	#u25160-2
+	{
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	#u25177
+	{
+		z-index: 61;
+		height: 218px;
+		background-image: url("../images/pickysjourney_2-u25177-fr2.png");
+		margin-top: 15px;
+		position: relative;
+		width: 92.06%;
+		left: 3.88%;
+	}
+
+	#u25193-13
+	{
+		z-index: 62;
+		margin-top: 15px;
+		width: 92.06%;
+		left: 3.88%;
+	}
+
+	#u25074-2,#u25193-2
+	{
+		line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+	}
+
+	#u25193-3
+	{
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#u25074,#u25074-9,#u25193,#u25193-8,#u25193-9
+	{
+		font-size: 15px;
+		line-height: 21px;
+	}
+
+	#u25222
+	{
+		z-index: 76;
+		height: 164px;
+		margin-top: 15px;
+		position: relative;
+		width: 92.06%;
+		left: 3.88%;
+		background: transparent url("../images/pickysjourney_4-u25222-fr2.png") no-repeat center center;
+		background-size: contain;
+	}
+
+	#u25206
+	{
+		z-index: 75;
+		height: 428px;
+		background-image: url("../images/pickysjourney_3-u25206-fr2.png");
+		margin-top: 14px;
+		position: relative;
+		width: 92.45%;
+		margin-left: 3.78%;
+		left: 0px;
+	}
+
+	#u25302-4
+	{
+		z-index: 81;
+		min-height: 37px;
+		line-height: 42px;
+		font-size: 30px;
+		margin-top: 15px;
+		width: 92.25%;
+		left: 3.88%;
+	}
+
+	#u25278-4
+	{
+		z-index: 97;
+		min-height: 120px;
+		line-height: 14px;
+		font-size: 10px;
+		margin-top: 15px;
+		width: 92.25%;
+		left: 3.88%;
+	}
+
+	#pu25310
+	{
+		margin-top: 10px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u25310
+	{
+		z-index: 77;
+		height: 274px;
+		background-image: url("../images/pickysjourney_7-u25310-fr2.png");
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 17px;
+		width: 71.52%;
+		margin-left: 28.49%;
+		left: 0px;
+	}
+
+	#u25286
+	{
+		z-index: 80;
+		height: 113px;
+		background-image: url("../images/pickysjourney_6-u25286-fr3.png");
+		margin-right: -10000px;
+		margin-top: 86px;
+		width: 41.09%;
+		left: 3.49%;
+	}
+
+	#u25334
+	{
+		z-index: 114;
+		height: 129px;
+		background-image: url("../images/pickysjourney_8-u25334-fr3.png");
+		margin-right: -10000px;
+		width: 7.18%;
+		left: 3.49%;
+	}
+
+	#u25608-4
+	{
+		z-index: 89;
+		min-height: 22px;
+		line-height: 42px;
+		font-size: 30px;
+		margin-top: 14px;
+		width: 92.25%;
+		left: 3.88%;
+	}
+
+	#u25543-4
+	{
+		z-index: 106;
+		min-height: 90px;
+		line-height: 14px;
+		font-size: 10px;
+		margin-top: 20px;
+		width: 92.25%;
+		left: 3.88%;
+	}
+
+	#pu25556
+	{
+		margin-top: 15px;
+		position: relative;
+	}
+
+	#u25556
+	{
+		z-index: 78;
+		height: 289px;
+		background-image: url("../images/pickysjourney_9%20copy-u25556-fr5.png");
+		position: relative;
+		margin-right: -10000px;
+		left: 20px;
+		width: 69.77%;
+	}
+
+	#u25582
+	{
+		z-index: 116;
+		height: 54px;
+		background-image: url("../images/pickysjourney_8_3-u25582-fr4.png");
+		margin-right: -10000px;
+		margin-top: 235px;
+		width: 5.63%;
+		left: 85.08%;
+	}
+
+	#u25846-4
+	{
+		z-index: 85;
+		min-height: 45px;
+		line-height: 42px;
+		font-size: 30px;
+		margin-top: 15px;
+		width: 92.83%;
+		left: 3.88%;
+	}
+
+	#u25833-5
+	{
+		z-index: 101;
+		min-height: 110px;
+		margin-top: 15px;
+		width: 92.06%;
+		left: 3.88%;
+	}
+
+	#u25074-6,#u25074-12,#u25193-5,#u25193-6,#u25193-11,#u25833-2
+	{
+		font-size: 10px;
+		line-height: 14px;
+	}
+
+	#u24207-15,#u25160-6,#u25833-3
+	{
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	#pu26148
+	{
+		margin-top: 14px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u26148
+	{
+		z-index: 117;
+		height: 38px;
+		background-image: url("../images/pickysjourney_8_3-u26148-fr3.png");
+		margin-right: -10000px;
+		margin-top: 207px;
+		width: 6.4%;
+		left: 3.49%;
+	}
+
+	#u25859
+	{
+		z-index: 52;
+		height: 304px;
+		background-image: url("../images/pickysjourney_11-u25859-fr5.png");
+		position: relative;
+		margin-right: -10000px;
+		width: 79.27%;
+		margin-left: 20.74%;
+		left: 0px;
+	}
+
+	#u26109-4
+	{
+		z-index: 93;
+		min-height: 88px;
+		line-height: 42px;
+		font-size: 30px;
+		margin-top: 15px;
+		width: 92.25%;
+		left: 3.88%;
+	}
+
+	#u26122-4
+	{
+		z-index: 110;
+		min-height: 91px;
+		line-height: 14px;
+		font-size: 10px;
+		margin-top: 15px;
+		width: 92.83%;
+		left: 3.88%;
+	}
+
+	#pu26065
+	{
+		margin-top: 15px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u26065
+	{
+		z-index: 79;
+		height: 325px;
+		background-image: url("../images/pickysjourney_13-u26065-fr2.png");
+		width: 69%;
+	}
+
+	#u26161
+	{
+		z-index: 118;
+		height: 27px;
+		background-image: url("../images/pickysjourney_8_1-u26161-fr2.png");
+		margin-right: -10000px;
+		margin-top: 149px;
+		width: 3.3%;
+		left: 75%;
+	}
+
+	#u25802
+	{
+		z-index: 115;
+		height: 50px;
+		background-image: url("../images/pickysjourney_8-u25802-fr4.png");
+		margin-right: -10000px;
+		margin-top: 275px;
+		width: 9.5%;
+		left: 81.4%;
+	}
+
+	#u27047-bw
+	{
+		z-index: 8;
+		min-height: 5196.8px;
+		margin-top: 305px;
+	}
+
+	#pu23861,#pu44404-4
+	{
+		width: 100%;
+	}
+
+	#u44404-4
+	{
+		z-index: 128;
+		min-height: 140px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+	}
+
+	#u44405-4
+	{
+		z-index: 132;
+		min-height: 140px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 25%;
+	}
+
+	#u44407-4
+	{
+		z-index: 140;
+		min-height: 140px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 50%;
+	}
+
+	#u44406-4
+	{
+		z-index: 136;
+		min-height: 140px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 75%;
+	}
+
+	#u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
+	{
+		margin-right: -10000px;
+		min-height: 140px;
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	#u563,#u563-bw
+	{
+		z-index: 123;
+	}
+
+	#u44573-4
+	{
+		z-index: 144;
+	}
+
+	#u44573-4-bw
+	{
+		z-index: 144;
+		margin-top: 28px;
+	}
+}
+
+@media (max-width: 320px)
+{
+	#muse_css_mq
+	{
+		background-color: #000140;
+	}
+
+	#bp_320.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 806px;
+		max-width: 320px;
+	}
+
+	#page_position_content,#pu23864
+	{
+		width: 100%;
+	}
+
+	#u23864
+	{
+		z-index: 141;
+		width: 40px;
+	}
+
+	#u23865-4
+	{
+		z-index: 142;
+		width: 40px;
+		min-height: 40px;
+		line-height: 24px;
+		font-size: 20px;
+	}
+
+	#u23865-4:hover
+	{
+		min-height: 40px;
+		width: 40px;
+	}
+
+	#u23865-2
+	{
+		padding-top: 8px;
+	}
+
+	#u1163
+	{
+		z-index: 117;
+		width: 30px;
+		padding-bottom: 0px;
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 10px;
+		margin-left: 100%;
+		left: -50px;
+	}
+
+	#u1040
+	{
+		z-index: 118;
+		width: 30px;
+		height: 4px;
+		position: relative;
+		margin-left: 100%;
+		left: -30px;
+	}
+
+	#u1041
+	{
+		z-index: 119;
+		width: 30px;
+		height: 4px;
+		margin-top: 4px;
+		position: relative;
+		margin-left: 100%;
+		left: -30px;
+	}
+
+	#u1042
+	{
+		z-index: 120;
+		width: 30px;
+		height: 4px;
+		margin-top: 4px;
+		position: relative;
+		margin-left: 100%;
+		left: -30px;
+	}
+
+	#u24208-4
+	{
+		z-index: 112;
+		width: 50px;
+		min-height: 20px;
+		line-height: 10px;
+		margin-top: 29px;
+		margin-left: 6.25%;
+	}
+
+	#u24207-17
+	{
+		z-index: 3;
+		min-height: 134px;
+		margin-top: 30px;
+		width: 87.5%;
+		margin-left: 6.25%;
+	}
+
+	#u24207-2
+	{
+		font-size: 40px;
+		line-height: 48px;
+	}
+
+	#u24405-4
+	{
+		z-index: 21;
+		min-height: 197px;
+		line-height: 21px;
+		font-size: 15px;
+		margin-top: 30px;
+		width: 87.5%;
+		margin-left: 6.25%;
+	}
+
+	#u24390
+	{
+		z-index: 20;
+		height: 189px;
+		margin-top: 30px;
+		width: 100.32%;
+		margin-left: 0.16%;
+		left: 0px;
+	}
+
+	#u24936
+	{
+		z-index: 39;
+		height: 193px;
+		background-image: url("../images/pickysjourney_1.jpg");
+	}
+
+	#u24936-bw
+	{
+		z-index: 39;
+		margin-top: 30px;
+		height: 193px;
+	}
+
+	#u25074-14
+	{
+		z-index: 25;
+		margin-top: 30px;
+		width: 87.5%;
+		margin-left: 6.25%;
+		left: 0px;
+	}
+
+	#u25074-6
+	{
+		font-size: 10px;
+		line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+	}
+
+	#u25074-5
+	{
+		line-height: 14px;
+	}
+
+	#u25100
+	{
+		z-index: 40;
+		height: 120px;
+		background-image: url("../images/pickysjourney_2.jpg");
+	}
+
+	#u25100-bw
+	{
+		z-index: 40;
+		margin-top: 30px;
+		height: 120px;
+	}
+
+	#u25169
+	{
+		z-index: 2;
+		min-height: 206.5999999999981px;
+		padding-bottom: 0px;
+	}
+
+	#u25169_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+		padding-top: 6px;
+		padding-bottom: 19px;
+	}
+
+	#u25124-4
+	{
+		z-index: 41;
+		min-height: 12px;
+		width: 80.63%;
+		left: 12.82%;
+	}
+
+	#u25160-8
+	{
+		z-index: 46;
+		margin-top: 1px;
+		width: 87.5%;
+		left: 6.25%;
+	}
+
+	#u25160-2
+	{
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	#u25160-6
+	{
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	#u25169-bw
+	{
+		z-index: 2;
+		min-height: 206.5999999999981px;
+		margin-top: 46px;
+	}
+
+	#u25177
+	{
+		z-index: 54;
+		height: 138px;
+		background-image: url("../images/pickysjourney_2-u25177-fr3.png");
+	}
+
+	#u25177-bw
+	{
+		z-index: 54;
+		margin-top: 30px;
+		height: 138px;
+	}
+
+	#u25193-13
+	{
+		z-index: 55;
+		margin-top: 30px;
+		width: 87.82%;
+		margin-left: 6.25%;
+	}
+
+	#u24207-15,#u25193-3
+	{
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#u25193-6
+	{
+		font-size: 10px;
+		line-height: 14px;
+	}
+
+	#u25074-9,#u25193-8
+	{
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	#u25074-4,#u25074-12,#u25193-5,#u25193-9,#u25193-11
+	{
+		font-size: 15px;
+		line-height: 21px;
+	}
+
+	#u25206
+	{
+		z-index: 68;
+		height: 288px;
+		background-image: url("../images/pickysjourney_3-u25206-fr3.png");
+	}
+
+	#u25206-bw
+	{
+		z-index: 68;
+		margin-top: 30px;
+		height: 288px;
+	}
+
+	#u25302-4
+	{
+		z-index: 73;
+		min-height: 24px;
+		line-height: 28px;
+		font-size: 20px;
+		margin-top: 30px;
+		width: 87.82%;
+		margin-left: 6.25%;
+	}
+
+	#pu25310
+	{
+		margin-top: 78px;
+		width: 100%;
+	}
+
+	#u25310
+	{
+		z-index: 69;
+		min-height: 201.94448621332754px;
+		background-image: url("../images/pickysjourney_7.png");
+		padding-bottom: 0px;
+	}
+
+	#u25310_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+		padding-top: 52px;
+		padding-bottom: 12px;
+	}
+
+	#u25334
+	{
+		z-index: 106;
+		height: 61px;
+		background-image: url("../images/pickysjourney_8-u25334-fr4.png");
+		width: 7.19%;
+		left: 6.88%;
+	}
+
+	#u25286
+	{
+		z-index: 72;
+		height: 65px;
+		background-image: url("../images/pickysjourney_6-u25286-fr4.png");
+		margin-top: 12px;
+		width: 40.94%;
+		left: 3.44%;
+	}
+
+	#u25310-bw
+	{
+		z-index: 69;
+		min-height: 201.94448621332754px;
+		margin-top: 486px;
+	}
+
+	#u25278-4
+	{
+		z-index: 89;
+		min-height: 120px;
+		line-height: 21px;
+		font-size: 15px;
+		margin-right: -10000px;
+		width: 87.5%;
+		left: 6.25%;
+	}
+
+	#u25608-4
+	{
+		z-index: 81;
+		min-height: 57px;
+		line-height: 28px;
+		font-size: 20px;
+		margin-top: 30px;
+		width: 87.5%;
+		margin-left: 6.25%;
+	}
+
+	#pu25556
+	{
+		margin-top: 78px;
+	}
+
+	#u25556
+	{
+		z-index: 70;
+		min-height: 209px;
+		background-image: url("../images/pickysjourney_9%20copy.png");
+		padding-bottom: 36px;
+	}
+
+	#u25582
+	{
+		z-index: 108;
+		height: 41px;
+		background-image: url("../images/pickysjourney_8_3-u25582-fr5.png");
+		margin-right: -10000px;
+		margin-top: 168px;
+		width: 14.07%;
+	}
+
+	#u25556-bw
+	{
+		z-index: 70;
+		min-height: 209px;
+		margin-top: 318px;
+	}
+
+	#u25543-4
+	{
+		z-index: 98;
+		min-height: 90px;
+		line-height: 21px;
+		font-size: 15px;
+		margin-right: -10000px;
+		width: 87.5%;
+		left: 5.94%;
+	}
+
+	#u25846-4
+	{
+		z-index: 77;
+		min-height: 21px;
+		line-height: 28px;
+		font-size: 20px;
+		margin-top: 31px;
+		width: 87.5%;
+		margin-left: 6.25%;
+	}
+
+	#u25833-5
+	{
+		z-index: 93;
+		min-height: 463px;
+		font-size: 15px;
+		margin-top: 30px;
+		width: 87.5%;
+		margin-left: 6.25%;
+	}
+
+	#u25833-2
+	{
+		line-height: 21px;
+	}
+
+	#u25833-3
+	{
+		line-height: 18px;
+	}
+
+	#u25859
+	{
+		z-index: 45;
+		min-height: 232px;
+		background-image: url("../images/pickysjourney_11.png");
+	}
+
+	#u25556_align_to_page,#u25859_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
+	#u25859_position_content
+	{
+		margin-top: -12px;
+		margin-bottom: -17px;
+		width: 100%;
+	}
+
+	#u25927
+	{
+		z-index: 111;
+		height: 47px;
+		position: relative;
+		width: 87.19%;
+		left: 6.25%;
+		background: transparent url("../images/pickysjourney_12-u25927-fr3.png") no-repeat center center;
+		background-size: contain;
+	}
+
+	#u25802
+	{
+		z-index: 107;
+		height: 41px;
+		background-image: url("../images/pickysjourney_8-u25802-fr5.png");
+		margin-top: 174px;
+		width: 9.69%;
+		left: 4.38%;
+	}
+
+	#u25859-bw
+	{
+		z-index: 45;
+		min-height: 232px;
+		margin-top: 93px;
+	}
+
+	#u26109-4
+	{
+		z-index: 85;
+		min-height: 43px;
+		line-height: 28px;
+		font-size: 20px;
+		margin-top: 29px;
+		width: 88.13%;
+		margin-left: 5.94%;
+	}
+
+	#u26122-4
+	{
+		z-index: 102;
+		min-height: 214px;
+		line-height: 21px;
+		font-size: 15px;
+		margin-right: -10000px;
+		width: 87.5%;
+		left: 6.25%;
+	}
+
+	#u26161
+	{
+		z-index: 110;
+		height: 23px;
+		background-image: url("../images/pickysjourney_8_1-u26161-fr3.png");
+		margin-right: -10000px;
+		margin-top: 313px;
+		width: 4.38%;
+		left: 89.38%;
+	}
+
+	#pu26122-4,#pu26065
+	{
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	#u26065
+	{
+		z-index: 71;
+		height: 253px;
+		background-image: url("../images/pickysjourney_13-u26065-fr3.png");
+		width: 87.5%;
+		left: 6.25%;
+	}
+
+	#u26148
+	{
+		z-index: 109;
+		height: 66px;
+		background-image: url("../images/pickysjourney_8_3-u26148-fr4.png");
+		margin-right: -10000px;
+		margin-top: 229px;
+		width: 11.57%;
+		left: 0.63%;
+	}
+
+	#u44404-4
+	{
+		z-index: 121;
+		min-height: 80px;
+	}
+
+	#u44404-4-bw
+	{
+		z-index: 121;
+		min-height: 80px;
+	}
+
+	#u44405-4
+	{
+		z-index: 125;
+		min-height: 80px;
+	}
+
+	#u44405-4-bw
+	{
+		z-index: 125;
+		min-height: 80px;
+	}
+
+	#u44407-4
+	{
+		z-index: 133;
+		min-height: 80px;
+	}
+
+	#u44407-4-bw
+	{
+		z-index: 133;
+		min-height: 80px;
+	}
+
+	#u44406-4
+	{
+		z-index: 129;
+		min-height: 80px;
+	}
+
+	#u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+		min-height: 80px;
+	}
+
+	#u44406-4-bw
+	{
+		z-index: 129;
+		min-height: 80px;
+	}
+
+	#u563,#u563-bw
+	{
+		z-index: 116;
+	}
+
+	#u44573-4
+	{
+		z-index: 137;
+	}
+
+	#u44573-4-bw
+	{
+		z-index: 137;
+		margin-top: 27px;
+	}
+
+	body
+	{
+		min-width: 320px;
+	}
+}
+
