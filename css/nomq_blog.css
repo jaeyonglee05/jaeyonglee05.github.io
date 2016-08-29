@@ -10,18 +10,19 @@
 
 	#page
 	{
-		min-height: 936px;
+		min-height: 935.9749999999999px;
+		padding-bottom: 0px;
 	}
 
-	#pu16532
+	#pu61493
 	{
 		padding-bottom: 70px;
 		width: 100%;
 	}
 
-	#u16532
+	#u61493
 	{
-		z-index: 50;
+		z-index: 51;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -30,9 +31,9 @@
 		left: 0px;
 	}
 
-	#u16533-4
+	#u61494-3
 	{
-		z-index: 51;
+		z-index: 52;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -41,8 +42,6 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		background-image: url("../images/blank.gif");
-		background-color: transparent;
 		color: #FFFFFF;
 		line-height: 30px;
 		text-align: center;
@@ -51,19 +50,27 @@
 		position: fixed;
 		top: 0px;
 		left: 0px;
+		background: transparent url("../images/top%20navigation.svg") no-repeat center center;
+		background-size: contain;
 	}
 
-	#u16533-4:hover
+	#u61494-3:hover
 	{
-		background-color: #FFDE00;
 		padding-top: 0px;
 		padding-bottom: 0px;
 		min-height: 70px;
 		width: 70px;
 		margin: 0px;
+		background: #FFDE00 url("../images/top%20navigation.svg") no-repeat center center;
+		background-size: contain;
 	}
 
-	#u16533-4:hover p
+	.nosvg #u61494-3,.nosvg #u61494-3:hover
+	{
+		background-image: url('../images/top%20navigation_poster_u61160.png');
+	}
+
+	#u61494-3:hover p
 	{
 		color: #000000;
 		visibility: inherit;
@@ -80,6 +87,13 @@
 		z-index: 2;
 		width: 350px;
 		position: relative;
+		margin-right: -10000px;
+	}
+
+	#top
+	{
+		position: relative;
+		width: 22px;
 		margin-right: -10000px;
 	}
 
@@ -287,35 +301,28 @@
 		margin: 0px -10000px 0px 0px;
 	}
 
-	#top
+	#u61495
 	{
-		position: relative;
-		width: 22px;
-		margin-right: -10000px;
-	}
-
-	#u16535
-	{
-		z-index: 56;
+		z-index: 55;
 		width: 70px;
 	}
 
-	#u16536-4
+	#u61496-4
 	{
-		z-index: 57;
+		z-index: 56;
 		width: 70px;
 		min-height: 70px;
 		line-height: 30px;
 		font-size: 25px;
 	}
 
-	#u16536-4:hover
+	#u61496-4:hover
 	{
 		min-height: 70px;
 		width: 70px;
 	}
 
-	#u16533-2,#u16536-2
+	#u61494,#u61496-2
 	{
 		padding-top: 21px;
 	}
@@ -323,11 +330,6 @@
 	#u8294,#u8294-bw
 	{
 		z-index: 49;
-	}
-
-	#pu44404-4
-	{
-		width: 100%;
 	}
 
 	#u44404-4
@@ -375,6 +377,11 @@
 		min-height: 360px;
 		width: 25%;
 		margin-left: 0%;
+	}
+
+	#pu44404-4,#pu563
+	{
+		width: 100%;
 	}
 
 	#u563,#u563-bw

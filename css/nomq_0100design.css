@@ -89,7 +89,7 @@
 		left: 0px;
 	}
 
-	#u53239-4
+	#u53239-3
 	{
 		z-index: 130;
 		width: 70px;
@@ -100,8 +100,6 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		background-image: url("../images/blank.gif");
-		background-color: transparent;
 		color: #FFFFFF;
 		line-height: 30px;
 		text-align: center;
@@ -110,19 +108,27 @@
 		position: fixed;
 		top: 0px;
 		left: 0px;
+		background: transparent url("../images/top%20navigation.svg") no-repeat center center;
+		background-size: contain;
 	}
 
-	#u53239-4:hover
+	#u53239-3:hover
 	{
-		background-color: #FFDE00;
 		padding-top: 0px;
 		padding-bottom: 0px;
 		min-height: 70px;
 		width: 70px;
 		margin: 0px;
+		background: #FFDE00 url("../images/top%20navigation.svg") no-repeat center center;
+		background-size: contain;
 	}
 
-	#u53239-4:hover p
+	.nosvg #u53239-3,.nosvg #u53239-3:hover
+	{
+		background-image: url('../images/top%20navigation_poster_u61160.png');
+	}
+
+	#u53239-3:hover p
 	{
 		color: #000000;
 		visibility: inherit;
@@ -355,13 +361,13 @@
 
 	#u53241
 	{
-		z-index: 135;
+		z-index: 134;
 		width: 70px;
 	}
 
 	#u53242-4
 	{
-		z-index: 136;
+		z-index: 135;
 		width: 70px;
 		min-height: 70px;
 		line-height: 30px;
@@ -374,7 +380,7 @@
 		width: 70px;
 	}
 
-	#u53239-2,#u53242-2
+	#u53239,#u53242-2
 	{
 		padding-top: 21px;
 	}

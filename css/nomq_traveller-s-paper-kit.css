@@ -77,7 +77,7 @@
 		left: 0px;
 	}
 
-	#u55967-4
+	#u55967-3
 	{
 		z-index: 189;
 		width: 70px;
@@ -88,8 +88,6 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		background-image: url("../images/blank.gif");
-		background-color: transparent;
 		color: #FFFFFF;
 		line-height: 30px;
 		text-align: center;
@@ -98,19 +96,27 @@
 		position: fixed;
 		top: 0px;
 		left: 0px;
+		background: transparent url("../images/top%20navigation.svg") no-repeat left top;
+		background-size: 70px 70px;
 	}
 
-	#u55967-4:hover
+	#u55967-3:hover
 	{
-		background-color: #FFDE00;
 		padding-top: 0px;
 		padding-bottom: 0px;
 		min-height: 70px;
 		width: 70px;
 		margin: 0px;
+		background: #FFDE00 url("../images/top%20navigation.svg") no-repeat left top;
+		background-size: 70px 70px;
 	}
 
-	#u55967-4:hover p
+	.nosvg #u55967-3,.nosvg #u55967-3:hover
+	{
+		background-image: url('../images/top%20navigation_poster_u61160.png');
+	}
+
+	#u55967-3:hover p
 	{
 		color: #000000;
 		visibility: inherit;
@@ -343,13 +349,13 @@
 
 	#u55971
 	{
-		z-index: 194;
+		z-index: 193;
 		width: 70px;
 	}
 
 	#u55969-4
 	{
-		z-index: 195;
+		z-index: 194;
 		width: 70px;
 		min-height: 70px;
 		line-height: 30px;
@@ -362,7 +368,7 @@
 		width: 70px;
 	}
 
-	#u55967-2,#u55969-2
+	#u55967,#u55969-2
 	{
 		padding-top: 21px;
 	}
