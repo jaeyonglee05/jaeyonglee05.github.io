@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="studiojaeyonglee.com" resolutions="1x" timestamp="1472999415056">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="studiojaeyonglee.com" resolutions="1x" timestamp="1473004692105">
   <folder name="css">
     <file name="site_global.css" crc="4208102703"/>
     <file name="master_a-master.css" crc="407008061" ref="vero.fi:index:experience-driven-design:picky-s-journey:0100design:primary-care:welding-training-app:profile:kalasatama-health-and-welfare-center:work:81-project:aalto-organizer:undesigned-reality:contact:traveller-s-paper-kit:soundcloud-usability-test:blog:life-light"/>
@@ -658,22 +658,22 @@
     <file name="primarycareproject_3-u65315-fr3.jpg" crc="281557970" ref="primary-care"/>
     <file name="primarycareproject_6.jpg" crc="465198425" ref="primary-care"/>
   </folder>
-  <file name="index.html" crc="128746760" seo="true" mt="1472997598900" redirect="true"/>
-  <file name="work.html" crc="205184959" seo="true" mt="1472997598900" redirect="true"/>
-  <file name="contact.html" crc="474282336" seo="true" mt="1472997598900" redirect="true"/>
-  <file name="blog.html" crc="228230711" seo="true" mt="1472997598900" redirect="true"/>
-  <file name="profile.html" crc="23085478" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="picky-s-journey.html" crc="4223082560" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="welding-training-app.html" crc="4285257577" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="kalasatama-health-and-welfare-center.html" crc="530568771" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="aalto-organizer.html" crc="3991058124" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="soundcloud-usability-test.html" crc="434556157" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="vero.fi.html" crc="3773532934" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="experience-driven-design.html" crc="293396957" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="0100design.html" crc="245647563" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="undesigned-reality.html" crc="18765982" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="81-project.html" crc="172720208" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="traveller-s-paper-kit.html" crc="3968998158" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="life-light.html" crc="4111510638" seo="true" mt="1472999246096" redirect="true"/>
-  <file name="primary-care.html" crc="3977853889" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="index.html" crc="470429888" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="work.html" crc="3955084131" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="contact.html" crc="381248380" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="blog.html" crc="60963661" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="profile.html" crc="157738134" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="picky-s-journey.html" crc="3931731808" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="welding-training-app.html" crc="452264623" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="kalasatama-health-and-welfare-center.html" crc="4126629031" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="aalto-organizer.html" crc="304194218" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="soundcloud-usability-test.html" crc="4240815019" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="vero.fi.html" crc="4037162817" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="experience-driven-design.html" crc="3872052243" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="0100design.html" crc="4021488221" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="undesigned-reality.html" crc="4216205239" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="81-project.html" crc="3958012972" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="traveller-s-paper-kit.html" crc="4217542158" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="life-light.html" crc="253462702" seo="true" mt="1473004555425" redirect="true"/>
+  <file name="primary-care.html" crc="3934285884" seo="true" mt="1473004555425" redirect="true"/>
 </manifest>
