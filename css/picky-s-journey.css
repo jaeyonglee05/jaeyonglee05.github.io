@@ -1,7 +1,7 @@
 .version.picky_s_journey /* version checker */
 {
-	color: #0000EE;
-	background-color: #2E0FEF;
+	color: #000005;
+	background-color: #F1B5AB;
 }
 
 .js body
@@ -16,44 +16,45 @@
 
 #page
 {
-	margin-right: auto;
-	width: 100%;
+	z-index: 1;
 	background-image: none;
-	background-color: transparent;
 	border-width: 0px;
 	margin-left: auto;
+	width: 100%;
 	border-color: #000000;
-	z-index: 1;
+	margin-right: auto;
+	background-color: transparent;
 }
 
 #u23864
 {
 	position: relative;
+	margin-right: -10000px;
 	background-color: #231F20;
 }
 
 #u23865-4
 {
-	text-align: center;
-	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
+	background-color: transparent;
 	font-weight: bold;
 	-webkit-transition-timing-function: ease;
-	position: relative;
-	margin-right: -10000px;
-	-webkit-transition-duration: 1s;
-	background-image: url("../images/blank.gif");
-	background-color: transparent;
-	transition-timing-function: ease;
-	color: #FFFFFF;
 	transition-delay: 0s;
+	text-align: center;
+	-webkit-transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	margin-right: -10000px;
+	color: #FFFFFF;
+	position: relative;
+	transition-timing-function: ease;
 }
 
 #u23865-4:hover
 {
-	background-color: #FFDE00;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #FFDE00;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -72,25 +73,25 @@
 #u24207-17
 {
 	left: 0px;
+	text-transform: uppercase;
 	position: relative;
 	font-weight: 400;
-	text-transform: uppercase;
-	background-color: transparent;
 	color: #231F20;
+	background-color: transparent;
 }
 
 #u24207-2
 {
-	font-style: normal;
 	letter-spacing: 1px;
+	font-style: normal;
 	font-family: league-gothic, sans-serif;
 }
 
 #u24207-3
 {
 	text-align: left;
-	font-size: 15px;
 	letter-spacing: 1px;
+	font-size: 15px;
 	font-family: open-sans, sans-serif;
 	line-height: 18px;
 }
@@ -104,27 +105,27 @@
 
 #u24207-4,#u24207-7,#u24207-10,#u24207-13
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
 }
 
 #u24405-4
 {
-	left: 0px;
 	font-weight: 600;
-	background-color: transparent;
-	position: relative;
+	left: 0px;
 	font-family: open-sans, sans-serif;
+	position: relative;
+	background-color: transparent;
 }
 
 #u24390
 {
-	min-width: 40px;
-	border-width: 0px;
-	border-color: transparent;
-	position: relative;
 	max-width: 100000px;
+	min-width: 40px;
 	background-color: transparent;
+	border-color: transparent;
+	border-width: 0px;
+	position: relative;
 }
 
 #u24936
@@ -138,8 +139,8 @@
 #u25074-14
 {
 	min-height: 313px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u25074-3
@@ -155,8 +156,8 @@
 
 #u25074-10
 {
-	text-transform: uppercase;
 	font-weight: normal;
+	text-transform: uppercase;
 }
 
 #u25100
@@ -174,9 +175,9 @@
 
 #u25124-4
 {
+	position: relative;
 	line-height: 16px;
 	background-color: transparent;
-	position: relative;
 }
 
 #u25124-2
@@ -186,26 +187,26 @@
 
 #u25124
 {
-	font-size: 10px;
 	font-style: italic;
-	font-weight: 400;
 	font-family: open-sans, sans-serif;
+	font-size: 10px;
 	line-height: 12px;
+	font-weight: 400;
 }
 
 #u25160-8
 {
 	min-height: 141px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u25160-2
 {
 	text-align: left;
-	color: #231F20;
 	font-weight: 400;
 	letter-spacing: 1px;
+	color: #231F20;
 	font-family: league-gothic, sans-serif;
 }
 
@@ -217,14 +218,14 @@
 #u25193-13
 {
 	min-height: 340px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u25193-3
 {
-	font-weight: 700;
 	font-family: open-sans, sans-serif;
+	font-weight: 700;
 }
 
 #u25177,#u25206
@@ -235,16 +236,11 @@
 	background-size: contain;
 }
 
-#pu25556
-{
-	width: 100%;
-}
-
 #u25556
 {
 	background-position: right center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: cover;
 }
 
@@ -258,26 +254,26 @@
 
 #u25302-4,#u25608-4,#u25846-4,#u26109-4
 {
+	text-transform: uppercase;
 	position: relative;
 	font-weight: 400;
-	background-color: transparent;
-	text-transform: uppercase;
 	font-family: league-gothic, sans-serif;
+	background-color: transparent;
 }
 
 #u25278-4,#u25543-4,#u25833-5,#u26122-4
 {
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u26065
 {
+	position: relative;
 	margin-right: -10000px;
 	background-position: right center;
-	background-color: transparent;
 	background-repeat: no-repeat;
-	position: relative;
+	background-color: transparent;
 	background-size: cover;
 }
 
@@ -285,17 +281,22 @@
 {
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 	background-size: contain;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-bottom: 0px;
-	margin-top: 0px;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#pu25556,#pu563
+{
+	width: 100%;
 }
 
 #u563,#u563-bw
@@ -332,15 +333,8 @@ body
 
 	#page
 	{
-		min-height: 936px;
-	}
-
-	#top
-	{
-		position: relative;
-		width: 22px;
-		margin-right: -10000px;
-		left: -263px;
+		min-height: 935.9750000000004px;
+		padding-bottom: 0px;
 	}
 
 	#u168
@@ -555,6 +549,34 @@ body
 		margin: 0px -10000px 0px 0px;
 	}
 
+	#u23864
+	{
+		z-index: 176;
+		width: 70px;
+	}
+
+	#u23865-4
+	{
+		z-index: 177;
+		width: 70px;
+		min-height: 70px;
+		line-height: 30px;
+		font-size: 25px;
+	}
+
+	#u23865-4:hover
+	{
+		min-height: 70px;
+		width: 70px;
+	}
+
+	#pslideshowu26213
+	{
+		padding-bottom: 600px;
+		margin-top: -70px;
+		width: 100%;
+	}
+
 	#slideshowu26213
 	{
 		z-index: 2;
@@ -613,13 +635,6 @@ body
 		background: url("../images/loading.gif") no-repeat center center;
 	}
 
-	#pu23861
-	{
-		width: 0.01px;
-		padding-bottom: 70px;
-		margin-right: -10000px;
-	}
-
 	#u23861
 	{
 		z-index: 171;
@@ -676,42 +691,23 @@ body
 		visibility: inherit;
 	}
 
-	#pu23864
-	{
-		width: 0.01px;
-		margin-right: -10000px;
-	}
-
-	#u23864
-	{
-		z-index: 176;
-		width: 70px;
-	}
-
-	#u23865-4
-	{
-		z-index: 177;
-		width: 70px;
-		min-height: 70px;
-		line-height: 30px;
-		font-size: 25px;
-	}
-
-	#u23865-4:hover
-	{
-		min-height: 70px;
-		width: 70px;
-	}
-
-	#u23862,#u23865-2
+	#u23865-2,#u23862
 	{
 		padding-top: 21px;
+	}
+
+	#top
+	{
+		left: -263px;
+		top: -491px;
+		margin-bottom: -18px;
+		position: relative;
 	}
 
 	#u27047
 	{
 		z-index: 8;
-		min-height: 7152.500000000003px;
+		min-height: 7269.7000000000035px;
 		background-color: #FFFFFF;
 		padding-bottom: 0px;
 	}
@@ -722,7 +718,7 @@ body
 		margin-right: auto;
 		position: relative;
 		width: 100%;
-		padding-bottom: 50px;
+		padding-bottom: 58px;
 	}
 
 	#u24208-4
@@ -743,18 +739,11 @@ body
 		padding-top: 7px;
 	}
 
-	#pu24207-17
-	{
-		margin-top: 50px;
-		position: relative;
-		width: 100%;
-	}
-
 	#u24207-17
 	{
 		z-index: 10;
 		min-height: 222px;
-		margin-right: -10000px;
+		margin-top: 50px;
 		width: 64.38%;
 		margin-left: 17.82%;
 	}
@@ -775,8 +764,7 @@ body
 	{
 		z-index: 28;
 		min-height: 197px;
-		margin-right: -10000px;
-		margin-top: 272px;
+		margin-top: 51px;
 		width: 64.31%;
 		margin-left: 17.85%;
 	}
@@ -985,7 +973,7 @@ body
 
 	#pu25556
 	{
-		margin-top: 30px;
+		margin-top: 29px;
 		position: relative;
 	}
 
@@ -997,13 +985,6 @@ body
 		position: relative;
 		margin-right: -10000px;
 		width: 45.91%;
-	}
-
-	#pu25608-4
-	{
-		margin-right: -10000px;
-		width: 31.53%;
-		margin-left: 50.7%;
 	}
 
 	#u25608-4
@@ -1034,13 +1015,20 @@ body
 		left: 91.74%;
 	}
 
+	#pu25334,#pu25802
+	{
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
 	#u25802
 	{
 		z-index: 115;
 		height: 121px;
 		background-image: url("../images/pickysjourney_8.png");
 		margin-right: -10000px;
-		margin-top: 395px;
+		margin-top: 396px;
 		width: 6.32%;
 		left: 3.96%;
 	}
@@ -1076,7 +1064,7 @@ body
 		background-image: url("../images/pickysjourney_11-u25859-fr.png");
 		position: relative;
 		margin-right: -10000px;
-		margin-top: 99px;
+		margin-top: 100px;
 		width: 42.5%;
 		margin-left: 57.5%;
 		left: 0px;
@@ -1094,9 +1082,9 @@ body
 		background-size: contain;
 	}
 
-	#pu25334,#pu25802,#pu26065
+	#pu26065
 	{
-		margin-top: 30px;
+		margin-top: 31px;
 		position: relative;
 		width: 100%;
 	}
@@ -1109,10 +1097,9 @@ body
 		width: 45.91%;
 	}
 
-	#pu26109-4
+	#pu25608-4,#pu26109-4
 	{
 		margin-right: -10000px;
-		margin-top: 1px;
 		width: 31.53%;
 		margin-left: 50.7%;
 	}
@@ -1158,17 +1145,10 @@ body
 	#u27047-bw
 	{
 		z-index: 8;
-		min-height: 7152.500000000003px;
-		margin-top: 530px;
+		min-height: 7269.7000000000035px;
 	}
 
-	#ppu44404-4
-	{
-		margin-right: -10000px;
-		width: 100%;
-	}
-
-	#pu44404-4
+	#page_position_content,#pu168,#pu44404-4
 	{
 		width: 100%;
 	}
@@ -1220,11 +1200,6 @@ body
 		margin-left: 0%;
 	}
 
-	#pu563
-	{
-		width: 0.01px;
-	}
-
 	#u563,#u563-bw
 	{
 		z-index: 150;
@@ -1239,11 +1214,6 @@ body
 	{
 		z-index: 167;
 		margin-top: 27px;
-	}
-
-	.verticalspacer
-	{
-		min-height: 1px;
 	}
 }
 
@@ -1614,7 +1584,6 @@ body
 	{
 		z-index: 176;
 		width: 70px;
-		margin-right: -10000px;
 	}
 
 	#u23865-4
@@ -1640,7 +1609,7 @@ body
 	#u27047
 	{
 		z-index: 8;
-		min-height: 6823px;
+		min-height: 6899px;
 		background-color: #FFFFFF;
 	}
 
@@ -1650,7 +1619,7 @@ body
 		margin-right: auto;
 		position: relative;
 		width: 100%;
-		padding-bottom: 50px;
+		padding-bottom: 42px;
 	}
 
 	#u24208-4
@@ -1671,18 +1640,11 @@ body
 		padding-top: 7px;
 	}
 
-	#pu24207-17
-	{
-		margin-top: 50px;
-		position: relative;
-		width: 100%;
-	}
-
 	#u24207-17
 	{
 		z-index: 10;
 		min-height: 222px;
-		margin-right: -10000px;
+		margin-top: 50px;
 		width: 80.18%;
 		margin-left: 9.92%;
 	}
@@ -1703,8 +1665,7 @@ body
 	{
 		z-index: 28;
 		min-height: 197px;
-		margin-right: -10000px;
-		margin-top: 272px;
+		margin-top: 50px;
 		width: 80.18%;
 		margin-left: 9.92%;
 	}
@@ -2046,7 +2007,7 @@ body
 		background-image: url("../images/pickysjourney_11-u25859-fr2.png");
 		position: relative;
 		margin-right: -10000px;
-		margin-top: 97px;
+		margin-top: 98px;
 		width: 42.46%;
 		margin-left: 57.55%;
 		left: 0px;
@@ -2091,7 +2052,7 @@ body
 	#u27047-bw
 	{
 		z-index: 8;
-		min-height: 6823px;
+		min-height: 6899px;
 	}
 
 	#pu44404-4
@@ -2149,7 +2110,6 @@ body
 	#pu563
 	{
 		margin-top: 1px;
-		width: 100%;
 	}
 
 	#u563,#u563-bw
@@ -2536,7 +2496,6 @@ body
 	{
 		z-index: 176;
 		width: 70px;
-		margin-right: -10000px;
 	}
 
 	#u23865-4
@@ -2562,7 +2521,7 @@ body
 	#u27047
 	{
 		z-index: 8;
-		min-height: 6806.650000000005px;
+		min-height: 6850.600000000005px;
 		background-color: #FFFFFF;
 		padding-bottom: 0px;
 	}
@@ -2573,7 +2532,7 @@ body
 		margin-right: auto;
 		position: relative;
 		width: 100%;
-		padding-bottom: 50px;
+		padding-bottom: 34px;
 		margin-bottom: -1px;
 	}
 
@@ -2595,18 +2554,11 @@ body
 		padding-top: 7px;
 	}
 
-	#pu24207-17
-	{
-		margin-top: 50px;
-		position: relative;
-		width: 100%;
-	}
-
 	#u24207-17
 	{
 		z-index: 10;
 		min-height: 222px;
-		margin-right: -10000px;
+		margin-top: 50px;
 		width: 95.84%;
 		margin-left: 2.09%;
 	}
@@ -2627,8 +2579,7 @@ body
 	{
 		z-index: 28;
 		min-height: 197px;
-		margin-right: -10000px;
-		margin-top: 272px;
+		margin-top: 50px;
 		width: 95.84%;
 		margin-left: 2.09%;
 	}
@@ -2752,7 +2703,7 @@ body
 	{
 		z-index: 76;
 		height: 257px;
-		margin-top: 30px;
+		margin-top: 31px;
 		position: relative;
 		width: 95.84%;
 		left: 2.09%;
@@ -2765,7 +2716,7 @@ body
 		z-index: 75;
 		height: 708px;
 		background-image: url("../images/pickysjourney_3.png");
-		margin-top: 31px;
+		margin-top: 30px;
 		position: relative;
 		width: 95.84%;
 		margin-left: 2.09%;
@@ -3020,8 +2971,13 @@ body
 	#u27047-bw
 	{
 		z-index: 8;
-		min-height: 6806.650000000005px;
+		min-height: 6850.600000000005px;
 		margin-top: -1px;
+	}
+
+	#pu25846-4,#pu44404-4
+	{
+		width: 100%;
 	}
 
 	#u44404-4
@@ -3069,11 +3025,6 @@ body
 		min-height: 240px;
 		width: 25%;
 		margin-left: 0%;
-	}
-
-	#pu25846-4,#pu44404-4,#pu563
-	{
-		width: 100%;
 	}
 
 	#u563,#u563-bw
@@ -3460,7 +3411,6 @@ body
 	{
 		z-index: 176;
 		width: 70px;
-		margin-right: -10000px;
 	}
 
 	#u23865-4
@@ -3486,7 +3436,7 @@ body
 	#u27047
 	{
 		z-index: 8;
-		min-height: 7149px;
+		min-height: 7132px;
 		background-color: #FFFFFF;
 	}
 
@@ -3500,7 +3450,7 @@ body
 
 	#u27047_position_content
 	{
-		padding-bottom: 50px;
+		padding-bottom: 33px;
 		width: 100%;
 	}
 
@@ -3941,7 +3891,12 @@ body
 	#u27047-bw
 	{
 		z-index: 8;
-		min-height: 7149px;
+		min-height: 7132px;
+	}
+
+	#page_position_content,#pu44404-4
+	{
+		width: 100%;
 	}
 
 	#u44404-4
@@ -3989,11 +3944,6 @@ body
 		min-height: 192px;
 		width: 25%;
 		margin-left: 0%;
-	}
-
-	#page_position_content,#pu44404-4,#pu563
-	{
-		width: 100%;
 	}
 
 	#u563,#u563-bw
@@ -4280,7 +4230,6 @@ body
 	{
 		z-index: 186;
 		width: 40px;
-		margin-right: -10000px;
 	}
 
 	#u23865-4
@@ -4306,7 +4255,7 @@ body
 	#u27047
 	{
 		z-index: 8;
-		min-height: 5196.8px;
+		min-height: 5233.8px;
 		background-color: #FFFFFF;
 		padding-bottom: 0px;
 	}
@@ -4317,8 +4266,7 @@ body
 		margin-right: auto;
 		position: relative;
 		width: 100%;
-		padding-top: 4px;
-		padding-bottom: 30px;
+		padding-bottom: 23px;
 	}
 
 	#u24208-4
@@ -4330,18 +4278,11 @@ body
 		left: 3.88%;
 	}
 
-	#pu24207-17
-	{
-		margin-top: 30px;
-		position: relative;
-		width: 100%;
-	}
-
 	#u24207-17
 	{
 		z-index: 10;
 		min-height: 108px;
-		margin-right: -10000px;
+		margin-top: 30px;
 		width: 92.25%;
 		margin-left: 3.88%;
 	}
@@ -4358,8 +4299,7 @@ body
 		min-height: 162px;
 		line-height: 14px;
 		font-size: 10px;
-		margin-right: -10000px;
-		margin-top: 144px;
+		margin-top: 30px;
 		width: 92.25%;
 		margin-left: 3.88%;
 	}
@@ -4735,8 +4675,13 @@ body
 	#u27047-bw
 	{
 		z-index: 8;
-		min-height: 5196.8px;
-		margin-top: 305px;
+		min-height: 5233.8px;
+		margin-top: 309px;
+	}
+
+	#paccordionu63687,#pu44404-4
+	{
+		width: 100%;
 	}
 
 	#u44404-4
@@ -4786,11 +4731,6 @@ body
 		margin-left: 0%;
 	}
 
-	#paccordionu63687,#pu44404-4,#pu563
-	{
-		width: 100%;
-	}
-
 	#u563,#u563-bw
 	{
 		z-index: 123;
@@ -4830,6 +4770,11 @@ body
 	#page_position_content
 	{
 		padding-top: 1px;
+		width: 100%;
+	}
+
+	#paccordionu63687
+	{
 		width: 100%;
 	}
 
@@ -4964,7 +4909,6 @@ body
 	{
 		z-index: 174;
 		width: 40px;
-		margin-right: -10000px;
 	}
 
 	#u23865-4
@@ -5516,11 +5460,6 @@ body
 	{
 		z-index: 125;
 		min-height: 80px;
-	}
-
-	#paccordionu63687,#pu563
-	{
-		width: 100%;
 	}
 
 	#u563,#u563-bw

@@ -1,7 +1,7 @@
 .version.aalto_organizer /* version checker */
 {
-	color: #000012;
-	background-color: #63E4D2;
+	color: #000009;
+	background-color: #AB205D;
 }
 
 .js body
@@ -16,45 +16,45 @@
 
 #page
 {
-	margin-right: auto;
-	border-color: #000000;
+	z-index: 1;
 	background-image: none;
-	background-color: transparent;
 	border-width: 0px;
 	margin-left: auto;
 	width: 100%;
-	z-index: 1;
+	border-color: #000000;
+	margin-right: auto;
+	background-color: transparent;
 }
 
 #u46804
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background-color: #231F20;
 }
 
 #u46802-4
 {
-	text-align: center;
-	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
+	background-color: transparent;
 	font-weight: bold;
 	-webkit-transition-timing-function: ease;
-	position: relative;
-	margin-right: -10000px;
-	-webkit-transition-duration: 1s;
-	background-image: url("../images/blank.gif");
-	background-color: transparent;
-	transition-timing-function: ease;
-	color: #FFFFFF;
 	transition-delay: 0s;
+	text-align: center;
+	-webkit-transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	margin-right: -10000px;
+	color: #FFFFFF;
+	position: relative;
+	transition-timing-function: ease;
 }
 
 #u46802-4:hover
 {
-	background-color: #FFDE00;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #FFDE00;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -67,31 +67,31 @@
 #u46825-4,#u46824-4
 {
 	margin-right: -10000px;
-	background-color: #000000;
 	position: relative;
+	background-color: #000000;
 }
 
 #u46949-19
 {
-	font-weight: 400;
-	background-color: transparent;
 	text-transform: uppercase;
+	font-weight: 400;
 	color: #231F20;
 	position: relative;
+	background-color: transparent;
 }
 
 #u46949-2
 {
-	font-style: normal;
 	letter-spacing: 1px;
+	font-style: normal;
 	font-family: league-gothic, sans-serif;
 }
 
 #u46949-3
 {
 	text-align: left;
-	font-size: 15px;
 	letter-spacing: 1px;
+	font-size: 15px;
 	font-family: open-sans, sans-serif;
 	line-height: 18px;
 }
@@ -105,11 +105,11 @@
 
 #u46958-4
 {
-	position: relative;
 	font-weight: 600;
-	background-color: transparent;
 	min-height: 81px;
 	font-family: open-sans, sans-serif;
+	position: relative;
+	background-color: transparent;
 }
 
 #u46965-3
@@ -119,69 +119,69 @@
 
 #u46949-4,#u46949-7,#u46949-11,#u46949-15,#u46965-10
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
 }
 
 #u46955
 {
-	background-color: transparent;
-	min-width: 40px;
-	border-width: 0px;
 	border-color: transparent;
+	border-width: 0px;
 	max-width: 100000px;
+	min-width: 40px;
+	background-color: transparent;
 }
 
 #u46969,#u46967
 {
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: cover;
 }
 
 #u47205-10
 {
 	min-height: 121px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u47241
 {
-	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-position: center center;
 	position: relative;
+	background-color: transparent;
 	background-size: contain;
 }
 
 #u46965-16,#u46951-7,#u46970-10
 {
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u46970-4
 {
-	font-weight: 400;
 	font-family: open-sans, sans-serif;
+	font-weight: 400;
 }
 
 #u46964,#u47345,#u47397,#u47449,#u47467,#u47511,#u47555
 {
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: contain;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-bottom: 0px;
-	margin-top: 0px;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 #pu46825-4,#pu563
@@ -937,7 +937,7 @@ body
 
 	#page
 	{
-		min-height: 747.9625000000033px;
+		min-height: 747.9625000000015px;
 		padding-bottom: 0px;
 		max-width: 1140px;
 	}
@@ -1304,8 +1304,9 @@ body
 	#u46962
 	{
 		z-index: 6;
-		min-height: 9319px;
+		min-height: 9211.550000000007px;
 		background-color: #FFFFFF;
+		padding-bottom: 0px;
 	}
 
 	#u46962_align_to_page
@@ -1314,7 +1315,7 @@ body
 		margin-right: auto;
 		position: relative;
 		width: 100%;
-		padding-bottom: 168px;
+		padding-bottom: 51px;
 	}
 
 	#pu46825-4
@@ -1393,7 +1394,7 @@ body
 		z-index: 46;
 		height: 551px;
 		background-image: url("../images/aaltoorganizer2_1-u46969-fr2.jpg");
-		margin-top: 39px;
+		margin-top: 50px;
 		position: relative;
 		width: 80.18%;
 		left: 9.92%;
@@ -1523,7 +1524,7 @@ body
 		z-index: 79;
 		height: 611px;
 		background-image: url("../images/aaltoorganizer13.jpg");
-		margin-top: 30px;
+		margin-top: 29px;
 		position: relative;
 		width: 80.18%;
 		left: 9.92%;
@@ -1565,7 +1566,7 @@ body
 	#u46962-bw
 	{
 		z-index: 6;
-		min-height: 9319px;
+		min-height: 9211.550000000007px;
 	}
 
 	#pu44404-4
@@ -2022,7 +2023,7 @@ body
 	#u46962
 	{
 		z-index: 6;
-		min-height: 9121px;
+		min-height: 9088px;
 		background-color: #FFFFFF;
 	}
 
@@ -2032,7 +2033,7 @@ body
 		margin-right: auto;
 		position: relative;
 		width: 100%;
-		padding-bottom: 50px;
+		padding-bottom: 53px;
 	}
 
 	#pu46825-4
@@ -2074,7 +2075,7 @@ body
 	#u46949-19
 	{
 		z-index: 7;
-		min-height: 222px;
+		min-height: 165px;
 		margin-top: 50px;
 		width: 95.84%;
 		left: 2.09%;
@@ -2283,7 +2284,7 @@ body
 	#u46962-bw
 	{
 		z-index: 6;
-		min-height: 9121px;
+		min-height: 9088px;
 	}
 
 	#pu44404-4

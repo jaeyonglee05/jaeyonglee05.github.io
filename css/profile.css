@@ -1,7 +1,7 @@
 .version.profile /* version checker */
 {
-	color: #0000F6;
-	background-color: #26BDAB;
+	color: #0000E2;
+	background-color: #44F908;
 }
 
 .js body
@@ -18,18 +18,18 @@
 {
 	width: 100%;
 	margin-right: auto;
-	background-image: none;
 	background-color: transparent;
-	border-width: 0px;
 	margin-left: auto;
 	border-color: #000000;
+	background-image: none;
+	border-width: 0px;
 	z-index: 1;
 }
 
 #u4031-16
 {
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u4031-2
@@ -44,51 +44,51 @@
 
 #u4031-5
 {
-	font-weight: 700;
 	font-family: open-sans, sans-serif;
+	font-weight: 700;
 }
 
 #u4031-7,#u4031-8,#u4031-11,#u4031-14
 {
-	font-weight: 300;
 	font-family: open-sans, sans-serif;
+	font-weight: 300;
 }
 
 #u4031-10,#u4031-13
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 400;
+	font-family: open-sans, sans-serif;
 }
 
 #u61372
 {
 	margin-right: -10000px;
-	background-color: #231F20;
 	position: relative;
+	background-color: #231F20;
 }
 
 #u61373-4
 {
-	text-align: center;
-	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
+	background-color: transparent;
 	font-weight: bold;
 	-webkit-transition-timing-function: ease;
-	position: relative;
-	margin-right: -10000px;
-	-webkit-transition-duration: 1s;
-	background-image: url("../images/blank.gif");
-	background-color: transparent;
-	transition-timing-function: ease;
-	color: #FFFFFF;
 	transition-delay: 0s;
+	text-align: center;
+	-webkit-transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	margin-right: -10000px;
+	color: #FFFFFF;
+	position: relative;
+	transition-timing-function: ease;
 }
 
 #u61373-4:hover
 {
-	background-color: #FFDE00;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #FFDE00;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -110,64 +110,64 @@
 
 #u9456_align_to_page
 {
-	margin-right: auto;
-	margin-left: auto;
 	width: 100%;
 	position: relative;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #u3866-4
 {
-	text-align: center;
-	-webkit-transition-delay: 0s;
-	transition-duration: 0.5s;
-	font-weight: 400;
-	transition-delay: 0s;
-	-webkit-transition-timing-function: ease;
 	-webkit-transition-duration: 0.5s;
-	background-image: url("../images/blank.gif");
-	background-color: #FFDE00;
-	border-width: 0px;
 	transition-timing-function: ease;
-	border-color: transparent;
-	position: relative;
+	font-weight: 400;
 	font-family: league-gothic, sans-serif;
+	border-color: transparent;
+	-webkit-transition-timing-function: ease;
+	transition-delay: 0s;
+	text-align: center;
+	border-width: 0px;
+	-webkit-transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	transition-duration: 0.5s;
+	position: relative;
+	background-color: #FFDE00;
 }
 
 #u3866-4:hover
 {
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	background-color: #231F20;
-	margin-top: 0px;
-	margin-left: 0%;
 	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-left: 0%;
+	background-color: #231F20;
 }
 
 #u3980-3
 {
+	font-family: open-sans, sans-serif;
+	-webkit-transition-duration: 0.5s;
+	margin-right: -10000px;
+	background-color: #1D6499;
+	font-weight: 700;
+	transition-delay: 0s;
+	border-color: transparent;
+	-webkit-transition-timing-function: ease;
+	transition-duration: 0.5s;
 	text-align: center;
 	-webkit-transition-delay: 0s;
-	transition-duration: 0.5s;
-	font-weight: 700;
-	-webkit-transition-timing-function: ease;
-	margin-right: -10000px;
-	-webkit-transition-duration: 0.5s;
 	background-image: url("../images/blank.gif");
-	background-color: #1D6499;
 	border-width: 0px;
-	transition-timing-function: ease;
-	border-color: transparent;
 	position: relative;
-	font-family: open-sans, sans-serif;
-	transition-delay: 0s;
+	transition-timing-function: ease;
 }
 
 #u3980-3:hover
 {
+	padding-top: 0px;
 	padding-bottom: 0px;
 	background-color: #231F20;
-	padding-top: 0px;
 	margin: 0px -10000px 0px 0%;
 }
 
@@ -180,8 +180,8 @@
 #u3895
 {
 	margin-right: -10000px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #pprofile
@@ -192,9 +192,9 @@
 
 #profile
 {
-	margin-right: -10000px;
 	width: 22px;
 	position: relative;
+	margin-right: -10000px;
 }
 
 #u3673-3
@@ -211,12 +211,12 @@
 
 #u3673-3:hover
 {
-	margin-right: 0px;
-	background-position: center center;
-	margin-bottom: 0px;
-	background-repeat: no-repeat;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	background-position: center center;
+	background-repeat: no-repeat;
 	background-size: contain;
 }
 
@@ -259,30 +259,30 @@
 #u3517-4,#u3647-4,#u3546-4,#u3662-4,#u3576-4
 {
 	font-weight: 400;
-	background-color: transparent;
-	position: relative;
 	font-family: open-sans, sans-serif;
+	position: relative;
+	background-color: transparent;
 }
 
 #u3175,#u3349,#u3204,#u3338,#u3219,#u3249
 {
-	-webkit-transition-delay: 0s;
-	transition-duration: 0.5s;
-	-webkit-transition-timing-function: ease;
 	-webkit-transition-duration: 0.5s;
-	background-image: url("../images/blank.gif");
-	background-color: #F1F2F2;
-	border-width: 0px;
+	transition-duration: 0.5s;
 	transition-timing-function: ease;
 	border-color: transparent;
+	-webkit-transition-timing-function: ease;
 	transition-delay: 0s;
+	background-color: #F1F2F2;
+	-webkit-transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	border-width: 0px;
 }
 
 #u3175:hover,#u3349:hover,#u3204:hover,#u3338:hover,#u3219:hover,#u3249:hover
 {
+	margin-top: 0px;
 	margin-bottom: 0px;
 	background-color: #FFDE00;
-	margin-top: 0px;
 }
 
 #u3741-3,#u3771-3
@@ -299,12 +299,12 @@
 
 #u3606-4
 {
-	position: relative;
-	font-weight: 400;
-	line-height: 18px;
 	font-size: 15px;
-	background-color: transparent;
+	font-weight: 400;
 	font-family: open-sans, sans-serif;
+	position: relative;
+	line-height: 18px;
+	background-color: transparent;
 }
 
 #u3360-4,#u3390-4,#u3506-4,#u3420-4,#u3450-4,#u3491-4
@@ -315,10 +315,10 @@
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-bottom: 0px;
-	margin-top: 0px;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 #pu563
@@ -6999,7 +6999,7 @@ body
 	#u9456
 	{
 		z-index: 22;
-		min-height: 1030.8500000000004px;
+		min-height: 1030.85px;
 		padding-bottom: 0px;
 	}
 
@@ -7316,7 +7316,7 @@ body
 	#u9456-bw
 	{
 		z-index: 22;
-		min-height: 1030.8500000000004px;
+		min-height: 1030.85px;
 	}
 
 	#ppu51257,#pu3928,#u9456_position_content,#pu44404-4

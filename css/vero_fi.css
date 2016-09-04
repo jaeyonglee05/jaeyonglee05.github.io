@@ -1,7 +1,7 @@
 .version.vero_fi /* version checker */
 {
-	color: #0000F8;
-	background-color: #03B461;
+	color: #0000F9;
+	background-color: #BA09E0;
 }
 
 .js body
@@ -16,14 +16,14 @@
 
 #page
 {
-	margin-right: auto;
-	border-color: #000000;
-	background-image: none;
-	background-color: transparent;
-	border-width: 0px;
-	margin-left: auto;
-	width: 100%;
 	z-index: 1;
+	background-image: none;
+	border-width: 0px;
+	width: 100%;
+	border-color: #000000;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
 }
 
 #u49682
@@ -34,26 +34,26 @@
 
 #u49680-4
 {
-	text-align: center;
-	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
+	background-color: transparent;
 	font-weight: bold;
 	-webkit-transition-timing-function: ease;
-	position: relative;
-	margin-right: -10000px;
-	-webkit-transition-duration: 1s;
-	background-image: url("../images/blank.gif");
-	background-color: transparent;
-	transition-timing-function: ease;
-	color: #FFFFFF;
 	transition-delay: 0s;
+	text-align: center;
+	-webkit-transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	margin-right: -10000px;
+	color: #FFFFFF;
+	position: relative;
+	transition-timing-function: ease;
 }
 
 #u49680-4:hover
 {
-	background-color: #FFDE00;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #FFDE00;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -71,31 +71,31 @@
 #u49505-4,#u49506-4
 {
 	margin-right: -10000px;
-	background-color: #000000;
 	position: relative;
+	background-color: #000000;
 }
 
 #u49487-19
 {
-	font-weight: 400;
-	background-color: transparent;
 	text-transform: uppercase;
-	color: #231F20;
 	position: relative;
+	font-weight: 400;
+	color: #231F20;
+	background-color: transparent;
 }
 
 #u49487-2
 {
-	font-style: normal;
 	letter-spacing: 1px;
+	font-style: normal;
 	font-family: league-gothic, sans-serif;
 }
 
 #u49487-3
 {
 	text-align: left;
-	font-size: 15px;
 	letter-spacing: 1px;
+	font-size: 15px;
 	font-family: open-sans, sans-serif;
 	line-height: 18px;
 }
@@ -109,32 +109,67 @@
 
 #u49487-4,#u49487-7,#u49487-11,#u49487-15
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
 }
 
-#u58678
+#u49497-23
 {
-	background-color: transparent;
-	border-width: 0px;
-	border-color: transparent;
+	min-height: 81px;
+	font-weight: 600;
+	font-family: open-sans, sans-serif;
 	position: relative;
+	background-color: transparent;
+}
+
+#u49490-3
+{
+	text-align: left;
+	line-height: 20px;
+}
+
+#u49497-2,#u49497-12,#u49490-5
+{
+	font-style: italic;
+	text-decoration: none;
 }
 
 #u50199-8
 {
 	margin-right: -10000px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
+}
+
+#u49489-22
+{
+	min-height: 121px;
+	position: relative;
+	background-color: transparent;
+}
+
+#u49497-5,#u49497-7,#u49489-8,#u49489-9,#u49489-11,#u49489-12,#u49489-14
+{
+	font-style: italic;
+	font-family: open-sans, sans-serif;
+	font-weight: 600;
 }
 
 #u50229
 {
-	background-color: transparent;
-	min-width: 40px;
-	border-width: 0px;
-	border-color: transparent;
 	max-width: 100000px;
+	min-width: 40px;
+	background-color: transparent;
+	border-color: transparent;
+	border-width: 0px;
+}
+
+#u50599,#u49502,#u49494,#u49486
+{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: cover;
 }
 
 #u50198,#u50285
@@ -144,39 +179,78 @@
 
 #u50286-11
 {
-	margin-right: -10000px;
 	min-height: 141px;
-	background-color: transparent;
+	margin-right: -10000px;
 	position: relative;
+	background-color: transparent;
 }
 
 #u50199-2,#u50286-2,#u50286-3,#u50286-5
 {
 	text-align: left;
-	color: #231F20;
 	font-weight: 400;
 	letter-spacing: 1px;
+	color: #231F20;
 	font-family: league-gothic, sans-serif;
 }
 
 #u50199-4,#u50286-7
 {
-	line-height: 16px;
 	letter-spacing: 1px;
+	line-height: 16px;
 }
 
 #u50199-5,#u50286-8
 {
-	font-size: 10px;
 	line-height: 12px;
+	font-size: 10px;
 }
 
-#u50599,#u49502,#u49494,#u49486
+#u49490-2,#u49490-11,#u50199-6,#u49489-2,#u49489-17,#u49488-2,#u50286-9,#u50334-2
 {
-	background-position: center center;
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u50334-8,#u50334-17
+{
+	font-family: open-sans, sans-serif;
+	font-weight: 700;
+}
+
+#u49490-16,#u49488-7,#u50334-25,#u50749-7
+{
+	position: relative;
 	background-color: transparent;
-	background-repeat: no-repeat;
-	background-size: cover;
+}
+
+#u49490,#u49490-10,#u49489,#u49489-16,#u49488,#u50334,#u50749-2
+{
+	font-family: league-gothic, sans-serif;
+	font-weight: 400;
+}
+
+#u50633-4,#u50179-4,#u50267-4,#u50713-4
+{
+	font-style: italic;
+	min-height: 6px;
+	font-size: 10px;
+	font-weight: 400;
+	font-family: open-sans, sans-serif;
+	text-align: right;
+	position: relative;
+	line-height: 12px;
+	background-color: transparent;
+}
+
+#u50360-5
+{
+	font-size: 50px;
+	font-weight: 400;
+	font-family: league-gothic, sans-serif;
+	text-transform: uppercase;
+	position: relative;
+	line-height: 70px;
+	background-color: transparent;
 }
 
 #u49492
@@ -185,118 +259,28 @@
 	background-size: contain;
 }
 
+#u50884-4
+{
+	font-family: league-gothic, sans-serif;
+	font-weight: 400;
+	position: relative;
+	background-color: transparent;
+}
+
 #u50687,#u49496
 {
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: contain;
-}
-
-#u49497-14
-{
-	position: relative;
-	font-weight: 600;
-	background-color: transparent;
-	min-height: 81px;
-	font-family: open-sans, sans-serif;
-}
-
-#u49490-17
-{
-	min-height: 309px;
-	background-color: transparent;
-	position: relative;
-}
-
-#u49490-3
-{
-	text-align: left;
-	line-height: 20px;
-}
-
-#u49489-34
-{
-	min-height: 121px;
-	background-color: transparent;
-	position: relative;
-}
-
-#u49488-7
-{
-	min-height: 126px;
-	background-color: transparent;
-	position: relative;
-}
-
-#u50334-25
-{
-	background-color: transparent;
-	position: relative;
-}
-
-#u50199-6,#u50286-9,#u49490-2,#u49490-12,#u49489-2,#u49489-29,#u49488-2,#u50334-2
-{
-	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
-}
-
-#u49489-11,#u49489-12,#u49489-14,#u49489-15,#u49489-17,#u50334-8,#u50334-17
-{
-	font-family: open-sans, sans-serif;
-	font-weight: 700;
-}
-
-#u50749-13
-{
-	min-height: 291px;
-	background-color: transparent;
-	position: relative;
-}
-
-#u49490,#u49490-11,#u49489,#u49489-28,#u49488,#u50334,#u50749-2
-{
-	font-weight: 400;
-	font-family: league-gothic, sans-serif;
-}
-
-#u50633-4,#u50179-4,#u50267-4,#u50713-4
-{
-	text-align: right;
-	font-style: italic;
-	min-height: 6px;
-	font-weight: 400;
-	line-height: 12px;
-	font-size: 10px;
-	background-color: transparent;
-	position: relative;
-	font-family: open-sans, sans-serif;
-}
-
-#u50360-5
-{
-	font-weight: 400;
-	text-transform: uppercase;
-	line-height: 70px;
-	font-size: 50px;
-	background-color: transparent;
-	position: relative;
-	font-family: league-gothic, sans-serif;
-}
-
-#u50884-4
-{
-	font-weight: 400;
-	background-color: transparent;
-	position: relative;
-	font-family: league-gothic, sans-serif;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-bottom: 0px;
-	margin-top: 0px;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 #u563,#u563-bw
@@ -346,7 +330,7 @@ body
 
 	#u168
 	{
-		z-index: 199;
+		z-index: 188;
 		width: 350px;
 		position: relative;
 		margin-right: -10000px;
@@ -354,7 +338,7 @@ body
 
 	#menuu170
 	{
-		z-index: 200;
+		z-index: 189;
 		width: 305px;
 		position: relative;
 		margin-right: -10000px;
@@ -611,7 +595,7 @@ body
 
 	#u49681
 	{
-		z-index: 246;
+		z-index: 235;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -622,7 +606,7 @@ body
 
 	#u49683-3
 	{
-		z-index: 247;
+		z-index: 236;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -673,13 +657,13 @@ body
 
 	#u49682
 	{
-		z-index: 251;
+		z-index: 240;
 		width: 70px;
 	}
 
 	#u49680-4
 	{
-		z-index: 252;
+		z-index: 241;
 		width: 70px;
 		min-height: 70px;
 		line-height: 30px;
@@ -700,7 +684,7 @@ body
 	#u49499
 	{
 		z-index: 6;
-		min-height: 16094.900000000003px;
+		min-height: 15323.7px;
 		background-color: #FFFFFF;
 		padding-bottom: 0px;
 	}
@@ -711,7 +695,7 @@ body
 		margin-right: auto;
 		position: relative;
 		width: 100%;
-		padding-bottom: 51px;
+		padding-bottom: 50px;
 	}
 
 	#pu49505-4
@@ -721,7 +705,7 @@ body
 
 	#u49505-4
 	{
-		z-index: 191;
+		z-index: 180;
 		width: 60px;
 		min-height: 26px;
 		color: #FFFFFF;
@@ -734,7 +718,7 @@ body
 
 	#u49506-4
 	{
-		z-index: 195;
+		z-index: 184;
 		width: 90px;
 		min-height: 26px;
 		color: #FFFFFF;
@@ -777,82 +761,76 @@ body
 		font-weight: 400;
 	}
 
-	#u58678
+	#u49497-23
 	{
 		z-index: 26;
-		padding-bottom: 0px;
 		margin-top: 50px;
-		width: 100%;
-	}
-
-	#u49497-14
-	{
-		z-index: 27;
 		width: 64.38%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
 	#u50599
 	{
-		z-index: 59;
+		z-index: 66;
 		height: 581px;
 		background-image: url("../images/vero_11.jpg");
 		margin-top: 51px;
 		position: relative;
 		width: 64.38%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
 	#u49502
 	{
-		z-index: 58;
+		z-index: 65;
 		height: 607px;
 		background-image: url("../images/vero_3-u49502-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
 	#u50633-4
 	{
-		z-index: 166;
+		z-index: 161;
 		margin-top: 15px;
 		width: 64.45%;
-		margin-left: 17.71%;
+		left: 17.71%;
 	}
 
-	#u49490-17
+	#u49490-16
 	{
-		z-index: 41;
+		z-index: 49;
+		min-height: 309px;
 		margin-top: 30px;
 		width: 64.38%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
 	#u49494
 	{
-		z-index: 126;
+		z-index: 121;
 		height: 590px;
 		background-image: url("../images/vero_4-u49494-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
 	#u50179-4
 	{
-		z-index: 131;
+		z-index: 126;
 		margin-top: 15px;
 		width: 64.38%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
 	#u50198
 	{
-		z-index: 135;
-		padding-bottom: 46px;
+		z-index: 130;
+		padding-bottom: 44px;
 		margin-top: 30px;
 		position: relative;
 		width: 100%;
@@ -860,61 +838,63 @@ body
 
 	#u50199-8
 	{
-		z-index: 136;
+		z-index: 131;
 		min-height: 141px;
-		margin-top: 43px;
+		margin-top: 45px;
 		width: 64.38%;
 		left: 17.78%;
 	}
 
-	#u49489-34
+	#u49489-22
 	{
-		z-index: 60;
+		z-index: 67;
 		margin-top: 30px;
 		width: 64.38%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
 	#u50229
 	{
-		z-index: 144;
+		z-index: 139;
 		height: 520px;
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
-		margin-left: 17.78%;
+		margin-left: 17.82%;
+		left: 0px;
 	}
 
 	#u49488-7
 	{
-		z-index: 94;
+		z-index: 89;
+		min-height: 126px;
 		margin-top: 30px;
 		width: 64.38%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
 	#u49486
 	{
-		z-index: 127;
+		z-index: 122;
 		height: 579px;
 		background-image: url("../images/vero_5-u49486-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
 	#u50267-4
 	{
-		z-index: 145;
+		z-index: 140;
 		margin-top: 15px;
 		width: 21.95%;
-		margin-left: 60.21%;
+		left: 60.21%;
 	}
 
 	#u50285
 	{
-		z-index: 149;
+		z-index: 144;
 		padding-bottom: 64px;
 		margin-top: 30px;
 		position: relative;
@@ -923,7 +903,7 @@ body
 
 	#u50286-11
 	{
-		z-index: 150;
+		z-index: 145;
 		margin-top: 65px;
 		width: 64.38%;
 		left: 17.78%;
@@ -931,25 +911,26 @@ body
 
 	#u50334-25
 	{
-		z-index: 101;
+		z-index: 96;
 		min-height: 511px;
 		margin-top: 30px;
 		width: 64.31%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
-	#u49490,#u49490-11,#u49489,#u49489-28,#u49488,#u50334
+	#u49490,#u49490-10,#u49489,#u49489-16,#u49488,#u50334
 	{
 		font-size: 50px;
 		line-height: 70px;
 	}
 
-	#u50749-13
+	#u50749-7
 	{
-		z-index: 174;
+		z-index: 169;
+		min-height: 147px;
 		margin-top: 30px;
 		width: 64.31%;
-		margin-left: 17.78%;
+		left: 17.78%;
 	}
 
 	#u50199-2,#u50286-2,#u50286-3,#u50286-5,#u50749-2
@@ -960,68 +941,68 @@ body
 
 	#u50687
 	{
-		z-index: 128;
+		z-index: 123;
 		height: 688px;
 		background-image: url("../images/vero_12.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.31%;
-		margin-left: 17.85%;
+		left: 17.85%;
 	}
 
 	#u50713-4
 	{
-		z-index: 170;
+		z-index: 165;
 		margin-top: 15px;
 		width: 64.31%;
-		margin-left: 17.85%;
+		left: 17.85%;
 	}
 
 	#u50360-5
 	{
-		z-index: 161;
+		z-index: 156;
 		min-height: 53px;
 		margin-top: 30px;
 		width: 64.03%;
-		margin-left: 18.13%;
+		left: 18.13%;
 	}
 
 	#u49492
 	{
-		z-index: 129;
+		z-index: 124;
 		height: 611px;
 		margin-top: 30px;
 		position: relative;
 		width: 64.31%;
-		margin-left: 17.85%;
+		left: 17.85%;
 	}
 
 	#u50884-4
 	{
-		z-index: 187;
+		z-index: 176;
 		min-height: 58px;
 		line-height: 60px;
 		font-size: 50px;
 		margin-top: 30px;
 		width: 64.31%;
-		margin-left: 17.85%;
+		left: 17.85%;
 	}
 
 	#u49496
 	{
-		z-index: 130;
+		z-index: 125;
 		height: 7302px;
 		background-image: url("../images/vero_17.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.31%;
-		margin-left: 17.85%;
+		left: 17.85%;
 	}
 
 	#u49499-bw
 	{
 		z-index: 6;
-		min-height: 16094.900000000003px;
+		min-height: 15323.7px;
 		margin-top: 530px;
 	}
 
@@ -1038,7 +1019,7 @@ body
 
 	#u44404-4
 	{
-		z-index: 226;
+		z-index: 215;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -1047,7 +1028,7 @@ body
 
 	#u44405-4
 	{
-		z-index: 230;
+		z-index: 219;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -1057,7 +1038,7 @@ body
 
 	#u44407-4
 	{
-		z-index: 238;
+		z-index: 227;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -1067,7 +1048,7 @@ body
 
 	#u44406-4
 	{
-		z-index: 234;
+		z-index: 223;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -1090,17 +1071,17 @@ body
 
 	#u563,#u563-bw
 	{
-		z-index: 225;
+		z-index: 214;
 	}
 
 	#u44573-4
 	{
-		z-index: 242;
+		z-index: 231;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 242;
+		z-index: 231;
 		margin-top: 27px;
 	}
 
@@ -1183,7 +1164,7 @@ body
 
 	#u49681
 	{
-		z-index: 246;
+		z-index: 235;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -1194,7 +1175,7 @@ body
 
 	#u49683-3
 	{
-		z-index: 247;
+		z-index: 236;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -1245,7 +1226,7 @@ body
 
 	#u168
 	{
-		z-index: 199;
+		z-index: 188;
 		width: 350px;
 		position: relative;
 		margin-right: -10000px;
@@ -1253,7 +1234,7 @@ body
 
 	#menuu170
 	{
-		z-index: 200;
+		z-index: 189;
 		width: 305px;
 		position: relative;
 		margin-right: -10000px;
@@ -1464,14 +1445,14 @@ body
 
 	#u49682
 	{
-		z-index: 251;
+		z-index: 240;
 		width: 70px;
 		margin-right: -10000px;
 	}
 
 	#u49680-4
 	{
-		z-index: 252;
+		z-index: 241;
 		width: 70px;
 		min-height: 70px;
 		line-height: 30px;
@@ -1492,8 +1473,9 @@ body
 	#u49499
 	{
 		z-index: 6;
-		min-height: 15852px;
+		min-height: 15101.95px;
 		background-color: #FFFFFF;
+		padding-bottom: 0px;
 	}
 
 	#u49499_align_to_page
@@ -1512,7 +1494,7 @@ body
 
 	#u49505-4
 	{
-		z-index: 191;
+		z-index: 180;
 		width: 60px;
 		min-height: 26px;
 		color: #FFFFFF;
@@ -1525,7 +1507,7 @@ body
 
 	#u49506-4
 	{
-		z-index: 195;
+		z-index: 184;
 		width: 90px;
 		min-height: 26px;
 		color: #FFFFFF;
@@ -1568,81 +1550,75 @@ body
 		font-weight: 400;
 	}
 
-	#u58678
+	#u49497-23
 	{
 		z-index: 26;
-		padding-bottom: 0px;
 		margin-top: 50px;
-		width: 100%;
-	}
-
-	#u49497-14
-	{
-		z-index: 27;
 		width: 80.18%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u50599
 	{
-		z-index: 59;
+		z-index: 66;
 		height: 581px;
 		background-image: url("../images/vero_11.jpg");
-		margin-top: 51px;
+		margin-top: 50px;
 		position: relative;
 		width: 80.18%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u49502
 	{
-		z-index: 58;
+		z-index: 65;
 		height: 607px;
 		background-image: url("../images/vero_3-u49502-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 80.09%;
-		margin-left: 10%;
+		left: 10%;
 	}
 
 	#u50633-4
 	{
-		z-index: 166;
+		z-index: 161;
 		margin-top: 15px;
 		width: 80.09%;
-		margin-left: 10%;
+		left: 10%;
 	}
 
-	#u49490-17
+	#u49490-16
 	{
-		z-index: 41;
+		z-index: 49;
+		min-height: 309px;
 		margin-top: 30px;
 		width: 80.09%;
-		margin-left: 10%;
+		left: 10%;
 	}
 
 	#u49494
 	{
-		z-index: 126;
+		z-index: 121;
 		height: 590px;
 		background-image: url("../images/vero_4-u49494-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 80.18%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u50179-4
 	{
-		z-index: 131;
+		z-index: 126;
 		margin-top: 15px;
 		width: 80.18%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u50198
 	{
-		z-index: 135;
+		z-index: 130;
 		padding-bottom: 46px;
 		margin-top: 30px;
 		position: relative;
@@ -1651,61 +1627,63 @@ body
 
 	#u50199-8
 	{
-		z-index: 136;
+		z-index: 131;
 		min-height: 141px;
 		margin-top: 43px;
 		width: 80.18%;
 		left: 9.92%;
 	}
 
-	#u49489-34
+	#u49489-22
 	{
-		z-index: 60;
+		z-index: 67;
 		margin-top: 30px;
 		width: 80.18%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u50229
 	{
-		z-index: 144;
+		z-index: 139;
 		height: 520px;
 		margin-top: 30px;
 		position: relative;
 		width: 80.18%;
 		margin-left: 9.92%;
+		left: 0px;
 	}
 
 	#u49488-7
 	{
-		z-index: 94;
+		z-index: 89;
+		min-height: 126px;
 		margin-top: 30px;
 		width: 80.18%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u49486
 	{
-		z-index: 127;
+		z-index: 122;
 		height: 579px;
 		background-image: url("../images/vero_5-u49486-fr2.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 80.18%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u50267-4
 	{
-		z-index: 145;
+		z-index: 140;
 		margin-top: 15px;
 		width: 79.74%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u50285
 	{
-		z-index: 149;
+		z-index: 144;
 		padding-bottom: 64px;
 		margin-top: 30px;
 		position: relative;
@@ -1714,7 +1692,7 @@ body
 
 	#u50286-11
 	{
-		z-index: 150;
+		z-index: 145;
 		margin-top: 65px;
 		width: 80.27%;
 		left: 9.83%;
@@ -1722,25 +1700,26 @@ body
 
 	#u50334-25
 	{
-		z-index: 101;
+		z-index: 96;
 		min-height: 511px;
 		margin-top: 30px;
 		width: 80.27%;
-		margin-left: 9.83%;
+		left: 9.83%;
 	}
 
-	#u49490,#u49490-11,#u49489,#u49489-28,#u49488,#u50334
+	#u49490,#u49490-10,#u49489,#u49489-16,#u49488,#u50334
 	{
 		font-size: 50px;
 		line-height: 70px;
 	}
 
-	#u50749-13
+	#u50749-7
 	{
-		z-index: 174;
+		z-index: 169;
+		min-height: 106px;
 		margin-top: 30px;
 		width: 80.27%;
-		margin-left: 9.83%;
+		left: 9.83%;
 	}
 
 	#u50199-2,#u50286-2,#u50286-3,#u50286-5,#u50749-2
@@ -1751,68 +1730,68 @@ body
 
 	#u50687
 	{
-		z-index: 128;
+		z-index: 123;
 		height: 688px;
 		background-image: url("../images/vero_12.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 80.09%;
-		margin-left: 10%;
+		left: 10%;
 	}
 
 	#u50713-4
 	{
-		z-index: 170;
+		z-index: 165;
 		margin-top: 15px;
 		width: 80.18%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u50360-5
 	{
-		z-index: 161;
+		z-index: 156;
 		min-height: 53px;
 		margin-top: 33px;
 		width: 80.09%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u49492
 	{
-		z-index: 129;
+		z-index: 124;
 		height: 611px;
 		margin-top: 30px;
 		position: relative;
 		width: 80.09%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u50884-4
 	{
-		z-index: 187;
+		z-index: 176;
 		min-height: 16px;
 		line-height: 60px;
 		font-size: 50px;
 		margin-top: 30px;
 		width: 80.27%;
-		margin-left: 9.74%;
+		left: 9.74%;
 	}
 
 	#u49496
 	{
-		z-index: 130;
+		z-index: 125;
 		height: 7189px;
 		background-image: url("../images/vero_17.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 80.09%;
-		margin-left: 9.92%;
+		left: 9.92%;
 	}
 
 	#u49499-bw
 	{
 		z-index: 6;
-		min-height: 15852px;
+		min-height: 15101.95px;
 	}
 
 	#pu44404-4
@@ -1822,7 +1801,7 @@ body
 
 	#u44404-4
 	{
-		z-index: 226;
+		z-index: 215;
 		min-height: 284px;
 		position: relative;
 		margin-right: -10000px;
@@ -1831,7 +1810,7 @@ body
 
 	#u44405-4
 	{
-		z-index: 230;
+		z-index: 219;
 		min-height: 284px;
 		position: relative;
 		margin-right: -10000px;
@@ -1841,7 +1820,7 @@ body
 
 	#u44407-4
 	{
-		z-index: 238;
+		z-index: 227;
 		min-height: 284px;
 		position: relative;
 		margin-right: -10000px;
@@ -1851,7 +1830,7 @@ body
 
 	#u44406-4
 	{
-		z-index: 234;
+		z-index: 223;
 		min-height: 284px;
 		position: relative;
 		margin-right: -10000px;
@@ -1875,17 +1854,17 @@ body
 
 	#u563,#u563-bw
 	{
-		z-index: 225;
+		z-index: 214;
 	}
 
 	#u44573-4
 	{
-		z-index: 242;
+		z-index: 231;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 242;
+		z-index: 231;
 		margin-top: 27px;
 	}
 }
@@ -1962,7 +1941,7 @@ body
 
 	#u49681
 	{
-		z-index: 246;
+		z-index: 235;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -1973,7 +1952,7 @@ body
 
 	#u49683-3
 	{
-		z-index: 247;
+		z-index: 236;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -2024,7 +2003,7 @@ body
 
 	#u168
 	{
-		z-index: 199;
+		z-index: 188;
 		width: 350px;
 		position: relative;
 		margin-right: -10000px;
@@ -2032,7 +2011,7 @@ body
 
 	#menuu170
 	{
-		z-index: 200;
+		z-index: 189;
 		width: 305px;
 		position: relative;
 		margin-right: -10000px;
@@ -2243,14 +2222,14 @@ body
 
 	#u49682
 	{
-		z-index: 251;
+		z-index: 240;
 		width: 70px;
 		margin-right: -10000px;
 	}
 
 	#u49680-4
 	{
-		z-index: 252;
+		z-index: 241;
 		width: 70px;
 		min-height: 70px;
 		line-height: 30px;
@@ -2271,7 +2250,7 @@ body
 	#u49499
 	{
 		z-index: 6;
-		min-height: 15845.750000000002px;
+		min-height: 15095.750000000002px;
 		background-color: #FFFFFF;
 		padding-bottom: 0px;
 	}
@@ -2293,7 +2272,7 @@ body
 
 	#u49505-4
 	{
-		z-index: 191;
+		z-index: 180;
 		width: 60px;
 		min-height: 26px;
 		color: #FFFFFF;
@@ -2306,7 +2285,7 @@ body
 
 	#u49506-4
 	{
-		z-index: 195;
+		z-index: 184;
 		width: 90px;
 		min-height: 26px;
 		color: #FFFFFF;
@@ -2349,81 +2328,75 @@ body
 		font-weight: 400;
 	}
 
-	#u58678
+	#u49497-23
 	{
 		z-index: 26;
-		padding-bottom: 0px;
 		margin-top: 50px;
-		width: 100%;
-	}
-
-	#u49497-14
-	{
-		z-index: 27;
 		width: 95.84%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
 	#u50599
 	{
-		z-index: 59;
+		z-index: 66;
 		height: 581px;
 		background-image: url("../images/vero_11.jpg");
-		margin-top: 30px;
+		margin-top: 50px;
 		position: relative;
 		width: 95.84%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
 	#u49502
 	{
-		z-index: 58;
+		z-index: 65;
 		height: 607px;
 		background-image: url("../images/vero_3-u49502-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 95.84%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
 	#u50633-4
 	{
-		z-index: 166;
+		z-index: 161;
 		margin-top: 15px;
 		width: 95.84%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
-	#u49490-17
+	#u49490-16
 	{
-		z-index: 41;
+		z-index: 49;
+		min-height: 309px;
 		margin-top: 30px;
 		width: 95.73%;
-		margin-left: 2.19%;
+		left: 2.19%;
 	}
 
 	#u49494
 	{
-		z-index: 126;
+		z-index: 121;
 		height: 590px;
 		background-image: url("../images/vero_4-u49494-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 95.84%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
 	#u50179-4
 	{
-		z-index: 131;
+		z-index: 126;
 		margin-top: 15px;
 		width: 95.84%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
 	#u50198
 	{
-		z-index: 135;
+		z-index: 130;
 		padding-bottom: 44px;
 		margin-top: 30px;
 		position: relative;
@@ -2432,61 +2405,63 @@ body
 
 	#u50199-8
 	{
-		z-index: 136;
+		z-index: 131;
 		min-height: 141px;
 		margin-top: 45px;
 		width: 95.73%;
 		left: 2.09%;
 	}
 
-	#u49489-34
+	#u49489-22
 	{
-		z-index: 60;
+		z-index: 67;
 		margin-top: 30px;
 		width: 95.73%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
 	#u50229
 	{
-		z-index: 144;
+		z-index: 139;
 		height: 520px;
 		margin-top: 30px;
 		position: relative;
 		width: 95.63%;
 		margin-left: 2.19%;
+		left: 0px;
 	}
 
 	#u49488-7
 	{
-		z-index: 94;
+		z-index: 89;
+		min-height: 126px;
 		margin-top: 30px;
 		width: 95.73%;
-		margin-left: 2.19%;
+		left: 2.19%;
 	}
 
 	#u49486
 	{
-		z-index: 127;
+		z-index: 122;
 		height: 579px;
 		background-image: url("../images/vero_5-u49486-fr3.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 95.63%;
-		margin-left: 2.19%;
+		left: 2.19%;
 	}
 
 	#u50267-4
 	{
-		z-index: 145;
+		z-index: 140;
 		margin-top: 15px;
 		width: 95.63%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
 	#u50285
 	{
-		z-index: 149;
+		z-index: 144;
 		padding-bottom: 64px;
 		margin-top: 30px;
 		position: relative;
@@ -2495,7 +2470,7 @@ body
 
 	#u50286-11
 	{
-		z-index: 150;
+		z-index: 145;
 		margin-top: 65px;
 		width: 95.73%;
 		left: 2.19%;
@@ -2503,25 +2478,26 @@ body
 
 	#u50334-25
 	{
-		z-index: 101;
+		z-index: 96;
 		min-height: 511px;
 		margin-top: 30px;
 		width: 95.84%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
-	#u49490,#u49490-11,#u49489,#u49489-28,#u49488,#u50334
+	#u49490,#u49490-10,#u49489,#u49489-16,#u49488,#u50334
 	{
 		font-size: 50px;
 		line-height: 70px;
 	}
 
-	#u50749-13
+	#u50749-7
 	{
-		z-index: 174;
+		z-index: 169;
+		min-height: 10px;
 		margin-top: 30px;
 		width: 95.94%;
-		margin-left: 1.98%;
+		left: 1.98%;
 	}
 
 	#u50199-2,#u50286-2,#u50286-3,#u50286-5,#u50749-2
@@ -2532,74 +2508,74 @@ body
 
 	#u50687
 	{
-		z-index: 128;
+		z-index: 123;
 		height: 688px;
 		background-image: url("../images/vero_12.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 95.73%;
-		margin-left: 2.19%;
+		left: 2.19%;
 	}
 
 	#u50713-4
 	{
-		z-index: 170;
+		z-index: 165;
 		margin-top: 15px;
 		width: 95.84%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
 	#u50360-5
 	{
-		z-index: 161;
+		z-index: 156;
 		min-height: 53px;
-		margin-top: 30px;
+		margin-top: 29px;
 		width: 95.73%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
 	#u49492
 	{
-		z-index: 129;
+		z-index: 124;
 		height: 611px;
 		margin-top: 30px;
 		position: relative;
 		width: 95.84%;
-		margin-left: 2.09%;
+		left: 2.09%;
 	}
 
 	#u50884-4
 	{
-		z-index: 187;
+		z-index: 176;
 		min-height: 16px;
 		line-height: 60px;
 		font-size: 50px;
-		margin-top: 29px;
-		width: 80.32%;
-		margin-left: 2.09%;
+		margin-top: 30px;
+		width: 95.84%;
+		left: 2.09%;
 	}
 
 	#u49496
 	{
-		z-index: 130;
+		z-index: 125;
 		height: 7219px;
 		background-image: url("../images/vero_17.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 95.73%;
-		margin-left: 2.19%;
+		left: 2.19%;
 	}
 
 	#u49499-bw
 	{
 		z-index: 6;
-		min-height: 15845.750000000002px;
+		min-height: 15095.750000000002px;
 		margin-top: -3px;
 	}
 
 	#u44404-4
 	{
-		z-index: 226;
+		z-index: 215;
 		min-height: 240px;
 		position: relative;
 		margin-right: -10000px;
@@ -2608,7 +2584,7 @@ body
 
 	#u44405-4
 	{
-		z-index: 230;
+		z-index: 219;
 		min-height: 240px;
 		position: relative;
 		margin-right: -10000px;
@@ -2618,7 +2594,7 @@ body
 
 	#u44407-4
 	{
-		z-index: 238;
+		z-index: 227;
 		min-height: 240px;
 		position: relative;
 		margin-right: -10000px;
@@ -2628,7 +2604,7 @@ body
 
 	#u44406-4
 	{
-		z-index: 234;
+		z-index: 223;
 		min-height: 240px;
 		position: relative;
 		margin-right: -10000px;
@@ -2651,17 +2627,17 @@ body
 
 	#u563,#u563-bw
 	{
-		z-index: 225;
+		z-index: 214;
 	}
 
 	#u44573-4
 	{
-		z-index: 242;
+		z-index: 231;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 242;
+		z-index: 231;
 		margin-top: 27px;
 	}
 }
@@ -2680,15 +2656,559 @@ body
 
 	#page
 	{
-		min-height: 7360.974999999991px;
-		padding-bottom: 0px;
+		min-height: 13708px;
 		max-width: 768px;
 	}
 
-	#pslideshowu49742
+	#pu49499
 	{
-		padding-bottom: 600px;
+		width: 0.01px;
+		margin-right: -10000px;
+		margin-top: -185px;
+	}
+
+	#u49499
+	{
+		z-index: 6;
+		min-height: 13894px;
+		background-color: #FFFFFF;
+	}
+
+	#u49499_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
 		width: 100%;
+		padding-top: 185px;
+		padding-bottom: 50px;
+	}
+
+	#u168
+	{
+		z-index: 188;
+		width: 350px;
+		position: relative;
+	}
+
+	#menuu170
+	{
+		z-index: 189;
+		width: 305px;
+		position: relative;
+		margin-right: -10000px;
+		left: 70px;
+	}
+
+	#u171
+	{
+		width: 74px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#u174
+	{
+		width: 74px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u174:hover
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u174.MuseMenuActive
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u177-4
+	{
+		width: 74px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u174:hover #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u174.MuseMenuActive #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u192
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 76px;
+	}
+
+	#u193
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u195-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193:hover #u195-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u185
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 153px;
+	}
+
+	#u186
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193.MuseMenuActive,#u186:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u187-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193.MuseMenuActive #u195-4,#u186:hover #u187-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u178
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 230px;
+	}
+
+	#u181
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u186.MuseMenuActive,#u181:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u181.MuseMenuActive
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u182-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u186.MuseMenuActive #u187-4,#u181:hover #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u181.MuseMenuActive #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#pu49505-4
+	{
+		margin-top: 529px;
+		position: relative;
+	}
+
+	#u49505-4
+	{
+		z-index: 180;
+		width: 60px;
+		min-height: 26px;
+		color: #FFFFFF;
+		line-height: 12px;
+		text-align: center;
+		font-size: 10px;
+		font-weight: bold;
+		left: 2.61%;
+	}
+
+	#u49506-4
+	{
+		z-index: 184;
+		width: 90px;
+		min-height: 26px;
+		color: #FFFFFF;
+		line-height: 12px;
+		text-align: center;
+		font-size: 10px;
+		font-weight: bold;
+		left: 12.24%;
+	}
+
+	#u49505-2,#u49506-2
+	{
+		padding-top: 7px;
+	}
+
+	#u49487-19
+	{
+		z-index: 7;
+		min-height: 187px;
+		margin-top: 51px;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u49487-2
+	{
+		font-size: 80px;
+		line-height: 96px;
+	}
+
+	#u49487-17
+	{
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#u49487-8,#u49487-12,#u49487-16
+	{
+		font-family: open-sans, sans-serif;
+		font-weight: 400;
+	}
+
+	#u49497-23
+	{
+		z-index: 26;
+		margin-top: 50px;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u50599
+	{
+		z-index: 66;
+		height: 474px;
+		background-image: url("../images/vero_11-u50599-fr.jpg");
+		margin-top: 50px;
+		position: relative;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u49502
+	{
+		z-index: 65;
+		height: 458px;
+		background-image: url("../images/vero_3-u49502-fr2.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u50633-4
+	{
+		z-index: 161;
+		margin-top: 15px;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u49490-16
+	{
+		z-index: 49;
+		min-height: 309px;
+		margin-top: 34px;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u49494
+	{
+		z-index: 121;
+		height: 467px;
+		background-image: url("../images/vero_4-u49494-fr2.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u50179-4
+	{
+		z-index: 126;
+		margin-top: 14px;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u50198
+	{
+		z-index: 130;
+		padding-bottom: 44px;
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u50199-8
+	{
+		z-index: 131;
+		min-height: 141px;
+		margin-top: 45px;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u49489-22
+	{
+		z-index: 67;
+		margin-top: 30px;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u50229
+	{
+		z-index: 139;
+		height: 414px;
+		margin-top: 30px;
+		position: relative;
+		width: 94.93%;
+		margin-left: 2.54%;
+		left: -1px;
+	}
+
+	#u49488-7
+	{
+		z-index: 89;
+		min-height: 126px;
+		margin-top: 30px;
+		width: 94.93%;
+		left: 2.61%;
+	}
+
+	#u49486
+	{
+		z-index: 122;
+		height: 452px;
+		background-image: url("../images/vero_5-u49486-fr4.jpg");
+		margin-top: 24px;
+		position: relative;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u50267-4
+	{
+		z-index: 140;
+		margin-top: 15px;
+		width: 94.93%;
+		left: 2.48%;
+	}
+
+	#u50285
+	{
+		z-index: 144;
+		padding-bottom: 64px;
+		margin-top: 30px;
+		position: relative;
+		width: 100%;
+	}
+
+	#u50286-11
+	{
+		z-index: 145;
+		margin-top: 65px;
+		width: 94.93%;
+		left: 2.48%;
+	}
+
+	#u50334-25
+	{
+		z-index: 96;
+		min-height: 511px;
+		margin-top: 30px;
+		width: 94.93%;
+		left: 2.48%;
+	}
+
+	#u49490,#u49490-10,#u49489,#u49489-16,#u49488,#u50334
+	{
+		font-size: 50px;
+		line-height: 70px;
+	}
+
+	#u50749-7
+	{
+		z-index: 169;
+		min-height: 129px;
+		margin-top: 30px;
+		width: 94.8%;
+		left: 2.48%;
+	}
+
+	#u50199-2,#u50286-2,#u50286-3,#u50286-5,#u50749-2
+	{
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	#u50687
+	{
+		z-index: 123;
+		height: 688px;
+		background-image: url("../images/vero_12.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u50713-4
+	{
+		z-index: 165;
+		margin-top: 15px;
+		width: 94.8%;
+		left: 2.61%;
+	}
+
+	#u50360-5
+	{
+		z-index: 156;
+		min-height: 53px;
+		margin-top: 30px;
+		width: 94.67%;
+		left: 2.61%;
+	}
+
+	#u49492
+	{
+		z-index: 124;
+		height: 470px;
+		margin-top: 30px;
+		position: relative;
+		width: 94.67%;
+		left: 2.61%;
+	}
+
+	#u50884-4
+	{
+		z-index: 176;
+		min-height: 16px;
+		line-height: 60px;
+		font-size: 50px;
+		margin-top: 30px;
+		width: 94.67%;
+		left: 2.61%;
+	}
+
+	#u49496
+	{
+		z-index: 125;
+		height: 5724px;
+		background-image: url("../images/vero_17-u49496-fr.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 94.67%;
+		left: 2.74%;
+	}
+
+	#u49499-bw
+	{
+		z-index: 6;
+		min-height: 13894px;
+	}
+
+	#top
+	{
+		position: relative;
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 185px;
 	}
 
 	#slideshowu49742
@@ -2737,9 +3257,16 @@ body
 		background: url("../images/loading.gif") no-repeat center center;
 	}
 
+	#pu49681
+	{
+		width: 0.01px;
+		padding-bottom: 70px;
+		margin-right: -10000px;
+	}
+
 	#u49681
 	{
-		z-index: 246;
+		z-index: 235;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -2750,7 +3277,7 @@ body
 
 	#u49683-3
 	{
-		z-index: 247;
+		z-index: 236;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -2793,241 +3320,16 @@ body
 		visibility: inherit;
 	}
 
-	#pu168
-	{
-		margin-top: -600px;
-		width: 100%;
-	}
-
-	#u168
-	{
-		z-index: 199;
-		width: 350px;
-		position: relative;
-		margin-right: -10000px;
-	}
-
-	#menuu170
-	{
-		z-index: 200;
-		width: 305px;
-		position: relative;
-		margin-right: -10000px;
-		left: 70px;
-	}
-
-	#u171
-	{
-		width: 74px;
-		min-height: 70px;
-		position: relative;
-		margin-right: -10000px;
-	}
-
-	#u174
-	{
-		width: 74px;
-		padding-bottom: 54px;
-		position: relative;
-	}
-
-	#u174:hover
-	{
-		width: 74px;
-		min-height: 0px;
-		margin: 0px;
-	}
-
-	#u174.MuseMenuActive
-	{
-		width: 74px;
-		min-height: 0px;
-		margin: 0px;
-	}
-
-	#u177-4
-	{
-		width: 74px;
-		min-height: 16px;
-		position: relative;
-		margin-right: -10000px;
-		top: 27px;
-	}
-
-	#u174:hover #u177-4
-	{
-		padding-top: 0px;
-		padding-bottom: 0px;
-		min-height: 16px;
-		width: 74px;
-		margin: 0px -10000px 0px 0px;
-	}
-
-	#u174.MuseMenuActive #u177-4
-	{
-		padding-top: 0px;
-		padding-bottom: 0px;
-		min-height: 16px;
-		width: 74px;
-		margin: 0px -10000px 0px 0px;
-	}
-
-	#u192
-	{
-		width: 75px;
-		min-height: 70px;
-		position: relative;
-		margin-right: -10000px;
-		left: 76px;
-	}
-
-	#u193
-	{
-		width: 75px;
-		padding-bottom: 54px;
-		position: relative;
-	}
-
-	#u193:hover
-	{
-		width: 75px;
-		min-height: 0px;
-		margin: 0px;
-	}
-
-	#u195-4
-	{
-		width: 75px;
-		min-height: 16px;
-		position: relative;
-		margin-right: -10000px;
-		top: 27px;
-	}
-
-	#u193:hover #u195-4
-	{
-		padding-top: 0px;
-		padding-bottom: 0px;
-		min-height: 16px;
-		width: 75px;
-		margin: 0px -10000px 0px 0px;
-	}
-
-	#u185
-	{
-		width: 75px;
-		min-height: 70px;
-		position: relative;
-		margin-right: -10000px;
-		left: 153px;
-	}
-
-	#u186
-	{
-		width: 75px;
-		padding-bottom: 54px;
-		position: relative;
-	}
-
-	#u193.MuseMenuActive,#u186:hover
-	{
-		width: 75px;
-		min-height: 0px;
-		margin: 0px;
-	}
-
-	#u187-4
-	{
-		width: 75px;
-		min-height: 16px;
-		position: relative;
-		margin-right: -10000px;
-		top: 27px;
-	}
-
-	#u193.MuseMenuActive #u195-4,#u186:hover #u187-4
-	{
-		padding-top: 0px;
-		padding-bottom: 0px;
-		min-height: 16px;
-		width: 75px;
-		margin: 0px -10000px 0px 0px;
-	}
-
-	#u178
-	{
-		width: 75px;
-		min-height: 70px;
-		position: relative;
-		margin-right: -10000px;
-		left: 230px;
-	}
-
-	#u181
-	{
-		width: 75px;
-		padding-bottom: 54px;
-		position: relative;
-	}
-
-	#u186.MuseMenuActive,#u181:hover
-	{
-		width: 75px;
-		min-height: 0px;
-		margin: 0px;
-	}
-
-	#u181.MuseMenuActive
-	{
-		width: 75px;
-		min-height: 0px;
-		margin: 0px;
-	}
-
-	#u182-4
-	{
-		width: 75px;
-		min-height: 16px;
-		position: relative;
-		margin-right: -10000px;
-		top: 27px;
-	}
-
-	#u186.MuseMenuActive #u187-4,#u181:hover #u182-4
-	{
-		padding-top: 0px;
-		padding-bottom: 0px;
-		min-height: 16px;
-		width: 75px;
-		margin: 0px -10000px 0px 0px;
-	}
-
-	#u181.MuseMenuActive #u182-4
-	{
-		padding-top: 0px;
-		padding-bottom: 0px;
-		min-height: 16px;
-		width: 75px;
-		margin: 0px -10000px 0px 0px;
-	}
-
-	#top
-	{
-		position: relative;
-		width: 22px;
-		margin-right: -10000px;
-	}
-
 	#u49682
 	{
-		z-index: 251;
+		z-index: 240;
 		width: 70px;
 		margin-right: -10000px;
 	}
 
 	#u49680-4
 	{
-		z-index: 252;
+		z-index: 241;
 		width: 70px;
 		min-height: 70px;
 		line-height: 30px;
@@ -3045,341 +3347,20 @@ body
 		padding-top: 21px;
 	}
 
-	#u49499
+	#ppu44404-4
 	{
-		z-index: 6;
-		min-height: 14041px;
-		background-color: #FFFFFF;
-	}
-
-	#u49499_align_to_page
-	{
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		width: 100%;
-		margin-bottom: -1px;
-	}
-
-	#u49499_position_content
-	{
-		padding-bottom: 50px;
+		margin-right: -10000px;
 		width: 100%;
 	}
 
-	#pu49505-4
+	#pu44404-4
 	{
-		position: relative;
-	}
-
-	#u49505-4
-	{
-		z-index: 191;
-		width: 60px;
-		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
-		text-align: center;
-		font-size: 10px;
-		font-weight: bold;
-		left: 2.61%;
-	}
-
-	#u49506-4
-	{
-		z-index: 195;
-		width: 90px;
-		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
-		text-align: center;
-		font-size: 10px;
-		font-weight: bold;
-		left: 12.24%;
-	}
-
-	#u49505-2,#u49506-2
-	{
-		padding-top: 7px;
-	}
-
-	#u49487-19
-	{
-		z-index: 7;
-		min-height: 187px;
-		margin-top: 51px;
-		width: 94.8%;
-		left: 2.61%;
-	}
-
-	#u49487-2
-	{
-		font-size: 80px;
-		line-height: 96px;
-	}
-
-	#u49487-17
-	{
-		font-size: 15px;
-		line-height: 18px;
-	}
-
-	#u49487-8,#u49487-12,#u49487-16
-	{
-		font-family: open-sans, sans-serif;
-		font-weight: 400;
-	}
-
-	#u58678
-	{
-		z-index: 26;
-		margin-top: 50px;
 		width: 100%;
-	}
-
-	#u49497-14
-	{
-		z-index: 27;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u50599
-	{
-		z-index: 59;
-		height: 474px;
-		background-image: url("../images/vero_11-u50599-fr.jpg");
-		margin-top: 30px;
-		position: relative;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u49502
-	{
-		z-index: 58;
-		height: 458px;
-		background-image: url("../images/vero_3-u49502-fr2.jpg");
-		margin-top: 30px;
-		position: relative;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u50633-4
-	{
-		z-index: 166;
-		margin-top: 15px;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u49490-17
-	{
-		z-index: 41;
-		margin-top: 34px;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u49494
-	{
-		z-index: 126;
-		height: 467px;
-		background-image: url("../images/vero_4-u49494-fr2.jpg");
-		margin-top: 30px;
-		position: relative;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u50179-4
-	{
-		z-index: 131;
-		margin-top: 15px;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u50198
-	{
-		z-index: 135;
-		padding-bottom: 44px;
-		margin-top: 30px;
-		position: relative;
-		width: 100%;
-	}
-
-	#u50199-8
-	{
-		z-index: 136;
-		min-height: 141px;
-		margin-top: 45px;
-		width: 94.8%;
-		left: 2.61%;
-	}
-
-	#u49489-34
-	{
-		z-index: 60;
-		margin-top: 29px;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u50229
-	{
-		z-index: 144;
-		height: 414px;
-		margin-top: 30px;
-		position: relative;
-		width: 94.93%;
-		margin-left: 2.48%;
-	}
-
-	#u49488-7
-	{
-		z-index: 94;
-		margin-top: 30px;
-		width: 94.93%;
-		margin-left: 2.61%;
-	}
-
-	#u49486
-	{
-		z-index: 127;
-		height: 452px;
-		background-image: url("../images/vero_5-u49486-fr4.jpg");
-		margin-top: 30px;
-		position: relative;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u50267-4
-	{
-		z-index: 145;
-		margin-top: 15px;
-		width: 94.93%;
-		margin-left: 2.48%;
-	}
-
-	#u50285
-	{
-		z-index: 149;
-		padding-bottom: 64px;
-		margin-top: 30px;
-		position: relative;
-		width: 100%;
-	}
-
-	#u50286-11
-	{
-		z-index: 150;
-		margin-top: 65px;
-		width: 94.93%;
-		left: 2.48%;
-	}
-
-	#u50334-25
-	{
-		z-index: 101;
-		min-height: 511px;
-		margin-top: 30px;
-		width: 94.93%;
-		margin-left: 2.48%;
-	}
-
-	#u49490,#u49490-11,#u49489,#u49489-28,#u49488,#u50334
-	{
-		font-size: 50px;
-		line-height: 70px;
-	}
-
-	#u50749-13
-	{
-		z-index: 174;
-		margin-top: 30px;
-		width: 94.8%;
-		margin-left: 2.48%;
-	}
-
-	#u50199-2,#u50286-2,#u50286-3,#u50286-5,#u50749-2
-	{
-		font-size: 50px;
-		line-height: 60px;
-	}
-
-	#u50687
-	{
-		z-index: 128;
-		height: 688px;
-		background-image: url("../images/vero_12.jpg");
-		margin-top: 30px;
-		position: relative;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u50713-4
-	{
-		z-index: 170;
-		margin-top: 15px;
-		width: 94.8%;
-		margin-left: 2.61%;
-	}
-
-	#u50360-5
-	{
-		z-index: 161;
-		min-height: 53px;
-		margin-top: 30px;
-		width: 94.67%;
-		margin-left: 2.61%;
-	}
-
-	#u49492
-	{
-		z-index: 129;
-		height: 470px;
-		margin-top: 30px;
-		position: relative;
-		width: 94.67%;
-		margin-left: 2.61%;
-	}
-
-	#u50884-4
-	{
-		z-index: 187;
-		min-height: 16px;
-		line-height: 60px;
-		font-size: 50px;
-		margin-top: 30px;
-		width: 80.21%;
-		margin-left: 2.61%;
-	}
-
-	#u49496
-	{
-		z-index: 130;
-		height: 5724px;
-		background-image: url("../images/vero_17-u49496-fr.jpg");
-		margin-top: 30px;
-		position: relative;
-		width: 94.67%;
-		margin-left: 2.74%;
-	}
-
-	#u49499-bw
-	{
-		z-index: 6;
-		min-height: 14041px;
-		margin-top: -1px;
 	}
 
 	#u44404-4
 	{
-		z-index: 226;
+		z-index: 215;
 		min-height: 192px;
 		position: relative;
 		margin-right: -10000px;
@@ -3388,7 +3369,7 @@ body
 
 	#u44405-4
 	{
-		z-index: 230;
+		z-index: 219;
 		min-height: 192px;
 		position: relative;
 		margin-right: -10000px;
@@ -3398,7 +3379,7 @@ body
 
 	#u44407-4
 	{
-		z-index: 238;
+		z-index: 227;
 		min-height: 192px;
 		position: relative;
 		margin-right: -10000px;
@@ -3408,7 +3389,7 @@ body
 
 	#u44406-4
 	{
-		z-index: 234;
+		z-index: 223;
 		min-height: 192px;
 		position: relative;
 		margin-right: -10000px;
@@ -3424,25 +3405,30 @@ body
 		margin-left: 0%;
 	}
 
-	#pu44404-4,#pu563
+	#pu563
 	{
-		width: 100%;
+		width: 0.01px;
 	}
 
 	#u563,#u563-bw
 	{
-		z-index: 225;
+		z-index: 214;
 	}
 
 	#u44573-4
 	{
-		z-index: 242;
+		z-index: 231;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 242;
+		z-index: 231;
 		margin-top: 27px;
+	}
+
+	.verticalspacer
+	{
+		min-height: 1px;
 	}
 }
 
@@ -3518,7 +3504,7 @@ body
 
 	#u49681
 	{
-		z-index: 257;
+		z-index: 246;
 		width: 40px;
 		height: 40px;
 		background-color: #231F20;
@@ -3529,7 +3515,7 @@ body
 
 	#u49683-3
 	{
-		z-index: 258;
+		z-index: 247;
 		width: 40px;
 		min-height: 40px;
 		-webkit-transition-duration: 1s;
@@ -3580,12 +3566,12 @@ body
 
 	#u63688
 	{
-		z-index: 221;
+		z-index: 210;
 	}
 
 	#u63698-3
 	{
-		z-index: 222;
+		z-index: 211;
 		min-height: 20px;
 		padding-left: 10px;
 		padding-top: 10px;
@@ -3602,7 +3588,7 @@ body
 
 	#u63689
 	{
-		z-index: 225;
+		z-index: 214;
 	}
 
 	#u63692
@@ -3696,13 +3682,13 @@ body
 
 	#menuu63690,#menuu63690-bw
 	{
-		z-index: 226;
+		z-index: 215;
 		min-height: 377px;
 	}
 
 	#accordionu63687,#accordionu63687-bw
 	{
-		z-index: 220;
+		z-index: 209;
 	}
 
 	#top
@@ -3714,14 +3700,14 @@ body
 
 	#u49682
 	{
-		z-index: 262;
+		z-index: 251;
 		width: 40px;
 		margin-right: -10000px;
 	}
 
 	#u49680-4
 	{
-		z-index: 263;
+		z-index: 252;
 		width: 40px;
 		min-height: 40px;
 		line-height: 24px;
@@ -3742,9 +3728,8 @@ body
 	#u49499
 	{
 		z-index: 6;
-		min-height: 9414.8px;
+		min-height: 8676px;
 		background-color: #FFFFFF;
-		padding-bottom: 0px;
 	}
 
 	#u49499_align_to_page
@@ -3758,7 +3743,7 @@ body
 
 	#u49499_position_content
 	{
-		padding-bottom: 50px;
+		padding-bottom: 30px;
 		width: 100%;
 	}
 
@@ -3769,7 +3754,7 @@ body
 
 	#u49505-4
 	{
-		z-index: 191;
+		z-index: 180;
 		width: 60px;
 		min-height: 20px;
 		line-height: 10px;
@@ -3778,7 +3763,7 @@ body
 
 	#u49506-4
 	{
-		z-index: 195;
+		z-index: 184;
 		width: 90px;
 		min-height: 20px;
 		line-height: 10px;
@@ -3806,159 +3791,150 @@ body
 		line-height: 12px;
 	}
 
-	#u58678
+	#u49497-23
 	{
 		z-index: 26;
-		padding-bottom: 0px;
 		margin-top: 30px;
-		width: 100.2%;
-		left: 0.2%;
-	}
-
-	#u49497-14
-	{
-		z-index: 27;
-		width: 92.07%;
-		margin-left: 4.07%;
+		width: 92.25%;
+		left: 3.88%;
 	}
 
 	#u50599
 	{
-		z-index: 59;
+		z-index: 66;
 		height: 320px;
 		background-image: url("../images/vero_11-u50599-fr2.jpg");
 		margin-top: 30px;
 		position: relative;
-		width: 92.07%;
-		margin-left: 4.07%;
+		width: 92.25%;
+		left: 3.88%;
 	}
 
 	#u49502
 	{
-		z-index: 58;
+		z-index: 65;
 		height: 458px;
 		background-image: url("../images/vero_3-u49502-fr3.jpg");
 		margin-top: 15px;
 		position: relative;
-		width: 92.27%;
-		margin-left: 3.87%;
+		width: 92.45%;
+		left: 3.69%;
 	}
 
 	#u50633-4
 	{
-		z-index: 166;
+		z-index: 161;
 		margin-top: 10px;
-		width: 92.07%;
-		margin-left: 4.07%;
+		width: 92.25%;
+		left: 3.88%;
 	}
 
-	#u49490-17
+	#u49490-16
 	{
-		z-index: 41;
-		margin-top: 30px;
-		width: 92.27%;
-		margin-left: 3.87%;
+		z-index: 49;
+		min-height: 223px;
+		margin-top: 14px;
+		width: 92.45%;
+		left: 3.69%;
 	}
 
 	#u49494
 	{
-		z-index: 126;
+		z-index: 121;
 		height: 288px;
 		background-image: url("../images/vero_4-u49494-fr3.jpg");
 		margin-top: 15px;
 		position: relative;
-		width: 92.27%;
-		margin-left: 3.87%;
+		width: 92.45%;
+		left: 3.69%;
 	}
 
 	#u50179-4
 	{
-		z-index: 131;
+		z-index: 126;
 		margin-top: 10px;
-		width: 92.27%;
-		margin-left: 3.87%;
+		width: 92.45%;
+		left: 3.69%;
 	}
 
 	#u50198
 	{
-		z-index: 135;
-		min-height: 137px;
+		z-index: 130;
 		padding-bottom: 37px;
+		margin-top: 15px;
+		position: relative;
+		width: 100%;
 	}
 
 	#u50199-8
 	{
-		z-index: 136;
+		z-index: 131;
 		min-height: 94px;
 		margin-top: 37px;
-		width: 94.59%;
-		left: 3.68%;
+		width: 94.77%;
+		left: 3.69%;
 	}
 
-	#u50198-bw
+	#u49489-22
 	{
-		z-index: 135;
-		min-height: 137px;
+		z-index: 67;
 		margin-top: 15px;
-	}
-
-	#u49489-34
-	{
-		z-index: 60;
-		margin-top: 15px;
-		width: 92.07%;
-		margin-left: 3.87%;
+		width: 92.25%;
+		left: 3.88%;
 	}
 
 	#u50229
 	{
-		z-index: 144;
+		z-index: 139;
 		height: 273px;
 		margin-top: 15px;
 		position: relative;
-		width: 92.07%;
-		margin-left: 3.87%;
+		width: 92.25%;
+		margin-left: 3.88%;
+		left: 0px;
 	}
 
 	#u49488-7
 	{
-		z-index: 94;
-		margin-top: 14px;
-		width: 92.07%;
-		margin-left: 3.87%;
+		z-index: 89;
+		min-height: 94px;
+		margin-top: 15px;
+		width: 92.25%;
+		left: 3.88%;
 	}
 
 	#u49486
 	{
-		z-index: 127;
+		z-index: 122;
 		height: 320px;
 		background-image: url("../images/vero_5-u49486-fr5.jpg");
-		margin-top: 16px;
+		margin-top: 15px;
 		position: relative;
-		width: 92.07%;
-		margin-left: 3.87%;
+		width: 92.25%;
+		left: 3.69%;
 	}
 
 	#u50267-4
 	{
-		z-index: 145;
-		margin-top: 9px;
-		width: 92.27%;
-		margin-left: 3.87%;
+		z-index: 140;
+		margin-top: 10px;
+		width: 92.45%;
+		left: 3.69%;
 	}
 
 	#u50285
 	{
-		z-index: 149;
+		z-index: 144;
 		padding-bottom: 46px;
 		margin-top: 15px;
 		position: relative;
-		width: 99.81%;
+		width: 100%;
+		left: 0.2%;
 	}
 
 	#u50286-11
 	{
-		z-index: 150;
+		z-index: 145;
 		margin-top: 46px;
 		width: 92.25%;
 		left: 3.88%;
@@ -3966,19 +3942,20 @@ body
 
 	#u50334-25
 	{
-		z-index: 101;
+		z-index: 96;
 		min-height: 367px;
 		margin-top: 15px;
-		width: 92.07%;
-		margin-left: 3.87%;
+		width: 92.25%;
+		left: 3.88%;
 	}
 
-	#u50749-13
+	#u50749-7
 	{
-		z-index: 174;
+		z-index: 169;
+		min-height: 96px;
 		margin-top: 15px;
-		width: 92.27%;
-		margin-left: 3.87%;
+		width: 92.45%;
+		left: 3.88%;
 	}
 
 	#u50199-2,#u50286-2,#u50286-3,#u50286-5,#u50749-2
@@ -3987,7 +3964,7 @@ body
 		line-height: 36px;
 	}
 
-	#u49497-2,#u49497-3,#u49497-8,#u49497-9,#u49497-10,#u49490-5,#u49490-7,#u49490-9,#u49490-15,#u49489-3,#u49489-5,#u49489-6,#u49489-8,#u49489-9,#u49489-11,#u49489-12,#u49489-14,#u49489-15,#u49489-17,#u49489-18,#u49489-20,#u49489-21,#u49489-23,#u49489-24,#u49489-26,#u49489-27,#u49489-30,#u49489-32,#u49488-3,#u49488-5,#u50334-3,#u50334-5,#u50334-6,#u50334-8,#u50334-9,#u50334-11,#u50334-12,#u50334-14,#u50334-15,#u50334-17,#u50334-18,#u50334-20,#u50334-21,#u50334-23,#u50749-3,#u50749-5,#u50749-6,#u50749-8,#u50749-9,#u50749-11
+	#u49497-9,#u49497-10,#u49497-15,#u49497-17,#u49497-18,#u49497-19,#u49490-8,#u49490-14,#u49489-3,#u49489-5,#u49489-6,#u49489-8,#u49489-9,#u49489-11,#u49489-12,#u49489-14,#u49489-15,#u49489-18,#u49489-20,#u49488-3,#u49488-5,#u50334-3,#u50334-5,#u50334-6,#u50334-8,#u50334-9,#u50334-11,#u50334-12,#u50334-14,#u50334-15,#u50334-17,#u50334-18,#u50334-20,#u50334-21,#u50334-23,#u50749-3,#u50749-5
 	{
 		font-size: 10px;
 		line-height: 14px;
@@ -3995,38 +3972,38 @@ body
 
 	#u50687
 	{
-		z-index: 128;
+		z-index: 123;
 		height: 465px;
 		background-image: url("../images/vero_12-u50687-fr.jpg");
 		margin-top: 15px;
 		position: relative;
-		width: 92.07%;
-		margin-left: 3.87%;
+		width: 92.25%;
+		left: 3.69%;
 	}
 
 	#u50713-4
 	{
-		z-index: 170;
+		z-index: 165;
 		margin-top: 10px;
-		width: 92.07%;
-		margin-left: 3.87%;
+		width: 92.25%;
+		left: 3.69%;
 	}
 
 	#u50360-5
 	{
-		z-index: 161;
+		z-index: 156;
 		min-height: 23px;
 		margin-top: 15px;
-		width: 92.07%;
-		margin-left: 3.87%;
+		width: 92.25%;
+		left: 3.69%;
 	}
 
-	#u49497-12,#u50360-3
+	#u49497-21,#u50360-3
 	{
 		line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
 	}
 
-	#u49490,#u49490-11,#u49489,#u49489-28,#u49488,#u50334,#u50360
+	#u49490,#u49490-10,#u49489,#u49489-16,#u49488,#u50334,#u50360
 	{
 		font-size: 30px;
 		line-height: 42px;
@@ -4034,46 +4011,46 @@ body
 
 	#u49492
 	{
-		z-index: 129;
+		z-index: 124;
 		height: 299px;
 		margin-top: 15px;
 		position: relative;
-		width: 91.88%;
-		margin-left: 4.07%;
+		width: 92.06%;
+		left: 3.88%;
 	}
 
 	#u50884-4
 	{
-		z-index: 187;
+		z-index: 176;
 		min-height: 29px;
 		line-height: 36px;
 		font-size: 30px;
 		margin-top: 15px;
-		width: 92.07%;
-		margin-left: 3.87%;
+		width: 92.25%;
+		left: 3.69%;
 	}
 
 	#u49496
 	{
-		z-index: 130;
+		z-index: 125;
 		height: 3760px;
 		background-image: url("../images/vero_17-u49496-fr2.jpg");
 		margin-top: 15px;
 		position: relative;
-		width: 92.27%;
-		margin-left: 3.87%;
+		width: 92.45%;
+		left: 3.69%;
 	}
 
 	#u49499-bw
 	{
 		z-index: 6;
-		min-height: 9414.8px;
+		min-height: 8676px;
 		margin-top: -1px;
 	}
 
 	#u44404-4
 	{
-		z-index: 200;
+		z-index: 189;
 		min-height: 140px;
 		position: relative;
 		margin-right: -10000px;
@@ -4082,7 +4059,7 @@ body
 
 	#u44405-4
 	{
-		z-index: 204;
+		z-index: 193;
 		min-height: 140px;
 		position: relative;
 		margin-right: -10000px;
@@ -4092,7 +4069,7 @@ body
 
 	#u44407-4
 	{
-		z-index: 212;
+		z-index: 201;
 		min-height: 140px;
 		position: relative;
 		margin-right: -10000px;
@@ -4102,7 +4079,7 @@ body
 
 	#u44406-4
 	{
-		z-index: 208;
+		z-index: 197;
 		min-height: 140px;
 		position: relative;
 		margin-right: -10000px;
@@ -4125,17 +4102,17 @@ body
 
 	#u563,#u563-bw
 	{
-		z-index: 199;
+		z-index: 188;
 	}
 
 	#u44573-4
 	{
-		z-index: 216;
+		z-index: 205;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 216;
+		z-index: 205;
 		margin-top: 28px;
 	}
 
@@ -4155,20 +4132,20 @@ body
 
 	#page
 	{
-		min-height: 11366.649999999996px;
+		min-height: 9155px;
 		padding-top: 1px;
-		padding-bottom: 0px;
+		padding-bottom: 1px;
 		max-width: 320px;
 	}
 
 	#u63688
 	{
-		z-index: 216;
+		z-index: 205;
 	}
 
 	#u63698-3
 	{
-		z-index: 217;
+		z-index: 206;
 		min-height: 19px;
 		padding-left: 10px;
 		padding-top: 10px;
@@ -4185,7 +4162,7 @@ body
 
 	#u63689
 	{
-		z-index: 220;
+		z-index: 209;
 	}
 
 	#u63692
@@ -4279,25 +4256,25 @@ body
 
 	#menuu63690,#menuu63690-bw
 	{
-		z-index: 221;
+		z-index: 210;
 		min-height: 410px;
 	}
 
 	#accordionu63687,#accordionu63687-bw
 	{
-		z-index: 215;
+		z-index: 204;
 	}
 
 	#u49682
 	{
-		z-index: 252;
+		z-index: 241;
 		width: 40px;
 		margin-right: -10000px;
 	}
 
 	#u49680-4
 	{
-		z-index: 253;
+		z-index: 242;
 		width: 40px;
 		min-height: 40px;
 		line-height: 24px;
@@ -4322,7 +4299,7 @@ body
 
 	#u49505-4
 	{
-		z-index: 186;
+		z-index: 175;
 		width: 50px;
 		min-height: 20px;
 		line-height: 10px;
@@ -4331,7 +4308,7 @@ body
 
 	#u49506-4
 	{
-		z-index: 190;
+		z-index: 179;
 		width: 80px;
 		min-height: 20px;
 		line-height: 10px;
@@ -4359,72 +4336,93 @@ body
 		line-height: 18px;
 	}
 
-	#u58678
+	#u49497-23
 	{
 		z-index: 21;
+		line-height: 21px;
+		font-size: 15px;
 		margin-top: 30px;
-		width: 100%;
-	}
-
-	#pu50599
-	{
-		width: 0.01px;
-		padding-bottom: 0px;
-		margin-right: -10000px;
-		margin-top: 702px;
+		width: 87.82%;
+		margin-left: 5.94%;
 	}
 
 	#u50599
 	{
-		z-index: 54;
+		z-index: 61;
 		height: 205px;
 		background-image: url("../images/vero_11.jpg");
 	}
 
 	#u50599-bw
 	{
-		z-index: 54;
+		z-index: 61;
+		margin-top: 30px;
 		height: 205px;
 	}
 
 	#u49502
 	{
-		z-index: 53;
+		z-index: 60;
 		height: 291px;
 		background-image: url("../images/vero_3.jpg");
 	}
 
 	#u49502-bw
 	{
-		z-index: 53;
+		z-index: 60;
 		margin-top: 30px;
 		height: 291px;
 	}
 
+	#u50633-4
+	{
+		z-index: 156;
+		margin-top: 10px;
+		width: 87.5%;
+		margin-left: 6.25%;
+	}
+
+	#u49490-16
+	{
+		z-index: 44;
+		min-height: 309px;
+		margin-top: 30px;
+		width: 87.5%;
+		margin-left: 6.25%;
+	}
+
 	#u49494
 	{
-		z-index: 121;
+		z-index: 116;
 		height: 208px;
 		background-image: url("../images/vero_4.jpg");
 	}
 
 	#u49494-bw
 	{
-		z-index: 121;
-		margin-top: 1223px;
+		z-index: 116;
+		margin-top: 30px;
 		height: 208px;
+	}
+
+	#u50179-4
+	{
+		z-index: 121;
+		margin-top: 10px;
+		width: 87.5%;
+		margin-left: 6.25%;
 	}
 
 	#u50198
 	{
-		z-index: 130;
+		z-index: 125;
 		min-height: 155px;
 		padding-bottom: 19px;
 	}
 
 	#u50199-8
 	{
-		z-index: 131;
+		z-index: 126;
 		min-height: 94px;
 		margin-top: 19px;
 		width: 87.5%;
@@ -4433,40 +4431,81 @@ body
 
 	#u50198-bw
 	{
-		z-index: 130;
+		z-index: 125;
 		min-height: 155px;
-		margin-top: 31px;
+		margin-top: 10px;
 	}
 
-	#pu50229
+	#u49489-22
 	{
-		width: 0.01px;
-		margin-top: 1554px;
+		z-index: 62;
+		margin-top: 10px;
+		width: 87.82%;
+		margin-left: 6.25%;
 	}
 
 	#u50229
 	{
-		z-index: 139;
+		z-index: 134;
 		height: 184px;
 	}
 
 	#u50229-bw
 	{
-		z-index: 139;
-		margin-top: 181px;
+		z-index: 134;
+		margin-top: 30px;
 		height: 184px;
+	}
+
+	#u49488-7
+	{
+		z-index: 84;
+		min-height: 126px;
+		margin-top: 30px;
+		width: 87.5%;
+		margin-left: 6.25%;
+	}
+
+	#u49486
+	{
+		z-index: 117;
+		height: 198px;
+		background-image: url("../images/vero_5.jpg");
+	}
+
+	#u49486-bw
+	{
+		z-index: 117;
+		margin-top: 29px;
+		height: 198px;
+	}
+
+	#u50267-4
+	{
+		z-index: 135;
+		margin-top: 10px;
+		width: 87.5%;
+		margin-left: 6.25%;
 	}
 
 	#u50285
 	{
-		z-index: 144;
+		z-index: 139;
 		min-height: 422px;
 		padding-bottom: 33px;
 	}
 
+	#u50198_align_to_page,#u50285_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+	}
+
 	#u50286-11
 	{
-		z-index: 145;
+		z-index: 140;
 		margin-top: 34px;
 		width: 87.5%;
 		left: 6.25%;
@@ -4474,144 +4513,27 @@ body
 
 	#u50285-bw
 	{
-		z-index: 144;
+		z-index: 139;
 		min-height: 422px;
-	}
-
-	#u49486
-	{
-		z-index: 122;
-		height: 198px;
-		background-image: url("../images/vero_5.jpg");
-	}
-
-	#u49486-bw
-	{
-		z-index: 122;
-		margin-top: 451px;
-		height: 198px;
-	}
-
-	#u50687
-	{
-		z-index: 123;
-		height: 396px;
-		background-image: url("../images/vero_12-u50687-fr2.jpg");
-	}
-
-	#u50687-bw
-	{
-		z-index: 123;
-		margin-top: 1856px;
-		height: 396px;
-	}
-
-	#u49492
-	{
-		z-index: 124;
-		height: 203px;
-	}
-
-	#u49492-bw
-	{
-		z-index: 124;
-		margin-top: 124px;
-		height: 203px;
-	}
-
-	#u49496
-	{
-		z-index: 125;
-		height: 2523px;
-		background-image: url("../images/vero_17-u49496-fr3.jpg");
-	}
-
-	#u49496-bw
-	{
-		z-index: 125;
-		margin-top: 95px;
-		height: 2523px;
-	}
-
-	#pu49497-14
-	{
-		padding-bottom: 0px;
-		margin-right: -10000px;
-		width: 88.13%;
-		margin-left: 5.94%;
-	}
-
-	#u49497-14
-	{
-		z-index: 22;
-		line-height: 21px;
-		font-size: 15px;
-		width: 99.65%;
-	}
-
-	#u50633-4
-	{
-		z-index: 161;
-		margin-top: 566px;
-		width: 99.3%;
-		margin-left: 0.36%;
-	}
-
-	#u49490-17
-	{
-		z-index: 36;
 		margin-top: 30px;
-		width: 99.3%;
-		margin-left: 0.36%;
-	}
-
-	#u50179-4
-	{
-		z-index: 126;
-		margin-top: 248px;
-		width: 99.3%;
-		margin-left: 0.36%;
-	}
-
-	#u49489-34
-	{
-		z-index: 55;
-		margin-top: 193px;
-		width: 99.65%;
-		margin-left: 0.36%;
-	}
-
-	#u49488-7
-	{
-		z-index: 89;
-		margin-top: 516px;
-		width: 99.3%;
-		margin-left: 0.36%;
-	}
-
-	#u50267-4
-	{
-		z-index: 140;
-		margin-top: 238px;
-		width: 99.3%;
-		margin-left: 0.36%;
 	}
 
 	#u50334-25
 	{
-		z-index: 96;
+		z-index: 91;
 		min-height: 367px;
 		margin-top: 30px;
-		width: 99.3%;
-		margin-left: 0.36%;
+		width: 87.5%;
+		margin-left: 6.25%;
 	}
 
-	#u50749-13
+	#u50749-7
 	{
-		z-index: 169;
+		z-index: 164;
+		min-height: 167px;
 		margin-top: 30px;
-		width: 99.3%;
-		margin-left: 0.36%;
+		width: 87.5%;
+		margin-left: 6.25%;
 	}
 
 	#u50199-2,#u50286-2,#u50286-3,#u50286-5,#u50749-2
@@ -4620,33 +4542,47 @@ body
 		line-height: 36px;
 	}
 
-	#u49489-3,#u49489-27,#u49489-30,#u49488-3,#u50334-3,#u50749-3
+	#u49489-3,#u49489-15,#u49489-18,#u49488-3,#u50334-3,#u50749-3
 	{
 		font-size: 10px;
 		line-height: 14px;
 	}
 
-	#u49490-5,#u49490-7,#u49490-9,#u49490-15,#u49489-5,#u49489-6,#u49489-8,#u49489-9,#u49489-11,#u49489-12,#u49489-14,#u49489-15,#u49489-17,#u49489-18,#u49489-20,#u49489-21,#u49489-23,#u49489-24,#u49489-26,#u49489-32,#u49488-5,#u50334-5,#u50334-6,#u50334-8,#u50334-9,#u50334-11,#u50334-12,#u50334-14,#u50334-15,#u50334-17,#u50334-18,#u50334-20,#u50334-21,#u50334-23,#u50749-5,#u50749-6,#u50749-8,#u50749-9,#u50749-11
+	#u49490-8,#u49490-14,#u49489-5,#u49489-6,#u49489-8,#u49489-9,#u49489-11,#u49489-12,#u49489-14,#u49489-20,#u49488-5,#u50334-5,#u50334-6,#u50334-8,#u50334-9,#u50334-11,#u50334-12,#u50334-14,#u50334-15,#u50334-17,#u50334-18,#u50334-20,#u50334-21,#u50334-23,#u50749-5
 	{
 		font-size: 15px;
 		line-height: 21px;
 	}
 
+	#u50687
+	{
+		z-index: 118;
+		height: 396px;
+		background-image: url("../images/vero_12-u50687-fr2.jpg");
+	}
+
+	#u50687-bw
+	{
+		z-index: 118;
+		margin-top: 30px;
+		height: 396px;
+	}
+
 	#u50713-4
 	{
-		z-index: 165;
-		margin-top: 435px;
-		width: 99.3%;
-		margin-left: 0.71%;
+		z-index: 160;
+		margin-top: 10px;
+		width: 87.5%;
+		margin-left: 6.25%;
 	}
 
 	#u50360-5
 	{
-		z-index: 156;
+		z-index: 151;
 		min-height: 23px;
 		margin-top: 30px;
-		width: 99.3%;
-		margin-left: 0.71%;
+		width: 87.5%;
+		margin-left: 6.25%;
 	}
 
 	#u50360-3
@@ -4654,61 +4590,91 @@ body
 		line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
 	}
 
-	#u49490,#u49490-11,#u49489,#u49489-28,#u49488,#u50334,#u50360
+	#u49490,#u49490-10,#u49489,#u49489-16,#u49488,#u50334,#u50360
 	{
 		font-size: 30px;
 		line-height: 42px;
 	}
 
+	#u49492
+	{
+		z-index: 119;
+		height: 203px;
+	}
+
+	#u49492-bw
+	{
+		z-index: 119;
+		margin-top: 30px;
+		height: 203px;
+	}
+
 	#u50884-4
 	{
-		z-index: 182;
+		z-index: 171;
 		min-height: 22px;
 		line-height: 36px;
 		font-size: 30px;
-		margin-top: 263px;
-		width: 99.65%;
+		margin-top: 30px;
+		width: 87.82%;
+		margin-left: 5.94%;
+	}
+
+	#u49496
+	{
+		z-index: 120;
+		height: 2523px;
+		background-image: url("../images/vero_17-u49496-fr3.jpg");
+	}
+
+	#u49496-bw
+	{
+		z-index: 120;
+		margin-top: 30px;
+		height: 2523px;
 	}
 
 	#u44404-4
 	{
-		z-index: 195;
+		z-index: 184;
 		min-height: 80px;
 	}
 
 	#u44404-4-bw
 	{
-		z-index: 195;
+		z-index: 184;
 		min-height: 80px;
+		margin-top: -1px;
+		margin-bottom: -1px;
 	}
 
 	#u44405-4
 	{
-		z-index: 199;
+		z-index: 188;
 		min-height: 80px;
 	}
 
 	#u44405-4-bw
 	{
-		z-index: 199;
+		z-index: 188;
 		min-height: 80px;
 	}
 
 	#u44407-4
 	{
-		z-index: 207;
+		z-index: 196;
 		min-height: 80px;
 	}
 
 	#u44407-4-bw
 	{
-		z-index: 207;
+		z-index: 196;
 		min-height: 80px;
 	}
 
 	#u44406-4
 	{
-		z-index: 203;
+		z-index: 192;
 		min-height: 80px;
 	}
 
@@ -4721,8 +4687,9 @@ body
 
 	#u44406-4-bw
 	{
-		z-index: 203;
+		z-index: 192;
 		min-height: 80px;
+		margin-top: 1px;
 	}
 
 	#paccordionu63687,#pu563
@@ -4732,17 +4699,17 @@ body
 
 	#u563,#u563-bw
 	{
-		z-index: 194;
+		z-index: 183;
 	}
 
 	#u44573-4
 	{
-		z-index: 211;
+		z-index: 200;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 211;
+		z-index: 200;
 		margin-top: 27px;
 	}
 

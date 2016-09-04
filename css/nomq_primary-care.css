@@ -1,0 +1,597 @@
+	#muse_css_mq
+	{
+		background-color: #FFFFFF;
+	}
+
+	#bp_infinity.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 4064px;
+	}
+
+	#top
+	{
+		width: 22px;
+		margin-right: -10000px;
+		left: -209px;
+	}
+
+	#u168
+	{
+		z-index: 78;
+		width: 350px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#menuu170
+	{
+		z-index: 79;
+		width: 305px;
+		position: relative;
+		margin-right: -10000px;
+		left: 70px;
+	}
+
+	#u171
+	{
+		width: 74px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+	}
+
+	#u174
+	{
+		width: 74px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u174:hover
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u174.MuseMenuActive
+	{
+		width: 74px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u177-4
+	{
+		width: 74px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u174:hover #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u174.MuseMenuActive #u177-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 74px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u192
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 76px;
+	}
+
+	#u193
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u195-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193:hover #u195-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u185
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 153px;
+	}
+
+	#u186
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u193.MuseMenuActive,#u186:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u187-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u193.MuseMenuActive #u195-4,#u186:hover #u187-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u178
+	{
+		width: 75px;
+		min-height: 70px;
+		position: relative;
+		margin-right: -10000px;
+		left: 230px;
+	}
+
+	#u181
+	{
+		width: 75px;
+		padding-bottom: 54px;
+		position: relative;
+	}
+
+	#u186.MuseMenuActive,#u181:hover
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u181.MuseMenuActive
+	{
+		width: 75px;
+		min-height: 0px;
+		margin: 0px;
+	}
+
+	#u182-4
+	{
+		width: 75px;
+		min-height: 16px;
+		position: relative;
+		margin-right: -10000px;
+		top: 27px;
+	}
+
+	#u186.MuseMenuActive #u187-4,#u181:hover #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#u181.MuseMenuActive #u182-4
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 16px;
+		width: 75px;
+		margin: 0px -10000px 0px 0px;
+	}
+
+	#slideshowu64914
+	{
+		z-index: 2;
+		width: 0.01px;
+		height: 600px;
+		position: fixed;
+		top: 0px;
+		left: 50%;
+		margin-left: -720px;
+	}
+
+	#u64918
+	{
+		position: absolute;
+		width: 1440px;
+		height: 600px;
+		background-color: transparent;
+	}
+
+	#u64918popup
+	{
+		z-index: 3;
+	}
+
+	#u65068
+	{
+		z-index: 4;
+		width: 1440px;
+		height: 600px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		margin-right: -10000px;
+		position: relative;
+	}
+
+	.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+	{
+		cursor: pointer;
+	}
+
+	.SSSlideLoading /* slideshowFreeStyle */
+	{
+		background: url("../images/loading.gif") no-repeat center center;
+	}
+
+	#pu64766
+	{
+		width: 0.01px;
+		padding-bottom: 70px;
+		margin-right: -10000px;
+	}
+
+	#u64766
+	{
+		z-index: 125;
+		width: 70px;
+		height: 70px;
+	}
+
+	#u64765-3
+	{
+		z-index: 126;
+		width: 70px;
+		min-height: 70px;
+		line-height: 30px;
+		font-size: 25px;
+	}
+
+	#pu64764
+	{
+		width: 0.01px;
+		margin-right: -10000px;
+	}
+
+	#u64764
+	{
+		z-index: 130;
+		width: 70px;
+	}
+
+	#u64768-4
+	{
+		z-index: 131;
+		width: 70px;
+		min-height: 70px;
+		line-height: 30px;
+		font-size: 25px;
+	}
+
+	#u64765-3:hover,#u64768-4:hover
+	{
+		min-height: 70px;
+		width: 70px;
+	}
+
+	#u64765,#u64768-2
+	{
+		padding-top: 21px;
+	}
+
+	#u64862
+	{
+		z-index: 6;
+		min-height: 6693.75px;
+		background-color: #FFFFFF;
+		padding-bottom: 0px;
+	}
+
+	#u64862_align_to_page
+	{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 100%;
+		padding-bottom: 50px;
+	}
+
+	#u64812-4
+	{
+		z-index: 74;
+		width: 80px;
+		min-height: 26px;
+		color: #FFFFFF;
+		line-height: 12px;
+		text-align: center;
+		font-size: 10px;
+		font-weight: bold;
+		left: 17.85%;
+	}
+
+	#u64812-2
+	{
+		padding-top: 7px;
+	}
+
+	#u64865-23
+	{
+		z-index: 7;
+		min-height: 222px;
+		margin-top: 50px;
+		width: 64.38%;
+		left: 17.78%;
+	}
+
+	#u64865-2
+	{
+		font-size: 100px;
+		line-height: 120px;
+	}
+
+	#u64865-3,#u64865-6,#u64865-10,#u64865-21
+	{
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	#u64861-12
+	{
+		z-index: 30;
+		margin-top: 50px;
+		width: 64.38%;
+		left: 17.78%;
+	}
+
+	#u64861-5
+	{
+		font-style: italic;
+	}
+
+	#u65489
+	{
+		z-index: 43;
+		height: 616px;
+		background-image: url("../images/primarycareproject_9-u65489-fr.jpg");
+		margin-top: 50px;
+		position: relative;
+		width: 64.45%;
+		left: 17.78%;
+	}
+
+	#u65881-4
+	{
+		z-index: 49;
+		margin-top: 15px;
+		width: 64.38%;
+		left: 17.78%;
+	}
+
+	#u64864
+	{
+		z-index: 42;
+		height: 310px;
+		background-image: url("../images/primarycareproject_4.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 64.45%;
+		left: 17.78%;
+	}
+
+	#u64863-4
+	{
+		z-index: 45;
+		margin-top: 15px;
+		width: 64.38%;
+		left: 17.78%;
+	}
+
+	#u65235-7
+	{
+		z-index: 61;
+		margin-top: 30px;
+		width: 64.31%;
+		left: 17.85%;
+	}
+
+	#u65533
+	{
+		z-index: 73;
+		height: 788px;
+		background-image: url("../images/primarycareproject_5.jpg");
+		margin-top: 65px;
+		width: 64.38%;
+		left: 17.78%;
+	}
+
+	#u65690-4
+	{
+		z-index: 53;
+		margin-top: 15px;
+		width: 64.38%;
+		left: 17.78%;
+	}
+
+	#u65315
+	{
+		z-index: 72;
+		height: 381px;
+		background-image: url("../images/primarycareproject_3.jpg");
+		margin-top: 30px;
+		width: 64.38%;
+		left: 17.78%;
+	}
+
+	#u65832-4
+	{
+		z-index: 57;
+		margin-top: 15px;
+		width: 64.38%;
+		left: 17.78%;
+	}
+
+	#u65621-4
+	{
+		z-index: 68;
+		margin-top: 30px;
+		width: 64.31%;
+		left: 17.85%;
+	}
+
+	#u64860
+	{
+		z-index: 44;
+		height: 3295px;
+		background-image: url("../images/primarycareproject_6-u64860-fr.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 64.38%;
+		left: 17.78%;
+	}
+
+	#u64862-bw
+	{
+		z-index: 6;
+		min-height: 6693.75px;
+		margin-top: 530px;
+	}
+
+	#ppu44404-4
+	{
+		margin-right: -10000px;
+		width: 100%;
+	}
+
+	#pu44404-4
+	{
+		width: 100%;
+	}
+
+	#u44404-4
+	{
+		z-index: 105;
+		min-height: 360px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+	}
+
+	#u44405-4
+	{
+		z-index: 109;
+		min-height: 360px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 25%;
+	}
+
+	#u44407-4
+	{
+		z-index: 117;
+		min-height: 360px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 50%;
+	}
+
+	#u44406-4
+	{
+		z-index: 113;
+		min-height: 360px;
+		position: relative;
+		margin-right: -10000px;
+		width: 25%;
+		left: 75%;
+	}
+
+	#u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
+	{
+		margin-right: -10000px;
+		min-height: 360px;
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	#pu563
+	{
+		width: 0.01px;
+	}
+
+	#u563,#u563-bw
+	{
+		z-index: 104;
+	}
+
+	#u44573-4
+	{
+		z-index: 121;
+	}
+
+	#u44573-4-bw
+	{
+		z-index: 121;
+		margin-top: 27px;
+	}
+
+	.verticalspacer
+	{
+		min-height: 1px;
+	}
+
+

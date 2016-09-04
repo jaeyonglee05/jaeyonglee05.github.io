@@ -1,7 +1,7 @@
 .version.work /* version checker */
 {
-	color: #000007;
-	background-color: #143AF3;
+	color: #0000E9;
+	background-color: #EC15E9;
 }
 
 .js body
@@ -16,14 +16,14 @@
 
 #page
 {
-	margin-right: auto;
 	width: 100%;
+	border-color: #000000;
 	background-image: none;
-	background-color: transparent;
 	border-width: 0px;
 	margin-left: auto;
-	border-color: #000000;
 	z-index: 1;
+	margin-right: auto;
+	background-color: transparent;
 }
 
 #top
@@ -35,44 +35,44 @@
 #u4143-8
 {
 	margin-right: -10000px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u4143-3
 {
-	font-weight: 800;
 	font-family: open-sans, sans-serif;
+	font-weight: 800;
 }
 
 #u4143-5,#u4143-6
 {
-	font-weight: 300;
 	font-family: open-sans, sans-serif;
+	font-weight: 300;
 }
 
 #u61284-4
 {
-	text-align: center;
-	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
+	background-color: transparent;
 	font-weight: bold;
 	-webkit-transition-timing-function: ease;
-	position: relative;
-	margin-right: -10000px;
-	-webkit-transition-duration: 1s;
-	background-image: url("../images/blank.gif");
-	background-color: transparent;
-	transition-timing-function: ease;
-	color: #FFFFFF;
 	transition-delay: 0s;
+	text-align: center;
+	-webkit-transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	margin-right: -10000px;
+	color: #FFFFFF;
+	position: relative;
+	transition-timing-function: ease;
 }
 
 #u61284-4:hover
 {
-	background-color: #FFDE00;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #FFDE00;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -89,17 +89,17 @@
 
 #u5805
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/vero_jaeyonglee_2.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5805:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/vero.svg") no-repeat center center;
 	background-size: cover;
@@ -112,9 +112,9 @@
 
 #work
 {
-	margin-right: -10000px;
 	width: 22px;
 	position: relative;
+	margin-right: -10000px;
 }
 
 #u5775
@@ -127,9 +127,9 @@
 
 #u5775:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/weldingtraining.svg") no-repeat center center;
 	background-size: cover;
@@ -142,17 +142,17 @@
 
 #u5801
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/pickysjourney.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5801:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/pickysjourney.svg") no-repeat center center;
 	background-size: cover;
@@ -165,17 +165,17 @@
 
 #u5798
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/kalasatamahospital.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5798:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/kalasatamahospital.svg") no-repeat center center;
 	background-size: cover;
@@ -188,17 +188,17 @@
 
 #u5777
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/aaltoorganizer2.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5777:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/aaltoorganizer.svg") no-repeat center center;
 	background-size: cover;
@@ -211,17 +211,17 @@
 
 #u5776
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/0100design_2.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5776:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/0100design.svg") no-repeat center center;
 	background-size: cover;
@@ -234,17 +234,17 @@
 
 #u5780
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/primarycare2.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5780:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/primarycare.svg") no-repeat center center;
 	background-size: cover;
@@ -257,17 +257,17 @@
 
 #u5808
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/experiencedrivendesign.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5808:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/xd.svg") no-repeat center center;
 	background-size: cover;
@@ -280,17 +280,17 @@
 
 #u5809
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/undesignedreality.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5809:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/undesignedreality.svg") no-repeat center center;
 	background-size: cover;
@@ -303,17 +303,17 @@
 
 #u5810
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/81project.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5810:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/81project.svg") no-repeat center center;
 	background-size: cover;
@@ -326,17 +326,17 @@
 
 #u5816
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/travelerspaperkit.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5816:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/travelerspaperkit.svg") no-repeat center center;
 	background-size: cover;
@@ -349,17 +349,17 @@
 
 #u5811
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background: transparent url("../images/lifelight.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 #u5811:hover
 {
-	margin-right: -10000px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-right: -10000px;
 	min-height: 0px;
 	background: transparent url("../images/lifelight.svg") no-repeat center center;
 	background-size: cover;
@@ -373,16 +373,16 @@
 #u61285,#u5807-4,#u5788-4,#u5803-4,#u5800-4,#u5790-4,#u5787-4,#u5786-4,#u5838-4,#u5837-4,#u5839-4,#u5840-4,#u5842-4
 {
 	margin-right: -10000px;
-	background-color: #231F20;
 	position: relative;
+	background-color: #231F20;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-bottom: 0px;
-	margin-top: 0px;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 #u563,#u563-bw

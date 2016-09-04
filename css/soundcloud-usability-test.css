@@ -1,7 +1,7 @@
 .version.soundcloud_usability_test /* version checker */
 {
-	color: #0000EF;
-	background-color: #FEB62F;
+	color: #00001D;
+	background-color: #724883;
 }
 
 .js body
@@ -16,14 +16,14 @@
 
 #page
 {
-	margin-right: auto;
-	width: 100%;
+	border-color: #000000;
 	background-image: none;
-	background-color: transparent;
 	border-width: 0px;
 	margin-left: auto;
-	border-color: #000000;
+	width: 100%;
 	z-index: 1;
+	margin-right: auto;
+	background-color: transparent;
 }
 
 #u48048
@@ -34,26 +34,26 @@
 
 #u48044-4
 {
-	text-align: center;
-	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
+	background-color: transparent;
 	font-weight: bold;
 	-webkit-transition-timing-function: ease;
-	position: relative;
-	margin-right: -10000px;
-	-webkit-transition-duration: 1s;
-	background-image: url("../images/blank.gif");
-	background-color: transparent;
-	transition-timing-function: ease;
-	color: #FFFFFF;
 	transition-delay: 0s;
+	text-align: center;
+	-webkit-transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	margin-right: -10000px;
+	color: #FFFFFF;
+	position: relative;
+	transition-timing-function: ease;
 }
 
 #u48044-4:hover
 {
-	background-color: #FFDE00;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #FFDE00;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -65,24 +65,24 @@
 
 #u48040-4
 {
-	background-color: #000000;
 	position: relative;
+	background-color: #000000;
 }
 
 #u47856-23
 {
-	background-color: transparent;
 	text-transform: uppercase;
 	color: #231F20;
 	position: relative;
+	background-color: transparent;
 }
 
 #u47856-23:active
 {
-	margin-right: 0px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
 }
 
 #u47856-23:active p,#u47856-23:active span
@@ -127,17 +127,17 @@
 
 #u47856-9,#u47856-12,#u47856-16,#u47856-20
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 400;
+	font-family: open-sans, sans-serif;
 }
 
 #u47841-4
 {
-	position: relative;
 	font-weight: 600;
-	background-color: transparent;
 	min-height: 35px;
 	font-family: open-sans, sans-serif;
+	position: relative;
+	background-color: transparent;
 }
 
 #u47854-3
@@ -153,9 +153,9 @@
 
 #u47840-4,#u48340-4,#u48415-4
 {
+	position: relative;
 	line-height: 16px;
 	background-color: transparent;
-	position: relative;
 }
 
 #u47840-2,#u48340-2,#u48415-2
@@ -165,32 +165,32 @@
 
 #u47840,#u48340,#u48415
 {
-	font-size: 10px;
 	font-style: italic;
-	font-weight: 400;
 	font-family: open-sans, sans-serif;
+	font-size: 10px;
 	line-height: 12px;
+	font-weight: 400;
 }
 
 #u47854-7,#u48277-19,#u48472-21
 {
 	min-height: 157px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u48472-19
 {
 	font-style: italic;
-	font-weight: 600;
 	text-transform: uppercase;
+	font-weight: 600;
 	font-family: open-sans, sans-serif;
 }
 
 #u48595-3
 {
-	font-weight: 700;
 	text-transform: uppercase;
+	font-weight: 700;
 	letter-spacing: 1px;
 	font-family: open-sans, sans-serif;
 }
@@ -198,8 +198,8 @@
 #u48433,#u48613,#u48645
 {
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: contain;
 }
 
@@ -218,8 +218,8 @@
 #u47843,#u47838,#u48741
 {
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: cover;
 }
 
@@ -232,14 +232,14 @@
 
 #u48595,#u48767
 {
-	font-family: league-gothic, sans-serif;
 	font-weight: 400;
+	font-family: league-gothic, sans-serif;
 }
 
 #u47856-4,#u47856-7,#u47856-11,#u47856-15,#u47856-19,#u47851-4,#u48472-5,#u48472-8,#u48472-9,#u48472-11,#u48472-15,#u48472-17,#u48767-10
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
 }
 
 #u49285
@@ -251,28 +251,28 @@
 
 .ie #u49285
 {
-	opacity: 0.01;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	opacity: 0.01;
 	filter: alpha(opacity=1);
 	background-color: #FFFFFF;
 }
 
 #u48956
 {
+	position: relative;
 	margin-right: -10000px;
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
-	position: relative;
+	background-color: transparent;
 	background-size: contain;
 }
 
 #u48814,#u48957
 {
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: transparent;
 	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: contain;
 }
 
@@ -283,66 +283,66 @@
 
 #u48857,#u49067
 {
+	position: relative;
 	margin-right: -10000px;
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
-	position: relative;
+	background-color: transparent;
 	background-size: cover;
 }
 
 #u48767-16,#u48856-11,#u48955-8,#u49085-11
 {
 	margin-right: -10000px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u48768,#u48905,#u49098
 {
-	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-position: center center;
 	position: relative;
+	background-color: transparent;
 	background-size: cover;
 }
 
 #u47851-26,#u48366-7,#u48595-9,#u48697-13,#u49177-28
 {
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u48697-2,#u48856-2,#u48955-2,#u49085-2,#u49177-2
 {
-	font-weight: 400;
 	text-transform: uppercase;
+	font-weight: 400;
 	letter-spacing: 1px;
 	font-family: league-gothic, sans-serif;
 }
 
 #u48856-5,#u49085-5,#u49177-12,#u49177-18
 {
-	font-weight: 600;
-	font-size: 20px;
 	text-transform: uppercase;
-	font-family: open-sans, sans-serif;
+	font-size: 20px;
 	line-height: 28px;
+	font-family: open-sans, sans-serif;
+	font-weight: 600;
 }
 
 #u48277-8,#u47851-11,#u47851-17,#u48472-14,#u48697-4,#u48856-4,#u49085-4,#u49177-5,#u49177-11,#u49177-17,#u49177-23,#u49177-24
 {
+	font-family: open-sans, sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-family: open-sans, sans-serif;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-bottom: 0px;
-	margin-top: 0px;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 #u563,#u563-bw

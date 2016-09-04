@@ -1,7 +1,7 @@
 .version.life_light /* version checker */
 {
-	color: #0000FC;
-	background-color: #CA0E55;
+	color: #000013;
+	background-color: #29E6FF;
 }
 
 .js body
@@ -16,45 +16,45 @@
 
 #page
 {
-	margin-right: auto;
-	border-color: #000000;
-	background-image: none;
-	background-color: transparent;
-	border-width: 0px;
-	margin-left: auto;
 	width: 100%;
 	z-index: 1;
+	background-image: none;
+	border-width: 0px;
+	margin-left: auto;
+	border-color: #000000;
+	margin-right: auto;
+	background-color: transparent;
 }
 
 #u59254
 {
-	margin-right: -10000px;
 	position: relative;
+	margin-right: -10000px;
 	background-color: #231F20;
 }
 
 #u59256-4
 {
-	text-align: center;
-	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 1s;
 	transition-duration: 1s;
+	background-color: transparent;
 	font-weight: bold;
 	-webkit-transition-timing-function: ease;
-	position: relative;
-	margin-right: -10000px;
-	-webkit-transition-duration: 1s;
-	background-image: url("../images/blank.gif");
-	background-color: transparent;
-	transition-timing-function: ease;
-	color: #FFFFFF;
 	transition-delay: 0s;
+	text-align: center;
+	-webkit-transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	margin-right: -10000px;
+	color: #FFFFFF;
+	position: relative;
+	transition-timing-function: ease;
 }
 
 #u59256-4:hover
 {
-	background-color: #FFDE00;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #FFDE00;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -67,16 +67,16 @@
 #u59259-4,#u59260-4
 {
 	margin-right: -10000px;
-	background-color: #000000;
 	position: relative;
+	background-color: #000000;
 }
 
 #u59422-23
 {
-	background-color: transparent;
 	text-transform: uppercase;
 	color: #231F20;
 	position: relative;
+	background-color: transparent;
 }
 
 #u59422-2
@@ -105,66 +105,66 @@
 
 #u59422-4,#u59422-7,#u59422-11,#u59422-15,#u59422-19
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
 }
 
 #u59422-9,#u59422-12,#u59422-16,#u59422-20
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 400;
+	font-family: open-sans, sans-serif;
 }
 
 #u59399-10
 {
+	min-height: 35px;
 	position: relative;
 	font-weight: 600;
-	background-color: transparent;
-	min-height: 35px;
 	font-family: open-sans, sans-serif;
+	background-color: transparent;
 }
 
 #u59420-7,#u59650-7
 {
 	min-height: 57px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u59702
 {
 	padding-left: 20px;
 	font-size: 20px;
-	padding-right: 20px;
 	font-family: league-gothic, sans-serif;
 	line-height: 24px;
+	padding-right: 20px;
 }
 
 #u59702-3
 {
 	padding-left: 20px;
-	padding-right: 20px;
 	font-family: league-gothic, sans-serif;
+	padding-right: 20px;
 }
 
 #u59702-4,#u59702-6
 {
 	padding-left: 20px;
-	padding-right: 20px;
 	font-family: open-sans, sans-serif;
+	padding-right: 20px;
 }
 
 #u59702-8,#u59798-7
 {
 	font-weight: 400;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u59798-2
 {
-	text-transform: uppercase;
 	font-family: league-gothic, sans-serif;
+	text-transform: uppercase;
 }
 
 #u59798-3,#u59798-5
@@ -174,118 +174,118 @@
 
 #u59396-4,#u59417-4
 {
-	position: relative;
+	min-height: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	background-color: transparent;
-	min-height: 14px;
 	font-family: open-sans, sans-serif;
+	position: relative;
+	background-color: transparent;
 }
 
 #u59412,#u59402,#u59404
 {
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: contain;
 }
 
 #u59816-4
 {
-	position: relative;
-	font-weight: 400;
-	background-color: transparent;
 	min-height: 74px;
 	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+	background-color: transparent;
 }
 
 #u59420-2,#u59650-2,#u60013-2
 {
-	font-weight: 400;
 	font-family: league-gothic, sans-serif;
+	font-weight: 400;
 }
 
 #u59834,#u59917,#u59948,#u60137,#u60150,#u60163
 {
-	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-position: center center;
 	position: relative;
+	background-color: transparent;
 	background-size: contain;
 }
 
 #u59868-7,#u59935-7,#u59966-8,#u60013-9,#u60202-7,#u60189-7,#u60176-7
 {
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u59868-2,#u59935-2,#u59966-2,#u60202-2,#u60189-2,#u60176-2
 {
 	text-align: center;
-	padding-right: 10px;
 	font-weight: 700;
 	padding-left: 10px;
 	font-family: open-sans, sans-serif;
+	padding-right: 10px;
 }
 
 #u59868-3,#u59868-5,#u59935-3,#u59935-5,#u59966-3,#u59966-5,#u59966-6,#u60202-3,#u60202-5,#u60189-3,#u60189-5,#u60176-3,#u60176-5
 {
 	padding-left: 10px;
-	padding-right: 10px;
 	font-family: open-sans, sans-serif;
+	padding-right: 10px;
 	font-weight: 400;
 }
 
 #u60119-4,#u60309-4
 {
-	font-weight: 400;
-	background-color: transparent;
-	position: relative;
 	font-family: league-gothic, sans-serif;
+	font-weight: 400;
+	position: relative;
+	background-color: transparent;
 }
 
 #u59411,#u60093,#u60257
 {
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: cover;
 }
 
 #u59403-4,#u60384-4
 {
-	position: relative;
-	font-weight: 400;
-	background-color: transparent;
 	min-height: 57px;
 	font-family: league-gothic, sans-serif;
+	font-weight: 400;
+	position: relative;
+	background-color: transparent;
 }
 
 #u60421-4
 {
-	position: relative;
-	font-weight: 400;
-	background-color: transparent;
 	min-height: 123px;
 	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+	background-color: transparent;
 }
 
 #u60397
 {
-	background-position: center center;
-	background-color: transparent;
-	background-repeat: no-repeat;
 	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: cover;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-bottom: 0px;
-	margin-top: 0px;
-	padding-bottom: 0px;
 	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 #pu59259-4,#pu563
@@ -1228,7 +1228,6 @@ body
 		z-index: 218;
 		margin-top: 27px;
 	}
-
 }
 
 @media (min-width: 961px) and (max-width: 1140px)
@@ -2141,7 +2140,6 @@ body
 		z-index: 218;
 		margin-top: 27px;
 	}
-
 }
 
 @media (min-width: 769px) and (max-width: 960px)
@@ -3061,7 +3059,6 @@ body
 		z-index: 218;
 		margin-top: 27px;
 	}
-
 }
 
 @media (min-width: 517px) and (max-width: 768px)
@@ -3969,7 +3966,6 @@ body
 		z-index: 218;
 		margin-top: 27px;
 	}
-
 }
 
 @media (min-width: 321px) and (max-width: 516px)

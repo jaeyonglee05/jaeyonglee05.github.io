@@ -1,42 +1,44 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="studiojaeyonglee.com" resolutions="1x" timestamp="1471983173948">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="studiojaeyonglee.com" resolutions="1x" timestamp="1472999415056">
   <folder name="css">
-    <file name="site_global.css" crc="319564191"/>
-    <file name="master_a-master.css" crc="530500084" ref="picky-s-journey:vero.fi:index:work:experience-driven-design:aalto-organizer:profile:contact:kalasatama-health-and-welfare-center:soundcloud-usability-test:welding-training-app:blog:undesigned-reality:0100design:traveller-s-paper-kit:81-project:life-light"/>
-    <file name="nomq_preview_master_a-master.css" crc="4125063398" ref="picky-s-journey:vero.fi:index:work:experience-driven-design:aalto-organizer:profile:contact:kalasatama-health-and-welfare-center:soundcloud-usability-test:welding-training-app:blog:undesigned-reality:0100design:traveller-s-paper-kit:81-project:life-light"/>
-    <file name="picky-s-journey.css" crc="3995996143" ref="picky-s-journey"/>
-    <file name="nomq_picky-s-journey.css" crc="71424500" ref="picky-s-journey"/>
-    <file name="vero_fi.css" crc="4160992353" ref="vero.fi"/>
-    <file name="nomq_vero_fi.css" crc="154433207" ref="vero.fi"/>
-    <file name="index.css" crc="3803748925" ref="index"/>
-    <file name="nomq_index.css" crc="351040925" ref="index"/>
-    <file name="work.css" crc="118766323" ref="work"/>
-    <file name="nomq_work.css" crc="63205184" ref="work"/>
-    <file name="experience-driven-design.css" crc="4001889906" ref="experience-driven-design"/>
-    <file name="nomq_experience-driven-design.css" crc="346599185" ref="experience-driven-design"/>
-    <file name="aalto-organizer.css" crc="308536530" ref="aalto-organizer"/>
-    <file name="nomq_aalto-organizer.css" crc="511072782" ref="aalto-organizer"/>
-    <file name="profile.css" crc="4129734059" ref="profile"/>
+    <file name="site_global.css" crc="4208102703"/>
+    <file name="master_a-master.css" crc="407008061" ref="vero.fi:index:experience-driven-design:picky-s-journey:0100design:primary-care:welding-training-app:profile:kalasatama-health-and-welfare-center:work:81-project:aalto-organizer:undesigned-reality:contact:traveller-s-paper-kit:soundcloud-usability-test:blog:life-light"/>
+    <file name="nomq_preview_master_a-master.css" crc="4125063398" ref="vero.fi:index:experience-driven-design:picky-s-journey:0100design:primary-care:welding-training-app:profile:kalasatama-health-and-welfare-center:work:81-project:aalto-organizer:undesigned-reality:contact:traveller-s-paper-kit:soundcloud-usability-test:blog:life-light"/>
+    <file name="vero_fi.css" crc="4189719008" ref="vero.fi"/>
+    <file name="nomq_vero_fi.css" crc="3951324354" ref="vero.fi"/>
+    <file name="index.css" crc="4279008446" ref="index"/>
+    <file name="nomq_index.css" crc="3872278421" ref="index"/>
+    <file name="experience-driven-design.css" crc="279046045" ref="experience-driven-design"/>
+    <file name="nomq_experience-driven-design.css" crc="3797390677" ref="experience-driven-design"/>
+    <file name="picky-s-journey.css" crc="99726763" ref="picky-s-journey"/>
+    <file name="nomq_picky-s-journey.css" crc="3913363998" ref="picky-s-journey"/>
+    <file name="0100design.css" crc="21758297" ref="0100design"/>
+    <file name="nomq_0100design.css" crc="4001514968" ref="0100design"/>
+    <file name="primary-care.css" crc="4065149125" ref="primary-care"/>
+    <file name="nomq_primary-care.css" crc="327735749" ref="primary-care"/>
+    <file name="welding-training-app.css" crc="24584344" ref="welding-training-app"/>
+    <file name="nomq_welding-training-app.css" crc="4064872572" ref="welding-training-app"/>
+    <file name="profile.css" crc="3796171016" ref="profile"/>
     <file name="nomq_profile.css" crc="4259614347" ref="profile"/>
-    <file name="contact.css" crc="435998441" ref="contact"/>
-    <file name="nomq_contact.css" crc="316300188" ref="contact"/>
-    <file name="kalasatama-health-and-welfare-center.css" crc="4033889890" ref="kalasatama-health-and-welfare-center"/>
+    <file name="kalasatama-health-and-welfare-center.css" crc="398678549" ref="kalasatama-health-and-welfare-center"/>
     <file name="nomq_kalasatama-health-and-welfare-center.css" crc="4239400351" ref="kalasatama-health-and-welfare-center"/>
-    <file name="soundcloud-usability-test.css" crc="4026447407" ref="soundcloud-usability-test"/>
-    <file name="nomq_soundcloud-usability-test.css" crc="3812475234" ref="soundcloud-usability-test"/>
-    <file name="welding-training-app.css" crc="4227484446" ref="welding-training-app"/>
-    <file name="nomq_welding-training-app.css" crc="245511379" ref="welding-training-app"/>
-    <file name="blog.css" crc="4001971811" ref="blog"/>
-    <file name="nomq_blog.css" crc="454575200" ref="blog"/>
-    <file name="undesigned-reality.css" crc="3926840738" ref="undesigned-reality"/>
-    <file name="nomq_undesigned-reality.css" crc="4189209388" ref="undesigned-reality"/>
-    <file name="0100design.css" crc="4215988960" ref="0100design"/>
-    <file name="nomq_0100design.css" crc="3769290800" ref="0100design"/>
-    <file name="traveller-s-paper-kit.css" crc="3907962729" ref="traveller-s-paper-kit"/>
+    <file name="work.css" crc="3924563433" ref="work"/>
+    <file name="nomq_work.css" crc="63205184" ref="work"/>
+    <file name="81-project.css" crc="219878123" ref="81-project"/>
+    <file name="nomq_81-project.css" crc="18798872" ref="81-project"/>
+    <file name="aalto-organizer.css" crc="162209885" ref="aalto-organizer"/>
+    <file name="nomq_aalto-organizer.css" crc="511072782" ref="aalto-organizer"/>
+    <file name="undesigned-reality.css" crc="3784800119" ref="undesigned-reality"/>
+    <file name="nomq_undesigned-reality.css" crc="4247395561" ref="undesigned-reality"/>
+    <file name="contact.css" crc="32659057" ref="contact"/>
+    <file name="nomq_contact.css" crc="316300188" ref="contact"/>
+    <file name="traveller-s-paper-kit.css" crc="3822144445" ref="traveller-s-paper-kit"/>
     <file name="nomq_traveller-s-paper-kit.css" crc="3788757739" ref="traveller-s-paper-kit"/>
-    <file name="81-project.css" crc="3839985127" ref="81-project"/>
-    <file name="nomq_81-project.css" crc="3842415233" ref="81-project"/>
-    <file name="life-light.css" crc="4241100373" ref="life-light"/>
-    <file name="nomq_life-light.css" crc="354167440" ref="life-light"/>
+    <file name="soundcloud-usability-test.css" crc="494028931" ref="soundcloud-usability-test"/>
+    <file name="nomq_soundcloud-usability-test.css" crc="3812475234" ref="soundcloud-usability-test"/>
+    <file name="blog.css" crc="361227434" ref="blog"/>
+    <file name="nomq_blog.css" crc="454575200" ref="blog"/>
+    <file name="life-light.css" crc="321513215" ref="life-light"/>
+    <file name="nomq_life-light.css" crc="279195912" ref="life-light"/>
   </folder>
   <folder name="assets">
     <file name="weldingapp.mp4" crc="4153428955" seo="true" mt="1462810139000"/>
@@ -47,32 +49,34 @@
     <file name="cv_jaeyong-lee.pdf" crc="195943063" seo="true" mt="1465477874000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
-    <file name="museutils.js" crc="531812214" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
-    <file name="whatinput.js" crc="84559013" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
-    <file name="webpro.js" crc="4156477058" ref="index:contact:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:work:blog:profile"/>
-    <file name="musewpslideshow.js" crc="4058618124" ref="index:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
-    <file name="jquery.museoverlay.js" crc="3810062583" ref="index:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
-    <file name="touchswipe.js" crc="4174436727" ref="index:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="120190942" ref="index:work:contact:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:blog"/>
-    <file name="jquery.musemenu.js" crc="3902934130" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="museutils.js" crc="531812214" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="whatinput.js" crc="84559013" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="jquery.musemenu.js" crc="3902934130" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="webpro.js" crc="4156477058" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="musewpslideshow.js" crc="4058618124" ref="index:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="jquery.museoverlay.js" crc="3810062583" ref="index:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="touchswipe.js" crc="4174436727" ref="index:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="120190942" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
     <file name="pie.js" crc="3827607177" ref="index:contact:profile"/>
-    <file name="jquery.watch.js" crc="3866665977" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
-    <file name="jquery.museresponsive.js" crc="367458044" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
+    <file name="jquery.watch.js" crc="3866665977" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="musewpdisclosure.js" crc="3974494556" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="jquery.museresponsive.js" crc="367458044" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
     <file name="form_check.php" crc="373582055" ref="contact"/>
     <file name="form_throttle.php" crc="211381018" ref="contact"/>
     <file name="form_process.php" crc="6354943" ref="contact"/>
     <file name="form-u8317.php" crc="4040117920" ref="contact"/>
-    <file name="musewpdisclosure.js" crc="3974494556" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
   </folder>
   <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
     <file name="301-3-161005_picky-s journey_1.jpg" crc="280627025" seo="true" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
     <file name="primarycare.jpg" crc="3777401552" seo="true" ref="index"/>
     <file name="aaltoorganizer.jpg" crc="287513252" seo="true" ref="index"/>
-    <file name="loading.gif" crc="3815509949" ref="index:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
+    <file name="loading.gif" crc="3815509949" ref="index:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
     <file name="dots.png" crc="4262824709" ref="index:work:contact:profile"/>
+    <file name="top navigation.svg" crc="154156751" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
+    <file name="top navigation_poster_u61160.png" crc="3818949604" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light:primary-care"/>
     <file name="arrow_down.svg" crc="4108493522" ref="index:work:profile"/>
     <file name="arrow_down_poster_u1358.png" crc="3885688511" ref="index:work:profile"/>
     <file name="profile_jaeyong.png" crc="4008380442" ref="index"/>
@@ -105,28 +109,46 @@
     <file name="social_behance_poster_u9115.png" crc="4284412086" ref="index:contact"/>
     <file name="social_behance_black.svg" crc="336926166" ref="index"/>
     <file name="social_behance_black_poster_u20712.png" crc="3867790344" ref="index"/>
+    <file name="mobile_menu.svg" crc="4044930624" ref="index"/>
+    <file name="mobile_menu_poster_u64574.png" crc="332705418" ref="index"/>
+    <file name="mobile_menu_2.svg" crc="255757480" ref="index"/>
+    <file name="mobile_menu_2_poster_u64542.png" crc="3760046338" ref="index"/>
     <file name="vero_jaeyonglee_2.jpg" crc="4290274583" ref="work"/>
     <file name="vero.svg" crc="4113601805" ref="work"/>
+    <file name="vero_poster_u54401.png" crc="221131013" ref="work"/>
+    <file name="welding training app.jpg" crc="437424539" ref="work"/>
     <file name="weldingtraining.svg" crc="310988210" ref="work"/>
+    <file name="weldingtraining_poster_u54417.png" crc="3971768064" ref="work"/>
     <file name="pickysjourney.jpg" crc="4072256747" ref="work"/>
     <file name="pickysjourney.svg" crc="272301409" ref="work"/>
+    <file name="pickysjourney_poster_u54425.png" crc="143237113" ref="work"/>
     <file name="kalasatamahospital.jpg" crc="375230179" ref="work"/>
     <file name="kalasatamahospital.svg" crc="3871081212" ref="work"/>
+    <file name="kalasatamahospital_poster_u54433.png" crc="4103069488" ref="work"/>
     <file name="aaltoorganizer2.jpg" crc="234323567" ref="work"/>
     <file name="aaltoorganizer.svg" crc="424928676" ref="work"/>
+    <file name="aaltoorganizer_poster_u54441.png" crc="4065771756" ref="work"/>
+    <file name="0100design_2.jpg" crc="377047956" ref="work"/>
     <file name="0100design.svg" crc="60698714" ref="work"/>
+    <file name="0100design_poster_u54449.png" crc="34691564" ref="work"/>
     <file name="primarycare2.jpg" crc="244522230" ref="work"/>
     <file name="primarycare.svg" crc="55883183" ref="work"/>
+    <file name="primarycare_poster_u54457.png" crc="489536676" ref="work"/>
     <file name="experiencedrivendesign.jpg" crc="8200963" ref="work"/>
     <file name="xd.svg" crc="4173299851" ref="work"/>
+    <file name="xd_poster_u54465.png" crc="479195829" ref="work"/>
     <file name="undesignedreality.jpg" crc="523047463" ref="work"/>
     <file name="undesignedreality.svg" crc="25807866" ref="work"/>
+    <file name="undesignedreality_poster_u54473.png" crc="3882238319" ref="work"/>
     <file name="81project.jpg" crc="458423338" ref="work"/>
     <file name="81project.svg" crc="421139909" ref="work"/>
+    <file name="81project_poster_u54481.png" crc="3942643437" ref="work"/>
     <file name="travelerspaperkit.jpg" crc="161557171" ref="work"/>
     <file name="travelerspaperkit.svg" crc="268164674" ref="work"/>
+    <file name="travelerspaperkit_poster_u54489.png" crc="279714415" ref="work"/>
     <file name="lifelight.jpg" crc="10550172" ref="work"/>
     <file name="lifelight.svg" crc="4248257034" ref="work"/>
+    <file name="lifelight_poster_u54497.png" crc="4234615826" ref="work"/>
     <file name="background.jpg" crc="464622146" ref="contact"/>
     <file name="social_facebook_white.svg" crc="4199405310" ref="contact"/>
     <file name="social_facebook_white_poster_u9075.png" crc="3865242174" ref="contact"/>
@@ -231,12 +253,13 @@
     <file name="pickysjourney_6-u25286-fr4.png" crc="138655467" ref="picky-s-journey"/>
     <file name="pickysjourney_9 copy.png" crc="3986833026" ref="picky-s-journey"/>
     <file name="pickysjourney_8_3-u25582-fr5.png" crc="4126570799" ref="picky-s-journey"/>
-    <file name="pickysjourney_12-u25927-fr3.png" crc="3955151877" ref="picky-s-journey"/>
     <file name="pickysjourney_11.png" crc="361048439" ref="picky-s-journey"/>
+    <file name="pickysjourney_12-u25927-fr3.png" crc="3955151877" ref="picky-s-journey"/>
     <file name="pickysjourney_8-u25802-fr5.png" crc="4282101598" ref="picky-s-journey"/>
     <file name="pickysjourney_8_1-u26161-fr3.png" crc="4063098002" ref="picky-s-journey"/>
     <file name="pickysjourney_13-u26065-fr3.png" crc="4096090345" ref="picky-s-journey"/>
     <file name="pickysjourney_8_3-u26148-fr4.png" crc="4197718913" ref="picky-s-journey"/>
+    <file name="weldingtrainingapp_0.jpg" crc="4123824880" seo="true" ref="welding-training-app"/>
     <file name="weldingtrainingapp_1.jpg" crc="4104082346" ref="welding-training-app"/>
     <file name="weldingtrainingapp_5.png" crc="182679444" ref="welding-training-app"/>
     <file name="weldingtrainingapp_6.png" crc="4141278082" ref="welding-training-app"/>
@@ -246,7 +269,9 @@
     <file name="weldingtrainingapp_10.png" crc="246224889" ref="welding-training-app"/>
     <file name="weldingtrainingapp_11.jpg" crc="349628800" ref="welding-training-app"/>
     <file name="weldingtrainingapp_12.jpg" crc="389694049" ref="welding-training-app"/>
-    <file name="weldingtrainingapp_5-u34144-fr.png" crc="521831104" ref="welding-training-app"/>
+    <file name="weldingtrainingapp_5-u34144-fr.png" crc="424005967" ref="welding-training-app"/>
+    <file name="weldingtrainingapp_1-u34123-fr.jpg" crc="127920201" ref="welding-training-app"/>
+    <file name="weldingtrainingapp_5-u34144-fr2.png" crc="521831104" ref="welding-training-app"/>
     <file name="weldingtrainingapp_6-u34147-fr.png" crc="3938341444" ref="welding-training-app"/>
     <file name="weldingtrainingapp_7-u34143-fr.jpg" crc="4053029454" ref="welding-training-app"/>
     <file name="weldingtrainingapp_8-u34731-fr.jpg" crc="324337950" ref="welding-training-app"/>
@@ -254,7 +279,8 @@
     <file name="weldingtrainingapp_10-u35077-fr.png" crc="384937886" ref="welding-training-app"/>
     <file name="weldingtrainingapp_11-u35152-fr.jpg" crc="412088575" ref="welding-training-app"/>
     <file name="weldingtrainingapp_12-u35214-fr.jpg" crc="3842575477" ref="welding-training-app"/>
-    <file name="weldingtrainingapp_5-u34144-fr2.png" crc="4057050045" ref="welding-training-app"/>
+    <file name="weldingtrainingapp_1-u34123-fr2.jpg" crc="3910784652" ref="welding-training-app"/>
+    <file name="weldingtrainingapp_5-u34144-fr3.png" crc="4057050045" ref="welding-training-app"/>
     <file name="weldingtrainingapp_6-u34147-fr2.png" crc="273518664" ref="welding-training-app"/>
     <file name="weldingtrainingapp_7-u34143-fr2.jpg" crc="47202817" ref="welding-training-app"/>
     <file name="weldingtrainingapp_8-u34731-fr2.jpg" crc="4091601211" ref="welding-training-app"/>
@@ -262,7 +288,8 @@
     <file name="weldingtrainingapp_10-u35077-fr2.png" crc="454779332" ref="welding-training-app"/>
     <file name="weldingtrainingapp_11-u35152-fr2.jpg" crc="3958955980" ref="welding-training-app"/>
     <file name="weldingtrainingapp_12-u35214-fr2.jpg" crc="4206315833" ref="welding-training-app"/>
-    <file name="weldingtrainingapp_5-u34144-fr3.png" crc="258048373" ref="welding-training-app"/>
+    <file name="weldingtrainingapp_1-u34123-fr3.jpg" crc="157166320" ref="welding-training-app"/>
+    <file name="weldingtrainingapp_5-u34144-fr4.png" crc="258048373" ref="welding-training-app"/>
     <file name="weldingtrainingapp_6-u34147-fr3.png" crc="360359577" ref="welding-training-app"/>
     <file name="weldingtrainingapp_7-u34143-fr3.jpg" crc="3970827000" ref="welding-training-app"/>
     <file name="weldingtrainingapp_8-u34731-fr3.jpg" crc="146613170" ref="welding-training-app"/>
@@ -410,24 +437,6 @@
     <file name="experiencedrivendesign2-u52132-fr5.jpg" crc="240736534" ref="experience-driven-design"/>
     <file name="experiencedrivendesign3-u52346-fr2.jpg" crc="460844304" ref="experience-driven-design"/>
     <file name="experiencedrivendesign22.jpg" crc="3854960609" ref="experience-driven-design"/>
-    <file name="vero_poster_u54401.png" crc="221131013" ref="work"/>
-    <file name="welding training app.jpg" crc="437424539" ref="work"/>
-    <file name="weldingtraining_poster_u54417.png" crc="3971768064" ref="work"/>
-    <file name="pickysjourney_poster_u54425.png" crc="143237113" ref="work"/>
-    <file name="kalasatamahospital_poster_u54433.png" crc="4103069488" ref="work"/>
-    <file name="aaltoorganizer_poster_u54441.png" crc="4065771756" ref="work"/>
-    <file name="0100design_2.jpg" crc="377047956" ref="work"/>
-    <file name="0100design_poster_u54449.png" crc="34691564" ref="work"/>
-    <file name="primarycare_poster_u54457.png" crc="489536676" ref="work"/>
-    <file name="xd_poster_u54465.png" crc="479195829" ref="work"/>
-    <file name="undesignedreality_poster_u54473.png" crc="3882238319" ref="work"/>
-    <file name="81project_poster_u54481.png" crc="3942643437" ref="work"/>
-    <file name="travelerspaperkit_poster_u54489.png" crc="279714415" ref="work"/>
-    <file name="lifelight_poster_u54497.png" crc="4234615826" ref="work"/>
-    <file name="weldingtrainingapp_0.jpg" crc="4123824880" seo="true" ref="welding-training-app"/>
-    <file name="weldingtrainingapp_1-u34123-fr.jpg" crc="127920201" ref="welding-training-app"/>
-    <file name="weldingtrainingapp_1-u34123-fr2.jpg" crc="3910784652" ref="welding-training-app"/>
-    <file name="weldingtrainingapp_1-u34123-fr3.jpg" crc="157166320" ref="welding-training-app"/>
     <file name="0100design_1.jpg" crc="4002781708" seo="true" ref="0100design"/>
     <file name="0100design_22.jpg" crc="368225990" seo="true" ref="0100design"/>
     <file name="0100design_3-u53232-fr.jpg" crc="4268960463" ref="0100design"/>
@@ -509,7 +518,6 @@
     <file name="81project_5-u56643-fr3.jpg" crc="4076286517" ref="81-project"/>
     <file name="81project_6-u56695-fr3.jpg" crc="4105228448" ref="81-project"/>
     <file name="81project_7.jpg" crc="3832435938" ref="81-project"/>
-    <file name="travelers paper kits_7.jpg" crc="520840344" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits.jpg" crc="4244820312" seo="true" ref="traveller-s-paper-kit"/>
     <file name="reddotmark.png" crc="4195507781" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_2.jpg" crc="119941366" ref="traveller-s-paper-kit"/>
@@ -520,7 +528,7 @@
     <file name="travelers paper kits_3.jpg" crc="144699864" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_4-u57580-fr.jpg" crc="3859436761" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_5.jpg" crc="275937958" ref="traveller-s-paper-kit"/>
-    <file name="travelers paper kits_7-u57687-7-fr.jpg" crc="4045573140" ref="traveller-s-paper-kit"/>
+    <file name="travelers paper kits_7.jpg" crc="520840344" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_6-u57606-fr.jpg" crc="490115218" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_8-u57765-fr.jpg" crc="130495754" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_9.jpg" crc="3940712929" ref="traveller-s-paper-kit"/>
@@ -529,8 +537,6 @@
     <file name="travelers paper kits_12-u57921-fr.jpg" crc="81698906" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_13.jpg" crc="4058742426" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_14-u58017-fr.jpg" crc="4039654326" ref="traveller-s-paper-kit"/>
-    <file name="travelers paper kits_7-u57687-7-fr2.jpg" crc="440870067" ref="traveller-s-paper-kit"/>
-    <file name="travelers paper kits_7-u57687-7-fr3.jpg" crc="4107657965" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_2-u57496-fr.jpg" crc="407838271" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_15-u58093-fr.jpg" crc="4074030574" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_16-u58295-fr.jpg" crc="93129417" ref="traveller-s-paper-kit"/>
@@ -538,6 +544,7 @@
     <file name="travelers paper kits_18-u58443-fr.jpg" crc="152550991" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_3-u57536-fr.jpg" crc="3909807802" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_5-u57640-7-fr.jpg" crc="422110521" ref="traveller-s-paper-kit"/>
+    <file name="travelers paper kits_7-u57687-7-fr.jpg" crc="4045573140" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_9-u57783-7-fr.jpg" crc="272311250" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_11-u57843-7-fr.jpg" crc="4053133698" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_13-u57939-7-fr.jpg" crc="67167127" ref="traveller-s-paper-kit"/>
@@ -549,6 +556,7 @@
     <file name="travelers paper kits_3-u57536-fr2.jpg" crc="4049689703" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_4-u57580-fr2.jpg" crc="3774488502" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_5-u57640-7-fr2.jpg" crc="319806291" ref="traveller-s-paper-kit"/>
+    <file name="travelers paper kits_7-u57687-7-fr2.jpg" crc="440870067" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_6.jpg" crc="3771788588" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_8-u57765-fr2.jpg" crc="193291383" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_9-u57783-7-fr2.jpg" crc="4139101361" ref="traveller-s-paper-kit"/>
@@ -566,6 +574,7 @@
     <file name="travelers paper kits_3-u57536-fr3.jpg" crc="4134175040" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_4.jpg" crc="3892445026" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_5-u57640-7-fr3.jpg" crc="408857342" ref="traveller-s-paper-kit"/>
+    <file name="travelers paper kits_7-u57687-7-fr3.jpg" crc="4107657965" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_8.jpg" crc="485538910" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_9-u57783-7-fr3.jpg" crc="377677426" ref="traveller-s-paper-kit"/>
     <file name="travelers paper kits_10.jpg" crc="3798507046" ref="traveller-s-paper-kit"/>
@@ -624,28 +633,47 @@
     <file name="life-light_2.jpg" crc="3841114117" ref="life-light"/>
     <file name="life-light_14.jpg" crc="190531263" ref="life-light"/>
     <file name="life-light_15-u60397-fr2.jpg" crc="3852738834" ref="life-light"/>
-    <file name="top navigation.svg" crc="154156751" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
-    <file name="top navigation_poster_u61160.png" crc="3818949604" ref="index:work:contact:blog:profile:picky-s-journey:welding-training-app:kalasatama-health-and-welfare-center:aalto-organizer:soundcloud-usability-test:vero.fi:experience-driven-design:0100design:undesigned-reality:81-project:traveller-s-paper-kit:life-light"/>
-    <file name="mobile_menu.svg" crc="4044930624" ref="index"/>
-    <file name="mobile_menu_poster_u64574.png" crc="332705418" ref="index"/>
-    <file name="mobile_menu_2.svg" crc="255757480" ref="index"/>
-    <file name="mobile_menu_2_poster_u64542.png" crc="3760046338" ref="index"/>
+    <file name="primarycareproject.jpg" crc="4007658465" seo="true" ref="primary-care"/>
+    <file name="primarycareproject_9-u65489-fr.jpg" crc="4056632318" ref="primary-care"/>
+    <file name="primarycareproject_4.jpg" crc="3923369751" ref="primary-care"/>
+    <file name="primarycareproject_5.jpg" crc="106552914" ref="primary-care"/>
+    <file name="primarycareproject_3.jpg" crc="4164695247" ref="primary-care"/>
+    <file name="primarycareproject_6-u64860-fr.jpg" crc="486104428" ref="primary-care"/>
+    <file name="primarycareproject_9-u65489-fr2.jpg" crc="92063288" ref="primary-care"/>
+    <file name="primarycareproject_6-u64860-fr2.jpg" crc="3891566045" ref="primary-care"/>
+    <file name="primarycareproject_9-u65489-fr3.jpg" crc="215069400" ref="primary-care"/>
+    <file name="primarycareproject_6-u64860-fr3.jpg" crc="3796377758" ref="primary-care"/>
+    <file name="primarycareproject_9-u65489-fr4.jpg" crc="184391848" ref="primary-care"/>
+    <file name="primarycareproject_5-u65533-fr.jpg" crc="4090437219" ref="primary-care"/>
+    <file name="primarycareproject_3-u65315-fr.jpg" crc="186422726" ref="primary-care"/>
+    <file name="primarycareproject_6-u64860-fr4.jpg" crc="121978510" ref="primary-care"/>
+    <file name="primarycareproject_9-u65489-fr5.jpg" crc="62194823" ref="primary-care"/>
+    <file name="primarycareproject_4-u64864-fr.jpg" crc="4122028605" ref="primary-care"/>
+    <file name="primarycareproject_5-u65533-fr2.jpg" crc="66265707" ref="primary-care"/>
+    <file name="primarycareproject_3-u65315-fr2.jpg" crc="100474459" ref="primary-care"/>
+    <file name="primarycareproject_6-u64860-fr5.jpg" crc="4180474081" ref="primary-care"/>
+    <file name="primarycareproject_9.jpg" crc="214359167" ref="primary-care"/>
+    <file name="primarycareproject_4-u64864-fr2.jpg" crc="3991551258" ref="primary-care"/>
+    <file name="primarycareproject_5-u65533-fr3.jpg" crc="420417816" ref="primary-care"/>
+    <file name="primarycareproject_3-u65315-fr3.jpg" crc="281557970" ref="primary-care"/>
+    <file name="primarycareproject_6.jpg" crc="465198425" ref="primary-care"/>
   </folder>
-  <file name="index.html" crc="3823303285" seo="true" mt="1471980533825" redirect="true"/>
-  <file name="work.html" crc="4204470602" seo="true" mt="1471980533825" redirect="true"/>
-  <file name="contact.html" crc="3788508134" seo="true" mt="1471980533825" redirect="true"/>
-  <file name="blog.html" crc="398173703" seo="true" mt="1471980533825" redirect="true"/>
-  <file name="profile.html" crc="3880110751" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="picky-s-journey.html" crc="3831813101" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="welding-training-app.html" crc="4083547516" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="kalasatama-health-and-welfare-center.html" crc="3775363383" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="aalto-organizer.html" crc="941343" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="soundcloud-usability-test.html" crc="4276574596" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="vero.fi.html" crc="75452780" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="experience-driven-design.html" crc="4221540303" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="0100design.html" crc="4215508070" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="undesigned-reality.html" crc="4107050686" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="81-project.html" crc="289851675" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="traveller-s-paper-kit.html" crc="4088908574" seo="true" mt="1471983051457" redirect="true"/>
-  <file name="life-light.html" crc="415645373" seo="true" mt="1471983051457" redirect="true"/>
+  <file name="index.html" crc="128746760" seo="true" mt="1472997598900" redirect="true"/>
+  <file name="work.html" crc="205184959" seo="true" mt="1472997598900" redirect="true"/>
+  <file name="contact.html" crc="474282336" seo="true" mt="1472997598900" redirect="true"/>
+  <file name="blog.html" crc="228230711" seo="true" mt="1472997598900" redirect="true"/>
+  <file name="profile.html" crc="23085478" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="picky-s-journey.html" crc="4223082560" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="welding-training-app.html" crc="4285257577" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="kalasatama-health-and-welfare-center.html" crc="530568771" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="aalto-organizer.html" crc="3991058124" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="soundcloud-usability-test.html" crc="434556157" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="vero.fi.html" crc="3773532934" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="experience-driven-design.html" crc="293396957" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="0100design.html" crc="245647563" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="undesigned-reality.html" crc="18765982" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="81-project.html" crc="172720208" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="traveller-s-paper-kit.html" crc="3968998158" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="life-light.html" crc="4111510638" seo="true" mt="1472999246096" redirect="true"/>
+  <file name="primary-care.html" crc="3977853889" seo="true" mt="1472999246096" redirect="true"/>
 </manifest>
