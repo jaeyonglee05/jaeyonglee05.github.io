@@ -32,10 +32,10 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		color: #FFFFFF;
-		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
+		color: #FFFFFF;
+		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -77,8 +77,8 @@
 		z-index: 188;
 		width: 70px;
 		min-height: 70px;
-		line-height: 30px;
 		font-size: 25px;
+		line-height: 30px;
 	}
 
 	#u61553-4:hover
@@ -320,10 +320,8 @@
 		z-index: 2;
 		width: 0.01px;
 		height: 600px;
-		position: fixed;
-		top: 0px;
-		left: 50%;
-		margin-left: -720px;
+		position: relative;
+		margin-right: -10000px;
 	}
 
 	#u38121
@@ -388,10 +386,10 @@
 		z-index: 127;
 		width: 60px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		left: 17.85%;
 	}
@@ -401,10 +399,10 @@
 		z-index: 131;
 		width: 90px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		left: 22.64%;
 	}
@@ -661,7 +659,7 @@
 		margin-top: 600px;
 	}
 
-	#ppu44404-4
+	#pslideshowu38117,#ppu44404-4
 	{
 		margin-right: -10000px;
 		width: 100%;

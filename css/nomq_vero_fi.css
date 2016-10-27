@@ -10,7 +10,13 @@
 
 	#page
 	{
-		min-height: 8126px;
+		min-height: 16360.975px;
+		padding-bottom: 0px;
+	}
+
+	#ptop
+	{
+		width: 100%;
 	}
 
 	#top
@@ -23,7 +29,7 @@
 
 	#u168
 	{
-		z-index: 188;
+		z-index: 187;
 		width: 350px;
 		position: relative;
 		margin-right: -10000px;
@@ -31,7 +37,7 @@
 
 	#menuu170
 	{
-		z-index: 189;
+		z-index: 188;
 		width: 305px;
 		position: relative;
 		margin-right: -10000px;
@@ -238,10 +244,8 @@
 		z-index: 2;
 		width: 0.01px;
 		height: 600px;
-		position: fixed;
-		top: 0px;
-		left: 50%;
-		margin-left: -720px;
+		position: relative;
+		margin-right: -10000px;
 	}
 
 	#u49755
@@ -279,16 +283,37 @@
 		background: url("../images/loading.gif") no-repeat center center;
 	}
 
+	#u49682
+	{
+		z-index: 239;
+		width: 70px;
+	}
+
+	#u49680-4
+	{
+		z-index: 240;
+		width: 70px;
+		min-height: 70px;
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	#u49680-4:hover
+	{
+		min-height: 70px;
+		width: 70px;
+	}
+
 	#pu49681
 	{
-		width: 0.01px;
 		padding-bottom: 70px;
-		margin-right: -10000px;
+		margin-top: -600px;
+		width: 100%;
 	}
 
 	#u49681
 	{
-		z-index: 235;
+		z-index: 234;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -299,7 +324,7 @@
 
 	#u49683-3
 	{
-		z-index: 236;
+		z-index: 235;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -308,10 +333,10 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		color: #FFFFFF;
-		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
+		color: #FFFFFF;
+		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -342,82 +367,33 @@
 		visibility: inherit;
 	}
 
-	#pu49682
-	{
-		width: 0.01px;
-		margin-right: -10000px;
-	}
-
-	#u49682
-	{
-		z-index: 240;
-		width: 70px;
-	}
-
-	#u49680-4
-	{
-		z-index: 241;
-		width: 70px;
-		min-height: 70px;
-		line-height: 30px;
-		font-size: 25px;
-	}
-
-	#u49680-4:hover
-	{
-		min-height: 70px;
-		width: 70px;
-	}
-
-	#u49683,#u49680-2
+	#u49680-2,#u49683
 	{
 		padding-top: 21px;
 	}
 
-	#u49499
-	{
-		z-index: 6;
-		min-height: 15323.7px;
-		background-color: #FFFFFF;
-		padding-bottom: 0px;
-	}
-
-	#u49499_align_to_page
-	{
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		width: 100%;
-		padding-bottom: 50px;
-	}
-
-	#pu49505-4
-	{
-		position: relative;
-	}
-
 	#u49505-4
 	{
-		z-index: 180;
+		z-index: 179;
 		width: 60px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		left: 17.85%;
 	}
 
 	#u49506-4
 	{
-		z-index: 184;
+		z-index: 183;
 		width: 90px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		left: 23.2%;
 	}
@@ -429,11 +405,11 @@
 
 	#u49487-19
 	{
-		z-index: 7;
+		z-index: 6;
 		min-height: 187px;
 		margin-top: 50px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u49487-2
@@ -456,73 +432,73 @@
 
 	#u49497-23
 	{
-		z-index: 26;
+		z-index: 25;
 		margin-top: 50px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u50599
 	{
-		z-index: 66;
+		z-index: 65;
 		height: 581px;
 		background-image: url("../images/vero_11.jpg");
 		margin-top: 51px;
 		position: relative;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u49502
 	{
-		z-index: 65;
+		z-index: 64;
 		height: 607px;
 		background-image: url("../images/vero_3-u49502-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u50633-4
 	{
-		z-index: 161;
+		z-index: 160;
 		margin-top: 15px;
 		width: 64.45%;
-		left: 17.71%;
+		margin-left: 17.71%;
 	}
 
 	#u49490-16
 	{
-		z-index: 49;
+		z-index: 48;
 		min-height: 309px;
 		margin-top: 30px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u49494
 	{
-		z-index: 121;
+		z-index: 120;
 		height: 590px;
 		background-image: url("../images/vero_4-u49494-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u50179-4
 	{
-		z-index: 126;
+		z-index: 125;
 		margin-top: 15px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u50198
 	{
-		z-index: 130;
+		z-index: 129;
 		padding-bottom: 44px;
 		margin-top: 30px;
 		position: relative;
@@ -531,7 +507,7 @@
 
 	#u50199-8
 	{
-		z-index: 131;
+		z-index: 130;
 		min-height: 141px;
 		margin-top: 45px;
 		width: 64.38%;
@@ -540,15 +516,15 @@
 
 	#u49489-22
 	{
-		z-index: 67;
+		z-index: 66;
 		margin-top: 30px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u50229
 	{
-		z-index: 139;
+		z-index: 138;
 		height: 520px;
 		margin-top: 30px;
 		position: relative;
@@ -559,35 +535,35 @@
 
 	#u49488-7
 	{
-		z-index: 89;
+		z-index: 88;
 		min-height: 126px;
 		margin-top: 30px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u49486
 	{
-		z-index: 122;
+		z-index: 121;
 		height: 579px;
 		background-image: url("../images/vero_5-u49486-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u50267-4
 	{
-		z-index: 140;
+		z-index: 139;
 		margin-top: 15px;
 		width: 21.95%;
-		left: 60.21%;
+		margin-left: 60.21%;
 	}
 
 	#u50285
 	{
-		z-index: 144;
+		z-index: 143;
 		padding-bottom: 64px;
 		margin-top: 30px;
 		position: relative;
@@ -596,7 +572,7 @@
 
 	#u50286-11
 	{
-		z-index: 145;
+		z-index: 144;
 		margin-top: 65px;
 		width: 64.38%;
 		left: 17.78%;
@@ -604,11 +580,11 @@
 
 	#u50334-25
 	{
-		z-index: 96;
+		z-index: 95;
 		min-height: 511px;
 		margin-top: 30px;
 		width: 64.31%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u49490,#u49490-10,#u49489,#u49489-16,#u49488,#u50334
@@ -619,11 +595,11 @@
 
 	#u50749-7
 	{
-		z-index: 169;
+		z-index: 168;
 		min-height: 147px;
 		margin-top: 30px;
 		width: 64.31%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u50199-2,#u50286-2,#u50286-3,#u50286-5,#u50749-2
@@ -634,85 +610,73 @@
 
 	#u50687
 	{
-		z-index: 123;
+		z-index: 122;
 		height: 688px;
 		background-image: url("../images/vero_12.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.31%;
-		left: 17.85%;
+		margin-left: 17.85%;
 	}
 
 	#u50713-4
 	{
-		z-index: 165;
+		z-index: 164;
 		margin-top: 15px;
 		width: 64.31%;
-		left: 17.85%;
+		margin-left: 17.85%;
 	}
 
 	#u50360-5
 	{
-		z-index: 156;
+		z-index: 155;
 		min-height: 53px;
 		margin-top: 30px;
 		width: 64.03%;
-		left: 18.13%;
+		margin-left: 18.13%;
 	}
 
 	#u49492
 	{
-		z-index: 124;
+		z-index: 123;
 		height: 611px;
 		margin-top: 30px;
 		position: relative;
 		width: 64.31%;
-		left: 17.85%;
+		margin-left: 17.85%;
 	}
 
 	#u50884-4
 	{
-		z-index: 176;
+		z-index: 175;
 		min-height: 58px;
 		line-height: 60px;
 		font-size: 50px;
 		margin-top: 30px;
 		width: 64.31%;
-		left: 17.85%;
+		margin-left: 17.85%;
 	}
 
 	#u49496
 	{
-		z-index: 125;
+		z-index: 124;
 		height: 7302px;
 		background-image: url("../images/vero_17.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.31%;
-		left: 17.85%;
-	}
-
-	#u49499-bw
-	{
-		z-index: 6;
-		min-height: 15323.7px;
-		margin-top: 530px;
-	}
-
-	#ppu44404-4
-	{
-		margin-right: -10000px;
-		width: 100%;
+		margin-left: 17.85%;
 	}
 
 	#pu44404-4
 	{
+		margin-top: 57px;
 		width: 100%;
 	}
 
 	#u44404-4
 	{
-		z-index: 215;
+		z-index: 214;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -721,7 +685,7 @@
 
 	#u44405-4
 	{
-		z-index: 219;
+		z-index: 218;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -731,7 +695,7 @@
 
 	#u44407-4
 	{
-		z-index: 227;
+		z-index: 226;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -741,7 +705,7 @@
 
 	#u44406-4
 	{
-		z-index: 223;
+		z-index: 222;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -757,29 +721,19 @@
 		margin-left: 0%;
 	}
 
-	#pu563
-	{
-		width: 0.01px;
-	}
-
 	#u563,#u563-bw
 	{
-		z-index: 214;
+		z-index: 213;
 	}
 
 	#u44573-4
 	{
-		z-index: 231;
+		z-index: 230;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 231;
+		z-index: 230;
 		margin-top: 27px;
-	}
-
-	.verticalspacer
-	{
-		min-height: 1px;
 	}
 

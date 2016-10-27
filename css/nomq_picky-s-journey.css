@@ -226,43 +226,13 @@
 		margin: 0px -10000px 0px 0px;
 	}
 
-	#u23864
-	{
-		z-index: 176;
-		width: 70px;
-	}
-
-	#u23865-4
-	{
-		z-index: 177;
-		width: 70px;
-		min-height: 70px;
-		line-height: 30px;
-		font-size: 25px;
-	}
-
-	#u23865-4:hover
-	{
-		min-height: 70px;
-		width: 70px;
-	}
-
-	#pslideshowu26213
-	{
-		padding-bottom: 600px;
-		margin-top: -70px;
-		width: 100%;
-	}
-
 	#slideshowu26213
 	{
 		z-index: 2;
 		width: 0.01px;
 		height: 600px;
-		position: fixed;
-		top: 0px;
-		left: 50%;
-		margin-left: -720px;
+		position: relative;
+		margin-right: -10000px;
 	}
 
 	#u26227
@@ -312,6 +282,34 @@
 		background: url("../images/loading.gif") no-repeat center center;
 	}
 
+	#u23864
+	{
+		z-index: 176;
+		width: 70px;
+	}
+
+	#u23865-4
+	{
+		z-index: 177;
+		width: 70px;
+		min-height: 70px;
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	#u23865-4:hover
+	{
+		min-height: 70px;
+		width: 70px;
+	}
+
+	#pu23861
+	{
+		padding-bottom: 70px;
+		margin-top: -600px;
+		width: 100%;
+	}
+
 	#u23861
 	{
 		z-index: 171;
@@ -334,10 +332,10 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		color: #FFFFFF;
-		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
+		color: #FFFFFF;
+		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -402,10 +400,10 @@
 	{
 		z-index: 120;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		width: 4.17%;
 		left: 17.85%;
@@ -613,8 +611,8 @@
 		z-index: 81;
 		width: 453px;
 		min-height: 88px;
-		line-height: 70px;
 		font-size: 50px;
+		line-height: 70px;
 	}
 
 	#u25278-4
@@ -669,8 +667,8 @@
 		z-index: 89;
 		width: 454px;
 		min-height: 88px;
-		line-height: 70px;
 		font-size: 50px;
+		line-height: 70px;
 	}
 
 	#u25543-4
@@ -722,8 +720,8 @@
 		z-index: 85;
 		width: 453px;
 		min-height: 88px;
-		line-height: 70px;
 		font-size: 50px;
+		line-height: 70px;
 	}
 
 	#u25833-5
@@ -786,8 +784,8 @@
 		z-index: 93;
 		width: 454px;
 		min-height: 88px;
-		line-height: 70px;
 		font-size: 50px;
+		line-height: 70px;
 	}
 
 	#u26122-4

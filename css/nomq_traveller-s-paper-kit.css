@@ -14,21 +14,13 @@
 		padding-bottom: 0px;
 	}
 
-	#pslideshowu56207
-	{
-		padding-bottom: 600px;
-		width: 100%;
-	}
-
 	#slideshowu56207
 	{
 		z-index: 2;
 		width: 0.01px;
 		height: 600px;
-		position: fixed;
-		top: 0px;
-		left: 50%;
-		margin-left: -720px;
+		position: relative;
+		margin-right: -10000px;
 	}
 
 	#u56211
@@ -64,68 +56,6 @@
 	.SSSlideLoading /* slideshowFreeStyle */
 	{
 		background: url("../images/loading.gif") no-repeat center center;
-	}
-
-	#u55970
-	{
-		z-index: 188;
-		width: 70px;
-		height: 70px;
-		background-color: #231F20;
-		position: fixed;
-		top: 0px;
-		left: 0px;
-	}
-
-	#u55967-3
-	{
-		z-index: 189;
-		width: 70px;
-		min-height: 70px;
-		-webkit-transition-duration: 1s;
-		-webkit-transition-delay: 0s;
-		-webkit-transition-timing-function: ease;
-		transition-duration: 1s;
-		transition-delay: 0s;
-		transition-timing-function: ease;
-		color: #FFFFFF;
-		line-height: 30px;
-		text-align: center;
-		font-size: 25px;
-		font-weight: bold;
-		position: fixed;
-		top: 0px;
-		left: 0px;
-		background: transparent url("../images/top%20navigation.svg") no-repeat left top;
-		background-size: 70px 70px;
-	}
-
-	#u55967-3:hover
-	{
-		padding-top: 0px;
-		padding-bottom: 0px;
-		min-height: 70px;
-		width: 70px;
-		margin: 0px;
-		background: #FFDE00 url("../images/top%20navigation.svg") no-repeat left top;
-		background-size: 70px 70px;
-	}
-
-	.nosvg #u55967-3,.nosvg #u55967-3:hover
-	{
-		background-image: url('../images/top%20navigation_poster_u61160.png');
-	}
-
-	#u55967-3:hover p
-	{
-		color: #000000;
-		visibility: inherit;
-	}
-
-	#pu168
-	{
-		margin-top: -600px;
-		width: 100%;
 	}
 
 	#u168
@@ -358,8 +288,8 @@
 		z-index: 194;
 		width: 70px;
 		min-height: 70px;
-		line-height: 30px;
 		font-size: 25px;
+		line-height: 30px;
 	}
 
 	#u55969-4:hover
@@ -368,7 +298,70 @@
 		width: 70px;
 	}
 
-	#u55967,#u55969-2
+	#pu55970
+	{
+		padding-bottom: 70px;
+		margin-top: -600px;
+		width: 100%;
+	}
+
+	#u55970
+	{
+		z-index: 188;
+		width: 70px;
+		height: 70px;
+		background-color: #231F20;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#u55967-3
+	{
+		z-index: 189;
+		width: 70px;
+		min-height: 70px;
+		-webkit-transition-duration: 1s;
+		-webkit-transition-delay: 0s;
+		-webkit-transition-timing-function: ease;
+		transition-duration: 1s;
+		transition-delay: 0s;
+		transition-timing-function: ease;
+		text-align: center;
+		font-size: 25px;
+		color: #FFFFFF;
+		line-height: 30px;
+		font-weight: bold;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background: transparent url("../images/top%20navigation.svg") no-repeat left top;
+		background-size: 70px 70px;
+	}
+
+	#u55967-3:hover
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 70px;
+		width: 70px;
+		margin: 0px;
+		background: #FFDE00 url("../images/top%20navigation.svg") no-repeat left top;
+		background-size: 70px 70px;
+	}
+
+	.nosvg #u55967-3,.nosvg #u55967-3:hover
+	{
+		background-image: url('../images/top%20navigation_poster_u61160.png');
+	}
+
+	#u55967-3:hover p
+	{
+		color: #000000;
+		visibility: inherit;
+	}
+
+	#u55969-2,#u55967
 	{
 		padding-top: 21px;
 	}
@@ -410,10 +403,10 @@
 		z-index: 133;
 		width: 80px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		left: 17.85%;
 	}
@@ -423,10 +416,10 @@
 		z-index: 137;
 		width: 80px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		left: 24.66%;
 	}
@@ -494,8 +487,8 @@
 	#u58207-4
 	{
 		z-index: 57;
-		line-height: 21px;
 		font-size: 15px;
+		line-height: 21px;
 		margin-top: 30px;
 		width: 64.38%;
 		left: 17.78%;
@@ -514,8 +507,8 @@
 	#u58296-4
 	{
 		z-index: 67;
-		line-height: 21px;
 		font-size: 15px;
+		line-height: 21px;
 		margin-right: -10000px;
 		width: 32.23%;
 		left: 17.85%;
@@ -524,8 +517,8 @@
 	#u58365-4
 	{
 		z-index: 71;
-		line-height: 21px;
 		font-size: 15px;
+		line-height: 21px;
 		margin-right: -10000px;
 		width: 32.23%;
 		left: 50%;
@@ -565,8 +558,8 @@
 	#u58461-4
 	{
 		z-index: 61;
-		line-height: 21px;
 		font-size: 15px;
+		line-height: 21px;
 		width: 64.38%;
 		left: 17.85%;
 	}
@@ -772,7 +765,7 @@
 		min-height: 7365px;
 	}
 
-	#pu44404-4
+	#pslideshowu56207,#pu44404-4
 	{
 		width: 100%;
 	}

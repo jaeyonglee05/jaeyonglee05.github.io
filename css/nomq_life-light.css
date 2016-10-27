@@ -88,10 +88,10 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		color: #FFFFFF;
-		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
+		color: #FFFFFF;
+		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -358,8 +358,8 @@
 		z-index: 228;
 		width: 70px;
 		min-height: 70px;
-		line-height: 30px;
 		font-size: 25px;
+		line-height: 30px;
 	}
 
 	#u59256-4:hover
@@ -413,10 +413,10 @@
 		z-index: 167;
 		width: 80px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		left: 17.85%;
 	}
@@ -426,10 +426,10 @@
 		z-index: 171;
 		width: 80px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		left: 24.66%;
 	}
@@ -511,8 +511,8 @@
 	#u59396-4
 	{
 		z-index: 65;
-		line-height: 21px;
 		font-size: 15px;
+		line-height: 21px;
 		width: 99.79%;
 		margin-left: 0.22%;
 	}
@@ -561,8 +561,8 @@
 	#u59417-4
 	{
 		z-index: 60;
-		line-height: 21px;
 		font-size: 15px;
+		line-height: 21px;
 		margin-top: 30px;
 		width: 64.38%;
 		left: 17.85%;
@@ -639,8 +639,8 @@
 	{
 		z-index: 113;
 		min-height: 156px;
-		line-height: 60px;
 		font-size: 50px;
+		line-height: 60px;
 		margin-right: -10000px;
 		width: 21.46%;
 		left: 17.78%;
@@ -650,8 +650,8 @@
 	{
 		z-index: 120;
 		min-height: 156px;
-		line-height: 60px;
 		font-size: 50px;
+		line-height: 60px;
 		margin-right: -10000px;
 		width: 21.46%;
 		left: 39.24%;
@@ -661,8 +661,8 @@
 	{
 		z-index: 127;
 		min-height: 156px;
-		line-height: 60px;
 		font-size: 50px;
+		line-height: 60px;
 		margin-right: -10000px;
 		width: 21.46%;
 		left: 60.7%;
@@ -746,8 +746,8 @@
 	{
 		z-index: 138;
 		min-height: 156px;
-		line-height: 60px;
 		font-size: 50px;
+		line-height: 60px;
 		margin-right: -10000px;
 		width: 21.46%;
 		left: 17.78%;
@@ -757,8 +757,8 @@
 	{
 		z-index: 145;
 		min-height: 156px;
-		line-height: 60px;
 		font-size: 50px;
+		line-height: 60px;
 		margin-right: -10000px;
 		width: 21.46%;
 		left: 39.24%;
@@ -768,8 +768,8 @@
 	{
 		z-index: 152;
 		min-height: 156px;
-		line-height: 60px;
 		font-size: 50px;
+		line-height: 60px;
 		margin-right: -10000px;
 		width: 21.46%;
 		left: 60.7%;

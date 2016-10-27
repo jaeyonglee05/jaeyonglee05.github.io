@@ -14,21 +14,13 @@
 		padding-bottom: 0px;
 	}
 
-	#pslideshowu55827
-	{
-		padding-bottom: 600px;
-		width: 100%;
-	}
-
 	#slideshowu55827
 	{
 		z-index: 2;
 		width: 0.01px;
 		height: 600px;
-		position: fixed;
-		top: 0px;
-		left: 50%;
-		margin-left: -720px;
+		position: relative;
+		margin-right: -10000px;
 	}
 
 	#u55829
@@ -64,68 +56,6 @@
 	.SSSlideLoading /* slideshowFreeStyle */
 	{
 		background: url("../images/loading.gif") no-repeat center center;
-	}
-
-	#u55733
-	{
-		z-index: 146;
-		width: 70px;
-		height: 70px;
-		background-color: #231F20;
-		position: fixed;
-		top: 0px;
-		left: 0px;
-	}
-
-	#u55734-3
-	{
-		z-index: 147;
-		width: 70px;
-		min-height: 70px;
-		-webkit-transition-duration: 1s;
-		-webkit-transition-delay: 0s;
-		-webkit-transition-timing-function: ease;
-		transition-duration: 1s;
-		transition-delay: 0s;
-		transition-timing-function: ease;
-		color: #FFFFFF;
-		line-height: 30px;
-		text-align: center;
-		font-size: 25px;
-		font-weight: bold;
-		position: fixed;
-		top: 0px;
-		left: 0px;
-		background: transparent url("../images/top%20navigation.svg") no-repeat left top;
-		background-size: 70px 70px;
-	}
-
-	#u55734-3:hover
-	{
-		padding-top: 0px;
-		padding-bottom: 0px;
-		min-height: 70px;
-		width: 70px;
-		margin: 0px;
-		background: #FFDE00 url("../images/top%20navigation.svg") no-repeat left top;
-		background-size: 70px 70px;
-	}
-
-	.nosvg #u55734-3,.nosvg #u55734-3:hover
-	{
-		background-image: url('../images/top%20navigation_poster_u61160.png');
-	}
-
-	#u55734-3:hover p
-	{
-		color: #000000;
-		visibility: inherit;
-	}
-
-	#pu168
-	{
-		margin-top: -600px;
-		width: 100%;
 	}
 
 	#u168
@@ -358,8 +288,8 @@
 		z-index: 152;
 		width: 70px;
 		min-height: 70px;
-		line-height: 30px;
 		font-size: 25px;
+		line-height: 30px;
 	}
 
 	#u55731-4:hover
@@ -368,7 +298,70 @@
 		width: 70px;
 	}
 
-	#u55734,#u55731-2
+	#pu55733
+	{
+		padding-bottom: 70px;
+		margin-top: -600px;
+		width: 100%;
+	}
+
+	#u55733
+	{
+		z-index: 146;
+		width: 70px;
+		height: 70px;
+		background-color: #231F20;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	}
+
+	#u55734-3
+	{
+		z-index: 147;
+		width: 70px;
+		min-height: 70px;
+		-webkit-transition-duration: 1s;
+		-webkit-transition-delay: 0s;
+		-webkit-transition-timing-function: ease;
+		transition-duration: 1s;
+		transition-delay: 0s;
+		transition-timing-function: ease;
+		text-align: center;
+		font-size: 25px;
+		color: #FFFFFF;
+		line-height: 30px;
+		font-weight: bold;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background: transparent url("../images/top%20navigation.svg") no-repeat left top;
+		background-size: 70px 70px;
+	}
+
+	#u55734-3:hover
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 70px;
+		width: 70px;
+		margin: 0px;
+		background: #FFDE00 url("../images/top%20navigation.svg") no-repeat left top;
+		background-size: 70px 70px;
+	}
+
+	.nosvg #u55734-3,.nosvg #u55734-3:hover
+	{
+		background-image: url('../images/top%20navigation_poster_u61160.png');
+	}
+
+	#u55734-3:hover p
+	{
+		color: #000000;
+		visibility: inherit;
+	}
+
+	#u55731-2,#u55734
 	{
 		padding-top: 21px;
 	}
@@ -399,10 +392,10 @@
 		z-index: 91;
 		width: 80px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		left: 17.85%;
 	}
@@ -412,10 +405,10 @@
 		z-index: 95;
 		width: 80px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
 		left: 24.66%;
 	}
@@ -482,8 +475,8 @@
 	#u56413-4
 	{
 		z-index: 78;
-		line-height: 21px;
 		font-size: 15px;
+		line-height: 21px;
 		margin-top: 30px;
 		width: 64.38%;
 		left: 17.71%;
@@ -516,8 +509,8 @@
 	#u56537-4
 	{
 		z-index: 82;
-		line-height: 21px;
 		font-size: 15px;
+		line-height: 21px;
 		margin-right: -10000px;
 		width: 32.23%;
 		left: 17.71%;
@@ -526,8 +519,8 @@
 	#u56604-4
 	{
 		z-index: 86;
-		line-height: 21px;
 		font-size: 15px;
+		line-height: 21px;
 		margin-right: -10000px;
 		width: 32.23%;
 		left: 49.94%;
@@ -629,6 +622,11 @@
 		min-height: 6492px;
 	}
 
+	#pslideshowu55827,#pu44404-4
+	{
+		width: 100%;
+	}
+
 	#u44404-4
 	{
 		z-index: 126;
@@ -674,11 +672,6 @@
 		min-height: 360px;
 		width: 25%;
 		margin-left: 0%;
-	}
-
-	#pu44404-4,#pu563
-	{
-		width: 100%;
 	}
 
 	#u563,#u563-bw

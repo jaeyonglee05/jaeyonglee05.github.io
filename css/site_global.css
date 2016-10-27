@@ -128,12 +128,6 @@ a.nontext /* used to override default properties of 'a' tag */
 	font-weight: normal;
 }
 
-.Link-style-new a
-{
-	color: inherit;
-	text-decoration: inherit;
-}
-
 .Link-style-new a:link
 {
 	color: #231F20;
@@ -150,6 +144,12 @@ a.nontext /* used to override default properties of 'a' tag */
 {
 	color: #0000FF;
 	text-decoration: underline;
+}
+
+.Link-style-new a,.Link-style-new-white a
+{
+	color: inherit;
+	text-decoration: inherit;
 }
 
 .Link-style-new-white a:link

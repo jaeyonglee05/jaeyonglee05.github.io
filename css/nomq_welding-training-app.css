@@ -10,7 +10,13 @@
 
 	#page
 	{
-		min-height: 936px;
+		min-height: 12696.975px;
+		padding-bottom: 0px;
+	}
+
+	#ptop
+	{
+		width: 100%;
 	}
 
 	#top
@@ -23,7 +29,7 @@
 
 	#u168
 	{
-		z-index: 165;
+		z-index: 164;
 		width: 350px;
 		position: relative;
 		margin-right: -10000px;
@@ -31,7 +37,7 @@
 
 	#menuu170
 	{
-		z-index: 166;
+		z-index: 165;
 		width: 305px;
 		position: relative;
 		margin-right: -10000px;
@@ -238,10 +244,8 @@
 		z-index: 2;
 		width: 0.01px;
 		height: 600px;
-		position: fixed;
-		top: 0px;
-		left: 50%;
-		margin-left: -720px;
+		position: relative;
+		margin-right: -10000px;
 	}
 
 	#u33869
@@ -279,16 +283,37 @@
 		background: url("../images/loading.gif") no-repeat center center;
 	}
 
+	#u34032
+	{
+		z-index: 216;
+		width: 70px;
+	}
+
+	#u34031-4
+	{
+		z-index: 217;
+		width: 70px;
+		min-height: 70px;
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	#u34031-4:hover
+	{
+		min-height: 70px;
+		width: 70px;
+	}
+
 	#pu34033
 	{
-		width: 0.01px;
 		padding-bottom: 70px;
-		margin-right: -10000px;
+		margin-top: -600px;
+		width: 100%;
 	}
 
 	#u34033
 	{
-		z-index: 212;
+		z-index: 211;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -299,7 +324,7 @@
 
 	#u34034-3
 	{
-		z-index: 213;
+		z-index: 212;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -308,10 +333,10 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		color: #FFFFFF;
-		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
+		color: #FFFFFF;
+		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -342,65 +367,22 @@
 		visibility: inherit;
 	}
 
-	#pu34032
-	{
-		width: 0.01px;
-		margin-right: -10000px;
-	}
-
-	#u34032
-	{
-		z-index: 217;
-		width: 70px;
-	}
-
-	#u34031-4
-	{
-		z-index: 218;
-		width: 70px;
-		min-height: 70px;
-		line-height: 30px;
-		font-size: 25px;
-	}
-
-	#u34031-4:hover
-	{
-		min-height: 70px;
-		width: 70px;
-	}
-
-	#u34034,#u34031-2
+	#u34031-2,#u34034
 	{
 		padding-top: 21px;
 	}
 
-	#u34142
-	{
-		z-index: 6;
-		min-height: 11666px;
-		background-color: #FFFFFF;
-	}
-
-	#u34142_align_to_page
-	{
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		width: 100%;
-		padding-bottom: 55px;
-	}
-
 	#u34135-4
 	{
-		z-index: 161;
+		z-index: 160;
 		width: 60px;
 		min-height: 26px;
-		color: #FFFFFF;
-		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
+		color: #FFFFFF;
+		line-height: 12px;
 		font-weight: bold;
-		left: 17.85%;
+		margin-left: 17.85%;
 	}
 
 	#u34135-2
@@ -410,11 +392,11 @@
 
 	#u34124-25
 	{
-		z-index: 7;
+		z-index: 6;
 		min-height: 222px;
 		margin-top: 50px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34124-2
@@ -431,39 +413,39 @@
 
 	#u34136-4
 	{
-		z-index: 33;
+		z-index: 32;
 		min-height: 14px;
 		margin-top: 50px;
 		width: 64.31%;
-		left: 17.85%;
+		margin-left: 17.85%;
 	}
 
 	#u34116
 	{
-		z-index: 32;
+		z-index: 31;
 		height: 520px;
 		margin-top: 50px;
 		width: 64.31%;
-		left: 17.85%;
+		margin-left: 17.85%;
 	}
 
 	#u34123
 	{
-		z-index: 50;
+		z-index: 49;
 		height: 550px;
 		background-image: url("../images/weldingtrainingapp_1.jpg");
 		margin-top: 30px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34146-13
 	{
-		z-index: 37;
+		z-index: 36;
 		min-height: 313px;
 		margin-top: 30px;
 		width: 64.31%;
-		left: 17.85%;
+		margin-left: 17.85%;
 	}
 
 	#u34146-3
@@ -473,22 +455,22 @@
 
 	#u34144
 	{
-		z-index: 51;
+		z-index: 50;
 		height: 520px;
 		background-image: url("../images/weldingtrainingapp_5.png");
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34132-35
 	{
-		z-index: 52;
+		z-index: 51;
 		min-height: 340px;
 		margin-top: 30px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34132-12
@@ -499,22 +481,22 @@
 
 	#u34147
 	{
-		z-index: 102;
+		z-index: 101;
 		height: 517px;
 		background-image: url("../images/weldingtrainingapp_6.png");
 		margin-top: 29px;
 		position: relative;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34562-4
 	{
-		z-index: 103;
+		z-index: 102;
 		min-height: 12px;
 		margin-top: 10px;
 		width: 22.57%;
-		left: 59.59%;
+		margin-left: 59.59%;
 	}
 
 	#u34562
@@ -525,11 +507,11 @@
 
 	#u34598-9
 	{
-		z-index: 87;
+		z-index: 86;
 		min-height: 209px;
 		margin-top: 30px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34146,#u34146-8,#u34132,#u34132-27,#u34598
@@ -540,241 +522,229 @@
 
 	#u34617-4
 	{
-		z-index: 107;
+		z-index: 106;
 		min-height: 63px;
-		line-height: 70px;
 		font-size: 50px;
+		line-height: 70px;
 		margin-top: 33px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34618-4
 	{
-		z-index: 135;
+		z-index: 134;
 		min-height: 199px;
 		margin-top: 30px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34143
 	{
-		z-index: 96;
+		z-index: 95;
 		height: 743px;
 		background-image: url("../images/weldingtrainingapp_7.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34700-4
 	{
-		z-index: 111;
+		z-index: 110;
 		min-height: 64px;
-		line-height: 70px;
 		font-size: 50px;
+		line-height: 70px;
 		margin-top: 30px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34718-4
 	{
-		z-index: 139;
+		z-index: 138;
 		min-height: 115px;
 		margin-top: 30px;
 		width: 64.38%;
-		left: 17.78%;
+		margin-left: 17.78%;
 	}
 
 	#u34744
+	{
+		z-index: 158;
+		height: 520px;
+		margin-top: 30px;
+		position: relative;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u34731
+	{
+		z-index: 96;
+		height: 743px;
+		background-image: url("../images/weldingtrainingapp_8.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u34922-4
+	{
+		z-index: 114;
+		min-height: 45px;
+		font-size: 50px;
+		line-height: 70px;
+		margin-top: 30px;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u34940-4
+	{
+		z-index: 142;
+		min-height: 73px;
+		margin-top: 30px;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u34971
+	{
+		z-index: 97;
+		height: 654px;
+		background-image: url("../images/weldingtrainingapp_9.png");
+		margin-top: 30px;
+		position: relative;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u35028-4
+	{
+		z-index: 118;
+		min-height: 51px;
+		font-size: 50px;
+		line-height: 70px;
+		margin-top: 30px;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u35046-4
+	{
+		z-index: 146;
+		min-height: 57px;
+		margin-top: 31px;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u35077
+	{
+		z-index: 98;
+		height: 654px;
+		background-image: url("../images/weldingtrainingapp_10.png");
+		margin-top: 30px;
+		position: relative;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u35103-4
+	{
+		z-index: 122;
+		min-height: 53px;
+		font-size: 50px;
+		line-height: 70px;
+		margin-top: 30px;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u35121-4
+	{
+		z-index: 154;
+		min-height: 66px;
+		margin-top: 30px;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u35152
+	{
+		z-index: 99;
+		height: 856px;
+		background-image: url("../images/weldingtrainingapp_11.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 64.31%;
+		margin-left: 17.85%;
+	}
+
+	#u35414-4
+	{
+		z-index: 126;
+		min-height: 54px;
+		font-size: 50px;
+		line-height: 70px;
+		margin-top: 30px;
+		width: 64.38%;
+		margin-left: 17.85%;
+	}
+
+	#u35214
+	{
+		z-index: 100;
+		height: 639px;
+		background-image: url("../images/weldingtrainingapp_12.jpg");
+		margin-top: 30px;
+		position: relative;
+		width: 64.31%;
+		margin-left: 17.85%;
+	}
+
+	#u35450-4
+	{
+		z-index: 130;
+		min-height: 56px;
+		font-size: 50px;
+		line-height: 70px;
+		margin-top: 30px;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u35552-4
+	{
+		z-index: 150;
+		margin-top: 30px;
+		width: 64.38%;
+		margin-left: 17.78%;
+	}
+
+	#u35468
 	{
 		z-index: 159;
 		height: 520px;
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u34731
-	{
-		z-index: 97;
-		height: 743px;
-		background-image: url("../images/weldingtrainingapp_8.jpg");
-		margin-top: 30px;
-		position: relative;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u34922-4
-	{
-		z-index: 115;
-		min-height: 45px;
-		line-height: 70px;
-		font-size: 50px;
-		margin-top: 30px;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u34940-4
-	{
-		z-index: 143;
-		min-height: 73px;
-		margin-top: 30px;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u34971
-	{
-		z-index: 98;
-		height: 654px;
-		background-image: url("../images/weldingtrainingapp_9.png");
-		margin-top: 30px;
-		position: relative;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u35028-4
-	{
-		z-index: 119;
-		min-height: 51px;
-		line-height: 70px;
-		font-size: 50px;
-		margin-top: 30px;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u35046-4
-	{
-		z-index: 147;
-		min-height: 57px;
-		margin-top: 31px;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u35077
-	{
-		z-index: 99;
-		height: 654px;
-		background-image: url("../images/weldingtrainingapp_10.png");
-		margin-top: 30px;
-		position: relative;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u35103-4
-	{
-		z-index: 123;
-		min-height: 53px;
-		line-height: 70px;
-		font-size: 50px;
-		margin-top: 30px;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u35121-4
-	{
-		z-index: 155;
-		min-height: 66px;
-		margin-top: 30px;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u35152
-	{
-		z-index: 100;
-		height: 856px;
-		background-image: url("../images/weldingtrainingapp_11.jpg");
-		margin-top: 30px;
-		position: relative;
-		width: 64.31%;
-		left: 17.85%;
-	}
-
-	#u35414-4
-	{
-		z-index: 127;
-		min-height: 54px;
-		line-height: 70px;
-		font-size: 50px;
-		margin-top: 30px;
-		width: 64.38%;
-		left: 17.85%;
-	}
-
-	#u35214
-	{
-		z-index: 101;
-		height: 639px;
-		background-image: url("../images/weldingtrainingapp_12.jpg");
-		margin-top: 30px;
-		position: relative;
-		width: 64.31%;
-		left: 17.85%;
-	}
-
-	#u35450-4
-	{
-		z-index: 131;
-		min-height: 56px;
-		line-height: 70px;
-		font-size: 50px;
-		margin-top: 30px;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u35552-4
-	{
-		z-index: 151;
-		margin-top: 30px;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u35468
-	{
-		z-index: 160;
-		height: 520px;
-		margin-top: 30px;
-		position: relative;
-		width: 64.38%;
-		left: 17.78%;
-	}
-
-	#u34142-bw
-	{
-		z-index: 6;
-		min-height: 11666px;
-		margin-top: 530px;
-	}
-
-	#ppu44404-4
-	{
-		margin-right: -10000px;
-		width: 100%;
+		margin-left: 17.78%;
 	}
 
 	#pu44404-4
 	{
+		margin-top: 56px;
 		width: 100%;
 	}
 
 	#u44404-4
 	{
-		z-index: 192;
+		z-index: 191;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -783,7 +753,7 @@
 
 	#u44405-4
 	{
-		z-index: 196;
+		z-index: 195;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -793,7 +763,7 @@
 
 	#u44407-4
 	{
-		z-index: 204;
+		z-index: 203;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -803,7 +773,7 @@
 
 	#u44406-4
 	{
-		z-index: 200;
+		z-index: 199;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -819,29 +789,19 @@
 		margin-left: 0%;
 	}
 
-	#pu563
-	{
-		width: 0.01px;
-	}
-
 	#u563,#u563-bw
 	{
-		z-index: 191;
+		z-index: 190;
 	}
 
 	#u44573-4
 	{
-		z-index: 208;
+		z-index: 207;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 208;
+		z-index: 207;
 		margin-top: 27px;
-	}
-
-	.verticalspacer
-	{
-		min-height: 1px;
 	}
 
