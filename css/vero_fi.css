@@ -1,7 +1,7 @@
 .version.vero_fi /* version checker */
 {
-	color: #0000F2;
-	background-color: #767304;
+	color: #0000E6;
+	background-color: #0648D6;
 }
 
 .js body
@@ -16,45 +16,45 @@
 
 #page
 {
-	width: 100%;
-	margin-right: auto;
 	border-width: 0px;
-	border-color: #000000;
-	margin-left: auto;
 	z-index: 1;
+	margin-right: auto;
 	background-color: transparent;
+	margin-left: auto;
+	width: 100%;
+	border-color: #000000;
 	background-image: none;
 }
 
 #u49682
 {
+	position: relative;
 	margin-right: -10000px;
 	background-color: #231F20;
-	position: relative;
 }
 
 #u49680-4
 {
-	transition-timing-function: ease;
-	margin-right: -10000px;
-	font-weight: bold;
-	transition-duration: 1s;
-	transition-delay: 0s;
-	background-color: transparent;
-	background-image: url("../images/blank.gif");
-	-webkit-transition-timing-function: ease;
-	text-align: center;
-	-webkit-transition-duration: 1s;
-	-webkit-transition-delay: 0s;
 	color: #FFFFFF;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	text-align: center;
+	margin-right: -10000px;
+	background-color: transparent;
+	transition-duration: 1s;
+	font-weight: bold;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-timing-function: ease;
 	position: relative;
+	-webkit-transition-duration: 1s;
 }
 
 #u49680-4:hover
 {
-	padding-bottom: 0px;
 	padding-top: 0px;
 	background-color: #FFDE00;
+	padding-bottom: 0px;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -73,97 +73,97 @@
 
 #u49487-19
 {
-	position: relative;
-	font-weight: 400;
-	color: #231F20;
 	text-transform: uppercase;
 	background-color: transparent;
+	font-weight: 400;
+	color: #231F20;
+	position: relative;
 }
 
 #u49487-2
 {
 	letter-spacing: 1px;
-	font-style: normal;
 	font-family: league-gothic, sans-serif;
+	font-style: normal;
 }
 
 #u49487-3
 {
-	font-size: 15px;
-	text-align: left;
-	font-family: open-sans, sans-serif;
 	letter-spacing: 1px;
+	font-family: open-sans, sans-serif;
+	font-size: 15px;
 	line-height: 18px;
+	text-align: left;
 }
 
 #u49487-17
 {
-	letter-spacing: 0px;
-	text-align: left;
 	font-family: open-sans, sans-serif;
+	text-align: left;
+	letter-spacing: 0px;
 }
 
 #u49487-4,#u49487-7,#u49487-11,#u49487-15
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
 }
 
 #u49497-23
 {
-	font-family: open-sans, sans-serif;
 	min-height: 81px;
+	background-color: transparent;
 	font-weight: 600;
 	position: relative;
-	background-color: transparent;
+	font-family: open-sans, sans-serif;
 }
 
 #u49490-3
 {
-	text-align: left;
 	line-height: 20px;
+	text-align: left;
 }
 
 #u49497-2,#u49497-12,#u49490-5
 {
-	font-style: italic;
 	text-decoration: none;
+	font-style: italic;
 }
 
 #u50199-8
 {
 	margin-right: -10000px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
 }
 
 #u49489-22
 {
 	min-height: 121px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
 }
 
 #u49497-5,#u49497-7,#u49489-8,#u49489-9,#u49489-11,#u49489-12,#u49489-14
 {
-	font-style: italic;
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
+	font-style: italic;
 }
 
 #u50229
 {
 	min-width: 40px;
 	border-color: transparent;
-	background-color: transparent;
-	border-width: 0px;
 	max-width: 100000px;
+	border-width: 0px;
+	background-color: transparent;
 }
 
 #u50599,#u49502,#u49494,#u49486
 {
-	background-position: center center;
 	background-repeat: no-repeat;
+	background-position: center center;
 	background-color: transparent;
 	background-size: cover;
 }
@@ -176,24 +176,24 @@
 #u50286-11
 {
 	margin-right: -10000px;
-	min-height: 141px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
+	min-height: 141px;
 }
 
 #u50199-2,#u50286-2,#u50286-3,#u50286-5
 {
+	font-weight: 400;
 	letter-spacing: 1px;
 	text-align: left;
-	font-family: league-gothic, sans-serif;
-	font-weight: 400;
 	color: #231F20;
+	font-family: league-gothic, sans-serif;
 }
 
 #u50199-4,#u50286-7
 {
-	letter-spacing: 1px;
 	line-height: 16px;
+	letter-spacing: 1px;
 }
 
 #u50199-5,#u50286-8
@@ -215,38 +215,38 @@
 
 #u49490-16,#u49488-7,#u50334-25,#u50749-7
 {
-	position: relative;
 	background-color: transparent;
+	position: relative;
 }
 
 #u49490,#u49490-10,#u49489,#u49489-16,#u49488,#u50334,#u50749-2
 {
-	font-family: league-gothic, sans-serif;
 	font-weight: 400;
+	font-family: league-gothic, sans-serif;
 }
 
 #u50633-4,#u50179-4,#u50267-4,#u50713-4
 {
-	min-height: 6px;
-	font-weight: 400;
-	font-style: italic;
-	background-color: transparent;
-	line-height: 12px;
-	text-align: right;
-	font-family: open-sans, sans-serif;
-	position: relative;
 	font-size: 10px;
+	line-height: 12px;
+	font-style: italic;
+	min-height: 6px;
+	font-family: open-sans, sans-serif;
+	background-color: transparent;
+	text-align: right;
+	font-weight: 400;
+	position: relative;
 }
 
 #u50360-5
 {
-	font-weight: 400;
-	text-transform: uppercase;
-	background-color: transparent;
+	font-size: 50px;
 	line-height: 70px;
 	font-family: league-gothic, sans-serif;
+	text-transform: uppercase;
+	background-color: transparent;
+	font-weight: 400;
 	position: relative;
-	font-size: 50px;
 }
 
 #u49492
@@ -257,10 +257,10 @@
 
 #u50884-4
 {
-	font-family: league-gothic, sans-serif;
+	background-color: transparent;
 	font-weight: 400;
 	position: relative;
-	background-color: transparent;
+	font-family: league-gothic, sans-serif;
 }
 
 #u50687,#u49496
@@ -273,10 +273,10 @@
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-top: 0px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
 	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
 }
 
 #pu49505-4,#pu563
@@ -602,8 +602,8 @@ body
 		z-index: 240;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u49680-4:hover
@@ -641,10 +641,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -685,10 +685,10 @@ body
 		z-index: 179;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 17.85%;
 	}
@@ -698,10 +698,10 @@ body
 		z-index: 183;
 		width: 90px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 23.2%;
 	}
@@ -1344,8 +1344,8 @@ body
 		z-index: 240;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u49680-4:hover
@@ -1383,10 +1383,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -1427,10 +1427,10 @@ body
 		z-index: 179;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 9.92%;
 	}
@@ -1440,10 +1440,10 @@ body
 		z-index: 183;
 		width: 90px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 16.85%;
 	}
@@ -2090,8 +2090,8 @@ body
 		z-index: 240;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u49680-4:hover
@@ -2129,10 +2129,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -2173,10 +2173,10 @@ body
 		z-index: 179;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 2.09%;
 	}
@@ -2186,10 +2186,10 @@ body
 		z-index: 183;
 		width: 90px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 9.9%;
 	}
@@ -2831,8 +2831,8 @@ body
 		z-index: 240;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u49680-4:hover
@@ -2870,10 +2870,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -2914,10 +2914,10 @@ body
 		z-index: 179;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 2.61%;
 	}
@@ -2927,10 +2927,10 @@ body
 		z-index: 183;
 		width: 90px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 12.24%;
 	}
@@ -3372,10 +3372,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 24px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 20px;
-		color: #FFFFFF;
-		line-height: 24px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -3557,8 +3557,8 @@ body
 		z-index: 251;
 		width: 40px;
 		min-height: 40px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 	}
 
 	#u49680-4:hover
@@ -4095,8 +4095,8 @@ body
 		z-index: 242;
 		width: 40px;
 		min-height: 40px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 	}
 
 	#u49680-4:hover
@@ -4157,8 +4157,8 @@ body
 	#u49497-23
 	{
 		z-index: 21;
-		font-size: 15px;
 		line-height: 21px;
+		font-size: 15px;
 		margin-top: 30px;
 		width: 87.82%;
 		margin-left: 5.94%;

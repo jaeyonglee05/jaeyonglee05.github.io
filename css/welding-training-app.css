@@ -1,7 +1,7 @@
 .version.welding_training_app /* version checker */
 {
-	color: #000009;
-	background-color: #00BB51;
+	color: #000014;
+	background-color: #441A31;
 }
 
 .js body
@@ -16,45 +16,45 @@
 
 #page
 {
-	width: 100%;
-	margin-right: auto;
 	border-width: 0px;
-	border-color: #000000;
-	margin-left: auto;
 	z-index: 1;
+	margin-right: auto;
 	background-color: transparent;
+	margin-left: auto;
+	width: 100%;
+	border-color: #000000;
 	background-image: none;
 }
 
 #u34032
 {
+	position: relative;
 	margin-right: -10000px;
 	background-color: #231F20;
-	position: relative;
 }
 
 #u34031-4
 {
-	transition-timing-function: ease;
-	margin-right: -10000px;
-	font-weight: bold;
-	transition-duration: 1s;
-	transition-delay: 0s;
-	background-color: transparent;
-	background-image: url("../images/blank.gif");
-	-webkit-transition-timing-function: ease;
-	text-align: center;
-	-webkit-transition-duration: 1s;
-	-webkit-transition-delay: 0s;
 	color: #FFFFFF;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	text-align: center;
+	margin-right: -10000px;
+	background-color: transparent;
+	transition-duration: 1s;
+	font-weight: bold;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-timing-function: ease;
 	position: relative;
+	-webkit-transition-duration: 1s;
 }
 
 #u34031-4:hover
 {
-	padding-bottom: 0px;
 	padding-top: 0px;
 	background-color: #FFDE00;
+	padding-bottom: 0px;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -66,88 +66,88 @@
 
 #u34135-4
 {
-	position: relative;
 	background-color: #000000;
+	position: relative;
 }
 
 #u34124-25
 {
-	position: relative;
-	color: #231F20;
 	text-transform: uppercase;
 	background-color: transparent;
+	color: #231F20;
+	position: relative;
 }
 
 #u34124-2
 {
-	letter-spacing: 1px;
 	font-family: league-gothic, sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	letter-spacing: 1px;
 }
 
 #u34124-3
 {
-	letter-spacing: 1px;
 	text-align: left;
-	font-family: open-sans, sans-serif;
-	font-weight: 400;
-	line-height: 18px;
 	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-family: open-sans, sans-serif;
 }
 
 #u34124-6
 {
-	letter-spacing: 0px;
 	text-align: left;
-	font-family: open-sans, sans-serif;
+	letter-spacing: 0px;
 	font-weight: 400;
+	font-family: open-sans, sans-serif;
 }
 
 #u34124-23
 {
-	letter-spacing: 0px;
 	text-align: left;
-	font-family: open-sans, sans-serif;
+	letter-spacing: 0px;
 	font-weight: 700;
+	font-family: open-sans, sans-serif;
 }
 
 #u34124-4,#u34124-7,#u34124-13,#u34124-17,#u34124-21
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
 }
 
 #u34124-9,#u34124-14,#u34124-18,#u34124-22
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 400;
+	font-family: open-sans, sans-serif;
 }
 
 #u34136-4
 {
-	font-family: open-sans, sans-serif;
+	background-color: transparent;
 	font-weight: 600;
 	position: relative;
-	background-color: transparent;
+	font-family: open-sans, sans-serif;
 }
 
 #u34116
 {
-	min-width: 40px;
 	border-width: 0px;
+	min-width: 40px;
 	border-color: transparent;
 	max-width: 100000px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
 }
 
 #u34123
 {
-	background-repeat: no-repeat;
-	background-position: center center;
 	position: relative;
+	background-position: center center;
 	background-color: transparent;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
@@ -159,8 +159,8 @@
 #u34146-8
 {
 	font-weight: 400;
-	font-family: league-gothic, sans-serif;
 	text-transform: uppercase;
+	font-family: league-gothic, sans-serif;
 }
 
 #u34146-9
@@ -177,16 +177,16 @@
 
 #u34562-4
 {
-	position: relative;
-	background-color: transparent;
 	line-height: 16px;
+	background-color: transparent;
+	position: relative;
 }
 
 #u34562
 {
-	font-style: italic;
 	font-weight: 400;
 	font-family: open-sans, sans-serif;
+	font-style: italic;
 }
 
 #u34146-2,#u34132-2,#u34562-2,#u34598-2
@@ -196,44 +196,44 @@
 
 #u34146,#u34132,#u34132-27,#u34598
 {
-	font-family: league-gothic, sans-serif;
 	font-weight: 400;
+	font-family: league-gothic, sans-serif;
 }
 
 #u34146-13,#u34132-35,#u34598-9,#u34618-4,#u34718-4,#u34940-4,#u35046-4,#u35121-4
 {
-	position: relative;
 	background-color: transparent;
+	position: relative;
 }
 
 #u34144,#u34147,#u34143,#u34731,#u34971,#u35077,#u35152,#u35214
 {
-	background-repeat: no-repeat;
 	background-position: center center;
+	background-repeat: no-repeat;
 	background-color: transparent;
 	background-size: contain;
 }
 
 #u34617-4,#u34700-4,#u34922-4,#u35028-4,#u35103-4,#u35414-4,#u35450-4
 {
-	font-weight: 400;
+	font-family: league-gothic, sans-serif;
 	text-transform: uppercase;
 	background-color: transparent;
-	font-family: league-gothic, sans-serif;
+	font-weight: 400;
 	position: relative;
 }
 
 #u35552-4
 {
-	min-height: 102px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
+	min-height: 102px;
 }
 
 #u34744,#u35468
 {
-	min-width: 40px;
 	border-width: 0px;
+	min-width: 40px;
 	border-color: transparent;
 	max-width: 100000px;
 	background-color: transparent;
@@ -241,10 +241,10 @@
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-top: 0px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
 	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
 }
 
 #pu563
@@ -570,8 +570,8 @@ body
 		z-index: 217;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u34031-4:hover
@@ -609,10 +609,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -653,10 +653,10 @@ body
 		z-index: 160;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		margin-left: 17.85%;
 	}
@@ -800,8 +800,8 @@ body
 	{
 		z-index: 106;
 		min-height: 63px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 33px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -831,8 +831,8 @@ body
 	{
 		z-index: 110;
 		min-height: 64px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -872,8 +872,8 @@ body
 	{
 		z-index: 114;
 		min-height: 45px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -903,8 +903,8 @@ body
 	{
 		z-index: 118;
 		min-height: 51px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -934,8 +934,8 @@ body
 	{
 		z-index: 122;
 		min-height: 53px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -965,8 +965,8 @@ body
 	{
 		z-index: 126;
 		min-height: 54px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.85%;
@@ -987,8 +987,8 @@ body
 	{
 		z-index: 130;
 		min-height: 56px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -1380,8 +1380,8 @@ body
 		z-index: 217;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u34031-4:hover
@@ -1419,10 +1419,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -1463,10 +1463,10 @@ body
 		z-index: 160;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		margin-left: 9.92%;
 	}
@@ -1612,8 +1612,8 @@ body
 	{
 		z-index: 106;
 		min-height: 63px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 42px;
 		width: 80.09%;
 		margin-left: 9.92%;
@@ -1643,8 +1643,8 @@ body
 	{
 		z-index: 110;
 		min-height: 60px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 80.09%;
 		margin-left: 9.92%;
@@ -1684,8 +1684,8 @@ body
 	{
 		z-index: 114;
 		min-height: 45px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 80%;
 		margin-left: 9.92%;
@@ -1715,8 +1715,8 @@ body
 	{
 		z-index: 118;
 		min-height: 51px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 80.18%;
 		margin-left: 9.92%;
@@ -1746,8 +1746,8 @@ body
 	{
 		z-index: 122;
 		min-height: 53px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 80.09%;
 		margin-left: 9.92%;
@@ -1777,8 +1777,8 @@ body
 	{
 		z-index: 126;
 		min-height: 29px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 80%;
 		margin-left: 9.92%;
@@ -1799,8 +1799,8 @@ body
 	{
 		z-index: 130;
 		min-height: 56px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 80%;
 		margin-left: 9.92%;
@@ -2189,8 +2189,8 @@ body
 		z-index: 217;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u34031-4:hover
@@ -2228,10 +2228,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -2279,10 +2279,10 @@ body
 		z-index: 160;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		margin-left: 2.09%;
 	}
@@ -2428,8 +2428,8 @@ body
 	{
 		z-index: 106;
 		min-height: 63px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 43px;
 		width: 95.84%;
 		margin-left: 2.09%;
@@ -2459,8 +2459,8 @@ body
 	{
 		z-index: 110;
 		min-height: 60px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 95.84%;
 		margin-left: 2.09%;
@@ -2500,8 +2500,8 @@ body
 	{
 		z-index: 114;
 		min-height: 45px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 95.84%;
 		margin-left: 2.09%;
@@ -2531,8 +2531,8 @@ body
 	{
 		z-index: 118;
 		min-height: 51px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 95.84%;
 		margin-left: 2.09%;
@@ -2562,8 +2562,8 @@ body
 	{
 		z-index: 122;
 		min-height: 53px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 95.84%;
 		margin-left: 2.09%;
@@ -2593,8 +2593,8 @@ body
 	{
 		z-index: 126;
 		min-height: 61px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 95.84%;
 		margin-left: 2.09%;
@@ -2615,8 +2615,8 @@ body
 	{
 		z-index: 130;
 		min-height: 56px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 95.84%;
 		margin-left: 2.09%;
@@ -3000,8 +3000,8 @@ body
 		z-index: 217;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u34031-4:hover
@@ -3039,10 +3039,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -3090,10 +3090,10 @@ body
 		z-index: 160;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		margin-left: 2.61%;
 	}
@@ -3248,8 +3248,8 @@ body
 	{
 		z-index: 106;
 		min-height: 63px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 36px;
 		width: 94.8%;
 		margin-left: 2.61%;
@@ -3282,8 +3282,8 @@ body
 	{
 		z-index: 110;
 		min-height: 60px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 94.8%;
 		margin-left: 2.61%;
@@ -3327,8 +3327,8 @@ body
 	{
 		z-index: 114;
 		min-height: 45px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 94.8%;
 		margin-left: 2.61%;
@@ -3361,8 +3361,8 @@ body
 	{
 		z-index: 118;
 		min-height: 51px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 94.8%;
 		margin-left: 2.61%;
@@ -3395,8 +3395,8 @@ body
 	{
 		z-index: 122;
 		min-height: 53px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 94.8%;
 		margin-left: 2.61%;
@@ -3429,8 +3429,8 @@ body
 	{
 		z-index: 126;
 		min-height: 61px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 94.8%;
 		margin-left: 2.61%;
@@ -3453,8 +3453,8 @@ body
 	{
 		z-index: 130;
 		min-height: 56px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 94.8%;
 		margin-left: 2.61%;
@@ -3598,8 +3598,8 @@ body
 		z-index: 228;
 		width: 40px;
 		min-height: 40px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 	}
 
 	#u34031-4:hover
@@ -3808,10 +3808,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 24px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 20px;
-		color: #FFFFFF;
-		line-height: 24px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -3998,8 +3998,8 @@ body
 	{
 		z-index: 106;
 		min-height: 36px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		margin-left: 3.88%;
@@ -4031,8 +4031,8 @@ body
 	{
 		z-index: 110;
 		min-height: 41px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		margin-left: 3.88%;
@@ -4074,8 +4074,8 @@ body
 	{
 		z-index: 114;
 		min-height: 36px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		margin-left: 3.88%;
@@ -4107,8 +4107,8 @@ body
 	{
 		z-index: 118;
 		min-height: 33px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		margin-left: 3.88%;
@@ -4140,8 +4140,8 @@ body
 	{
 		z-index: 122;
 		min-height: 53px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		margin-left: 3.88%;
@@ -4173,8 +4173,8 @@ body
 	{
 		z-index: 126;
 		min-height: 31px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		margin-left: 3.88%;
@@ -4195,8 +4195,8 @@ body
 	{
 		z-index: 130;
 		min-height: 29px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		margin-left: 3.88%;
@@ -4455,8 +4455,8 @@ body
 		z-index: 219;
 		width: 40px;
 		min-height: 40px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 	}
 
 	#u34031-4:hover
@@ -4646,8 +4646,8 @@ body
 	{
 		z-index: 102;
 		min-height: 13px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 23px;
 		width: 87.5%;
 		margin-left: 6.25%;
@@ -4682,8 +4682,8 @@ body
 	{
 		z-index: 106;
 		min-height: 27px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 30px;
 		width: 87.5%;
 		margin-left: 6.25%;
@@ -4731,8 +4731,8 @@ body
 	{
 		z-index: 110;
 		min-height: 29px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 30px;
 		width: 87.82%;
 		margin-left: 6.25%;
@@ -4767,8 +4767,8 @@ body
 	{
 		z-index: 114;
 		min-height: 20px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 30px;
 		width: 87.5%;
 		margin-left: 6.25%;
@@ -4803,8 +4803,8 @@ body
 	{
 		z-index: 118;
 		min-height: 26px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 30px;
 		width: 87.19%;
 		margin-left: 6.25%;
@@ -4839,8 +4839,8 @@ body
 	{
 		z-index: 122;
 		min-height: 31px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 30px;
 		width: 87.82%;
 		margin-left: 6.25%;
@@ -4864,8 +4864,8 @@ body
 	{
 		z-index: 126;
 		min-height: 29px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 30px;
 		width: 87.82%;
 		margin-left: 6.25%;

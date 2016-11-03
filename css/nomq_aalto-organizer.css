@@ -288,8 +288,8 @@
 		z-index: 145;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u46802-4:hover
@@ -327,10 +327,10 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -393,10 +393,10 @@
 		z-index: 84;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 17.85%;
 	}
@@ -406,10 +406,10 @@
 		z-index: 88;
 		width: 90px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 22.64%;
 	}

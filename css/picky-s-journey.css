@@ -1,7 +1,7 @@
 .version.picky_s_journey /* version checker */
 {
-	color: #000011;
-	background-color: #8549D0;
+	color: #00001B;
+	background-color: #E6F456;
 }
 
 .js body
@@ -16,45 +16,45 @@
 
 #page
 {
-	margin-right: auto;
 	border-width: 0px;
+	z-index: 1;
+	margin-right: auto;
+	background-color: transparent;
 	border-color: #000000;
 	margin-left: auto;
-	z-index: 1;
-	background-color: transparent;
 	width: 100%;
 	background-image: none;
 }
 
 #u23864
 {
+	position: relative;
 	margin-right: -10000px;
 	background-color: #231F20;
-	position: relative;
 }
 
 #u23865-4
 {
-	transition-timing-function: ease;
-	margin-right: -10000px;
-	font-weight: bold;
-	transition-duration: 1s;
-	transition-delay: 0s;
-	background-color: transparent;
-	background-image: url("../images/blank.gif");
-	-webkit-transition-timing-function: ease;
-	text-align: center;
-	-webkit-transition-duration: 1s;
-	-webkit-transition-delay: 0s;
 	color: #FFFFFF;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	text-align: center;
+	margin-right: -10000px;
+	background-color: transparent;
+	transition-duration: 1s;
+	font-weight: bold;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-timing-function: ease;
 	position: relative;
+	-webkit-transition-duration: 1s;
 }
 
 #u23865-4:hover
 {
-	padding-bottom: 0px;
 	padding-top: 0px;
 	background-color: #FFDE00;
+	padding-bottom: 0px;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -72,81 +72,81 @@
 
 #u24207-17
 {
+	text-transform: uppercase;
+	background-color: transparent;
+	font-weight: 400;
 	left: 0px;
 	color: #231F20;
 	position: relative;
-	font-weight: 400;
-	text-transform: uppercase;
-	background-color: transparent;
 }
 
 #u24207-2
 {
 	letter-spacing: 1px;
-	font-style: normal;
 	font-family: league-gothic, sans-serif;
+	font-style: normal;
 }
 
 #u24207-3
 {
-	font-size: 15px;
-	text-align: left;
-	font-family: open-sans, sans-serif;
 	letter-spacing: 1px;
+	font-family: open-sans, sans-serif;
+	font-size: 15px;
 	line-height: 18px;
+	text-align: left;
 }
 
 #u24207-15
 {
-	letter-spacing: 0px;
-	text-align: left;
 	font-family: open-sans, sans-serif;
+	text-align: left;
+	letter-spacing: 0px;
 }
 
 #u24207-4,#u24207-7,#u24207-10,#u24207-13
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
 }
 
 #u24405-4
 {
-	left: 0px;
-	font-family: open-sans, sans-serif;
-	font-weight: 600;
-	position: relative;
 	background-color: transparent;
+	font-weight: 600;
+	left: 0px;
+	position: relative;
+	font-family: open-sans, sans-serif;
 }
 
 #u24390
 {
 	min-width: 40px;
 	border-color: transparent;
-	background-color: transparent;
-	border-width: 0px;
 	max-width: 100000px;
+	border-width: 0px;
+	background-color: transparent;
 	position: relative;
 }
 
 #u24936
 {
-	background-repeat: no-repeat;
-	background-color: transparent;
 	background-position: center bottom;
+	background-color: transparent;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #u25074-14
 {
 	min-height: 313px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
 }
 
 #u25074-3
 {
-	text-align: left;
 	line-height: 20px;
+	text-align: left;
 }
 
 #u25074-9
@@ -156,15 +156,15 @@
 
 #u25074-10
 {
-	text-transform: uppercase;
 	font-weight: normal;
+	text-transform: uppercase;
 }
 
 #u25100
 {
-	background-repeat: no-repeat;
-	background-color: transparent;
 	background-position: center center;
+	background-color: transparent;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
@@ -175,9 +175,9 @@
 
 #u25124-4
 {
-	position: relative;
-	background-color: transparent;
 	line-height: 16px;
+	background-color: transparent;
+	position: relative;
 }
 
 #u25124-2
@@ -187,27 +187,27 @@
 
 #u25124
 {
-	font-size: 10px;
-	font-style: italic;
-	font-family: open-sans, sans-serif;
-	line-height: 12px;
 	font-weight: 400;
+	font-style: italic;
+	font-size: 10px;
+	line-height: 12px;
+	font-family: open-sans, sans-serif;
 }
 
 #u25160-8
 {
-	min-height: 141px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
+	min-height: 141px;
 }
 
 #u25160-2
 {
+	font-weight: 400;
 	letter-spacing: 1px;
 	text-align: left;
-	font-family: league-gothic, sans-serif;
-	font-weight: 400;
 	color: #231F20;
+	font-family: league-gothic, sans-serif;
 }
 
 #u25160-4
@@ -218,8 +218,8 @@
 #u25193-13
 {
 	min-height: 340px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
 }
 
 #u25193-3
@@ -230,68 +230,68 @@
 
 #u25177,#u25206
 {
-	background-repeat: no-repeat;
-	background-color: transparent;
 	background-position: center center;
+	background-color: transparent;
+	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #u25556
 {
-	background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: right center;
+	background-color: transparent;
 	background-size: cover;
 }
 
 #u25310,#u25859
 {
-	background-repeat: no-repeat;
-	background-color: transparent;
 	background-position: left center;
+	background-color: transparent;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #u25302-4,#u25608-4,#u25846-4,#u26109-4
 {
-	font-family: league-gothic, sans-serif;
-	position: relative;
-	font-weight: 400;
 	text-transform: uppercase;
 	background-color: transparent;
+	font-weight: 400;
+	position: relative;
+	font-family: league-gothic, sans-serif;
 }
 
 #u25278-4,#u25543-4,#u25833-5,#u26122-4
 {
-	position: relative;
 	background-color: transparent;
+	position: relative;
 }
 
 #u26065
 {
-	margin-right: -10000px;
-	position: relative;
-	background-position: right center;
 	background-repeat: no-repeat;
+	margin-right: -10000px;
+	background-position: right center;
 	background-color: transparent;
+	position: relative;
 	background-size: cover;
 }
 
 #u25334,#u25286,#u25582,#u25802,#u26161,#u26148
 {
-	background-repeat: no-repeat;
-	background-color: transparent;
 	background-position: center center;
+	background-color: transparent;
+	background-repeat: no-repeat;
 	position: relative;
 	background-size: contain;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-top: 0px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
 	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
 }
 
 #pu25556,#pu563
@@ -616,8 +616,8 @@ body
 		z-index: 177;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u23865-4:hover
@@ -655,10 +655,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -723,10 +723,10 @@ body
 	{
 		z-index: 120;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		width: 4.17%;
 		left: 17.85%;
@@ -934,8 +934,8 @@ body
 		z-index: 81;
 		width: 453px;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 	}
 
 	#u25278-4
@@ -990,8 +990,8 @@ body
 		z-index: 89;
 		width: 454px;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 	}
 
 	#u25543-4
@@ -1043,8 +1043,8 @@ body
 		z-index: 85;
 		width: 453px;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 	}
 
 	#u25833-5
@@ -1107,8 +1107,8 @@ body
 		z-index: 93;
 		width: 454px;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 	}
 
 	#u26122-4
@@ -1519,8 +1519,8 @@ body
 		z-index: 177;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u23865-4:hover
@@ -1558,10 +1558,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -1618,10 +1618,10 @@ body
 		z-index: 120;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 9.92%;
 	}
@@ -1828,8 +1828,8 @@ body
 	{
 		z-index: 81;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 99.78%;
 	}
 
@@ -1891,8 +1891,8 @@ body
 	{
 		z-index: 89;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 100%;
 	}
 
@@ -1952,8 +1952,8 @@ body
 	{
 		z-index: 85;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 100%;
 	}
 
@@ -1978,8 +1978,8 @@ body
 	{
 		z-index: 93;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 100%;
 	}
 
@@ -2424,8 +2424,8 @@ body
 		z-index: 177;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u23865-4:hover
@@ -2463,10 +2463,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -2525,10 +2525,10 @@ body
 		z-index: 120;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 2.09%;
 	}
@@ -2726,8 +2726,8 @@ body
 	{
 		z-index: 81;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 99.78%;
 	}
 
@@ -2799,8 +2799,8 @@ body
 	{
 		z-index: 89;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 99.78%;
 	}
 
@@ -2851,8 +2851,8 @@ body
 	{
 		z-index: 85;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-right: -10000px;
 		width: 100%;
 	}
@@ -2899,8 +2899,8 @@ body
 	{
 		z-index: 93;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 99.78%;
 	}
 
@@ -3332,8 +3332,8 @@ body
 		z-index: 177;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u23865-4:hover
@@ -3371,10 +3371,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -3436,10 +3436,10 @@ body
 		z-index: 120;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 2.61%;
 	}
@@ -3630,8 +3630,8 @@ body
 	{
 		z-index: 81;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 100%;
 	}
 
@@ -3722,8 +3722,8 @@ body
 	{
 		z-index: 89;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 100%;
 	}
 
@@ -3754,8 +3754,8 @@ body
 	{
 		z-index: 85;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 99.73%;
 	}
 
@@ -3852,8 +3852,8 @@ body
 	{
 		z-index: 93;
 		min-height: 88px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		width: 100%;
 	}
 
@@ -4161,10 +4161,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 24px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 20px;
-		color: #FFFFFF;
-		line-height: 24px;
 		font-weight: bold;
 		position: relative;
 		margin-right: -10000px;
@@ -4212,8 +4212,8 @@ body
 		z-index: 187;
 		width: 40px;
 		min-height: 40px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 	}
 
 	#u23865-4:hover
@@ -4417,8 +4417,8 @@ body
 	{
 		z-index: 81;
 		min-height: 37px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		left: 3.88%;
@@ -4480,8 +4480,8 @@ body
 	{
 		z-index: 89;
 		min-height: 22px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 14px;
 		width: 92.25%;
 		left: 3.88%;
@@ -4530,8 +4530,8 @@ body
 	{
 		z-index: 85;
 		min-height: 45px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.83%;
 		left: 3.88%;
@@ -4592,8 +4592,8 @@ body
 	{
 		z-index: 93;
 		min-height: 88px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		left: 3.88%;
@@ -4885,8 +4885,8 @@ body
 		z-index: 175;
 		width: 40px;
 		min-height: 40px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 	}
 
 	#u23865-4:hover
@@ -5110,8 +5110,8 @@ body
 	{
 		z-index: 73;
 		min-height: 24px;
-		font-size: 20px;
 		line-height: 28px;
+		font-size: 20px;
 		margin-top: 30px;
 		width: 87.82%;
 		margin-left: 6.25%;
@@ -5182,8 +5182,8 @@ body
 	{
 		z-index: 81;
 		min-height: 57px;
-		font-size: 20px;
 		line-height: 28px;
+		font-size: 20px;
 		margin-top: 30px;
 		width: 87.5%;
 		margin-left: 6.25%;
@@ -5234,8 +5234,8 @@ body
 	{
 		z-index: 77;
 		min-height: 21px;
-		font-size: 20px;
 		line-height: 28px;
+		font-size: 20px;
 		margin-top: 30px;
 		width: 87.5%;
 		margin-left: 6.25%;
@@ -5315,8 +5315,8 @@ body
 	{
 		z-index: 85;
 		min-height: 43px;
-		font-size: 20px;
 		line-height: 28px;
+		font-size: 20px;
 		margin-top: 30px;
 		width: 88.13%;
 		margin-left: 5.94%;

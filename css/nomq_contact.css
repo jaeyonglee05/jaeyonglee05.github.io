@@ -266,8 +266,8 @@
 		z-index: 137;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u74188-4:hover
@@ -316,10 +316,10 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -367,9 +367,9 @@
 	{
 		z-index: 5;
 		min-height: 156px;
+		line-height: 36px;
 		text-align: left;
 		font-size: 30px;
-		line-height: 36px;
 		width: 100%;
 	}
 
@@ -439,8 +439,8 @@
 	{
 		z-index: 14;
 		min-height: 126px;
-		font-size: 15px;
 		line-height: 18px;
+		font-size: 15px;
 		margin-top: 66px;
 		width: 76.23%;
 	}
@@ -464,8 +464,8 @@
 	#u70979-4
 	{
 		z-index: 29;
-		font-size: 15px;
 		line-height: 15px;
+		font-size: 15px;
 	}
 
 	#u70980-4
@@ -499,8 +499,8 @@
 	#u70984-4
 	{
 		z-index: 38;
-		font-size: 15px;
 		line-height: 15px;
+		font-size: 15px;
 	}
 
 	#u70982-4
@@ -590,8 +590,8 @@
 	#u70976-4
 	{
 		z-index: 76;
-		font-size: 15px;
 		line-height: 15px;
+		font-size: 15px;
 	}
 
 	#u70979-2,#u70984-2,#u70976-2

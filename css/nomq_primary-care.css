@@ -288,8 +288,8 @@
 		z-index: 131;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#pu64766
@@ -310,8 +310,8 @@
 		z-index: 126;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u64768-4:hover,#u64765-3:hover
@@ -347,10 +347,10 @@
 		z-index: 74;
 		width: 80px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 17.85%;
 	}

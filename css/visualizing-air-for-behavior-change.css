@@ -1,7 +1,7 @@
 .version.visualizing_air_for_behavior_change /* version checker */
 {
-	color: #0000FC;
-	background-color: #6B450A;
+	color: #00001F;
+	background-color: #2AA5BE;
 }
 
 .js body
@@ -16,45 +16,45 @@
 
 #page
 {
-	width: 100%;
-	margin-right: auto;
 	border-width: 0px;
-	border-color: #000000;
-	margin-left: auto;
 	z-index: 1;
+	margin-right: auto;
 	background-color: transparent;
+	margin-left: auto;
+	width: 100%;
+	border-color: #000000;
 	background-image: none;
 }
 
 #u67549
 {
+	position: relative;
 	margin-right: -10000px;
 	background-color: #231F20;
-	position: relative;
 }
 
 #u67551-4
 {
-	transition-timing-function: ease;
-	margin-right: -10000px;
-	font-weight: bold;
-	transition-duration: 1s;
-	transition-delay: 0s;
-	background-color: transparent;
-	background-image: url("../images/blank.gif");
-	-webkit-transition-timing-function: ease;
-	text-align: center;
-	-webkit-transition-duration: 1s;
-	-webkit-transition-delay: 0s;
 	color: #FFFFFF;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	background-image: url("../images/blank.gif");
+	text-align: center;
+	margin-right: -10000px;
+	background-color: transparent;
+	transition-duration: 1s;
+	font-weight: bold;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-timing-function: ease;
 	position: relative;
+	-webkit-transition-duration: 1s;
 }
 
 #u67551-4:hover
 {
-	padding-bottom: 0px;
 	padding-top: 0px;
 	background-color: #FFDE00;
+	padding-bottom: 0px;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -72,34 +72,34 @@
 
 #u67558-19
 {
-	position: relative;
-	font-weight: 400;
-	color: #231F20;
 	text-transform: uppercase;
 	background-color: transparent;
+	font-weight: 400;
+	color: #231F20;
+	position: relative;
 }
 
 #u67558-2
 {
 	letter-spacing: 1px;
-	font-style: normal;
 	font-family: league-gothic, sans-serif;
+	font-style: normal;
 }
 
 #u67558-3
 {
-	font-size: 15px;
-	text-align: left;
-	font-family: open-sans, sans-serif;
 	letter-spacing: 1px;
+	font-family: open-sans, sans-serif;
+	font-size: 15px;
 	line-height: 18px;
+	text-align: left;
 }
 
 #u67558-17
 {
-	letter-spacing: 0px;
-	text-align: left;
 	font-family: open-sans, sans-serif;
+	text-align: left;
+	letter-spacing: 0px;
 }
 
 #u67558-12
@@ -109,108 +109,120 @@
 
 #u67558-4,#u67558-7,#u67558-11,#u67558-15
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
 }
 
 #u67572-12
 {
-	font-family: open-sans, sans-serif;
 	min-height: 81px;
+	background-color: transparent;
 	font-weight: 600;
 	position: relative;
-	background-color: transparent;
+	font-family: open-sans, sans-serif;
 }
 
 #u67572-2
 {
-	font-style: italic;
-	font-family: open-sans, sans-serif;
 	font-weight: 600;
+	font-family: open-sans, sans-serif;
+	font-style: italic;
+}
+
+#u67575
+{
+	background: transparent url("../images/smartairdetector%20in%20a%20context.gif") no-repeat center center;
+	background-size: cover;
 }
 
 #u67555-4
 {
-	font-weight: 400;
-	font-style: italic;
-	background-color: transparent;
-	line-height: 12px;
-	text-align: right;
-	font-family: open-sans, sans-serif;
-	position: relative;
 	font-size: 10px;
+	line-height: 12px;
+	font-style: italic;
+	font-family: open-sans, sans-serif;
+	background-color: transparent;
+	text-align: right;
+	font-weight: 400;
+	position: relative;
 }
 
 #u67576-17
 {
-	text-transform: uppercase;
 	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+	text-transform: uppercase;
 }
 
 #u67562
 {
+	background-repeat: no-repeat;
 	background-position: center center;
 	position: relative;
-	background-repeat: no-repeat;
 	background-color: transparent;
 	background-size: cover;
 }
 
 #u67889-7
 {
-	min-height: 121px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
+	min-height: 121px;
 }
 
 #u67576-19,#u67933-6
 {
-	position: relative;
 	background-color: transparent;
+	position: relative;
+}
+
+#u68119
+{
+	background: transparent url("../images/smartairdetector_emoticonanimation.gif") no-repeat center center;
+	background-size: cover;
 }
 
 #u67569-4,#u67563-4
 {
-	font-weight: 400;
+	font-family: league-gothic, sans-serif;
 	text-transform: uppercase;
 	background-color: transparent;
-	font-family: league-gothic, sans-serif;
+	font-weight: 400;
 	position: relative;
 }
 
-#u67575,#u68335,#u68334,#u67969,#u68119,#u68093
+#u68335,#u68334,#u67969,#u68093
 {
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-color: transparent;
-	background-position: center center;
 	background-size: cover;
 }
 
 #u68057-10
 {
 	min-height: 82px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
 }
 
 #u67571-4,#u67570-4,#u68189-4,#u67567-4,#u68207-4
 {
-	min-height: 6px;
-	font-weight: 400;
-	font-style: italic;
-	background-color: transparent;
-	line-height: 12px;
-	text-align: right;
-	font-family: open-sans, sans-serif;
-	position: relative;
 	font-size: 10px;
+	line-height: 12px;
+	font-style: italic;
+	min-height: 6px;
+	font-family: open-sans, sans-serif;
+	background-color: transparent;
+	text-align: right;
+	font-weight: 400;
+	position: relative;
 }
 
 #u67573-7,#u68243-7,#u68445-7,#u68569-16,#u68649-19
 {
 	min-height: 77px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
 }
 
 #u68243-2,#u68445-2,#u68569-2,#u68569-8,#u68649-2,#u68649-8,#u68649-14
@@ -228,9 +240,9 @@
 
 #u68727-10
 {
-	min-height: 123px;
 	position: relative;
 	background-color: transparent;
+	min-height: 123px;
 }
 
 #u67576-2,#u67576-11,#u68727-2
@@ -240,36 +252,22 @@
 
 #u67576,#u67576-10,#u67576-16,#u68727
 {
-	font-family: league-gothic, sans-serif;
 	font-weight: 400;
+	font-family: league-gothic, sans-serif;
 }
 
 #u67576-13,#u68727-4,#u68727-7
 {
-	font-family: open-sans, sans-serif;
 	font-weight: 400;
-}
-
-#u73437
-{
-	height: 30px;
-	position: relative;
-}
-
-.ie #u73437
-{
-	opacity: 0.01;
-	background-color: #FFFFFF;
-	filter: alpha(opacity=1);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	font-family: open-sans, sans-serif;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	margin-top: 0px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
 	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
 }
 
 #pu563
@@ -330,7 +328,7 @@ body
 
 	#u168
 	{
-		z-index: 297;
+		z-index: 296;
 		width: 350px;
 		position: relative;
 		margin-right: -10000px;
@@ -338,7 +336,7 @@ body
 
 	#menuu170
 	{
-		z-index: 298;
+		z-index: 297;
 		width: 305px;
 		position: relative;
 		margin-right: -10000px;
@@ -593,17 +591,17 @@ body
 
 	#u67549
 	{
-		z-index: 349;
+		z-index: 348;
 		width: 70px;
 	}
 
 	#u67551-4
 	{
-		z-index: 350;
+		z-index: 349;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u67551-4:hover
@@ -621,7 +619,7 @@ body
 
 	#u67550
 	{
-		z-index: 344;
+		z-index: 343;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -632,7 +630,7 @@ body
 
 	#u67548-3
 	{
-		z-index: 345;
+		z-index: 344;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -641,10 +639,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -682,13 +680,13 @@ body
 
 	#u67583-4
 	{
-		z-index: 293;
+		z-index: 292;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		margin-left: 17.85%;
 	}
@@ -742,7 +740,6 @@ body
 	{
 		z-index: 58;
 		height: 581px;
-		background-image: url("../images/smartdetector_3.jpg");
 		margin-top: 51px;
 		position: relative;
 		width: 64.38%;
@@ -824,8 +821,8 @@ body
 	{
 		z-index: 59;
 		min-height: 58px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -862,21 +859,11 @@ body
 	#u68119
 	{
 		z-index: 91;
-		background-image: url("../images/smartdetector_8.jpg");
-		padding-bottom: 444px;
+		height: 579px;
 		margin-top: 30px;
 		position: relative;
 		width: 64.38%;
 		margin-left: 17.78%;
-	}
-
-	#u73437
-	{
-		z-index: 292;
-		margin-right: -10000px;
-		margin-top: 105px;
-		width: 12.19%;
-		left: 1.52%;
 	}
 
 	#u68189-4
@@ -891,8 +878,8 @@ body
 	{
 		z-index: 76;
 		min-height: 40px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.31%;
 		margin-left: 17.85%;
@@ -1391,11 +1378,11 @@ body
 	{
 		color: #231F20;
 		visibility: inherit;
+		line-height: 1.4;
+		font-size: 20px;
 		text-transform: uppercase;
 		text-align: left;
-		font-size: 20px;
 		text-decoration: underline;
-		line-height: 1.4;
 		font-family: open-sans, sans-serif;
 		font-weight: 700;
 		font-style: normal;
@@ -1506,7 +1493,7 @@ body
 
 	#u44404-4
 	{
-		z-index: 324;
+		z-index: 323;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -1515,7 +1502,7 @@ body
 
 	#u44405-4
 	{
-		z-index: 328;
+		z-index: 327;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -1525,7 +1512,7 @@ body
 
 	#u44407-4
 	{
-		z-index: 336;
+		z-index: 335;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -1535,7 +1522,7 @@ body
 
 	#u44406-4
 	{
-		z-index: 332;
+		z-index: 331;
 		min-height: 360px;
 		position: relative;
 		margin-right: -10000px;
@@ -1553,17 +1540,17 @@ body
 
 	#u563,#u563-bw
 	{
-		z-index: 323;
+		z-index: 322;
 	}
 
 	#u44573-4
 	{
-		z-index: 340;
+		z-index: 339;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 340;
+		z-index: 339;
 		margin-top: 27px;
 	}
 }
@@ -1597,7 +1584,7 @@ body
 
 	#u168
 	{
-		z-index: 297;
+		z-index: 296;
 		width: 350px;
 		position: relative;
 		margin-right: -10000px;
@@ -1605,7 +1592,7 @@ body
 
 	#menuu170
 	{
-		z-index: 298;
+		z-index: 297;
 		width: 305px;
 		position: relative;
 		margin-right: -10000px;
@@ -1860,17 +1847,17 @@ body
 
 	#u67549
 	{
-		z-index: 349;
+		z-index: 348;
 		width: 70px;
 	}
 
 	#u67551-4
 	{
-		z-index: 350;
+		z-index: 349;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u67551-4:hover
@@ -1888,7 +1875,7 @@ body
 
 	#u67550
 	{
-		z-index: 344;
+		z-index: 343;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -1899,7 +1886,7 @@ body
 
 	#u67548-3
 	{
-		z-index: 345;
+		z-index: 344;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -1908,10 +1895,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -1949,13 +1936,13 @@ body
 
 	#u67583-4
 	{
-		z-index: 293;
+		z-index: 292;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		margin-left: 9.92%;
 	}
@@ -2008,21 +1995,11 @@ body
 	#u67575
 	{
 		z-index: 58;
-		background-image: url("../images/smartdetector_3.jpg");
-		padding-bottom: 166px;
+		height: 581px;
 		margin-top: 50px;
 		position: relative;
 		width: 80.18%;
 		margin-left: 9.92%;
-	}
-
-	#u73437
-	{
-		z-index: 292;
-		margin-right: -10000px;
-		margin-top: 385px;
-		width: 9.74%;
-		left: 67.84%;
 	}
 
 	#u67555-4
@@ -2100,8 +2077,8 @@ body
 	{
 		z-index: 59;
 		min-height: 58px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 80%;
 		margin-left: 10%;
@@ -2139,7 +2116,6 @@ body
 	{
 		z-index: 91;
 		height: 579px;
-		background-image: url("../images/smartdetector_8.jpg");
 		margin-top: 31px;
 		position: relative;
 		width: 79.92%;
@@ -2158,8 +2134,8 @@ body
 	{
 		z-index: 76;
 		min-height: 40px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 31px;
 		width: 80.09%;
 		margin-left: 9.92%;
@@ -2657,11 +2633,11 @@ body
 	{
 		color: #231F20;
 		visibility: inherit;
+		line-height: 1.4;
+		font-size: 20px;
 		text-transform: uppercase;
 		text-align: left;
-		font-size: 20px;
 		text-decoration: underline;
-		line-height: 1.4;
 		font-family: open-sans, sans-serif;
 		font-weight: 700;
 		font-style: normal;
@@ -2776,7 +2752,7 @@ body
 
 	#u44404-4
 	{
-		z-index: 324;
+		z-index: 323;
 		min-height: 284px;
 		position: relative;
 		margin-right: -10000px;
@@ -2785,7 +2761,7 @@ body
 
 	#u44405-4
 	{
-		z-index: 328;
+		z-index: 327;
 		min-height: 284px;
 		position: relative;
 		margin-right: -10000px;
@@ -2795,7 +2771,7 @@ body
 
 	#u44407-4
 	{
-		z-index: 336;
+		z-index: 335;
 		min-height: 284px;
 		position: relative;
 		margin-right: -10000px;
@@ -2805,7 +2781,7 @@ body
 
 	#u44406-4
 	{
-		z-index: 332;
+		z-index: 331;
 		min-height: 284px;
 		position: relative;
 		margin-right: -10000px;
@@ -2828,17 +2804,17 @@ body
 
 	#u563,#u563-bw
 	{
-		z-index: 323;
+		z-index: 322;
 	}
 
 	#u44573-4
 	{
-		z-index: 340;
+		z-index: 339;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 340;
+		z-index: 339;
 		margin-top: 27px;
 	}
 }
@@ -2871,7 +2847,7 @@ body
 
 	#u168
 	{
-		z-index: 297;
+		z-index: 296;
 		width: 350px;
 		position: relative;
 		margin-right: -10000px;
@@ -2879,7 +2855,7 @@ body
 
 	#menuu170
 	{
-		z-index: 298;
+		z-index: 297;
 		width: 305px;
 		position: relative;
 		margin-right: -10000px;
@@ -3134,17 +3110,17 @@ body
 
 	#u67549
 	{
-		z-index: 349;
+		z-index: 348;
 		width: 70px;
 	}
 
 	#u67551-4
 	{
-		z-index: 350;
+		z-index: 349;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u67551-4:hover
@@ -3162,7 +3138,7 @@ body
 
 	#u67550
 	{
-		z-index: 344;
+		z-index: 343;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -3173,7 +3149,7 @@ body
 
 	#u67548-3
 	{
-		z-index: 345;
+		z-index: 344;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -3182,10 +3158,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -3223,13 +3199,13 @@ body
 
 	#u67583-4
 	{
-		z-index: 293;
+		z-index: 292;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		margin-left: 2.09%;
 	}
@@ -3282,21 +3258,11 @@ body
 	#u67575
 	{
 		z-index: 58;
-		background-image: url("../images/smartdetector_3.jpg");
-		padding-bottom: 142px;
+		height: 581px;
 		margin-top: 50px;
 		position: relative;
 		width: 95.84%;
 		margin-left: 2.09%;
-	}
-
-	#u73437
-	{
-		z-index: 292;
-		margin-right: -10000px;
-		margin-top: 409px;
-		width: 8.16%;
-		left: 65.22%;
 	}
 
 	#u67555-4
@@ -3374,8 +3340,8 @@ body
 	{
 		z-index: 59;
 		min-height: 58px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 95.84%;
 		margin-left: 2.09%;
@@ -3413,7 +3379,6 @@ body
 	{
 		z-index: 91;
 		height: 579px;
-		background-image: url("../images/smartdetector_8.jpg");
 		margin-top: 31px;
 		position: relative;
 		width: 95.84%;
@@ -3432,8 +3397,8 @@ body
 	{
 		z-index: 76;
 		min-height: 40px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 31px;
 		width: 95.84%;
 		margin-left: 2.09%;
@@ -3930,11 +3895,11 @@ body
 	{
 		color: #231F20;
 		visibility: inherit;
+		line-height: 1.4;
+		font-size: 20px;
 		text-transform: uppercase;
 		text-align: left;
-		font-size: 20px;
 		text-decoration: underline;
-		line-height: 1.4;
 		font-family: open-sans, sans-serif;
 		font-weight: 700;
 		font-style: normal;
@@ -4049,7 +4014,7 @@ body
 
 	#u44404-4
 	{
-		z-index: 324;
+		z-index: 323;
 		min-height: 240px;
 		position: relative;
 		margin-right: -10000px;
@@ -4058,7 +4023,7 @@ body
 
 	#u44405-4
 	{
-		z-index: 328;
+		z-index: 327;
 		min-height: 240px;
 		position: relative;
 		margin-right: -10000px;
@@ -4068,7 +4033,7 @@ body
 
 	#u44407-4
 	{
-		z-index: 336;
+		z-index: 335;
 		min-height: 240px;
 		position: relative;
 		margin-right: -10000px;
@@ -4078,7 +4043,7 @@ body
 
 	#u44406-4
 	{
-		z-index: 332;
+		z-index: 331;
 		min-height: 240px;
 		position: relative;
 		margin-right: -10000px;
@@ -4096,17 +4061,17 @@ body
 
 	#u563,#u563-bw
 	{
-		z-index: 323;
+		z-index: 322;
 	}
 
 	#u44573-4
 	{
-		z-index: 340;
+		z-index: 339;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 340;
+		z-index: 339;
 		margin-top: 27px;
 	}
 }
@@ -4144,7 +4109,7 @@ body
 
 	#u168
 	{
-		z-index: 297;
+		z-index: 296;
 		width: 350px;
 		position: relative;
 		margin-right: -10000px;
@@ -4152,7 +4117,7 @@ body
 
 	#menuu170
 	{
-		z-index: 298;
+		z-index: 297;
 		width: 305px;
 		position: relative;
 		margin-right: -10000px;
@@ -4407,17 +4372,17 @@ body
 
 	#u67549
 	{
-		z-index: 349;
+		z-index: 348;
 		width: 70px;
 	}
 
 	#u67551-4
 	{
-		z-index: 350;
+		z-index: 349;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u67551-4:hover
@@ -4435,7 +4400,7 @@ body
 
 	#u67550
 	{
-		z-index: 344;
+		z-index: 343;
 		width: 70px;
 		height: 70px;
 		background-color: #231F20;
@@ -4446,7 +4411,7 @@ body
 
 	#u67548-3
 	{
-		z-index: 345;
+		z-index: 344;
 		width: 70px;
 		min-height: 70px;
 		-webkit-transition-duration: 1s;
@@ -4455,10 +4420,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -4496,13 +4461,13 @@ body
 
 	#u67583-4
 	{
-		z-index: 293;
+		z-index: 292;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		margin-left: 2.61%;
 	}
@@ -4555,21 +4520,11 @@ body
 	#u67575
 	{
 		z-index: 58;
-		background-image: url("../images/smartdetector_3.jpg");
-		padding-bottom: 52px;
+		height: 470px;
 		margin-top: 50px;
 		position: relative;
 		width: 94.8%;
 		margin-left: 2.61%;
-	}
-
-	#u73437
-	{
-		z-index: 292;
-		margin-right: -10000px;
-		margin-top: 388px;
-		width: 8.25%;
-		left: 65.94%;
 	}
 
 	#u67555-4
@@ -4647,8 +4602,8 @@ body
 	{
 		z-index: 59;
 		min-height: 58px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 94.8%;
 		margin-left: 2.61%;
@@ -4686,7 +4641,6 @@ body
 	{
 		z-index: 91;
 		height: 470px;
-		background-image: url("../images/smartdetector_8-u68119-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 94.8%;
@@ -4705,8 +4659,8 @@ body
 	{
 		z-index: 76;
 		min-height: 40px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 94.8%;
 		margin-left: 2.61%;
@@ -5189,11 +5143,11 @@ body
 	{
 		color: #231F20;
 		visibility: inherit;
+		line-height: 1.4;
+		font-size: 20px;
 		text-transform: uppercase;
 		text-align: left;
-		font-size: 20px;
 		text-decoration: underline;
-		line-height: 1.4;
 		font-family: open-sans, sans-serif;
 		font-weight: 700;
 		font-style: normal;
@@ -5298,7 +5252,7 @@ body
 
 	#u44404-4
 	{
-		z-index: 324;
+		z-index: 323;
 		min-height: 192px;
 		position: relative;
 		margin-right: -10000px;
@@ -5307,7 +5261,7 @@ body
 
 	#u44405-4
 	{
-		z-index: 328;
+		z-index: 327;
 		min-height: 192px;
 		position: relative;
 		margin-right: -10000px;
@@ -5317,7 +5271,7 @@ body
 
 	#u44407-4
 	{
-		z-index: 336;
+		z-index: 335;
 		min-height: 192px;
 		position: relative;
 		margin-right: -10000px;
@@ -5327,7 +5281,7 @@ body
 
 	#u44406-4
 	{
-		z-index: 332;
+		z-index: 331;
 		min-height: 192px;
 		position: relative;
 		margin-right: -10000px;
@@ -5345,17 +5299,17 @@ body
 
 	#u563,#u563-bw
 	{
-		z-index: 323;
+		z-index: 322;
 	}
 
 	#u44573-4
 	{
-		z-index: 340;
+		z-index: 339;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 340;
+		z-index: 339;
 		margin-top: 27px;
 	}
 
@@ -5394,12 +5348,12 @@ body
 
 	#u63688
 	{
-		z-index: 220;
+		z-index: 219;
 	}
 
 	#u63698-3
 	{
-		z-index: 221;
+		z-index: 220;
 		min-height: 20px;
 		padding-left: 10px;
 		padding-top: 10px;
@@ -5416,7 +5370,7 @@ body
 
 	#u63689
 	{
-		z-index: 224;
+		z-index: 223;
 	}
 
 	#u63692
@@ -5510,13 +5464,13 @@ body
 
 	#menuu63690,#menuu63690-bw
 	{
-		z-index: 225;
+		z-index: 224;
 		min-height: 377px;
 	}
 
 	#accordionu63687,#accordionu63687-bw
 	{
-		z-index: 219;
+		z-index: 218;
 	}
 
 	#slideshowu67402
@@ -5577,17 +5531,17 @@ body
 
 	#u67549
 	{
-		z-index: 261;
+		z-index: 260;
 		width: 40px;
 	}
 
 	#u67551-4
 	{
-		z-index: 262;
+		z-index: 261;
 		width: 40px;
 		min-height: 40px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 	}
 
 	#u67551-4:hover
@@ -5605,7 +5559,7 @@ body
 
 	#u67550
 	{
-		z-index: 256;
+		z-index: 255;
 		width: 40px;
 		height: 40px;
 		background-color: #231F20;
@@ -5616,7 +5570,7 @@ body
 
 	#u67548-3
 	{
-		z-index: 257;
+		z-index: 256;
 		width: 40px;
 		min-height: 40px;
 		-webkit-transition-duration: 1s;
@@ -5625,10 +5579,10 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 24px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 20px;
-		color: #FFFFFF;
-		line-height: 24px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -5666,7 +5620,7 @@ body
 
 	#u67583-4
 	{
-		z-index: 194;
+		z-index: 193;
 		width: 60px;
 		min-height: 20px;
 		line-height: 10px;
@@ -5713,7 +5667,6 @@ body
 	{
 		z-index: 58;
 		height: 315px;
-		background-image: url("../images/smartdetector_3-u67575-fr.jpg");
 		margin-top: 30px;
 		position: relative;
 		width: 92.25%;
@@ -5732,21 +5685,12 @@ body
 	#u68335
 	{
 		z-index: 182;
-		background-image: url("../images/smartdetector_4.jpg");
-		padding-bottom: 17px;
+		height: 315px;
+		background-image: url("../images/smartdetector_4-u68335-fr2.jpg");
 		margin-top: 15px;
 		position: relative;
 		width: 92.25%;
 		margin-left: 3.88%;
-	}
-
-	#u73437
-	{
-		z-index: 193;
-		margin-right: -10000px;
-		margin-top: 268px;
-		width: 8.41%;
-		left: 67.86%;
 	}
 
 	#u68334
@@ -5806,8 +5750,8 @@ body
 	{
 		z-index: 59;
 		min-height: 16px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		margin-left: 3.88%;
@@ -5847,7 +5791,6 @@ body
 	{
 		z-index: 91;
 		height: 315px;
-		background-image: url("../images/smartdetector_8-u68119-fr2.jpg");
 		margin-top: 15px;
 		position: relative;
 		width: 92.25%;
@@ -5866,8 +5809,8 @@ body
 	{
 		z-index: 76;
 		min-height: 40px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 15px;
 		width: 92.25%;
 		margin-left: 3.69%;
@@ -6048,7 +5991,7 @@ body
 
 	#u44404-4
 	{
-		z-index: 199;
+		z-index: 198;
 		min-height: 140px;
 		position: relative;
 		margin-right: -10000px;
@@ -6057,7 +6000,7 @@ body
 
 	#u44405-4
 	{
-		z-index: 203;
+		z-index: 202;
 		min-height: 140px;
 		position: relative;
 		margin-right: -10000px;
@@ -6067,7 +6010,7 @@ body
 
 	#u44407-4
 	{
-		z-index: 211;
+		z-index: 210;
 		min-height: 140px;
 		position: relative;
 		margin-right: -10000px;
@@ -6077,7 +6020,7 @@ body
 
 	#u44406-4
 	{
-		z-index: 207;
+		z-index: 206;
 		min-height: 140px;
 		position: relative;
 		margin-right: -10000px;
@@ -6095,17 +6038,17 @@ body
 
 	#u563,#u563-bw
 	{
-		z-index: 198;
+		z-index: 197;
 	}
 
 	#u44573-4
 	{
-		z-index: 215;
+		z-index: 214;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 215;
+		z-index: 214;
 		margin-top: 28px;
 	}
 
@@ -6137,12 +6080,12 @@ body
 
 	#u63688
 	{
-		z-index: 214;
+		z-index: 213;
 	}
 
 	#u63698-3
 	{
-		z-index: 215;
+		z-index: 214;
 		min-height: 19px;
 		padding-left: 10px;
 		padding-top: 10px;
@@ -6159,7 +6102,7 @@ body
 
 	#u63689
 	{
-		z-index: 218;
+		z-index: 217;
 	}
 
 	#u63692
@@ -6253,29 +6196,29 @@ body
 
 	#menuu63690,#menuu63690-bw
 	{
-		z-index: 219;
+		z-index: 218;
 		min-height: 410px;
 	}
 
 	#accordionu63687,#accordionu63687-bw
 	{
-		z-index: 213;
+		z-index: 212;
 	}
 
 	#u67549
 	{
-		z-index: 250;
+		z-index: 249;
 		width: 40px;
 		margin-top: 1px;
 	}
 
 	#u67551-4
 	{
-		z-index: 251;
+		z-index: 250;
 		width: 40px;
 		min-height: 40px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 	}
 
 	#u67551-4:hover
@@ -6291,7 +6234,7 @@ body
 
 	#u67583-4
 	{
-		z-index: 188;
+		z-index: 187;
 		width: 50px;
 		min-height: 20px;
 		line-height: 10px;
@@ -6343,7 +6286,6 @@ body
 	{
 		z-index: 52;
 		height: 205px;
-		background-image: url("../images/smartdetector_3.jpg");
 	}
 
 	#u67575-bw
@@ -6434,8 +6376,8 @@ body
 	{
 		z-index: 53;
 		min-height: 43px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 30px;
 		width: 87.5%;
 		margin-left: 6.25%;
@@ -6476,7 +6418,6 @@ body
 	{
 		z-index: 85;
 		height: 205px;
-		background-image: url("../images/smartdetector_8.jpg");
 	}
 
 	#u68119-bw
@@ -6498,8 +6439,8 @@ body
 	{
 		z-index: 70;
 		min-height: 30px;
-		font-size: 30px;
 		line-height: 42px;
+		font-size: 30px;
 		margin-top: 30px;
 		width: 87.5%;
 		margin-left: 6.25%;
@@ -6703,52 +6644,45 @@ body
 		font-size: 15px;
 	}
 
-	#u73437
-	{
-		z-index: 187;
-		width: 7.82%;
-		margin-left: 76.57%;
-	}
-
 	#u44404-4
 	{
-		z-index: 193;
+		z-index: 192;
 		min-height: 80px;
 	}
 
 	#u44404-4-bw
 	{
-		z-index: 193;
+		z-index: 192;
 		min-height: 80px;
 	}
 
 	#u44405-4
 	{
-		z-index: 197;
+		z-index: 196;
 		min-height: 80px;
 	}
 
 	#u44405-4-bw
 	{
-		z-index: 197;
+		z-index: 196;
 		min-height: 80px;
 	}
 
 	#u44407-4
 	{
-		z-index: 205;
+		z-index: 204;
 		min-height: 80px;
 	}
 
 	#u44407-4-bw
 	{
-		z-index: 205;
+		z-index: 204;
 		min-height: 80px;
 	}
 
 	#u44406-4
 	{
-		z-index: 201;
+		z-index: 200;
 		min-height: 80px;
 	}
 
@@ -6761,23 +6695,23 @@ body
 
 	#u44406-4-bw
 	{
-		z-index: 201;
+		z-index: 200;
 		min-height: 80px;
 	}
 
 	#u563,#u563-bw
 	{
-		z-index: 192;
+		z-index: 191;
 	}
 
 	#u44573-4
 	{
-		z-index: 209;
+		z-index: 208;
 	}
 
 	#u44573-4-bw
 	{
-		z-index: 209;
+		z-index: 208;
 		margin-top: 27px;
 	}
 

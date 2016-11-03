@@ -237,8 +237,8 @@
 		z-index: 188;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#top
@@ -393,10 +393,10 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -580,11 +580,11 @@
 		border-color: #EFC30A;
 		background-color: #FFDE00;
 		border-radius: 5px;
-		text-transform: uppercase;
-		text-align: center;
-		font-size: 15px;
-		color: #231F20;
 		line-height: 18px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #231F20;
+		font-size: 15px;
 		font-family: open-sans, sans-serif;
 		font-weight: 700;
 		margin-top: 174px;
@@ -759,8 +759,8 @@
 		z-index: 104;
 		width: 169px;
 		min-height: 39px;
-		font-size: 15px;
 		line-height: 18px;
+		font-size: 15px;
 		margin-right: -10000px;
 		margin-top: 412px;
 		left: -85px;
@@ -865,8 +865,8 @@
 	{
 		z-index: 55;
 		min-height: 86px;
-		font-size: 80px;
 		line-height: 96px;
+		font-size: 80px;
 		margin-right: -10000px;
 		width: 15%;
 		left: 17.85%;
@@ -876,8 +876,8 @@
 	{
 		z-index: 59;
 		min-height: 86px;
-		font-size: 80px;
 		line-height: 96px;
+		font-size: 80px;
 		margin-right: -10000px;
 		width: 15%;
 		margin-left: 42.5%;
@@ -888,8 +888,8 @@
 	{
 		z-index: 63;
 		min-height: 86px;
-		font-size: 80px;
 		line-height: 96px;
+		font-size: 80px;
 		margin-right: -10000px;
 		width: 15%;
 		left: 67.16%;
@@ -906,8 +906,8 @@
 	{
 		z-index: 67;
 		min-height: 158px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 		margin-right: -10000px;
 		width: 19.17%;
 		left: 15.84%;
@@ -917,8 +917,8 @@
 	{
 		z-index: 71;
 		min-height: 158px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 		margin-right: -10000px;
 		width: 19.17%;
 		margin-left: 40.42%;
@@ -929,8 +929,8 @@
 	{
 		z-index: 75;
 		min-height: 158px;
-		font-size: 20px;
 		line-height: 24px;
+		font-size: 20px;
 		margin-right: -10000px;
 		width: 21.39%;
 		left: 64.03%;
@@ -941,8 +941,8 @@
 		z-index: 48;
 		width: 109px;
 		min-height: 39px;
-		font-size: 15px;
 		line-height: 18px;
+		font-size: 15px;
 		top: -6px;
 		margin-bottom: -6px;
 		margin-left: 50%;
@@ -1094,8 +1094,8 @@
 		z-index: 97;
 		width: 109px;
 		min-height: 39px;
-		font-size: 15px;
 		line-height: 18px;
+		font-size: 15px;
 		margin-top: 44px;
 		margin-left: 50%;
 		left: -55px;

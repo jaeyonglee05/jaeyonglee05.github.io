@@ -294,8 +294,8 @@
 		z-index: 217;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u34031-4:hover
@@ -333,10 +333,10 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -377,10 +377,10 @@
 		z-index: 160;
 		width: 60px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		margin-left: 17.85%;
 	}
@@ -524,8 +524,8 @@
 	{
 		z-index: 106;
 		min-height: 63px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 33px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -555,8 +555,8 @@
 	{
 		z-index: 110;
 		min-height: 64px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -596,8 +596,8 @@
 	{
 		z-index: 114;
 		min-height: 45px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -627,8 +627,8 @@
 	{
 		z-index: 118;
 		min-height: 51px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -658,8 +658,8 @@
 	{
 		z-index: 122;
 		min-height: 53px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;
@@ -689,8 +689,8 @@
 	{
 		z-index: 126;
 		min-height: 54px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.85%;
@@ -711,8 +711,8 @@
 	{
 		z-index: 130;
 		min-height: 56px;
-		font-size: 50px;
 		line-height: 70px;
+		font-size: 50px;
 		margin-top: 30px;
 		width: 64.38%;
 		margin-left: 17.78%;

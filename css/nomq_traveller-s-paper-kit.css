@@ -288,8 +288,8 @@
 		z-index: 194;
 		width: 70px;
 		min-height: 70px;
-		font-size: 25px;
 		line-height: 30px;
+		font-size: 25px;
 	}
 
 	#u55969-4:hover
@@ -327,10 +327,10 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
+		line-height: 30px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 25px;
-		color: #FFFFFF;
-		line-height: 30px;
 		font-weight: bold;
 		position: fixed;
 		top: 0px;
@@ -403,10 +403,10 @@
 		z-index: 133;
 		width: 80px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 17.85%;
 	}
@@ -416,10 +416,10 @@
 		z-index: 137;
 		width: 80px;
 		min-height: 26px;
+		line-height: 12px;
+		color: #FFFFFF;
 		text-align: center;
 		font-size: 10px;
-		color: #FFFFFF;
-		line-height: 12px;
 		font-weight: bold;
 		left: 24.66%;
 	}
@@ -487,8 +487,8 @@
 	#u58207-4
 	{
 		z-index: 57;
-		font-size: 15px;
 		line-height: 21px;
+		font-size: 15px;
 		margin-top: 30px;
 		width: 64.38%;
 		left: 17.78%;
@@ -507,8 +507,8 @@
 	#u58296-4
 	{
 		z-index: 67;
-		font-size: 15px;
 		line-height: 21px;
+		font-size: 15px;
 		margin-right: -10000px;
 		width: 32.23%;
 		left: 17.85%;
@@ -517,8 +517,8 @@
 	#u58365-4
 	{
 		z-index: 71;
-		font-size: 15px;
 		line-height: 21px;
+		font-size: 15px;
 		margin-right: -10000px;
 		width: 32.23%;
 		left: 50%;
@@ -558,8 +558,8 @@
 	#u58461-4
 	{
 		z-index: 61;
-		font-size: 15px;
 		line-height: 21px;
+		font-size: 15px;
 		width: 64.38%;
 		left: 17.85%;
 	}
