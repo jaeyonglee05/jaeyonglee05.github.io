@@ -339,8 +339,8 @@
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -405,8 +405,8 @@
 		z-index: 75;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -418,8 +418,8 @@
 		z-index: 79;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;

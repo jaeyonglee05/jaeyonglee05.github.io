@@ -1,7 +1,7 @@
 .version.traveller_s_paper_kit /* version checker */
 {
-	color: #00000C;
-	background-color: #A08519;
+	color: #000010;
+	background-color: #C5FC6C;
 }
 
 .js body
@@ -16,45 +16,45 @@
 
 #page
 {
-	border-width: 0px;
 	z-index: 1;
-	margin-right: auto;
+	background-image: none;
 	background-color: transparent;
-	margin-left: auto;
 	width: 100%;
 	border-color: #000000;
-	background-image: none;
+	border-width: 0px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #u55971
 {
 	position: relative;
-	margin-right: -10000px;
 	background-color: #231F20;
+	margin-right: -10000px;
 }
 
 #u55969-4
 {
-	color: #FFFFFF;
-	transition-timing-function: ease;
-	transition-delay: 0s;
-	background-image: url("../images/blank.gif");
-	text-align: center;
-	margin-right: -10000px;
-	background-color: transparent;
-	transition-duration: 1s;
 	font-weight: bold;
 	-webkit-transition-delay: 0s;
-	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
 	position: relative;
+	background-image: url("../images/blank.gif");
+	-webkit-transition-timing-function: ease;
 	-webkit-transition-duration: 1s;
+	text-align: center;
+	transition-delay: 0s;
+	margin-right: -10000px;
+	transition-duration: 1s;
+	color: #FFFFFF;
+	background-color: transparent;
 }
 
 #u55969-4:hover
 {
-	padding-top: 0px;
-	background-color: #FFDE00;
 	padding-bottom: 0px;
+	background-color: #FFDE00;
+	padding-top: 0px;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -73,42 +73,42 @@
 
 #u57377
 {
-	margin-left: 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-color: transparent;
 	position: relative;
+	margin-left: 100%;
 	background-size: contain;
 }
 
 #u56064-23
 {
-	text-transform: uppercase;
 	background-color: transparent;
+	text-transform: uppercase;
 	color: #231F20;
 	position: relative;
 }
 
 #u56064-2
 {
-	font-family: league-gothic, sans-serif;
+	letter-spacing: 1px;
 	font-style: normal;
 	font-weight: 400;
-	letter-spacing: 1px;
+	font-family: league-gothic, sans-serif;
 }
 
 #u56064-3,#u56064-6
 {
-	text-align: left;
 	letter-spacing: 0px;
+	text-align: left;
 	font-weight: 400;
 	font-family: open-sans, sans-serif;
 }
 
 #u56064-10,#u56064-21
 {
-	text-align: left;
 	letter-spacing: 0px;
+	text-align: left;
 	font-weight: 700;
 	font-family: open-sans, sans-serif;
 }
@@ -127,10 +127,10 @@
 
 #u56068-10
 {
-	background-color: transparent;
-	font-weight: 600;
 	min-height: 35px;
 	position: relative;
+	background-color: transparent;
+	font-weight: 600;
 	font-family: open-sans, sans-serif;
 }
 
@@ -149,19 +149,19 @@
 
 #u58207-4,#u58296-4,#u58365-4,#u58461-4
 {
-	min-height: 14px;
-	font-family: open-sans, sans-serif;
 	text-transform: uppercase;
-	background-color: transparent;
+	min-height: 14px;
 	font-weight: 700;
+	font-family: open-sans, sans-serif;
 	position: relative;
+	background-color: transparent;
 }
 
 #u58558-4
 {
+	position: relative;
 	background-color: transparent;
 	font-weight: 400;
-	position: relative;
 	font-family: league-gothic, sans-serif;
 }
 
@@ -175,10 +175,10 @@
 
 #u56063-4,#u58030-4
 {
-	line-height: 16px;
-	background-color: transparent;
 	min-height: 8px;
+	background-color: transparent;
 	position: relative;
+	line-height: 16px;
 }
 
 #u56063-2,#u58030-2
@@ -189,10 +189,10 @@
 #u56063,#u58030
 {
 	font-weight: 400;
+	font-family: open-sans, sans-serif;
 	font-style: italic;
 	font-size: 10px;
 	line-height: 12px;
-	font-family: open-sans, sans-serif;
 }
 
 #u58886
@@ -203,18 +203,18 @@
 
 .ie #u58886
 {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
 	opacity: 0.01;
 	filter: alpha(opacity=1);
 	background-color: #FFFFFF;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
 }
 
 #u57640-7
 {
 	background-position: center center;
 	background-color: transparent;
-	font-weight: 400;
 	background-repeat: no-repeat;
+	font-weight: 400;
 	position: relative;
 	background-size: contain;
 }
@@ -223,16 +223,16 @@
 {
 	background-position: center bottom;
 	background-color: transparent;
-	font-weight: 400;
 	background-repeat: no-repeat;
+	font-weight: 400;
 	position: relative;
 	background-size: contain;
 }
 
 #u57580,#u57606,#u57765,#u57861,#u57921,#u58017
 {
-	background-repeat: no-repeat;
 	background-position: center center;
+	background-repeat: no-repeat;
 	background-color: transparent;
 	background-size: cover;
 }
@@ -246,33 +246,33 @@
 
 #u57640,#u57687,#u57783,#u57843,#u57939,#u57999
 {
+	font-family: league-gothic, sans-serif;
 	padding-left: 20px;
+	padding-right: 20px;
 	font-size: 20px;
 	line-height: 24px;
-	padding-right: 20px;
-	font-family: league-gothic, sans-serif;
 }
 
 #u57640-3,#u57687-3,#u57783-3,#u57843-3,#u57939-3,#u57999-3
 {
+	font-family: league-gothic, sans-serif;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-family: league-gothic, sans-serif;
 }
 
 #u57640-5,#u57687-5,#u57783-5,#u57843-5,#u57939-5,#u57999-5
 {
+	font-family: open-sans, sans-serif;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-family: open-sans, sans-serif;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	padding-top: 0px;
-	margin-bottom: 0px;
 	padding-bottom: 0px;
 	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
 }
 
 #pu55962-4,#pu563
@@ -631,8 +631,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -707,8 +707,8 @@ body
 		z-index: 133;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -720,8 +720,8 @@ body
 		z-index: 137;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -1470,8 +1470,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -1546,8 +1546,8 @@ body
 		z-index: 133;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -1559,8 +1559,8 @@ body
 		z-index: 137;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2314,8 +2314,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -2390,8 +2390,8 @@ body
 		z-index: 133;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2403,8 +2403,8 @@ body
 		z-index: 137;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -3153,8 +3153,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -3229,8 +3229,8 @@ body
 		z-index: 133;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -3242,8 +3242,8 @@ body
 		z-index: 137;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -3912,8 +3912,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
