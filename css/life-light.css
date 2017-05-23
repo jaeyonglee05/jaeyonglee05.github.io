@@ -1,7 +1,7 @@
 .version.life_light /* version checker */
 {
-	color: #0000FC;
-	background-color: #2771A0;
+	color: #000019;
+	background-color: #CFDFED;
 }
 
 .js body
@@ -16,45 +16,45 @@
 
 #page
 {
-	border-width: 0px;
 	z-index: 1;
-	margin-right: auto;
+	background-image: none;
 	background-color: transparent;
-	margin-left: auto;
 	width: 100%;
 	border-color: #000000;
-	background-image: none;
+	border-width: 0px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #u59254
 {
 	position: relative;
-	margin-right: -10000px;
 	background-color: #231F20;
+	margin-right: -10000px;
 }
 
 #u59256-4
 {
-	color: #FFFFFF;
-	transition-timing-function: ease;
-	transition-delay: 0s;
-	background-image: url("../images/blank.gif");
-	text-align: center;
-	margin-right: -10000px;
-	background-color: transparent;
-	transition-duration: 1s;
 	font-weight: bold;
 	-webkit-transition-delay: 0s;
-	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
 	position: relative;
+	background-image: url("../images/blank.gif");
+	-webkit-transition-timing-function: ease;
 	-webkit-transition-duration: 1s;
+	text-align: center;
+	transition-delay: 0s;
+	margin-right: -10000px;
+	transition-duration: 1s;
+	color: #FFFFFF;
+	background-color: transparent;
 }
 
 #u59256-4:hover
 {
-	padding-top: 0px;
-	background-color: #FFDE00;
 	padding-bottom: 0px;
+	background-color: #FFDE00;
+	padding-top: 0px;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -73,32 +73,32 @@
 
 #u59422-23
 {
-	text-transform: uppercase;
 	background-color: transparent;
+	text-transform: uppercase;
 	color: #231F20;
 	position: relative;
 }
 
 #u59422-2
 {
-	font-family: league-gothic, sans-serif;
+	letter-spacing: 1px;
 	font-style: normal;
 	font-weight: 400;
-	letter-spacing: 1px;
+	font-family: league-gothic, sans-serif;
 }
 
 #u59422-3,#u59422-6
 {
-	text-align: left;
 	letter-spacing: 0px;
+	text-align: left;
 	font-weight: 400;
 	font-family: open-sans, sans-serif;
 }
 
 #u59422-10,#u59422-21
 {
-	text-align: left;
 	letter-spacing: 0px;
+	text-align: left;
 	font-weight: 700;
 	font-family: open-sans, sans-serif;
 }
@@ -117,10 +117,10 @@
 
 #u59399-10
 {
-	background-color: transparent;
-	font-weight: 600;
 	min-height: 35px;
 	position: relative;
+	background-color: transparent;
+	font-weight: 600;
 	font-family: open-sans, sans-serif;
 }
 
@@ -133,25 +133,25 @@
 
 #u59702
 {
+	font-family: league-gothic, sans-serif;
 	padding-left: 20px;
+	padding-right: 20px;
 	font-size: 20px;
 	line-height: 24px;
-	padding-right: 20px;
-	font-family: league-gothic, sans-serif;
 }
 
 #u59702-3
 {
+	font-family: league-gothic, sans-serif;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-family: league-gothic, sans-serif;
 }
 
 #u59702-4,#u59702-6
 {
+	font-family: open-sans, sans-serif;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-family: open-sans, sans-serif;
 }
 
 #u59702-8,#u59798-7
@@ -163,8 +163,8 @@
 
 #u59798-2
 {
-	text-transform: uppercase;
 	font-family: league-gothic, sans-serif;
+	text-transform: uppercase;
 }
 
 #u59798-3,#u59798-5
@@ -174,11 +174,11 @@
 
 #u59396-4,#u59417-4
 {
-	font-family: open-sans, sans-serif;
 	text-transform: uppercase;
-	min-height: 14px;
 	background-color: transparent;
+	min-height: 14px;
 	font-weight: 700;
+	font-family: open-sans, sans-serif;
 	position: relative;
 }
 
@@ -192,10 +192,10 @@
 
 #u59816-4
 {
+	min-height: 74px;
 	position: relative;
 	background-color: transparent;
 	font-weight: 400;
-	min-height: 74px;
 	font-family: open-sans, sans-serif;
 }
 
@@ -207,8 +207,8 @@
 
 #u59834,#u59917,#u59948,#u60137,#u60150,#u60163
 {
-	background-repeat: no-repeat;
 	background-position: center center;
+	background-repeat: no-repeat;
 	background-color: transparent;
 	position: relative;
 	background-size: contain;
@@ -216,65 +216,65 @@
 
 #u59868-7,#u59935-7,#u59966-8,#u60013-9,#u60202-7,#u60189-7,#u60176-7
 {
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
 }
 
 #u59868-2,#u59935-2,#u59966-2,#u60202-2,#u60189-2,#u60176-2
 {
 	text-align: center;
 	font-weight: 700;
+	font-family: open-sans, sans-serif;
 	padding-left: 10px;
 	padding-right: 10px;
-	font-family: open-sans, sans-serif;
 }
 
 #u59868-3,#u59868-5,#u59935-3,#u59935-5,#u59966-3,#u59966-5,#u59966-6,#u60202-3,#u60202-5,#u60189-3,#u60189-5,#u60176-3,#u60176-5
 {
 	font-weight: 400;
+	font-family: open-sans, sans-serif;
 	padding-left: 10px;
 	padding-right: 10px;
-	font-family: open-sans, sans-serif;
 }
 
 #u60119-4,#u60309-4
 {
+	position: relative;
 	background-color: transparent;
 	font-weight: 400;
-	position: relative;
 	font-family: league-gothic, sans-serif;
 }
 
 #u59411,#u60093,#u60257
 {
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: cover;
 }
 
 #u59403-4,#u60384-4
 {
+	min-height: 57px;
 	position: relative;
 	background-color: transparent;
 	font-weight: 400;
-	min-height: 57px;
 	font-family: league-gothic, sans-serif;
 }
 
 #u60421-4
 {
+	min-height: 123px;
 	position: relative;
 	background-color: transparent;
 	font-weight: 400;
-	min-height: 123px;
 	font-family: open-sans, sans-serif;
 }
 
 #u60397
 {
-	background-repeat: no-repeat;
 	background-position: center center;
+	background-repeat: no-repeat;
 	position: relative;
 	background-color: transparent;
 	background-size: cover;
@@ -282,10 +282,10 @@
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	padding-top: 0px;
-	margin-bottom: 0px;
 	padding-bottom: 0px;
 	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
 }
 
 #pu59259-4,#pu563
@@ -405,8 +405,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -730,8 +730,8 @@ body
 		z-index: 167;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -743,8 +743,8 @@ body
 		z-index: 171;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -1323,8 +1323,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -1648,8 +1648,8 @@ body
 		z-index: 167;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -1661,8 +1661,8 @@ body
 		z-index: 171;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2234,8 +2234,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -2561,8 +2561,8 @@ body
 		z-index: 167;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2574,8 +2574,8 @@ body
 		z-index: 171;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -3153,8 +3153,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -3478,8 +3478,8 @@ body
 		z-index: 167;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -3491,8 +3491,8 @@ body
 		z-index: 171;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -4221,8 +4221,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;

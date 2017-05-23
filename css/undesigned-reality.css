@@ -1,7 +1,7 @@
 .version.undesigned_reality /* version checker */
 {
-	color: #0000E1;
-	background-color: #E2014D;
+	color: #000001;
+	background-color: #7F1E44;
 }
 
 .js body
@@ -16,45 +16,45 @@
 
 #page
 {
-	border-width: 0px;
 	z-index: 1;
-	margin-right: auto;
+	background-image: none;
 	background-color: transparent;
-	margin-left: auto;
 	width: 100%;
 	border-color: #000000;
-	background-image: none;
+	border-width: 0px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #u54974
 {
 	position: relative;
-	margin-right: -10000px;
 	background-color: #231F20;
+	margin-right: -10000px;
 }
 
 #u54973-4
 {
-	color: #FFFFFF;
-	transition-timing-function: ease;
-	transition-delay: 0s;
-	background-image: url("../images/blank.gif");
-	text-align: center;
-	margin-right: -10000px;
-	background-color: transparent;
-	transition-duration: 1s;
 	font-weight: bold;
 	-webkit-transition-delay: 0s;
-	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
 	position: relative;
+	background-image: url("../images/blank.gif");
+	-webkit-transition-timing-function: ease;
 	-webkit-transition-duration: 1s;
+	text-align: center;
+	transition-delay: 0s;
+	margin-right: -10000px;
+	transition-duration: 1s;
+	color: #FFFFFF;
+	background-color: transparent;
 }
 
 #u54973-4:hover
 {
-	padding-top: 0px;
-	background-color: #FFDE00;
 	padding-bottom: 0px;
+	background-color: #FFDE00;
+	padding-top: 0px;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -72,32 +72,32 @@
 
 #u54883-26
 {
-	text-transform: uppercase;
 	background-color: transparent;
+	text-transform: uppercase;
 	color: #231F20;
 	position: relative;
 }
 
 #u54883-2,#u54883-4
 {
-	font-family: league-gothic, sans-serif;
+	letter-spacing: 1px;
 	font-style: normal;
 	font-weight: 400;
-	letter-spacing: 1px;
+	font-family: league-gothic, sans-serif;
 }
 
 #u54883-5,#u54883-8
 {
-	text-align: left;
 	letter-spacing: 0px;
+	text-align: left;
 	font-weight: 400;
 	font-family: open-sans, sans-serif;
 }
 
 #u54883-12,#u54883-24
 {
-	text-align: left;
 	letter-spacing: 0px;
+	text-align: left;
 	font-weight: 700;
 	font-family: open-sans, sans-serif;
 }
@@ -116,26 +116,26 @@
 
 #u54884-10
 {
-	background-color: transparent;
-	font-weight: 600;
 	min-height: 35px;
 	position: relative;
+	background-color: transparent;
+	font-weight: 600;
 	font-family: open-sans, sans-serif;
 }
 
 #u54881,#u55328
 {
-	background-repeat: no-repeat;
 	background-position: center center;
+	background-repeat: no-repeat;
 	background-color: transparent;
 	background-size: cover;
 }
 
 #u54879-4,#u55354-4
 {
-	line-height: 16px;
-	background-color: transparent;
 	position: relative;
+	background-color: transparent;
+	line-height: 16px;
 }
 
 #u54879-2,#u55354-2
@@ -146,18 +146,18 @@
 #u54879,#u55354
 {
 	font-weight: 400;
+	font-family: open-sans, sans-serif;
 	font-style: italic;
 	font-size: 10px;
 	line-height: 12px;
-	font-family: open-sans, sans-serif;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	padding-top: 0px;
-	margin-bottom: 0px;
 	padding-bottom: 0px;
 	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
 }
 
 #pu563
@@ -516,8 +516,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -576,8 +576,8 @@ body
 		z-index: 53;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -1071,8 +1071,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -1131,8 +1131,8 @@ body
 		z-index: 53;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -1624,8 +1624,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -1684,8 +1684,8 @@ body
 		z-index: 53;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2172,8 +2172,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -2232,8 +2232,8 @@ body
 		z-index: 53;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2641,8 +2641,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 24px;
 		color: #FFFFFF;
+		line-height: 24px;
 		text-align: center;
 		font-size: 20px;
 		font-weight: bold;

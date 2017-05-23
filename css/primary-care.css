@@ -1,7 +1,7 @@
 .version.primary_care /* version checker */
 {
-	color: #0000F9;
-	background-color: #B2ACBB;
+	color: #0000EA;
+	background-color: #150DBD;
 }
 
 .js body
@@ -16,78 +16,78 @@
 
 #page
 {
-	border-width: 0px;
 	z-index: 1;
-	margin-right: auto;
+	background-image: none;
 	background-color: transparent;
-	margin-left: auto;
 	width: 100%;
 	border-color: #000000;
-	background-image: none;
+	border-width: 0px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #u64764
 {
 	position: relative;
-	margin-right: -10000px;
 	background-color: #231F20;
+	margin-right: -10000px;
 }
 
 #u64768-4
 {
-	color: #FFFFFF;
-	transition-timing-function: ease;
-	transition-delay: 0s;
-	background-image: url("../images/blank.gif");
-	text-align: center;
-	margin-right: -10000px;
-	background-color: transparent;
-	transition-duration: 1s;
 	font-weight: bold;
 	-webkit-transition-delay: 0s;
-	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
 	position: relative;
+	background-image: url("../images/blank.gif");
+	-webkit-transition-timing-function: ease;
 	-webkit-transition-duration: 1s;
+	text-align: center;
+	transition-delay: 0s;
+	margin-right: -10000px;
+	transition-duration: 1s;
+	color: #FFFFFF;
+	background-color: transparent;
 }
 
 #u64768-4:hover
 {
-	padding-top: 0px;
-	background-color: #FFDE00;
 	padding-bottom: 0px;
+	background-color: #FFDE00;
+	padding-top: 0px;
 	margin: 0px -10000px 0px 0px;
 }
 
 #u64766
 {
 	top: 0px;
-	background-color: #231F20;
 	left: 0px;
 	position: fixed;
+	background-color: #231F20;
 }
 
 #u64765-3
 {
 	top: 0px;
 	left: 0px;
+	-webkit-transition-delay: 0s;
+	transition-duration: 1s;
+	text-align: center;
+	-webkit-transition-timing-function: ease;
 	transition-timing-function: ease;
 	-webkit-transition-duration: 1s;
 	transition-delay: 0s;
-	-webkit-transition-delay: 0s;
-	-webkit-transition-timing-function: ease;
-	text-align: center;
 	font-weight: bold;
 	color: #FFFFFF;
 	position: fixed;
-	transition-duration: 1s;
 	background: transparent url("../images/top%20navigation.svg") no-repeat left top;
 	background-size: 70px 70px;
 }
 
 #u64765-3:hover
 {
-	padding-bottom: 0px;
 	padding-top: 0px;
+	padding-bottom: 0px;
 	margin: 0px;
 	background: #FFDE00 url("../images/top%20navigation.svg") no-repeat left top;
 	background-size: 70px 70px;
@@ -112,32 +112,32 @@
 
 #u64865-23
 {
-	text-transform: uppercase;
 	background-color: transparent;
+	text-transform: uppercase;
 	color: #231F20;
 	position: relative;
 }
 
 #u64865-2
 {
-	font-family: league-gothic, sans-serif;
+	letter-spacing: 1px;
 	font-style: normal;
 	font-weight: 400;
-	letter-spacing: 1px;
+	font-family: league-gothic, sans-serif;
 }
 
 #u64865-3,#u64865-6
 {
-	text-align: left;
 	letter-spacing: 0px;
+	text-align: left;
 	font-weight: 400;
 	font-family: open-sans, sans-serif;
 }
 
 #u64865-10,#u64865-21
 {
-	text-align: left;
 	letter-spacing: 0px;
+	text-align: left;
 	font-weight: 700;
 	font-family: open-sans, sans-serif;
 }
@@ -159,8 +159,8 @@
 	min-height: 35px;
 	background-color: transparent;
 	font-weight: 600;
-	position: relative;
 	font-family: open-sans, sans-serif;
+	position: relative;
 }
 
 #u64861-2,#u64861-7
@@ -192,38 +192,38 @@
 #u65235-2
 {
 	font-weight: 400;
+	font-family: league-gothic, sans-serif;
 	font-size: 30px;
 	line-height: 42px;
-	font-family: league-gothic, sans-serif;
 }
 
 #u65235-3
 {
-	line-height: 14px;
 	font-size: 10px;
+	line-height: 14px;
 }
 
 #u65235-5
 {
-	line-height: 21px;
 	font-size: 15px;
+	line-height: 21px;
 }
 
 #u65533,#u65315
 {
-	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: transparent;
 	position: relative;
+	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #u65881-4,#u64863-4,#u65690-4,#u65832-4
 {
-	line-height: 16px;
-	background-color: transparent;
 	min-height: 8px;
+	background-color: transparent;
 	position: relative;
+	line-height: 16px;
 }
 
 #u65881-2,#u64863-2,#u65690-2,#u65832-2
@@ -234,35 +234,35 @@
 #u65881,#u64863,#u65690,#u65832
 {
 	font-weight: 400;
+	font-family: open-sans, sans-serif;
 	font-style: italic;
 	font-size: 10px;
 	line-height: 12px;
-	font-family: open-sans, sans-serif;
 }
 
 #u65621-4
 {
-	font-size: 15px;
-	line-height: 21px;
-	background-color: transparent;
 	min-height: 57px;
+	font-size: 15px;
+	background-color: transparent;
 	position: relative;
+	line-height: 21px;
 }
 
 #u65489,#u64860
 {
-	background-repeat: no-repeat;
 	background-position: center center;
+	background-repeat: no-repeat;
 	background-color: transparent;
 	background-size: cover;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	padding-top: 0px;
-	margin-bottom: 0px;
 	padding-bottom: 0px;
 	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
 }
 
 #pu64766,#pu563
@@ -641,8 +641,8 @@
 		z-index: 74;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -1215,8 +1215,8 @@
 		z-index: 74;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -1792,8 +1792,8 @@
 		z-index: 74;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2360,8 +2360,8 @@
 		z-index: 74;
 		width: 80px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;

@@ -1,7 +1,7 @@
 .version.kalasatama_health_and_welfare_center /* version checker */
 {
-	color: #000013;
-	background-color: #89F5EF;
+	color: #000008;
+	background-color: #E64FB7;
 }
 
 .js body
@@ -16,45 +16,45 @@
 
 #page
 {
-	border-width: 0px;
 	z-index: 1;
-	margin-right: auto;
+	background-image: none;
 	background-color: transparent;
-	margin-left: auto;
 	width: 100%;
 	border-color: #000000;
-	background-image: none;
+	border-width: 0px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #u61552
 {
 	position: relative;
-	margin-right: -10000px;
 	background-color: #231F20;
+	margin-right: -10000px;
 }
 
 #u61553-4
 {
-	color: #FFFFFF;
-	transition-timing-function: ease;
-	transition-delay: 0s;
-	background-image: url("../images/blank.gif");
-	text-align: center;
-	margin-right: -10000px;
-	background-color: transparent;
-	transition-duration: 1s;
 	font-weight: bold;
 	-webkit-transition-delay: 0s;
-	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
 	position: relative;
+	background-image: url("../images/blank.gif");
+	-webkit-transition-timing-function: ease;
 	-webkit-transition-duration: 1s;
+	text-align: center;
+	transition-delay: 0s;
+	margin-right: -10000px;
+	transition-duration: 1s;
+	color: #FFFFFF;
+	background-color: transparent;
 }
 
 #u61553-4:hover
 {
-	padding-top: 0px;
-	background-color: #FFDE00;
 	padding-bottom: 0px;
+	background-color: #FFDE00;
+	padding-top: 0px;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -78,42 +78,42 @@
 
 #u38148-25
 {
-	text-transform: uppercase;
 	background-color: transparent;
+	text-transform: uppercase;
 	color: #231F20;
 	position: relative;
 }
 
 #u38148-2
 {
-	font-family: league-gothic, sans-serif;
+	letter-spacing: 1px;
 	font-style: normal;
 	font-weight: 400;
-	letter-spacing: 1px;
+	font-family: league-gothic, sans-serif;
 }
 
 #u38148-3
 {
-	text-align: left;
-	font-size: 15px;
-	line-height: 18px;
 	letter-spacing: 1px;
+	line-height: 18px;
+	text-align: left;
 	font-weight: 400;
 	font-family: open-sans, sans-serif;
+	font-size: 15px;
 }
 
 #u38148-6
 {
-	text-align: left;
 	letter-spacing: 0px;
+	text-align: left;
 	font-weight: 400;
 	font-family: open-sans, sans-serif;
 }
 
 #u38148-23
 {
-	text-align: left;
 	letter-spacing: 0px;
+	text-align: left;
 	font-weight: 700;
 	font-family: open-sans, sans-serif;
 }
@@ -122,8 +122,8 @@
 {
 	background-color: transparent;
 	font-weight: 600;
-	position: relative;
 	font-family: open-sans, sans-serif;
+	position: relative;
 }
 
 #u38140
@@ -135,10 +135,10 @@
 
 #u38776-4
 {
-	line-height: 16px;
-	background-color: transparent;
 	min-height: 20px;
+	background-color: transparent;
 	position: relative;
+	line-height: 16px;
 }
 
 #u38812-7,#u38812-13
@@ -156,18 +156,18 @@
 #u38171
 {
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: contain;
 }
 
 #u38980
 {
-	min-width: 40px;
-	border-color: transparent;
 	max-width: 100000px;
-	border-width: 0px;
+	border-color: transparent;
 	background-color: transparent;
+	min-width: 40px;
+	border-width: 0px;
 }
 
 #u38160-7,#u38812-21,#u38143-7,#u38926-10,#u39010-7
@@ -184,33 +184,33 @@
 
 #u39106-10
 {
+	min-height: 195px;
 	background-color: transparent;
 	position: relative;
-	min-height: 195px;
 }
 
 #u38152,#u39054,#u38145,#u38147
 {
 	background-position: center center;
 	background-repeat: no-repeat;
-	position: relative;
 	background-color: transparent;
+	position: relative;
 	background-size: contain;
 }
 
 #u38848,#u39168
 {
 	background-position: center center;
-	background-color: transparent;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	background-size: cover;
 }
 
 #u38874-4,#u38962-4,#u39132-4,#u39212-4
 {
-	line-height: 16px;
 	background-color: transparent;
 	position: relative;
+	line-height: 16px;
 }
 
 #u38776-2,#u38874-2,#u38962-2,#u38926-2,#u39010-2,#u39132-2,#u39212-2
@@ -221,18 +221,18 @@
 #u38776,#u38874,#u38962,#u39132,#u39212
 {
 	font-weight: 400;
+	font-family: open-sans, sans-serif;
 	font-style: italic;
 	font-size: 10px;
 	line-height: 12px;
-	font-family: open-sans, sans-serif;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	padding-top: 0px;
-	margin-bottom: 0px;
 	padding-bottom: 0px;
 	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
 }
 
 #u563,#u563-bw
@@ -291,8 +291,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -645,8 +645,8 @@ body
 		z-index: 127;
 		width: 60px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -658,8 +658,8 @@ body
 		z-index: 131;
 		width: 90px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -1334,8 +1334,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -1404,8 +1404,8 @@ body
 		z-index: 127;
 		width: 60px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -1417,8 +1417,8 @@ body
 		z-index: 131;
 		width: 90px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2084,8 +2084,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -2155,8 +2155,8 @@ body
 		z-index: 127;
 		width: 60px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2168,8 +2168,8 @@ body
 		z-index: 131;
 		width: 90px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2835,8 +2835,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -2879,8 +2879,8 @@ body
 		z-index: 127;
 		width: 60px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -2892,8 +2892,8 @@ body
 		z-index: 131;
 		width: 90px;
 		min-height: 26px;
-		line-height: 12px;
 		color: #FFFFFF;
+		line-height: 12px;
 		text-align: center;
 		font-size: 10px;
 		font-weight: bold;
@@ -3465,8 +3465,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 24px;
 		color: #FFFFFF;
+		line-height: 24px;
 		text-align: center;
 		font-size: 20px;
 		font-weight: bold;

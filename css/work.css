@@ -1,7 +1,7 @@
 .version.work /* version checker */
 {
-	color: #000017;
-	background-color: #007E2E;
+	color: #000004;
+	background-color: #D21FF8;
 }
 
 .js body
@@ -17,13 +17,13 @@
 #page
 {
 	border-width: 0px;
-	z-index: 1;
+	background-image: none;
 	margin-right: auto;
-	background-color: transparent;
-	margin-left: auto;
 	width: 100%;
 	border-color: #000000;
-	background-image: none;
+	z-index: 1;
+	background-color: transparent;
+	margin-left: auto;
 }
 
 #top
@@ -34,9 +34,9 @@
 
 #u4143-8
 {
-	margin-right: -10000px;
 	background-color: transparent;
 	position: relative;
+	margin-right: -10000px;
 }
 
 #u4143-3
@@ -53,26 +53,26 @@
 
 #u61284-4
 {
-	color: #FFFFFF;
-	transition-timing-function: ease;
-	transition-delay: 0s;
-	background-image: url("../images/blank.gif");
-	text-align: center;
-	margin-right: -10000px;
-	background-color: transparent;
-	transition-duration: 1s;
 	font-weight: bold;
 	-webkit-transition-delay: 0s;
-	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
 	position: relative;
+	background-image: url("../images/blank.gif");
+	-webkit-transition-timing-function: ease;
 	-webkit-transition-duration: 1s;
+	text-align: center;
+	transition-delay: 0s;
+	margin-right: -10000px;
+	transition-duration: 1s;
+	color: #FFFFFF;
+	background-color: transparent;
 }
 
 #u61284-4:hover
 {
-	padding-top: 0px;
-	background-color: #FFDE00;
 	padding-bottom: 0px;
+	background-color: #FFDE00;
+	padding-top: 0px;
 	margin: 0px -10000px 0px 0px;
 }
 
@@ -97,10 +97,10 @@
 
 #u5809:hover
 {
-	margin-top: 0px;
-	margin-right: -10000px;
-	margin-bottom: 0px;
 	min-height: 0px;
+	margin-bottom: 0px;
+	margin-right: -10000px;
+	margin-top: 0px;
 	background: transparent url("../images/visualizingair.svg") no-repeat center center;
 	background-size: cover;
 }
@@ -119,8 +119,8 @@
 
 #u5780
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/primarycare2.jpg") no-repeat center center;
 	background-size: cover;
@@ -128,8 +128,8 @@
 
 #u5780:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/primarycare.svg") no-repeat center center;
 	background-size: cover;
@@ -142,8 +142,8 @@
 
 #u5805
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/vero_jaeyonglee_2.jpg") no-repeat center center;
 	background-size: cover;
@@ -151,8 +151,8 @@
 
 #u5805:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/vero.svg") no-repeat center center;
 	background-size: cover;
@@ -165,8 +165,8 @@
 
 #u5775
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/welding%20training%20app.jpg") no-repeat center center;
 	background-size: cover;
@@ -174,8 +174,8 @@
 
 #u5775:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/weldingtraining.svg") no-repeat center center;
 	background-size: cover;
@@ -188,8 +188,8 @@
 
 #u5801
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/pickysjourney.jpg") no-repeat center center;
 	background-size: cover;
@@ -197,8 +197,8 @@
 
 #u5801:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/pickysjourney.svg") no-repeat center center;
 	background-size: cover;
@@ -211,8 +211,8 @@
 
 #u5798
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/kalasatamahospital.jpg") no-repeat center center;
 	background-size: cover;
@@ -220,8 +220,8 @@
 
 #u5798:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/kalasatamahospital.svg") no-repeat center center;
 	background-size: cover;
@@ -234,8 +234,8 @@
 
 #u5777
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/aaltoorganizer2.jpg") no-repeat center center;
 	background-size: cover;
@@ -243,8 +243,8 @@
 
 #u5777:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/aaltoorganizer.svg") no-repeat center center;
 	background-size: cover;
@@ -257,8 +257,8 @@
 
 #u5776
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/0100design_2.jpg") no-repeat center center;
 	background-size: cover;
@@ -266,8 +266,8 @@
 
 #u5776:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/0100design.svg") no-repeat center center;
 	background-size: cover;
@@ -280,8 +280,8 @@
 
 #u5808
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/experiencedrivendesign.jpg") no-repeat center center;
 	background-size: cover;
@@ -289,8 +289,8 @@
 
 #u5808:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/xd.svg") no-repeat center center;
 	background-size: cover;
@@ -303,8 +303,8 @@
 
 #u5810
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/81project.jpg") no-repeat center center;
 	background-size: cover;
@@ -312,8 +312,8 @@
 
 #u5810:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/81project.svg") no-repeat center center;
 	background-size: cover;
@@ -326,8 +326,8 @@
 
 #u5816
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/travelerspaperkit.jpg") no-repeat center center;
 	background-size: cover;
@@ -335,8 +335,8 @@
 
 #u5816:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/travelerspaperkit.svg") no-repeat center center;
 	background-size: cover;
@@ -350,15 +350,15 @@
 #u74043,#u73995,#u74003,#u74011,#u74019,#u74035,#u74027,#u74051,#u74059,#u74067,#u74075
 {
 	border-width: 0px;
+	border-color: transparent;
 	position: relative;
 	background-color: transparent;
-	border-color: transparent;
 }
 
 #u5811
 {
-	width: 100%;
 	margin-right: -10000px;
+	width: 100%;
 	position: relative;
 	background: transparent url("../images/lifelight.jpg") no-repeat center center;
 	background-size: cover;
@@ -366,8 +366,8 @@
 
 #u5811:hover
 {
-	width: 100%;
 	min-height: 0px;
+	width: 100%;
 	margin: 0px -10000px 0px 0%;
 	background: transparent url("../images/lifelight.svg") no-repeat center center;
 	background-size: cover;
@@ -380,17 +380,17 @@
 
 #u61285,#u5837-4,#u5786-4,#u5807-4,#u5788-4,#u5803-4,#u5800-4,#u5790-4,#u5787-4,#u5838-4,#u5839-4,#u5840-4,#u5842-4
 {
-	margin-right: -10000px;
 	background-color: #231F20;
 	position: relative;
+	margin-right: -10000px;
 }
 
 #u44404-4:hover,#u44405-4:hover,#u44407-4:hover,#u44406-4:hover
 {
-	padding-top: 0px;
-	margin-bottom: 0px;
 	padding-bottom: 0px;
 	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
 }
 
 #u563,#u563-bw
@@ -485,8 +485,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -1310,8 +1310,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -2379,8 +2379,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -2967,8 +2967,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		text-align: center;
 		font-size: 25px;
 		font-weight: bold;
@@ -3962,8 +3962,8 @@ body
 		transition-duration: 1s;
 		transition-delay: 0s;
 		transition-timing-function: ease;
-		line-height: 24px;
 		color: #FFFFFF;
+		line-height: 24px;
 		text-align: center;
 		font-size: 20px;
 		font-weight: bold;
