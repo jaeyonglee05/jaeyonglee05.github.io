@@ -1,0 +1,294 @@
+<?php
+if($_POST["message"]) {
+    mail("jaeyonglee05@gmail.com", "Message from studiojaeyonglee.com", $_POST["message"], "From: an@email.address");
+}
+?>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jaeyong Lee</title>
+    <!--normalize-->
+    <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,600,800" rel='stylesheet' type="text/css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.gif" type="image/gif">
+    <!--stlying-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <!--slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="clearfix site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <header>
+            <div class="masthead-w">
+              <a href="index.html"><div class="brand" id="logo-w"></div></a>
+              <div class="menu-mobile-w">
+                 <div class="menu-icon" onclick="openNav()">
+                 <div class="bar1-w"></div>
+                 <div class="bar2-w"></div>
+                 <div class="bar3-w"></div>
+               </div>
+             </div>
+            <div class="menu-desktop">
+              <nav>
+                <ul class="masthead-nav white">
+                  <li><a href="work.html">WORK</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="contact.html"><span class="current">CONTACT</span></a></li>
+                  <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </ul>
+                <div class="menu-desktop-icon">
+                 <div class="menu-icon" onclick="openNav()">
+                     <div class="bar1-w"></div>
+                     <div class="bar2-w"></div>
+                     <div class="bar3-w"></div>
+                 </div>
+               </div>
+             </div>
+               <div id="myNav" class="overlay-w">
+                 <a href="javascript:void(0)" class="closebtn-w" onclick="closeNav()">&times;</a>
+                 <div class="post-heading overlay-contents-w">
+                     <a href="index.html" class="current"><span>HOME</span></a>
+                     <a href="work.html">WORK</a>
+                     <a href="about.html">ABOUT</a>
+                     <a href="contact.html">CONTACT</a>
+                 </div>
+              </nav>
+            </div>
+          </div>
+          </header>
+
+          <div class="all-contents">
+            <div class="animation">
+              <div class="col-9 col-m-9 animation-contents">
+                <h2 class="post-heading white"><span class="ityped"></span></h2>
+              </div>
+              <div class="arrow-box">
+                <a href="#profile-anchor"><img src="svgs/arrow_down-w.svg" class="arrow-icon" id="arrow_down"></a>
+              </div>
+              <div class="profile-anchor" id="profile-anchor"></div>
+            </div>
+
+            <div class="getInTouch">
+              <div class="col-9 col-m-9 getInTouch-contents">
+                <div class="grid">
+                    <div class="element-item contactInformation">
+                      <h3 class="post-sub-heading_1">Contact Info</h3>
+                      <p class="post-contents">
+                        Mobile: <a href="tel:+358465775140">+358 46 577 5140</a><br>
+                        Email: <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a><br>
+                        Address: Vaino Auerin Katu 1N 047, Helsinki, Finland
+                    </div>
+
+                  <div class="element-item socialMedia">
+                    <h3 class="post-sub-heading_1">Social Media</h3>
+                    <div class="social" id="social">
+                      <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook.svg" class="social-icons" id="facebook"></a></div>
+                      <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter.svg" class="social-icons"></a></div>
+                      <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram.svg" class="social-icons"></a></div>
+                      <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin.svg" class="social-icons"></a></div>
+                    </div>
+                  </div>
+               </div>
+               <div class="contactForm">
+                  <form action="contact.php">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email" name="email">
+
+                    <label for="subject">SUBJECT</label>
+                    <textarea id="subject" name="subject" style="height:200px"></textarea>
+                    <input type="submit" value="SUBMIT" id="seeMore">
+                  </form>
+               </div>
+              </div>
+            </div>
+
+
+
+            <div class="mastfoot">
+              <div class="col-9 col-m-9 mastfoot-contents">
+                <div class="col-6 col-m-6 mastfoot-information">
+                  <h3 class="post-sub-heading_1"><span class="ityped-footer"></span></h3>
+                  <div class="social">
+                    <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook_w.svg" class="social-icons" id="facebook"></a></div>
+                    <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter_w.svg" class="social-icons"></a></div>
+                    <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram_w.svg" class="social-icons"></a></div>
+                    <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin_w.svg" class="social-icons"></a></div>
+                  </div>
+                  <div class="contact-information">
+                    <p class="post-contents" id="copyright">
+                      <!--delete
+                      Currently working and living in Shanghai<br>
+
+                      <a href="tel:+358465775140">+358 46 577 5140</a><br>
+                      <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a>
+
+                      <br><br><br>-->
+                      Copyright © Jaeyong Lee</p>
+                  </div>
+                </div>
+
+                <div class="col-6 col-m-6 mastfoot-navigation">
+                  <nav class=mastfoot-nav>
+                    <ul>
+                      <li><a href="#home" class="current"><span>HOME</span></li>
+                      <li><a href="#work"><span>WORK</span></a></li>
+                      <li><a href="#about"><span>ABOUT</span></a></li>
+                      <li><a href="#contact"><span>CONTACT</span></a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Smooth scrolling effect to anchors-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    <!--text animation-->
+    <script src="dist/ityped.js"></script>
+  	<script>
+  		window.ityped.init(document.querySelector('.ityped'), {
+              strings : ['GET IN TOUCH.'],
+              loop : true
+          });
+      window.ityped.init(document.querySelector('.ityped-footer'), {
+              strings : ['JAEYONG LEE.'],
+              loop : true
+          });
+    </script>
+    <!--resizing menu-->
+    <script src="classie.js"></script>
+    <script>
+      function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+      window.onload = init();
+    </script>
+    <!--Full screen navigation-->
+    <script>
+      function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+    <!--Tab and transition-->
+    <script src="https://unpkg.com/isotope-layout@2.2.2/dist/isotope.pkgd.min.js"></script>
+    <script>
+      // init Isotope
+      var iso = new Isotope( '.grid', {
+      itemSelector: '.element-item',
+      layoutMode: 'fitRows'
+      });
+
+      // filter functions
+      var filterFns = {
+      // show if number is greater than 50
+      numberGreaterThan50: function( itemElem ) {
+        var number = itemElem.querySelector('.number').textContent;
+        return parseInt( number, 10 ) > 50;
+      },
+      // show if name ends with -ium
+      ium: function( itemElem ) {
+        var name = itemElem.querySelector('.name').textContent;
+        return name.match( /ium$/ );
+      }
+      };
+
+      // bind filter button click
+      var filtersElem = document.querySelector('.filters-button-group');
+      filtersElem.addEventListener( 'click', function( event ) {
+      // only work with buttons
+      if ( !matchesSelector( event.target, 'button' ) ) {
+        return;
+      }
+      var filterValue = event.target.getAttribute('data-filter');
+      // use matching filter function
+      filterValue = filterFns[ filterValue ] || filterValue;
+      iso.arrange({ filter: filterValue });
+      });
+
+      // change is-checked class on buttons
+      var buttonGroups = document.querySelectorAll('.button-group');
+      for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+      var buttonGroup = buttonGroups[i];
+      radioButtonGroup( buttonGroup );
+      }
+
+      function radioButtonGroup( buttonGroup ) {
+      buttonGroup.addEventListener( 'click', function( event ) {
+        // only work with buttons
+        if ( !matchesSelector( event.target, 'button' ) ) {
+          return;
+        }
+        buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+        event.target.classList.add('is-checked');
+      });
+      }
+  </script>
+  <!--matchHeight-->
+  <script src="jquery.matchHeight.js" type="text/javascript"></script>
+  <script>
+  $(function() {
+	$('div.element-item').matchHeight();
+});
+  </script>
+  </body>
+</html>
