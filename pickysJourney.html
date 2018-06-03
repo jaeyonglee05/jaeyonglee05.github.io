@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jaeyong Lee</title>
+    <!--normalize-->
+    <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,600,800" rel='stylesheet' type="text/css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.gif" type="image/gif">
+    <!--stlying-->
+    <link rel="stylesheet" href="style.css">
+    <!--animate-->
+    <link rel="stylesheet" href="animate/animate.css">
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+	<div class="clearfix site-wrapper">
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+				<header>
+					<div class="masthead-w">
+						<a href="index.html"><div class="brand" id="logo-w"></div></a>
+						<div class="menu-mobile-w">
+							 <div class="menu-icon" onclick="openNav()">
+							 <div class="bar1-w"></div>
+							 <div class="bar2-w"></div>
+							 <div class="bar3-w"></div>
+						 </div>
+					 </div>
+					<div class="menu-desktop">
+						<nav>
+							<ul class="masthead-nav white">
+								<li><a href="work.html"><span class="current">WORK</span></a></li>
+								<li><a href="about.html">ABOUT</a></li>
+								<li><a href="contact.html">CONTACT</a></li>
+								<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+							</ul>
+							<div class="menu-desktop-icon">
+							 <div class="menu-icon" onclick="openNav()">
+									 <div class="bar1-w"></div>
+									 <div class="bar2-w"></div>
+									 <div class="bar3-w"></div>
+							 </div>
+						 </div>
+					 </div>
+						 <div id="myNav" class="overlay-w">
+							 <a href="javascript:void(0)" class="closebtn-w" onclick="closeNav()">&times;</a>
+							 <div class="post-heading overlay-contents-w">
+									 <a href="index.html" class="current"><span>HOME</span></a>
+									 <a href="work.html">WORK</a>
+									 <a href="about.html">ABOUT</a>
+									 <a href="contact.html">CONTACT</a>
+							 </div>
+						</nav>
+					</div>
+				</div>
+				</header>
+
+				<main class="contents-wrapper">
+					<div class="head-section">
+						<div id="pickysJourney_headBg" class="head-background rellax" data-rellax-speed="-5"></div>
+						<div class="head-texts">
+							<h1 class="post-heading white animated fadeInUp">For Children's Healthy Eating Habits</h1>
+							<h2 class="post-sub-heading_2 animated fadeInUp">Educational application for 3-6 years old children</h2>
+						</div>
+					</div>
+
+					<div class="body-section">
+				    <div class="col-9 col-m-9 body-contents">
+				     <div class="body-contents-left">
+							<div id="pickysJourney_overview">
+                <button id="workbutton" class="tag-button-black">UX / UI</button>
+								<div class="goBack" onclick="goBack()">&lt; BACK TO PREVIOUS PAGE</div>
+								<div class="workInfo post-sub-heading_2">
+									<span class="bold">Year:</span>2014<br>
+									<span class="bold">Designers:</span> Jaeyong Lee, Chao Chien, Jovana Kacavenda, Nan Yang, Madara Zeicane<br>
+									<span class="bold">My Roles in the team:</span> Design research, graphic design, motion design<br>
+                </div>
+								<p class="post-contents" id="initialSpace">
+                  Picky’s Journey is an educational game that aims to cultivate the child’s healthy eating habit by visualizing how the food influences his or her body while playing the game. Parents and children can get personalized food recommendations like what kinds of food make their children healthier.
+                </p>
+                <div class="videoWrapper">
+                  <iframe src="https://player.vimeo.com/video/114499552" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <img src="imgs/works/pickysJourney/301-3-161005_picky-s journey_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                <span class="post-description">Concept image: children playing with Picky's Journey app</span>
+				      </div>
+
+							<div id="pickysJourney_background">
+								<h3 id="sectionTitle" class="post-sub-heading_1">Background</h3>
+                <img src="imgs/works/pickysJourney/pickysjourney_1.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                <br>
+                <br>
+                <p class="post-contents">
+                  Developing children’s healthy eating habits is very important, especially for 3-6 years old children, since it influences not only their physical developments, but also their eating habits for the future. However, many children are picky eaters; they don’t take enough nutrition from food and sometimes their bad eating habits last when they are grown up.
+                </p>
+							</div>
+
+							<div id="pickysJourney_designResearch">
+								<h3 id="sectionTitle" class="post-sub-heading_1">Design Research</h3>
+								<p class="post-contents">
+                  To figure out what are the touch points of this project, our team had various researches from kindergarten teacher interviews to anthropological research. First of all, we started with parents’ interviews to get understanding of general eating problems for children. Many parents who we talked with were concerned about their children’s eating problems, some of parents even do not know how to react in those situations. We also did children behavior researches through articles and children psychologist interviews.
+                  <br><br>
+                  The most crucial part of our researches was an anthropological approach. We visited Kaivopuisto international Kindergarten in Helsinki for one day, and observed 15 children’s lunchtime. To get various perspectives through our observing, we divided our roles that writing, drawing and recording. We noticed that many interesting insights about children eating behaviors that weren’t revealed in general researches like interviewing parents and teachers. Here are the briefs of our insight during observation.
+                </p>
+                <img src="imgs/works/pickysJourney/pickysjourney_2.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                <span class="post-description">Kaivopuisto international Kindergarten</span>
+                <div class="quoteWrapper">
+                  <p class="post-quotes">“Making motivation about the eating experiences and educating children regarding food are really important to children not only for their physical developments, but also raising eating habits when they grow up.”</p>
+                  <span class="post-description white">During an interview with a children psychologist</span>
+                </div>
+              </div>
+
+              <div id="pickysJourney_designConcept">
+                <h3 id="sectionTitle" class="post-sub-heading_1">Design Concept</h3>
+                <img src="imgs/works/pickysJourney/pickysjourney_0_2.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                <p class="post-contents">
+                  Throughout our researches, we figured out that children’s motivation for eating and providing information about food what they eat are core aspects of our project. Furthermore, we figured out that not only for children, but also the knowledge of parents about what kinds of food are necessary for their children is also an important factor to implement this corner stone.
+                  <br><br>
+                  We decided making an educational game application for 3-6 years old children to make them motivate eating experiences before and after meals. Children are easy feel empathy to imaginary characters that are usually in fairy tales, animations or toys. Kids would also have big interests learning and playing through visual contents. We would like to educate children by using these factors properly and tried to naturally induce their health eating habit while they are playing and learning with our new application.
+                </p>
+              </div>
+
+              <div id="pickysJourney_designOutcome">
+                <h3 id="sectionTitle" class="post-sub-heading_1">Design Outcome</h3>
+                <img src="imgs/works/pickysJourney/pickysJourney_4.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                <img src="imgs/works/pickysJourney/pickysJourney_3.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                <span class="post-description">Design concept: Picky's Journey</span>
+                <p class="post-contents">
+                  Picky’s Journey is an educational game that aims to cultivate children’s healthy eating habit by visualizing how the food influence on their body while playing the game. Parents and children can get personalized food recommendations that what kinds of food make their children healthier.
+                  <br><br>
+                  By filling food history what children ate and playing game that reflects the food history, they can combine real world and virtual world at the same time. For example, if a child eats too much or take unhealthy food, the character will become too fat or weak to finish game missions. On the contrary, if the child eats properly, the character will gain extra strength and special equipment.
+                  <br><br>
+                  Children can have motivation to eat various food through this game, and parents can get useful information that help them to make their children have healthy eating habit. Furthermore, throughout the involvements of parents in food selection and feeding process, parents and children can make more interaction while learning about the food what they eat.
+                </p>
+                <h4 id="sectionTitle" class="post-sub-heading_2">1. Create your own character</h3>
+                <img src="imgs/works/pickysJourney/pickysjourney_7.png" onclick="openModal();currentSlide(7)" class="hover-shadow"/>
+                <span class="post-description">Onboarding process: character creation</span>
+                <p class="post-contents">
+                  The first step to have fun with Picky’s Jouney is registering users’ personal information. In this step, parents need to put their children’s age, height, weight, and gender as well as nationality. The reason getting nationality information of children is that the food generally has many varieties depending on their cultural background. Pickey’s Journey provides different presets through it.
+                  <br><br>
+                  After filling necessary information to start, users can create their own Picky character by given data. The character reflects children’s assumed physical developments. So, if a child’s height is short, the character also will be short. From beginning, unless users can get a basic character, while playing game, they can collect more points, which means that they could get different free characters. Of course, they can purchase special Picky characters in Picky’s shop.
+                </p>
+                <h4 id="sectionTitle" class="post-sub-heading_2">2. Feed your character according to your meals</h3>
+                <img src="imgs/works/pickysJourney/pickysJourney.gif" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                <span class="post-description">Interaction example</span>
+                <p class="post-contents">
+                  Parents and children can feed character based on food what children eat. Picky’s Journey provides wide range of food, so users can pick them up to feed their characters. In case of non-registered food, users can freely create various food by using different ingredients. Through this process, children can learn about different influences of food as well as they will get items that will be used in game playing.
+                  <br><br>
+                  The items are metaphors that actual influences of food, so children can naturally learn about the food. At the same time, depending on what they feed to their character, the characters grow up.
+                </p>
+              </div>
+
+              <div id="pickysJourney-callapse" class="collapse">
+                <h4 id="sectionTitle" class="post-sub-heading_2">3. Start your own journey with your friends</h3>
+                <img src="imgs/works/pickysJourney/pickysjourney_11.png" onclick="openModal();currentSlide(9)" class="hover-shadow"/>
+                <span class="post-description">Social function</span>
+                <p class="post-contents">
+                  In this part, children can play actual game. They will face with many varieties in the food world with Picky. They would go to the next stage by helps of special items that they got in process of the feeding part. The stages are consisted with hundreds of different levels, but children cannot play over more than 30min per each.
+                  <br><br>
+                  The system of Picky’s Journey is that a character uses their energy constantly while they are running, and the resources are the food what children fed them before. To play more, children need to feed character after next their meals, which mean that Picky’s Journey not only prevent the game addiction of children, but also give constant motivation of eating various food. In addition, Picky’s Journey also provides the networking game system, so they also check their friends’ game score during playing game.
+                </p>
+                <h4 id="sectionTitle" class="post-sub-heading_2">4. Check and analyze your eating habits in Picky's Health Center</h3>
+                <img src="imgs/works/pickysJourney/pickysjourney_13.png" onclick="openModal();currentSlide(10)" class="hover-shadow"/>
+                <span class="post-description">Analysis of health condition according to food intakes</span>
+                <p class="post-contents">
+                  Parents and children can get recommendations of food for nutrition balances and healthy eating habit. Picky’s Health Center provides analysis of food data based on recorded food history, so parents and children could get knowledge of nutrition statement. If children need to eat certain food more, for example, Picky’s Health Center suggests taking some food for next meal to make children’s proper nutrition balances.
+                  <br><br>
+                  Every meal recorded, so parents can always check the children’s food history as well as the influences of food what they would serve for their children.
+                 </p>
+              </div>
+              <button type="button" class="btn button-button-black" data-toggle="collapse" data-target="#pickysJourney-callapse" id="seeMore">
+               SEE MORE
+              </button>
+			      </div>
+					</div>
+
+            <div id="myModal" class="modal">
+              <span class="modalclosebtn-w" onclick="closeModal()">&times;</span>
+              <div class="modal-contents">
+                <div class="mySlides">
+                  <img src="imgs/works/pickysJourney/301-3-161005_picky-s journey_1.jpg">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/pickysJourney/pickysjourney_1.jpg">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/pickysJourney/pickysjourney_2.jpg">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/pickysJourney/pickysjourney_0_2.png">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/pickysJourney/pickysJourney_4_1.jpg">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/pickysJourney/pickysJourney_3.png">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/pickysJourney/pickysjourney_7.png">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/pickysJourney/pickysJourney.gif">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/pickysJourney/pickysjourney_11.png">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/pickysJourney/pickysjourney_13.png">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"><img src="svgs/arrow_prev.svg"></a>
+                <a class="next" onclick="plusSlides(1)"><img src="svgs/arrow_next.svg"></a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+						<div class="col-3 col-m-3 body-contents-right">
+						</div>
+
+            <div id="myScrollspy">
+              <ul class="nav nav-tabs nav-stacked" data-offset-top="580" data-spy="affix">
+                <li class="active"><a href="#pickysJourney_overview">OVERVIEW</a></li>
+                <li><a href="#pickysJourney_background">BACKGROUND</a></li>
+                <li><a href="#pickysJourney_designResearch">DESIGN RESEARCH</a></li>
+                <li><a href="#pickysJourney_designConcept">DESIGN CONCEPT</a></li>
+                <li><a href="#pickysJourney_designOutcome">DESIGN OUTCOME</a></li>
+              </ul>
+            </div>
+
+				  </div>
+				</div>
+      </div>
+
+        <div class="mastfoot">
+          <div class="col-9 col-m-9 mastfoot-contents">
+            <div class="col-6 col-m-6 mastfoot-information">
+              <h3 class="post-sub-heading_1" id="footerAnimation">
+                <span class="ityped-footer"></span>
+              </h3>
+              <!-- Disable footer animation and place plain text for mobile-->
+              <h3 class="post-sub-heading_1" id="footerNoAnimation">
+                <span>JAEYONG LEE.</span>
+              </h3>
+              <div class="social">
+                <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook_w.svg" class="social-icons" id="facebook"></a></div>
+                <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter_w.svg" class="social-icons"></a></div>
+                <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram_w.svg" class="social-icons"></a></div>
+                <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin_w.svg" class="social-icons"></a></div>
+              </div>
+              <div class="contact-information">
+                <p class="post-contents" id="copyright">
+                  <a href="tel:+358465775140">+358 46 577 5140</a><br>
+                  <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a>
+                  <br><br>
+                  Copyright © Jaeyong Lee</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-m-6 mastfoot-navigation">
+              <nav class=mastfoot-nav>
+                <ul>
+                  <li><a href="index.html" class="current"><span>HOME</span></li>
+                  <li><a href="work.html"><span>WORK</span></a></li>
+                  <li><a href="about.html"><span>ABOUT</span></a></li>
+                  <li><a href="contact.html"><span>CONTACT</span></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+			</main>
+
+
+			</div>
+		</div>
+	</div>
+
+	<!--Smooth scrolling effect to anchors-->
+	<script>
+	$(document).ready(function(){
+		// Add smooth scrolling to all links
+		$("a").on('click', function(event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				}, 800, function(){
+
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				});
+			} // End if
+		});
+	});
+	</script>
+	<!--resizing menu-->
+	<script src="classie.js"></script>
+	<script>
+		function init() {
+			window.addEventListener('scroll', function(e){
+					var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+							shrinkOn = 300,
+							header = document.querySelector("header");
+					if (distanceY > shrinkOn) {
+							classie.add(header,"smaller");
+					} else {
+							if (classie.has(header,"smaller")) {
+									classie.remove(header,"smaller");
+							}
+					}
+			});
+	}
+		window.onload = init();
+	</script>
+	<!--Full screen navigation-->
+	<script>
+		function openNav() {
+		document.getElementById("myNav").style.height = "100%";
+		}
+
+		function closeNav() {
+		document.getElementById("myNav").style.height = "0%";
+		}
+	</script>
+	<!--text animation-->
+	<script src="dist/ityped.js"></script>
+	<script>
+		window.ityped.init(document.querySelector('.ityped-footer'), {
+						strings : ['JAEYONG LEE.'],
+						loop : true
+				});
+	</script>
+	<!--resizing menu-->
+	<script src="classie.js"></script>
+	<script>
+		function init() {
+			window.addEventListener('scroll', function(e){
+					var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+							shrinkOn = 300,
+							header = document.querySelector("header");
+					if (distanceY > shrinkOn) {
+							classie.add(header,"smaller");
+					} else {
+							if (classie.has(header,"smaller")) {
+									classie.remove(header,"smaller");
+							}
+					}
+			});
+	}
+		window.onload = init();
+	</script>
+	<!--parallax-->
+	<script src="parallax/rellax.min.js"></script>
+	<script>
+		// Also can pass in optional settings block
+		var rellax = new Rellax('.rellax');
+	</script>
+	<!--Go Back Button-->
+	<script>
+		function goBack() {
+				window.history.back();
+		}
+	</script>
+	<!--callapsing button-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#pickysJourney-callapse").on("hide.bs.collapse", function(){
+				$(".btn").html('SEE MORE');
+			});
+			$("#pickysJourney-callapse").on("show.bs.collapse", function(){
+				$(".btn").html('SEE LESS');
+			});
+		});
+	</script>
+  <!-- Light box -->
+  <script>
+    function openModal() {
+      document.getElementById('myModal').style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById('myModal').style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+  </script>
+</body>
+</html>

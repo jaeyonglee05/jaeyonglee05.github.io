@@ -1,435 +1,291 @@
-<!DOCTYPE html>
-<html class="nojs html" lang="en-US">
- <head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jaeyong Lee</title>
+    <!--normalize-->
+    <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,600,800" rel='stylesheet' type="text/css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.gif" type="image/gif">
+    <!--stlying-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <!--slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+  </head>
 
-  <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musemenu.js", "webpro.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "musewpdisclosure.js", "jquery.museresponsive.js", "contact.css"], "outOfDate":[]};
-</script>
+  <body>
+    <div class="clearfix site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <header>
+            <div class="masthead-w">
+              <a href="index.html"><div class="brand" id="logo-w"></div></a>
+              <div class="menu-mobile-w">
+                 <div class="menu-icon" onclick="openNav()">
+                 <div class="bar1-w"></div>
+                 <div class="bar2-w"></div>
+                 <div class="bar3-w"></div>
+               </div>
+             </div>
+            <div class="menu-desktop">
+              <nav>
+                <ul class="masthead-nav white">
+                  <li><a href="work.html">WORK</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="contact.html"><span class="current">CONTACT</span></a></li>
+                  <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </ul>
+                <div class="menu-desktop-icon">
+                 <div class="menu-icon" onclick="openNav()">
+                     <div class="bar1-w"></div>
+                     <div class="bar2-w"></div>
+                     <div class="bar3-w"></div>
+                 </div>
+               </div>
+             </div>
+               <div id="myNav" class="overlay-w">
+                 <a href="javascript:void(0)" class="closebtn-w" onclick="closeNav()">&times;</a>
+                 <div class="post-heading overlay-contents-w">
+                     <a href="index.html" class="current"><span>HOME</span></a>
+                     <a href="work.html">WORK</a>
+                     <a href="about.html">ABOUT</a>
+                     <a href="contact.html">CONTACT</a>
+                 </div>
+              </nav>
+            </div>
+          </div>
+          </header>
 
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="2015.1.1.343"/>
-  <title>Contact</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?4208102703"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?4174256567"/>
-  <link rel="stylesheet" type="text/css" href="css/contact.css?483522470" id="pagesheet"/>
-  <!-- IE-only CSS -->
-  <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?4125063398"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_contact.css?481715564" id="nomq_pagesheet"/>
-  <![endif]-->
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
-var __adobewebfontsappname__ = "muse";
-</script>
-  <!-- JS includes -->
-  <!--[if lt IE 9]>
-  <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
-  <![endif]-->
-  <script type="text/javascript">
-   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans:n7,n3:default;league-gothic:n4:default.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//use.typekit.net/ik/mb1hL_3AJ2Y3G0lhZj_38vxOEt6f56vqek9diWDDfO9fe7Jgf5WvpUJGwRMDwQJ3FmvaZAIkF2Z8jhbUZQS3wRbXw2BywRyRZeFR52bkFRqXZgTIHKoDiYmq-AN7jAmodho1dem8OcFzdPUDiYmq-AN7jAmodho1dem8OcFzdPUaiaS0SasuZe8z-cB8pAN0ZhU8ZPoRdhXKfAN3ZAtlShB0SkG4fF4UIMMjMkMfH6qJDWIbMg6YJM4HgIuuShAbMSeSqCqB.js" type="text/javascript">\x3C/script>');
-</script>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   try {Typekit.load();} catch(e) {}
-</script>
-   </head>
- <body>
+          <div class="all-contents">
+            <div class="animation">
+              <div class="col-9 col-m-9 animation-contents">
+                <h2 class="post-heading white" id="headerAnimation"><span class="ityped"></span></h2>
+                <!-- Disable animation for mobile-->
+                <h2 class="post-heading white" id="headerNoAnimation"><span>GET IN TOUCH.</span></h2>
+              </div>
+              <div class="arrow-box">
+                <a href="#profile-anchor"><img src="svgs/arrow_down-w.svg" class="arrow-icon" id="arrow_down"></a>
+              </div>
+              <div class="profile-anchor" id="profile-anchor"></div>
+            </div>
 
-  <div class="breakpoint active" id="bp_infinity" data-min-width="1141"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox" id="page"><!-- group -->
-    <div class="clearfix grpelem" id="pu70964"><!-- group -->
-     <div class="browser_width grpelem shared_content" id="u70964-bw" data-content-guid="u70964-bw_content">
-      <div class="museBGSize" id="u70964"><!-- simple frame --></div>
-     </div>
-     <div class="clearfix grpelem" id="u168"><!-- group -->
-      <a class="anchor_item grpelem shared_content" id="top" data-content-guid="top_content"></a>
-      <nav class="MenuBar clearfix grpelem" id="menuu170"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u171"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem" id="u174" href="work.html" data-href="page:U2842"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u177-4"><!-- content --><p id="u177-2" class="shared_content" data-content-guid="u177-2_content"><span id="u177">Works</span></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem" id="u192"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem" id="u193" href="profile.html" data-href="page:U2896"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u195-4"><!-- content --><p id="u195-2" class="shared_content" data-content-guid="u195-2_content"><span id="u195">ABOUT</span></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem" id="u185"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition clearfix colelem" id="u186" href="contact.html" data-href="page:U70868"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u187-4"><!-- content --><p id="u187-2" class="shared_content" data-content-guid="u187-2_content"><span id="u187">Contact</span></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem" id="u178"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem" id="u181" href="blog.html" data-href="page:U2878"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u182-4"><!-- content --><p id="u182-2" class="shared_content" data-content-guid="u182-2_content"><span id="u182">blog</span></p></div></a>
-       </div>
-      </nav>
-     </div>
-    </div>
-    <div id="u74185" class="shared_content" data-content-guid="u74185_content"><!-- simple frame --></div>
-    <!-- m_editable region-id="editable-static-tag-U74187" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-    <div class="pointer_cursor clearfix grpelem shared_content" id="u74187" data-muse-uid="U74187" data-content-guid="u74187_content"><!-- group -->
-     <a class="block" href="index.html" data-href="page:U93"></a>
-     <!-- m_editable region-id="editable-static-tag-U74188-BP_infinity" template="contact.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
-     <a class="nonblock nontext transition clearfix grpelem" id="u74188-4" href="index.html" data-href="page:U93" data-muse-uid="U74188" data-muse-type="txt_frame"><!-- content --><p id="u74188-2">J</p></a>
-     <!-- /m_editable -->
-    </div>
-    <!-- /m_editable -->
-    <div class="clearfix grpelem" id="pu70962"><!-- group -->
-     <div class="browser_width shared_content" id="u70962-bw" data-content-guid="u70962-bw_content">
-      <div class="museBGSize" id="u70962"><!-- simple frame --></div>
-     </div>
-     <div class="browser_width shared_content" id="u70963-bw" data-content-guid="u70963-bw_content">
-      <div id="u70963"><!-- simple frame --></div>
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U74186-BP_infinity" template="contact.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
-     <a class="nonblock nontext anim_swing transition museBGSize clearfix shared_content" id="u74186-3" href="contact.html#top" data-href="anchor:U70271:U70988" data-muse-uid="U74186" data-muse-type="txt_frame" data-content-guid="u74186-3_content"><!-- content --><p id="u74186">&nbsp;</p></a>
-     <!-- /m_editable -->
-    </div>
-    <div class="clearfix grpelem shared_content" id="pu70965-9" data-content-guid="pu70965-9_content"><!-- column -->
-     <!-- m_editable region-id="editable-static-tag-U70965-BP_infinity" template="contact.html" data-type="html" data-ice-options="disableImageResize,link" -->
-     <div class="clearfix colelem shared_content" id="u70965-9" data-muse-uid="U70965" data-muse-type="txt_frame" data-content-guid="u70965-9_content"><!-- content -->
-      <p id="u70965-7"><span id="u70965-3">Get in touch<br/></span><span id="u70965-5"><br/></span><span id="u70965-6">I'll appreciate your comments, suggestions and feedbacks.</span></p>
-     </div>
-     <!-- /m_editable -->
-     <div class="clearfix colelem" id="pu70967"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U70967" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-      <a class="nonblock nontext rounded-corners transition grpelem shared_content" id="u70967" href="https://www.facebook.com/jaeyonglee05" target="_blank" data-muse-uid="U70967" data-content-guid="u70967_content"><!-- simple frame --></a>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U70968" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-      <a class="nonblock nontext rounded-corners transition grpelem shared_content" id="u70968" href="https://twitter.com/Jaeyonglee05" target="_blank" data-muse-uid="U70968" data-content-guid="u70968_content"><!-- simple frame --></a>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U70969" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-      <a class="nonblock nontext rounded-corners transition grpelem shared_content" id="u70969" href="http://fi.linkedin.com/in/jaeyonglee05" data-muse-uid="U70969" data-content-guid="u70969_content"><!-- simple frame --></a>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U70970" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-      <a class="nonblock nontext rounded-corners transition grpelem shared_content" id="u70970" href="https://www.behance.net/leejaeyong" target="_blank" data-muse-uid="U70970" data-content-guid="u70970_content"><!-- simple frame --></a>
-      <!-- /m_editable -->
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U70966-BP_infinity" template="contact.html" data-type="html" data-ice-options="disableImageResize,link" -->
-     <div class="clearfix colelem shared_content" id="u70966-9" data-muse-uid="U70966" data-muse-type="txt_frame" data-content-guid="u70966-9_content"><!-- content -->
-      <p class="Link-style-new-white" id="u70966-3"><a class="nonblock" href="mailto:jaeyonglee05@gmail.com" title="Email"><span id="u70966">jaeyonglee05@gmail.com</span></a></p>
-      <p id="u70966-5">+358 46 577 5140</p>
-      <p id="u70966-7">Vaino Auerin Katu 1N 047, 0056, Helsinki, Finland</p>
-     </div>
-     <!-- /m_editable -->
-    </div>
-    <div class="verticalspacer"></div>
-    <div class="clearfix grpelem shared_content" id="ppu44404-4" data-content-guid="ppu44404-4_content"><!-- column -->
-     <div class="clearfix colelem shared_content" id="pu44404-4" data-content-guid="pu44404-4_content"><!-- group -->
-      <a class="nonblock nontext clearfix grpelem shared_content" id="u44404-4" href="work.html" data-href="page:U2842" data-content-guid="u44404-4_content"><!-- content --><p id="u44404-2">WORK</p></a>
-      <a class="nonblock nontext clearfix grpelem shared_content" id="u44405-4" href="profile.html" data-href="page:U2896" data-content-guid="u44405-4_content"><!-- content --><p id="u44405-2">PROFILE</p></a>
-      <a class="nonblock nontext MuseLinkActive clearfix grpelem shared_content" id="u44407-4" href="contact.html" data-href="page:U70868" data-content-guid="u44407-4_content"><!-- content --><p id="u44407-2">CONTACT</p></a>
-      <a class="nonblock nontext clearfix grpelem shared_content" id="u44406-4" href="blog.html" data-href="page:U2878" data-content-guid="u44406-4_content"><!-- content --><p id="u44406-2">BLOG</p></a>
-     </div>
-     <div class="clearfix colelem shared_content" id="pu563" data-content-guid="pu563_content"><!-- group -->
-      <div class="browser_width grpelem" id="u563-bw">
-       <div id="u563"><!-- simple frame --></div>
+            <div class="getInTouch">
+              <div class="col-9 col-m-9 getInTouch-contents">
+                <div class="grid">
+                    <div class="element-item contactInformation">
+                      <h3 class="post-sub-heading_1">Contact Info</h3>
+                      <p class="post-contents">
+                        Mobile: <a href="tel:+358465775140">+358 46 577 5140</a><br>
+                        Email: <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a><br>
+                    </div>
+
+                  <div class="element-item socialMedia">
+                    <h3 class="post-sub-heading_1">Social Media</h3>
+                    <div class="social" id="social">
+                      <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook.svg" class="social-icons" id="facebook"></a></div>
+                      <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter.svg" class="social-icons"></a></div>
+                      <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram.svg" class="social-icons"></a></div>
+                      <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin.svg" class="social-icons"></a></div>
+                    </div>
+                  </div>
+               </div>
+               <div class="contactForm">
+                  <form action="contact.php">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email" name="email">
+
+                    <label for="subject">SUBJECT</label>
+                    <textarea id="subject" name="subject" style="height:200px"></textarea>
+                    <input type="submit" value="SUBMIT" id="seeMore">
+                  </form>
+               </div>
+              </div>
+            </div>
+
+            <div class="mastfoot">
+              <div class="col-9 col-m-9 mastfoot-contents">
+                <div class="col-6 col-m-6 mastfoot-information">
+                  <h3 class="post-sub-heading_1" id="footerAnimation">
+                    <span class="ityped-footer"></span>
+                  </h3>
+                  <!-- Disable footer animation and place plain text for mobile-->
+                  <h3 class="post-sub-heading_1" id="footerNoAnimation">
+                    <span>JAEYONG LEE.</span>
+                  </h3>
+                  <div class="social">
+                    <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook_w.svg" class="social-icons" id="facebook"></a></div>
+                    <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter_w.svg" class="social-icons"></a></div>
+                    <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram_w.svg" class="social-icons"></a></div>
+                    <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin_w.svg" class="social-icons"></a></div>
+                  </div>
+                  <div class="contact-information">
+                    <p class="post-contents" id="copyright">
+                      <a href="tel:+358465775140">+358 46 577 5140</a><br>
+                      <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a>
+                      <br><br>
+                      Copyright © Jaeyong Lee</p>
+                  </div>
+                </div>
+
+                <div class="col-6 col-m-6 mastfoot-navigation">
+                  <nav class=mastfoot-nav>
+                    <ul>
+                      <li><a href="index.html" class="current"><span>HOME</span></li>
+                      <li><a href="work.html"><span>WORK</span></a></li>
+                      <li><a href="about.html"><span>ABOUT</span></a></li>
+                      <li><a href="contact.html"><span>CONTACT</span></a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
-      <div class="browser_width grpelem" id="u44573-4-bw">
-       <div class="clearfix" id="u44573-4"><!-- content -->
-        <p id="u44573-2">Copyright © Jaeyong Lee. All rights reserved.</p>
-       </div>
-      </div>
-     </div>
     </div>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_1140" data-min-width="961" data-max-width="1140"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <a class="anchor_item grpelem placeholder" data-placeholder-for="top_content"><!-- placeholder node --></a>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu70964"><!-- group -->
-     <div class="browser_width grpelem placeholder" data-placeholder-for="u70964-bw_content"><!-- placeholder node --></div>
-     <div class="clearfix grpelem temp_no_id" data-orig-id="u168"><!-- group -->
-      <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu170"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u171"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="work.html" data-href="page:U2842" data-orig-id="u174"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u177-4"><!-- content --><p class="placeholder" data-placeholder-for="u177-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u192"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="profile.html" data-href="page:U2896" data-orig-id="u193"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u195-4"><!-- content --><p class="placeholder" data-placeholder-for="u195-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u185"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition clearfix colelem temp_no_id" href="contact.html" data-href="page:U70868" data-orig-id="u186"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u187-4"><!-- content --><p class="placeholder" data-placeholder-for="u187-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u178"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="blog.html" data-href="page:U2878" data-orig-id="u181"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u182-4"><!-- content --><p class="placeholder" data-placeholder-for="u182-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-      </nav>
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U74187" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-     <div class="pointer_cursor clearfix grpelem placeholder" data-placeholder-for="u74187_content"><!-- placeholder node --></div>
-     <!-- /m_editable -->
-    </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu70962"><!-- group -->
-     <div class="browser_width placeholder" data-placeholder-for="u70962-bw_content"><!-- placeholder node --></div>
-     <div class="browser_width placeholder" data-placeholder-for="u70963-bw_content"><!-- placeholder node --></div>
-     <div class="placeholder" data-placeholder-for="u74185_content"><!-- placeholder node --></div>
-     <!-- m_editable region-id="editable-static-tag-U74186-BP_1140" template="contact.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
-     <a class="nonblock nontext anim_swing transition museBGSize clearfix placeholder" data-placeholder-for="u74186-3_content"><!-- placeholder node --></a>
-     <!-- /m_editable -->
-    </div>
-    <div class="clearfix grpelem placeholder" data-placeholder-for="pu70965-9_content"><!-- placeholder node --></div>
-    <div class="verticalspacer"></div>
-    <div class="clearfix grpelem placeholder" data-placeholder-for="ppu44404-4_content"><!-- placeholder node --></div>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_960" data-min-width="769" data-max-width="960"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="placeholder" data-placeholder-for="u74185_content"><!-- placeholder node --></div>
-    <!-- m_editable region-id="editable-static-tag-U74187" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-    <div class="pointer_cursor clearfix grpelem placeholder" data-placeholder-for="u74187_content"><!-- placeholder node --></div>
-    <!-- /m_editable -->
-    <!-- m_editable region-id="editable-static-tag-U74186-BP_960" template="contact.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
-    <a class="nonblock nontext anim_swing transition museBGSize clearfix placeholder" data-placeholder-for="u74186-3_content"><!-- placeholder node --></a>
-    <!-- /m_editable -->
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu70964"><!-- group -->
-     <div class="browser_width grpelem placeholder" data-placeholder-for="u70964-bw_content"><!-- placeholder node --></div>
-     <div class="clearfix grpelem temp_no_id" data-orig-id="u168"><!-- group -->
-      <a class="anchor_item grpelem placeholder" data-placeholder-for="top_content"><!-- placeholder node --></a>
-      <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu170"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u171"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="work.html" data-href="page:U2842" data-orig-id="u174"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u177-4"><!-- content --><p class="placeholder" data-placeholder-for="u177-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u192"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="profile.html" data-href="page:U2896" data-orig-id="u193"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u195-4"><!-- content --><p class="placeholder" data-placeholder-for="u195-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u185"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition clearfix colelem temp_no_id" href="contact.html" data-href="page:U70868" data-orig-id="u186"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u187-4"><!-- content --><p class="placeholder" data-placeholder-for="u187-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u178"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="blog.html" data-href="page:U2878" data-orig-id="u181"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u182-4"><!-- content --><p class="placeholder" data-placeholder-for="u182-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-      </nav>
-     </div>
-    </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu70962"><!-- group -->
-     <div class="browser_width placeholder" data-placeholder-for="u70962-bw_content"><!-- placeholder node --></div>
-     <div class="browser_width placeholder" data-placeholder-for="u70963-bw_content"><!-- placeholder node --></div>
-    </div>
-    <div class="clearfix grpelem placeholder" data-placeholder-for="pu70965-9_content"><!-- placeholder node --></div>
-    <div class="verticalspacer shared_content" data-content-guid="page_10_content"></div>
-    <div class="clearfix grpelem placeholder" data-placeholder-for="ppu44404-4_content"><!-- placeholder node --></div>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_768" data-min-width="651" data-max-width="768"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="placeholder" data-placeholder-for="u74185_content"><!-- placeholder node --></div>
-    <!-- m_editable region-id="editable-static-tag-U74187" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-    <div class="pointer_cursor clearfix grpelem placeholder" data-placeholder-for="u74187_content"><!-- placeholder node --></div>
-    <!-- /m_editable -->
-    <!-- m_editable region-id="editable-static-tag-U74186-BP_768" template="contact.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
-    <a class="nonblock nontext anim_swing transition museBGSize clearfix placeholder" data-placeholder-for="u74186-3_content"><!-- placeholder node --></a>
-    <!-- /m_editable -->
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu70964"><!-- group -->
-     <div class="browser_width grpelem placeholder" data-placeholder-for="u70964-bw_content"><!-- placeholder node --></div>
-     <div class="clearfix grpelem temp_no_id" data-orig-id="u168"><!-- group -->
-      <a class="anchor_item grpelem placeholder" data-placeholder-for="top_content"><!-- placeholder node --></a>
-      <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu170"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u171"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="work.html" data-href="page:U2842" data-orig-id="u174"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u177-4"><!-- content --><p class="placeholder" data-placeholder-for="u177-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u192"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="profile.html" data-href="page:U2896" data-orig-id="u193"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u195-4"><!-- content --><p class="placeholder" data-placeholder-for="u195-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u185"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition clearfix colelem temp_no_id" href="contact.html" data-href="page:U70868" data-orig-id="u186"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u187-4"><!-- content --><p class="placeholder" data-placeholder-for="u187-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u178"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="blog.html" data-href="page:U2878" data-orig-id="u181"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u182-4"><!-- content --><p class="placeholder" data-placeholder-for="u182-2_content"><!-- placeholder node --></p></div></a>
-       </div>
-      </nav>
-     </div>
-    </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu70962"><!-- group -->
-     <div class="browser_width placeholder" data-placeholder-for="u70962-bw_content"><!-- placeholder node --></div>
-     <div class="browser_width placeholder" data-placeholder-for="u70963-bw_content"><!-- placeholder node --></div>
-    </div>
-    <div class="clearfix grpelem placeholder" data-placeholder-for="pu70965-9_content"><!-- placeholder node --></div>
-    <div class="verticalspacer placeholder" data-placeholder-for="page_10_content"><!-- placeholder node --></div>
-    <div class="clearfix grpelem placeholder" data-placeholder-for="ppu44404-4_content"><!-- placeholder node --></div>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_650" data-min-width="517" data-max-width="650"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu70964"><!-- group -->
-     <div class="browser_width grpelem placeholder" data-placeholder-for="u70964-bw_content"><!-- placeholder node --></div>
-     <!-- m_editable region-id="editable-static-tag-U74187" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-     <div class="pointer_cursor clearfix grpelem placeholder" data-placeholder-for="u74187_content"><!-- placeholder node --></div>
-     <!-- /m_editable -->
-    </div>
-    <div class="clearfix grpelem" id="pu74185"><!-- group -->
-     <div class="placeholder" data-placeholder-for="u74185_content"><!-- placeholder node --></div>
-     <!-- m_editable region-id="editable-static-tag-U74186-BP_650" template="contact.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
-     <a class="nonblock nontext anim_swing transition museBGSize clearfix placeholder" data-placeholder-for="u74186-3_content"><!-- placeholder node --></a>
-     <!-- /m_editable -->
-    </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="u168"><!-- group -->
-     <a class="anchor_item grpelem placeholder" data-placeholder-for="top_content"><!-- placeholder node --></a>
-     <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu170"><!-- horizontal box -->
-      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u171"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="work.html" data-href="page:U2842" data-orig-id="u174"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u177-4"><!-- content --><p class="placeholder" data-placeholder-for="u177-2_content"><!-- placeholder node --></p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u192"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="profile.html" data-href="page:U2896" data-orig-id="u193"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u195-4"><!-- content --><p class="placeholder" data-placeholder-for="u195-2_content"><!-- placeholder node --></p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u185"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition clearfix colelem temp_no_id" href="contact.html" data-href="page:U70868" data-orig-id="u186"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u187-4"><!-- content --><p class="placeholder" data-placeholder-for="u187-2_content"><!-- placeholder node --></p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u178"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem temp_no_id" href="blog.html" data-href="page:U2878" data-orig-id="u181"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u182-4"><!-- content --><p class="placeholder" data-placeholder-for="u182-2_content"><!-- placeholder node --></p></div></a>
-      </div>
-     </nav>
-    </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu70962"><!-- group -->
-     <div class="browser_width placeholder" data-placeholder-for="u70962-bw_content"><!-- placeholder node --></div>
-     <div class="browser_width placeholder" data-placeholder-for="u70963-bw_content"><!-- placeholder node --></div>
-    </div>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu70965-9"><!-- column -->
-     <!-- m_editable region-id="editable-static-tag-U70965-BP_650" template="contact.html" data-type="html" data-ice-options="disableImageResize,link" -->
-     <div class="clearfix colelem placeholder" data-placeholder-for="u70965-9_content"><!-- placeholder node --></div>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U70967" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-     <a class="nonblock nontext rounded-corners transition colelem placeholder" data-placeholder-for="u70967_content"><!-- placeholder node --></a>
-     <!-- /m_editable -->
-    </div>
-    <!-- m_editable region-id="editable-static-tag-U70966-BP_650" template="contact.html" data-type="html" data-ice-options="disableImageResize,link" -->
-    <div class="clearfix grpelem placeholder" data-placeholder-for="u70966-9_content"><!-- placeholder node --></div>
-    <!-- /m_editable -->
-    <!-- m_editable region-id="editable-static-tag-U70968" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-    <a class="nonblock nontext rounded-corners transition grpelem placeholder" data-placeholder-for="u70968_content"><!-- placeholder node --></a>
-    <!-- /m_editable -->
-    <!-- m_editable region-id="editable-static-tag-U70969" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-    <a class="nonblock nontext rounded-corners transition grpelem placeholder" data-placeholder-for="u70969_content"><!-- placeholder node --></a>
-    <!-- /m_editable -->
-    <!-- m_editable region-id="editable-static-tag-U70970" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-    <a class="nonblock nontext rounded-corners transition grpelem placeholder" data-placeholder-for="u70970_content"><!-- placeholder node --></a>
-    <!-- /m_editable -->
-    <div class="verticalspacer"></div>
-    <div class="clearfix grpelem placeholder" data-placeholder-for="ppu44404-4_content"><!-- placeholder node --></div>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_516" data-min-width="321" data-max-width="516"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
-    <div class="clearfix colelem" id="ppu70965-9"><!-- group -->
-     <div class="clearfix grpelem placeholder" data-placeholder-for="pu70965-9_content"><!-- placeholder node --></div>
-     <div class="browser_width grpelem" id="u70442-bw">
-      <div class="museBGSize" id="u70442"><!-- simple frame --></div>
-     </div>
-     <div class="browser_width grpelem placeholder" data-placeholder-for="u70964-bw_content"><!-- placeholder node --></div>
-     <div class="browser_width grpelem" id="accordionu63687-bw">
-      <ul class="AccordionWidget clearfix" id="accordionu63687"><!-- vertical box -->
-       <li class="AccordionPanel clearfix colelem100" id="u63688"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem100" id="u63698-3"><!-- content --><p class="shared_content" data-content-guid="u63698-3_0_content">&nbsp;</p></div><div class="AccordionPanelContent disn clearfix colelem100" id="u63689"><!-- group --><div class="browser_width grpelem" id="menuu63690-bw"><nav class="MenuBar clearfix" id="menuu63690"><!-- vertical box --><div class="MenuItemContainer clearfix colelem100" id="u63691"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u63692" href="index.html" data-href="page:U93"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u63695-4"><!-- content --><p class="shared_content" data-content-guid="u63695-4_0_content">Home</p></div></a></div><div class="MenuItemContainer clearfix colelem100" id="u63822"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u63825" href="work.html" data-href="page:U2842"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u63826-4"><!-- content --><p class="shared_content" data-content-guid="u63826-4_0_content">Work</p></div></a></div><div class="MenuItemContainer clearfix colelem100" id="u63918"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u63919" href="profile.html" data-href="page:U2896"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u63920-4"><!-- content --><p class="shared_content" data-content-guid="u63920-4_0_content">Profile</p></div></a></div><div class="MenuItemContainer clearfix colelem100" id="u70869"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix" id="u70870" href="contact.html" data-href="page:U70868"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u70873-4"><!-- content --><p class="shared_content" data-content-guid="u70873-4_0_content">Contact</p></div></a></div><div class="MenuItemContainer clearfix colelem100" id="u64100"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix" id="u64101" href="blog.html" data-href="page:U2878"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u64104-4"><!-- content --><p class="shared_content" data-content-guid="u64104-4_0_content">Blog</p></div></a></div></nav></div></div></li>
-      </ul>
-     </div>
-     <a class="anchor_item grpelem placeholder" data-placeholder-for="top_content"><!-- placeholder node --></a>
-     <div class="clearfix grpelem temp_no_id" data-orig-id="u74185"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U74186-BP_516" template="contact.html" data-type="html" data-ice-options="disableImageResize,link,clickable" data-ice-editable="link" -->
-      <a class="nonblock nontext anim_swing transition museBGSize clearfix grpelem placeholder" data-placeholder-for="u74186-3_content"><!-- placeholder node --></a>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U74187" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-      <div class="pointer_cursor clearfix grpelem placeholder" data-placeholder-for="u74187_content"><!-- placeholder node --></div>
-      <!-- /m_editable -->
-     </div>
-    </div>
-    <div class="clearfix colelem temp_no_id" data-orig-id="pu70962"><!-- group -->
-     <div class="browser_width placeholder" data-placeholder-for="u70962-bw_content"><!-- placeholder node --></div>
-     <div class="browser_width placeholder" data-placeholder-for="u70963-bw_content"><!-- placeholder node --></div>
-    </div>
-    <div class="verticalspacer shared_content" data-content-guid="page_2_content"></div>
-    <div class="clearfix colelem placeholder" data-placeholder-for="pu44404-4_content"><!-- placeholder node --></div>
-    <div class="clearfix colelem placeholder" data-placeholder-for="pu563_content"><!-- placeholder node --></div>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_320" data-max-width="320"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
-    <div class="clearfix colelem temp_no_id" data-orig-id="ppu70965-9"><!-- group -->
-     <div class="clearfix grpelem temp_no_id" data-orig-id="pu70965-9"><!-- column -->
-      <!-- m_editable region-id="editable-static-tag-U70965-BP_320" template="contact.html" data-type="html" data-ice-options="disableImageResize,link" -->
-      <div class="clearfix colelem placeholder" data-placeholder-for="u70965-9_content"><!-- placeholder node --></div>
-      <!-- /m_editable -->
-      <div class="clearfix colelem temp_no_id" data-orig-id="pu70967"><!-- group -->
-       <!-- m_editable region-id="editable-static-tag-U70967" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-       <a class="nonblock nontext rounded-corners transition grpelem placeholder" data-placeholder-for="u70967_content"><!-- placeholder node --></a>
-       <!-- /m_editable -->
-       <!-- m_editable region-id="editable-static-tag-U70968" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-       <a class="nonblock nontext rounded-corners transition grpelem placeholder" data-placeholder-for="u70968_content"><!-- placeholder node --></a>
-       <!-- /m_editable -->
-      </div>
-      <div class="clearfix colelem" id="pu70969"><!-- group -->
-       <!-- m_editable region-id="editable-static-tag-U70969" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-       <a class="nonblock nontext rounded-corners transition grpelem placeholder" data-placeholder-for="u70969_content"><!-- placeholder node --></a>
-       <!-- /m_editable -->
-       <!-- m_editable region-id="editable-static-tag-U70970" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-       <a class="nonblock nontext rounded-corners transition grpelem placeholder" data-placeholder-for="u70970_content"><!-- placeholder node --></a>
-       <!-- /m_editable -->
-      </div>
-      <!-- m_editable region-id="editable-static-tag-U70966-BP_320" template="contact.html" data-type="html" data-ice-options="disableImageResize,link" -->
-      <div class="clearfix colelem placeholder" data-placeholder-for="u70966-9_content"><!-- placeholder node --></div>
-      <!-- /m_editable -->
-     </div>
-     <div class="browser_width grpelem" id="u70441-bw">
-      <div id="u70441"><!-- simple frame --></div>
-     </div>
-     <div class="browser_width grpelem placeholder" data-placeholder-for="u70964-bw_content"><!-- placeholder node --></div>
-     <div class="browser_width grpelem temp_no_id" data-orig-id="accordionu63687-bw">
-      <ul class="AccordionWidget clearfix temp_no_id" data-orig-id="accordionu63687"><!-- vertical box -->
-       <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u63688"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem100 temp_no_id" data-orig-id="u63698-3"><!-- content --><p class="placeholder" data-placeholder-for="u63698-3_0_content"><!-- placeholder node --></p></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u63689"><!-- group --><div class="browser_width grpelem temp_no_id" data-orig-id="menuu63690-bw"><nav class="MenuBar clearfix temp_no_id" data-orig-id="menuu63690"><!-- vertical box --><div class="MenuItemContainer clearfix colelem100 temp_no_id" data-orig-id="u63691"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix temp_no_id" href="index.html" data-href="page:U93" data-orig-id="u63692"><!-- horizontal box --><div class="MenuItemLabel clearfix temp_no_id" data-orig-id="u63695-4"><!-- content --><p class="placeholder" data-placeholder-for="u63695-4_0_content"><!-- placeholder node --></p></div></a></div><div class="MenuItemContainer clearfix colelem100 temp_no_id" data-orig-id="u63822"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix temp_no_id" href="work.html" data-href="page:U2842" data-orig-id="u63825"><!-- horizontal box --><div class="MenuItemLabel clearfix temp_no_id" data-orig-id="u63826-4"><!-- content --><p class="placeholder" data-placeholder-for="u63826-4_0_content"><!-- placeholder node --></p></div></a></div><div class="MenuItemContainer clearfix colelem100 temp_no_id" data-orig-id="u63918"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix temp_no_id" href="profile.html" data-href="page:U2896" data-orig-id="u63919"><!-- horizontal box --><div class="MenuItemLabel clearfix temp_no_id" data-orig-id="u63920-4"><!-- content --><p class="placeholder" data-placeholder-for="u63920-4_0_content"><!-- placeholder node --></p></div></a></div><div class="MenuItemContainer clearfix colelem100 temp_no_id" data-orig-id="u70869"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix temp_no_id" href="contact.html" data-href="page:U70868" data-orig-id="u70870"><!-- horizontal box --><div class="MenuItemLabel clearfix temp_no_id" data-orig-id="u70873-4"><!-- content --><p class="placeholder" data-placeholder-for="u70873-4_0_content"><!-- placeholder node --></p></div></a></div><div class="MenuItemContainer clearfix colelem100 temp_no_id" data-orig-id="u64100"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix temp_no_id" href="blog.html" data-href="page:U2878" data-orig-id="u64101"><!-- horizontal box --><div class="MenuItemLabel clearfix temp_no_id" data-orig-id="u64104-4"><!-- content --><p class="placeholder" data-placeholder-for="u64104-4_0_content"><!-- placeholder node --></p></div></a></div></nav></div></div></li>
-      </ul>
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U74187" template="contact.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
-     <div class="pointer_cursor clearfix grpelem placeholder" data-placeholder-for="u74187_content"><!-- placeholder node --></div>
-     <!-- /m_editable -->
-    </div>
-    <div class="clearfix colelem temp_no_id" data-orig-id="pu70962"><!-- group -->
-     <div class="browser_width placeholder" data-placeholder-for="u70962-bw_content"><!-- placeholder node --></div>
-     <div class="browser_width placeholder" data-placeholder-for="u70963-bw_content"><!-- placeholder node --></div>
-    </div>
-    <div class="verticalspacer placeholder" data-placeholder-for="page_2_content"><!-- placeholder node --></div>
-    <div class="browser_width colelem" id="u44404-4-bw">
-     <a class="nonblock nontext clearfix placeholder" data-placeholder-for="u44404-4_content"><!-- placeholder node --></a>
-    </div>
-    <div class="browser_width colelem" id="u44405-4-bw">
-     <a class="nonblock nontext clearfix placeholder" data-placeholder-for="u44405-4_content"><!-- placeholder node --></a>
-    </div>
-    <div class="browser_width colelem" id="u44407-4-bw">
-     <a class="nonblock nontext MuseLinkActive clearfix placeholder" data-placeholder-for="u44407-4_content"><!-- placeholder node --></a>
-    </div>
-    <div class="browser_width colelem" id="u44406-4-bw">
-     <a class="nonblock nontext clearfix placeholder" data-placeholder-for="u44406-4_content"><!-- placeholder node --></a>
-    </div>
-    <div class="clearfix colelem placeholder" data-placeholder-for="pu563_content"><!-- placeholder node --></div>
-   </div>
-  </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script src="scripts/museutils.js?531812214" type="text/javascript"></script>
-  <script src="scripts/whatinput.js?84559013" type="text/javascript"></script>
-  <script src="scripts/jquery.musepolyfill.bgsize.js?120190942" type="text/javascript"></script>
-  <script src="scripts/jquery.watch.js?3866665977" type="text/javascript"></script>
-  <script src="scripts/jquery.musemenu.js?3902934130" type="text/javascript"></script>
-  <script src="scripts/webpro.js?4156477058" type="text/javascript"></script>
-  <script src="scripts/musewpdisclosure.js?3974494556" type="text/javascript"></script>
-  <script src="scripts/jquery.museresponsive.js?367458044" type="text/javascript"></script>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   $(document).ready(function() { try {
-(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
-for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
-typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.resizeHeight('.browser_width');/* resize height */
-Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1140', '#bp_960', '#bp_768', '#bp_650', '#bp_516', '#bp_320'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#accordionu63687', ['#bp_516', '#bp_320'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu63687 */
-$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
-</script>
-   </body>
+
+    <!--Smooth scrolling effect to anchors-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    <!--text animation-->
+    <script src="dist/ityped.js"></script>
+  	<script>
+  		window.ityped.init(document.querySelector('.ityped'), {
+              strings : ['GET IN TOUCH.'],
+              loop : true
+          });
+      window.ityped.init(document.querySelector('.ityped-footer'), {
+              strings : ['JAEYONG LEE.'],
+              loop : true
+          });
+    </script>
+    <!--resizing menu-->
+    <script src="classie.js"></script>
+    <script>
+      function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+      window.onload = init();
+    </script>
+    <!--Full screen navigation-->
+    <script>
+      function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+    <!--Tab and transition-->
+    <script src="https://unpkg.com/isotope-layout@2.2.2/dist/isotope.pkgd.min.js"></script>
+    <script>
+      // init Isotope
+      var iso = new Isotope( '.grid', {
+      itemSelector: '.element-item',
+      layoutMode: 'fitRows'
+      });
+
+      // filter functions
+      var filterFns = {
+      // show if number is greater than 50
+      numberGreaterThan50: function( itemElem ) {
+        var number = itemElem.querySelector('.number').textContent;
+        return parseInt( number, 10 ) > 50;
+      },
+      // show if name ends with -ium
+      ium: function( itemElem ) {
+        var name = itemElem.querySelector('.name').textContent;
+        return name.match( /ium$/ );
+      }
+      };
+
+      // bind filter button click
+      var filtersElem = document.querySelector('.filters-button-group');
+      filtersElem.addEventListener( 'click', function( event ) {
+      // only work with buttons
+      if ( !matchesSelector( event.target, 'button' ) ) {
+        return;
+      }
+      var filterValue = event.target.getAttribute('data-filter');
+      // use matching filter function
+      filterValue = filterFns[ filterValue ] || filterValue;
+      iso.arrange({ filter: filterValue });
+      });
+
+      // change is-checked class on buttons
+      var buttonGroups = document.querySelectorAll('.button-group');
+      for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+      var buttonGroup = buttonGroups[i];
+      radioButtonGroup( buttonGroup );
+      }
+
+      function radioButtonGroup( buttonGroup ) {
+      buttonGroup.addEventListener( 'click', function( event ) {
+        // only work with buttons
+        if ( !matchesSelector( event.target, 'button' ) ) {
+          return;
+        }
+        buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+        event.target.classList.add('is-checked');
+      });
+      }
+  </script>
+  <!--matchHeight-->
+  <script src="jquery.matchHeight.js" type="text/javascript"></script>
+  <script>
+  $(function() {
+	$('div.element-item').matchHeight();
+});
+  </script>
+  </body>
 </html>

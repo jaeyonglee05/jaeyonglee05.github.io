@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jaeyong Lee</title>
+    <!--normalize-->
+    <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,600,800" rel='stylesheet' type="text/css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.gif" type="image/gif">
+    <!--stlying-->
+    <link rel="stylesheet" href="style.css">
+    <!--animate-->
+    <link rel="stylesheet" href="animate/animate.css">
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+	<div class="clearfix site-wrapper">
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+				<header>
+					<div class="masthead-w">
+						<a href="index.html"><div class="brand" id="logo-w"></div></a>
+						<div class="menu-mobile-w">
+							 <div class="menu-icon" onclick="openNav()">
+							 <div class="bar1-w"></div>
+							 <div class="bar2-w"></div>
+							 <div class="bar3-w"></div>
+						 </div>
+					 </div>
+					<div class="menu-desktop">
+						<nav>
+							<ul class="masthead-nav white">
+								<li><a href="work.html"><span class="current">WORK</span></a></li>
+								<li><a href="about.html">ABOUT</a></li>
+								<li><a href="contact.html">CONTACT</a></li>
+								<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+							</ul>
+							<div class="menu-desktop-icon">
+							 <div class="menu-icon" onclick="openNav()">
+									 <div class="bar1-w"></div>
+									 <div class="bar2-w"></div>
+									 <div class="bar3-w"></div>
+							 </div>
+						 </div>
+					 </div>
+						 <div id="myNav" class="overlay-w">
+							 <a href="javascript:void(0)" class="closebtn-w" onclick="closeNav()">&times;</a>
+							 <div class="post-heading overlay-contents-w">
+									 <a href="index.html" class="current"><span>HOME</span></a>
+									 <a href="work.html">WORK</a>
+									 <a href="about.html">ABOUT</a>
+									 <a href="contact.html">CONTACT</a>
+							 </div>
+						</nav>
+					</div>
+				</div>
+				</header>
+
+        <main class="contents-wrapper">
+    			<div class="head-section">
+    				<div id="lifeLight_headBg" class="head-background rellax" data-rellax-speed="-5">
+            </div>
+    				<div class="head-texts">
+    					<h1 class="post-heading white animated fadeInUp">Life-Light</h1>
+    					<h2 class="post-sub-heading_2 animated fadeInUp">Design for emergency evacuation system</h2>
+    				</div>
+    			</div>
+    			<div class="body-section">
+    		    <div class="col-9 col-m-9 body-contents">
+    		     <div class="body-contents-left">
+    					<div id="lifeLight_overview">
+                <button id="workbutton" class="tag-button-black">PRODUCT</button>
+    						<div class="goBack" onclick="goBack()">&lt; BACK TO PREVIOUS PAGE</div>
+    						<div class="workInfo post-sub-heading_2">
+                  <span class="bold">Year:</span>2013<br>
+    							<span class="bold">Designers:</span> Jaeyong Lee, Philyoon Kim<br>
+                  <span class="bold">Roles:</span> project lead, design research, visual design<br>
+                </div>
+                <!-- reddot mark
+                <img src="imgs/works/lifeLight/reddotmark.png">
+                -->
+    						<p class="post-contents" id="initialSpace">
+                  In an unexpected disaster situation, the most vulnerable people are those with the most limited ability to respond quickly – senior citizens, the disabled, and foreigners for whom knowledge of the city and its language may be minimal.
+                  <br><br>
+                  Life-Light is automatically activated by the central service system when a disaster warning alert is activated. The system inflates balloons around streetlight poles, which indicate evacuation information and allow people to take a precise and speedy route to a shelter. The dual mode of communication allows the system to be understood by those with visual or hearing impairments. The lack of complex language or lettering also allows foreigners to readily understand it.
+                  <br><br>
+                  Life-Light is a 2013 Red Dot Concept Award: Honourable Mention
+    						</p>
+                <img src="imgs/works/lifeLight/life-light_3.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                <span class="post-description">Life-Light works for emergency situation</span>
+    		      </div>
+    					<div id="lifeLight_background">
+    						<h3 id="sectionTitle" class="post-sub-heading_1">Background</h3>
+    						<p class="post-contents">
+                  In 2011, when the big earthquake (Magnitude 9.0) stroked Japan, I was travelling in Tokyo. Since Tokyo is a city with extremely high density of population, and the roads were very complicated, I did not know where to evacuate when the earthquake actually happened. With this sudden natural disaster, I was very lost and could not find any sign for any emergency shelters. On the top of that, indeed, the language barrier compounded the confusion.
+                  <br><br>
+                  After this personal experience, I started to investigate what are the painpoints of people like me; I call them vulnerable people for emergencies, under the extremely dangerous natural disaster situations.
+                </p>
+    					</div>
+
+              <div id="lifeLight_designResearch">
+    						<h3 id="sectionTitle" class="post-sub-heading_1">Design Research</h3>
+    						<p class="post-contents">
+                  The damages to human life in the 2011 earthquake in Japan reached a total of 19,588 casualties (with 15,828 dead, and 3,760 still missing). It only takes one major earthquake to cause unbelievable damages to individuals in different countries and to nature. The total number of natural disasters has steadily increased over the last 50 years, and many experts believe natural disasters would occur more frequently in the future.
+                </p>
+                <img src="imgs/works/lifeLight/life-light_4.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                <h4 id="sectionTitle" class="post-sub-heading_2">Risk in Tokyo</h4>
+                <img id="floatingImg_2" src="imgs/works/lifeLight/life-light_5.jpg">
+                <p class="post-contents">
+                  After the 2011 earthquake in Japan, seismic activity picked up dramatically in Tokyo. In 2012, there has been an average of 1.5 earthquakes every day in the city. Many of these are too weak to be noticeable. Others, such as the January 1, 2012 magnitude 7.0 earthquake at Torishima Island (about 560 kilometers south of Tokyo), shook the capital. These recent seismic events have prompted the University of Tokyo to revise its earthquake predictions for the Tokyo metropolitan area. They now give a 70% chance of a magnitude 7 quake within 4 years. Over the next 30 years, the probability of a Tokyo earthquake (that is over magnitude 7) rises to 98%.
+                </p>
+                <h4 id="sectionTitle" class="post-sub-heading_2">Earthquake warninbg system in Japan</h4>
+                <p class="post-contents">
+                  Japan has the most advanced earthquake warning system in the world. High-speed communication and computer systems are designed to be faster than an earthquake's seismic waves. Japan's earthquake warning system has thousands of sensors all over the country, and on the seabed. When an earthquake is detected, it is sent immediately to high-speed computers that can calculate the likely size and location of the earthquake, and send out appropriate warnings. When an earthquake occurs, it is often possible to warn people before it hits populated areas.
+                </p>
+                <img src="imgs/works/lifeLight/life-light_6.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow"/>
+                <span class="post-description">Earthquake warning system in Japan</span>
+                <p class="post-contents">
+                  However, it is not only hard to send such information to the handicapped or to foreigners who are unfamiliar with these situations and the language, but even the Japanese could face difficulties if they are not aware of the city’s evacuation system and the locations of safe shelters. Although the shelter sign or the warning alarm is flashed on the street, people who cannot understand the contents of the alarm language could be vulnerable when disaster hits. Now, a new, universal disaster alarm system must be established in Japan, so everyone, including foreigners, can proceed to safer grounds.
+                </p>
+                <h4 id="sectionTitle" class="post-sub-heading_2">Painpoints of people who are vulnerable people for emergencies</h4>
+                <h4 id="sectionTitle_normal" class="post-sub-heading_3">1. Chaos</h4>
+                <p class="post-contents">
+                  In a sudden disaster, the vulnerable to disaster get panic and it’s not easy for them to find any sign showing the location of the shelter in many complicated roads and the environments.
+                </p>
+                <h4 id="sectionTitle_normal" class="post-sub-heading_3">2. Confusion</h4>
+                <p class="post-contents">
+                  Even the evacuation broadcasting is on, people such as foreigners, or with visual and auditory disabilities can’t understand where to go.
+                </p>
+                <h4 id="sectionTitle_normal" class="post-sub-heading_3">3. System Paralysis</h4>
+                <p class="post-contents">
+                  Due to the paralyzed roads and telecommunications system, the disaster prevention information would be not accessible though the normal routes.
+                </p>
+              </div>
+
+              <div id="lifeLight_designConcept">
+                <h3 id="sectionTitle" class="post-sub-heading_1">Design Concept</h3>
+                <p class="post-contents">
+                  Life-Light is a system designed to be automatically activated by the central process system when the disaster warning alert is on. This system expands the routes of the evacuation information and leads to more precise, safe, and speedy ways to the shelter.
+                  <br><br>
+                  This system is installed in every street lights at an interval of 8m~50m. In the emergency situations, this system shows the direction to the shelter visually and auditory with ‘continuous on-off light’ with the sound alert like a leading light in plane runaway.
+                </p>
+                <img src="imgs/works/lifeLight/life-light_2.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"/>
+                <span class="post-description">Life-Light</span>
+                <h4 id="sectionTitle" class="post-sub-heading_2">Design Features</h4>
+                <h4 id="sectionTitle_normal" class="post-sub-heading_3">1. Universe Design</h4>
+                <p class="post-contents">
+                  Light and sound movement easily shows the direction rather than complex language or letters. This solution approaches universally covering such as people with visual and auditory disability or foreign residents.
+                </p>
+                <h4 id="sectionTitle_normal" class="post-sub-heading_3">2. Solar Energy</h4>
+                <p class="post-contents">
+                  In the day times, the battery is charged by using the city electricity and also solar energy, hence, even when the city electricity is blocked by the disaster, Life-light still continues to provide information.
+                 </p>
+                <h4 id="sectionTitle_normal" class="post-sub-heading_3">3. Smart System</h4>
+                <p class="post-contents">
+                  Life-light is also a smart system. Such as when the way to the shelter is damaged by any chance, this information is immediately updated and it leads to other closest temporary shelter.
+                </p>
+                <img src="imgs/works/lifeLight/life-light_14.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow"/>
+                <span class="post-description">Structure of Life-Light</span>
+                <h4 id="sectionTitle" class="post-sub-heading_2">How does it work?</h4>
+                <div id="fullWidth_lifeLight_1" class="fullWidthImg hover-shadow" onclick="openModal();currentSlide(6)"></div>
+                <div class="fullWidthFake"></div>
+                <span class="post-description">Life-Light system in a complex urban area</span>
+                <p class="post-contents">
+                  Finding shelter during an unexpected disaster is not easy to do because there are many signs on the roads, and not all streets are equipped with a shelter sign or a broadcasting system. Life-Light could indicate the safest and closest way to a shelter through the moving signals and sounds installed on the streetlights that can go off in regular intervals even in a complex urban area like Tokyo. People could find the signal wherever in the city because these devices are all connected to each other, and would constantly point to the direction of the shelter on the road. When the Life-Light’s lights are assembled in an intersection, it could prevent confusion as the light and sound would only point to one direction. As people get closer to the shelter, the frequency of the light and sound will increase, helping them recognize their distance to the shelter even if they are foreigners or are visually impaired.
+                </p>
+                <div id="bottom_space"></div>
+              </div>
+            </div>
+            <!-- Modal images -->
+            <div id="myModal" class="modal">
+              <span class="modalclosebtn-w" onclick="closeModal()">&times;</span>
+              <div class="modal-contents">
+                <div class="mySlides">
+                  <img src="imgs/works/lifeLight/life-light_3.jpg">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/lifeLight/life-light_4.jpg">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/lifeLight/life-light_6.jpg">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/lifeLight/life-light_2.jpg">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/lifeLight/life-light_14.jpg">
+                </div>
+                <div class="mySlides">
+                  <img src="imgs/works/lifeLight/life-light_15.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"><img src="svgs/arrow_prev.svg"></a>
+                <a class="next" onclick="plusSlides(1)"><img src="svgs/arrow_next.svg"></a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+              </div>
+            </div>
+    				<div class="col-3 col-m-3 body-contents-right">
+    				</div>
+            <div id="myScrollspy">
+              <ul class="nav nav-tabs nav-stacked" data-offset-top="580" data-spy="affix">
+                <li class="active"><a href="#lifeLight_overview">OVERVIEW</a></li>
+                <li><a href="#lifeLight_background">BACKGROUND</a></li>
+                <li><a href="#lifeLight_designResearch">DESIGN RESEARCH</a></li>
+                <li><a href="#lifeLight_designConcept">DESIGN CONCEPT</a></li>
+              </ul>
+            </div>
+    	      </div>
+           </div>
+          <div class="mastfoot">
+          <div class="col-9 col-m-9 mastfoot-contents">
+            <div class="col-6 col-m-6 mastfoot-information">
+              <h3 class="post-sub-heading_1" id="footerAnimation">
+                <span class="ityped-footer"></span>
+              </h3>
+              <!-- Disable footer animation and place plain text for mobile-->
+              <h3 class="post-sub-heading_1" id="footerNoAnimation">
+                <span>JAEYONG LEE.</span>
+              </h3>
+              <div class="social">
+                <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook_w.svg" class="social-icons" id="facebook"></a></div>
+                <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter_w.svg" class="social-icons"></a></div>
+                <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram_w.svg" class="social-icons"></a></div>
+                <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin_w.svg" class="social-icons"></a></div>
+              </div>
+              <div class="contact-information">
+                <p class="post-contents" id="copyright">
+                  <a href="tel:+358465775140">+358 46 577 5140</a><br>
+                  <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a>
+                  <br><br>
+                  Copyright © Jaeyong Lee</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-m-6 mastfoot-navigation">
+              <nav class=mastfoot-nav>
+                <ul>
+                  <li><a href="index.html" class="current"><span>HOME</span></li>
+                  <li><a href="work.html"><span>WORK</span></a></li>
+                  <li><a href="about.html"><span>ABOUT</span></a></li>
+                  <li><a href="contact.html"><span>CONTACT</span></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+			 </main>
+
+
+			</div>
+		</div>
+	</div>
+
+	<!--Smooth scrolling effect to anchors-->
+	<script>
+	$(document).ready(function(){
+		// Add smooth scrolling to all links
+		$("a").on('click', function(event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				}, 800, function(){
+
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				});
+			} // End if
+		});
+	});
+	</script>
+	<!--resizing menu-->
+	<script src="classie.js"></script>
+	<script>
+		function init() {
+			window.addEventListener('scroll', function(e){
+					var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+							shrinkOn = 300,
+							header = document.querySelector("header");
+					if (distanceY > shrinkOn) {
+							classie.add(header,"smaller");
+					} else {
+							if (classie.has(header,"smaller")) {
+									classie.remove(header,"smaller");
+							}
+					}
+			});
+	}
+		window.onload = init();
+	</script>
+	<!--Full screen navigation-->
+	<script>
+		function openNav() {
+		document.getElementById("myNav").style.height = "100%";
+		}
+
+		function closeNav() {
+		document.getElementById("myNav").style.height = "0%";
+		}
+	</script>
+	<!--text animation-->
+	<script src="dist/ityped.js"></script>
+	<script>
+		window.ityped.init(document.querySelector('.ityped-footer'), {
+						strings : ['JAEYONG LEE.'],
+						loop : true
+				});
+	</script>
+	<!--resizing menu-->
+	<script src="classie.js"></script>
+	<script>
+		function init() {
+			window.addEventListener('scroll', function(e){
+					var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+							shrinkOn = 300,
+							header = document.querySelector("header");
+					if (distanceY > shrinkOn) {
+							classie.add(header,"smaller");
+					} else {
+							if (classie.has(header,"smaller")) {
+									classie.remove(header,"smaller");
+							}
+					}
+			});
+	}
+		window.onload = init();
+	</script>
+	<!--parallax-->
+	<script src="parallax/rellax.min.js"></script>
+	<script>
+		// Also can pass in optional settings block
+		var rellax = new Rellax('.rellax');
+	</script>
+	<!--Go Back Button-->
+	<script>
+		function goBack() {
+				window.history.back();
+		}
+	</script>
+	<!--callapsing button-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#aboutme-callapse").on("hide.bs.collapse", function(){
+				$(".btn").html('SEE MORE');
+			});
+			$("#aboutme-callapse").on("show.bs.collapse", function(){
+				$(".btn").html('SEE LESS');
+			});
+		});
+	</script>
+  <!-- Light box -->
+  <script>
+    function openModal() {
+      document.getElementById('myModal').style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById('myModal').style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+  </script>
+</body>
+</html>

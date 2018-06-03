@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jaeyong Lee</title>
+    <!--normalize-->
+    <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,600,800" rel='stylesheet' type="text/css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.gif" type="image/gif">
+    <!--stlying-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <!--slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <!--callapsing button-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+
+  <body>
+    <div class="clearfix site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <header>
+            <div class="masthead-w">
+              <a href="index.html"><div class="brand" id="logo-w"></div></a>
+              <div class="menu-mobile-w">
+                 <div class="menu-icon" onclick="openNav()">
+                 <div class="bar1-w"></div>
+                 <div class="bar2-w"></div>
+                 <div class="bar3-w"></div>
+               </div>
+             </div>
+            <div class="menu-desktop">
+              <nav>
+                <ul class="masthead-nav white">
+                  <li><a href="work.html">WORK</a></li>
+                  <li><a href="about.html"><span class="current">ABOUT</span></a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                  <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </ul>
+                <div class="menu-desktop-icon">
+                 <div class="menu-icon" onclick="openNav()">
+                     <div class="bar1-w"></div>
+                     <div class="bar2-w"></div>
+                     <div class="bar3-w"></div>
+                 </div>
+               </div>
+             </div>
+               <div id="myNav" class="overlay-w">
+                 <a href="javascript:void(0)" class="closebtn-w" onclick="closeNav()">&times;</a>
+                 <div class="post-heading overlay-contents-w">
+                     <a href="index.html" class="current"><span>HOME</span></a>
+                     <a href="work.html">WORK</a>
+                     <a href="about.html">ABOUT</a>
+                     <a href="contact.html">CONTACT</a>
+                 </div>
+              </nav>
+            </div>
+          </div>
+          </header>
+
+          <div class="all-contents">
+            <div class="animation">
+              <div class="col-9 col-m-9 animation-contents">
+                <h2 class="post-heading white" id="headerAnimation"><span class="ityped"></span></h2>
+                <!-- Disable animation for mobile-->
+                <h2 class="post-heading white" id="headerNoAnimation"><span>VISUAL COMMUNICATOR.</span></h2>
+              </div>
+              <div class="arrow-box">
+                <a href="#profile-anchor"><img src="svgs/arrow_down-w.svg" class="arrow-icon" id="arrow_down"></a>
+              </div>
+              <div class="profile-anchor" id="profile-anchor"></div>
+            </div>
+
+            <div class="aboutme" id="aboutme-anchor">
+                <div class="col-9 col-m-9 aboutme-wrapper">
+                <div class="aboutme-contents">
+                  <img id="aboutme-pic" src="imgs/jaeyonglee_profile_small.jpg" alt="jaeyonglee_profile"/>
+                  <h3 class="post-sub-heading_1"><span class="profile-name">Jaeyong Lee</span></h3>
+                  <h4 class="post-sub-heading_2">UI/UX Design Consultant at <a href="http://www.philips.com" target="_blank" class="post-sub-heading-link">Philips</a><h4>
+                  <p class="post-contents">Currently living and working in Shanghai.</p>
+                  <div class="aboutme-buttons">
+                    <a href="https://drive.google.com/file/d/1kDdFxjIs25Gz09Z8EeczNPyUFPP5LWAz/view?usp=sharing" target="_blank"><button id="aboutme-buttons" class="button-button-black">CV</button></a>
+                    <a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><button id="aboutme-buttons" class="button-button-black">LINKED IN</button></a>
+                  </div>
+                </div>
+
+                  <div class="aboutme-somefacts">
+                    <div class="somefacts-wrapper">
+                      <div class="somefacts">
+                        <div class="somefacts-img"><img src="svgs/somefacts_1.svg"/></div>
+                        <div class="somefacts-txt post-contents ">Diverse design backgrounds: art, craft, animation, visual design, UX design and service design.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="somefacts-wrapper">
+                      <div class="somefacts">
+                        <div class="somefacts-img"><img src="svgs/somefacts_4.svg"/></div>
+                        <div class="somefacts-txt post-contents ">Have been working in international environments: South Korea, Finland, Singapore and China.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="somefacts-wrapper">
+                      <div class="somefacts">
+                        <div class="somefacts-img"><img src="svgs/somefacts_2.svg"/></div>
+                        <div class="somefacts-txt post-contents ">Have been awarded 6 times in international design competitions and selected as a full scholarship student of NIIED for M.A.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="somefacts-wrapper">
+                      <div class="somefacts">
+                        <div class="somefacts-img"><img src="svgs/somefacts_3.svg"/></div>
+                        <div class="somefacts-txt post-contents ">Constantly learning technologies: at the moment, HTML, CSS and JavaScript.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="somefacts-wrapper">
+                      <div class="somefacts">
+                        <div class="somefacts-img"><img src="svgs/somefacts_6.svg"/></div>
+                        <div class="somefacts-txt post-contents ">Higly interested in digital innovation through persuasive design, data visualization and conversational UI.
+                      </div>
+                    </div>
+                  </div>
+                    <div class="somefacts-wrapper">
+                      <div class="somefacts">
+                        <div class="somefacts-img"><img src="svgs/somefacts_5.svg"/></div>
+                        <div class="somefacts-txt post-contents ">My ultimate goal of design is creating an impactful digital service, which can positively influence people’s lives and change their behaviors.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <article class="aboutme-texts">
+                    <span class="post-sub-heading_1 white">About me</span>
+                    <br><br>
+                    <p class="post-contents">New challenges make me alive. From the time when I moved to Finland for my master’s study, I have challenged myself through different tasks and environments. I do not restrict myself by environmental situations or cultural differences. I accept it as an interesting opportunity enlarging my perspective and experience. I am eager to seek new knowledge and people that could make my life more interesting and energetic. Thanks for this attitude of my life, I could develop myself through multicultural experience with talented people.</p><br><br>
+                    <span class="post-sub-heading_1 white">Visual communicator</span><br><br>
+                    <p class="post-contents">With my 4 years of professional working experience and diverse projects during my education, I have worked as a UX/ Visual designer who transforms complex design issues to insightful and effective visual languages. I am very confident at developing digital services from conceptualization to implementation via building information structures, designing complex systems, making UX strategies, conducting diverse user researches and implementing hands-on developments: from sketches to interactive prototypes. I am also a master of most design programs and a quick learner for new technologies, so that I can constantly accept and develop my design capabilities.
+                    My visual design aims not only for enhancing aesthetics and usability of products, but also stimulating emotional interactions between users and products that can influence the behaviors of people by delivering optimal experience.
+                    Design works have been awarded in various international design competitions. Especially, two awards in Red Dot Design Award prove my design capability and creativity. Those experience has empowered me to be a creative designer whom is confident creating visuals through diverse media: print, mobile, web and Internet-connected devices, to meet the needs of the users, companies and clients.</p>
+                    <br><br>
+                    <div id="aboutme-callapse" class="collapse">
+                      <span class="post-sub-heading_1 white">Experience</span><br><br>
+                      <p class="post-contents">One of my recent working experience was in Philips as a design intern. I have successfully worked in actual company projects: creating information visualizations for Primary Care Project and developing UI Design for Philips Online Shop Singapore website. The experience has allowed me to be a designer whom is confident working in new environment with international teams and creating design solutions for large-scale projects. After the experience, I am currently working on my master’s thesis with Philips: Visual Communication for Behavior Change, which will be finalized in the middle of November, 2016. 
+                      </p><br><br>
+                      <span class="post-sub-heading_1 white">Team player</span><br><br>
+                      <p class="post-contents">I am a team player who highly values the impact of collaborations with other professionals. I am confident at listening others’ opinions and making the best design decisions throughout facilitating critical arguments in team projects. My capability also allows me to work independently in a tight project schedule, and to handle diverse design tasks at the same time. In addition, as a previous Co-Founder and visual designer in KEIDA studio, I have also learned leadership, project management and communication skills.
+                      </p><br><br>
+                    </div>
+                    <button type="button" class="btn button-button-black" data-toggle="collapse" data-target="#aboutme-callapse" id="seeMore">
+                     SEE MORE
+                    </button>
+                  </article>
+                </div>
+              </div>
+
+              <div class="mastfoot">
+                <div class="col-9 col-m-9 mastfoot-contents">
+                  <div class="col-6 col-m-6 mastfoot-information">
+                    <h3 class="post-sub-heading_1" id="footerAnimation">
+                      <span class="ityped-footer"></span>
+                    </h3>
+                    <!-- Disable footer animation and place plain text for mobile-->
+                    <h3 class="post-sub-heading_1" id="footerNoAnimation">
+                      <span>JAEYONG LEE.</span>
+                    </h3>
+                    <div class="social">
+                      <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook_w.svg" class="social-icons" id="facebook"></a></div>
+                      <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter_w.svg" class="social-icons"></a></div>
+                      <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram_w.svg" class="social-icons"></a></div>
+                      <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin_w.svg" class="social-icons"></a></div>
+                    </div>
+                    <div class="contact-information">
+                      <p class="post-contents" id="copyright">
+                        <a href="tel:+358465775140">+358 46 577 5140</a><br>
+                        <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a>
+                        <br><br>
+                        Copyright © Jaeyong Lee</p>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-m-6 mastfoot-navigation">
+                    <nav class=mastfoot-nav>
+                      <ul>
+                        <li><a href="index.html" class="current"><span>HOME</span></li>
+                        <li><a href="work.html"><span>WORK</span></a></li>
+                        <li><a href="about.html"><span>ABOUT</span></a></li>
+                        <li><a href="contact.html"><span>CONTACT</span></a></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--Callpasing button-->
+
+    <!--Smooth scrolling effect to anchors-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    <!--text animation-->
+    <script src="dist/ityped.js"></script>
+  	<script>
+  		window.ityped.init(document.querySelector('.ityped'), {
+              strings : ['VISUAL COMMUNICATOR.'],
+              loop : true
+          });
+      window.ityped.init(document.querySelector('.ityped-footer'), {
+              strings : ['JAEYONG LEE.'],
+              loop : true
+          });
+    </script>
+    <!--resizing menu-->
+    <script src="classie.js"></script>
+    <script>
+      function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+    </script>
+    <!--Full screen navigation-->
+    <script>
+      function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+    <!--slider -->
+    <script src="dist/js/swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 60,
+        autoplay: 3000,
+        loop: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
+    </script>
+    <!--callapsing button-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#aboutme-callapse").on("hide.bs.collapse", function(){
+          $(".btn").html('SEE MORE');
+        });
+        $("#aboutme-callapse").on("show.bs.collapse", function(){
+          $(".btn").html('SEE LESS');
+        });
+      });
+    </script>
+  </body>
+</html>
