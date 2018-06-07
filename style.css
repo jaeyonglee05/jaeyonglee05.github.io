@@ -69,12 +69,14 @@ p {
 .post-sub-heading_1 {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
-  color: black;
   font-weight: 800;
   font-style: normal;
   margin: 0;
   letter-spacing: 0.5px;
   line-height: 1.2;
+}
+.post-sub-heading_1 > span {
+  color: white;
 }
 .post-sub-heading_2 {
   font-family: georgia, times, serif;
