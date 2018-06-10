@@ -1347,7 +1347,7 @@ div.element-contents {
   padding-bottom: 10px;
 
 }
-div.element-contents:hover {
+div.element-item:hover {
   border-bottom: 3px solid black;
 }
 div.element-contetns:active,
