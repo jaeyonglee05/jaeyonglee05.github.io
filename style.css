@@ -43,9 +43,11 @@ a[href^="tel:"] {
   color: #FFFFFF;
   text-decoration: underline;
 }
+
 p {
   margin-bottom: 24px !important;
 }
+
 .white {
   color: black !important;
 }
@@ -74,9 +76,6 @@ p {
   margin: 0;
   letter-spacing: 0.5px;
   line-height: 1.2;
-}
-.post-sub-heading_1 > span {
-  color: white;
 }
 .post-sub-heading_2 {
   font-family: georgia, times, serif;
@@ -318,7 +317,6 @@ body {
   min-height: 100%;
   margin:0;
   padding:0;
-  border: 0;
   position: relative;
   -webkit-font-smoothing: subpixel-antialiased;
 }
@@ -386,7 +384,6 @@ header {
 .menu-mobile {
   height: 50px;
   width: 100%;
-  margin: 0;
 }
 .menu-icon {
   margin-right: 20px;
@@ -500,7 +497,6 @@ nav > ul {
 .overlay {
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,1);
-  opacity: 1;
 }
 .overlay-w {
   background-color: rgb(255,255,255);
@@ -538,11 +534,12 @@ div.post-heading.overlay-contents-w {
 }
 
 .overlay a:hover {
-  color: #666666;
+  color: white;
 }
 .overlay-w a:hover {
-  color: #666666;
+  color: black;
 }
+
 .overlay a.closebtn {
   position: absolute;
   top: 3px;
@@ -563,6 +560,16 @@ div.post-heading.overlay-contents-w {
 .overlay a .closebtn:hover {
   text-decoration: none;
 }
+
+.overlay-contents > a > span:hover {
+  border-bottom: 5px solid white;
+  padding: 0px 0;
+}
+
+.overlay-contents-w > a > span:hover {
+  border-bottom: 5px solid black;
+  padding: 0px 0;
+}
 /* 0.5 Mastfoot */
 .mastfoot {
   width: 100%;
@@ -576,10 +583,10 @@ div.post-heading.overlay-contents-w {
 }
 .mastfoot-contents {
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 10px;
 }
 .mastfoot-information {
-  margin: 30px 0 6px 0;
+  margin: 80px 0 60px 0;
   text-align: center;
   display: inline-block;
 }
@@ -630,14 +637,15 @@ nav.mastfoot-nav {
 }
 .mastfoot-nav > ul > li {
  margin: 0px 0px 5px 0px;
- line-height: 1;
+ line-height: 1.3;
 }
 .mastfoot-nav > ul > li > a {
   text-decoration: none;
   color: white;
 }
 .mastfoot-nav >ul > li > a:hover {
-  color: #666666;
+  border-bottom: 3px solid white;
+  padding: 0px 0;
  }
 
 .mastfoot-nav > li > a:active {text-decoration: none;
@@ -660,7 +668,7 @@ nav.mastfoot-nav {
   height: 100vh;
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 10px;
   display: table;
   vertical-align: middle;
   position: relative;
@@ -801,7 +809,7 @@ img.arrow-icon {
   margin-right: auto;
   left: 0;
   right: 0;
-  padding: 0 16px 50px 16px;
+  padding: 0 10px 50px 10px;
   overflow: visible;
 }
 .profile-contents-inner {
@@ -823,7 +831,7 @@ img.arrow-icon {
 .featured-works {
   width: 100%;
   height: auto;
-  background-color: #000000;
+  background-color: black;
 }
 .featured-works-wrapper {padding-bottom: 70px;
 }
@@ -871,7 +879,7 @@ img.arrow-icon {
 }
 .img3 {background-image: url('imgs/featured-works-carousel-3.jpg');
 }
-.img-wrapper:hover .swiper-overlay {opacity: 0.8;
+.img-wrapper:hover .swiper-overlay {opacity: 1;
 }
 .swiper-overlay {
   position: absolute;
@@ -882,8 +890,7 @@ img.arrow-icon {
   height: 100%;
   width: 100%;
   opacity: 0;
-  background-color: black;
-  opacity: 0;
+  background-color: rgba(0,0,0,1);
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   -ms-transition: all .3s ease;
@@ -897,7 +904,7 @@ img.arrow-icon {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  padding: 0 16x;
+  padding: 0 10px;
 }
 .slide-text-title {
   position: relative;
@@ -939,7 +946,7 @@ img.arrow-icon {
   }
   .img-tablet {
     height: 250px;
-    margin: 20px 0;
+    margin: 30px 0;
   }
   .img-tablet-box:hover .swiper-overlay {opacity: 1;
   }
@@ -950,9 +957,9 @@ img.arrow-icon {
 }
 /* 1.3.3 Slider menu for mobile */
 @media only screen and (max-width: 600px) {
-  .swiper-container-tablet {padding: 0 16px;
+  .swiper-container-tablet {padding: 0 10px;
   }
-  .img-tablet {margin: 20px 0;
+  .img-tablet {margin: 10px 0;
   }
   #swiper-tag {margin-left: 0px;
   }
@@ -965,7 +972,7 @@ img.arrow-icon {
   background-color: white;
 }
 .some-facts-contents {
-  padding: 0 16px;
+  padding: 0 10px;
   text-align: center;
   margin: 0 auto;
   overflow: visible;
@@ -1043,9 +1050,7 @@ a h5.post-contents:hover {text-decoration: underline;
   #headerAnimation {
     display: none;
   }
-  .menu-mobile {
-    background-color: black;
-    border: none;
+  .menu-mobile {background-color: black;
   }
   .menu-mobile-w {background-color: white;
   }
@@ -1059,7 +1064,7 @@ a h5.post-contents:hover {text-decoration: underline;
   }
   .mastfoot-navigation {display: none;}
   .tag-button-white,
-  .tag-button-black {margin-left: -16px;
+  .tag-button-black {margin-left: -10px;
   }
   .videoWrapper {margin: 10px 0;
   }
@@ -1202,10 +1207,6 @@ a h5.post-contents:hover {text-decoration: underline;
     }
     #headerNoAnimation {
       display: none;
-    }
-    /* mastfoot */
-    .mastfoot-information {
-      margin: 80px 0 60px 0;
     }
 }
 /* For desktop: */
@@ -1359,7 +1360,7 @@ div.element-contents:focus {
   color: #262524;
   float: left;
   margin: 0 0 20px 0;
-  padding: 0 16px;
+  padding: 0 10px;
 }
 .element-item > * {
   margin: 0;
@@ -1479,7 +1480,7 @@ div.element-contents:focus {
 
 .aboutme-wrapper {
   margin: 0 auto 80px auto;
-  padding: 0 16px;
+  padding: 0 10px;
 }
 
 .aboutme-contents {
@@ -1622,12 +1623,6 @@ div.aboutme-contents article .post-contents {
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
-@media only screen and (max-width:600px){
-  .somefacts-img img {
-    width: 40px;
-    height: 40px;
-  }
-}
 @media only screen and (min-width: 600px) {
   .aboutme-wrapper {
     padding: 0;
@@ -1653,7 +1648,7 @@ div.aboutme-contents article .post-contents {
 .getInTouch-contents {
   margin: 0 auto;
   height: auto;
-  padding: 0 16px;
+  padding: 0 10px;
 }
 
 .contactInformation,.socialMedia {
@@ -1690,7 +1685,7 @@ div.aboutme-contents article .post-contents {
 }
 .socialMedia > .social > .social-hover:hover {
   margin: 10px 10px;
-  background-color: #666666;
+  background-color: black;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   -ms-transition: all .3s ease;
@@ -1751,18 +1746,13 @@ input[type=text], select, textarea {
 input[type=text]:focus, select, textarea {
   outline: 0;
 }
-@media only screen and (max-width: 600px) {
-  .contactForm{
-    display: none;
-  }
-}
+
 @media only screen and (min-width: 600px) {
   .getInTouch-contents {
     padding: 0;
   }
   .contactInformation,.socialMedia {
     width: 48%;
-    border-bottom: 3px solid black;
     margin: 0 1%;
     text-align: left;
   }

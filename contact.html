@@ -21,6 +21,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script src="jquery.matchHeight.js" type="text/javascript"></script>
   </head>
 
   <body>
@@ -57,9 +58,9 @@
                  <a href="javascript:void(0)" class="closebtn-w" onclick="closeNav()">&times;</a>
                  <div class="post-heading overlay-contents-w">
                      <a href="index.html" class="current"><span>HOME</span></a>
-                     <a href="work.html">WORK</a>
-                     <a href="about.html">ABOUT</a>
-                     <a href="contact.html">CONTACT</a>
+                     <a href="work.html"><span>WORK</span></a>
+                     <a href="about.html"><span>ABOUT</span></a>
+                     <a href="contact.html"><span>CONTACT</span></a>
                  </div>
               </nav>
             </div>
@@ -85,7 +86,7 @@
                     <div class="element-item contactInformation">
                       <h3 class="post-sub-heading_1">Contact Info</h3>
                       <p class="post-contents">
-                        Mobile: <a href="tel:+358465775140">+358 46 577 5140</a><br>
+                        Mobile: <a href="tel:+8613127631775">+86 131 2763 1775</a><br>
                         Email: <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a><br>
                     </div>
 
@@ -133,7 +134,7 @@
                   </div>
                   <div class="contact-information">
                     <p class="post-contents" id="copyright">
-                      <a href="tel:+358465775140">+358 46 577 5140</a><br>
+                      <a href="tel:+8613127631775">+86 131 2763 1775</a><br>
                       <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a>
                       <br><br>
                       Copyright © Jaeyong Lee</p>
@@ -281,10 +282,13 @@
       }
   </script>
   <!--matchHeight-->
-  <script src="jquery.matchHeight.js" type="text/javascript"></script>
   <script>
   $(function() {
-	$('div.element-item').matchHeight();
+	$('div.element-contents').matchHeight(
+    byRow: true,
+    property: 'min-height',
+    target: null,
+    remove: false);
 });
   </script>
   </body>
