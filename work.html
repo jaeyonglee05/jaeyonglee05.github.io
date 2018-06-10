@@ -7,31 +7,27 @@
     <title>Jaeyong Lee</title>
     <!--normalize-->
     <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,800" rel='stylesheet' type="text/css">
     <!--favicon-->
     <link rel="shortcut icon" href="favicon.gif" type="image/gif">
     <!--stlying-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="dist/css/swiper.min.css">
     <!--matchHeight-->
-    <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script src="jquery.matchHeight.js" type="text/javascript"></script>
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="jquery.matchHeight.js" ></script>
     <script type="text/javascript">
-    jQuery(window).load(function($) {
-    $(function() {
-      var byRow = $('body').hasClass('test-rows');
-      $('.grid').each(function() {
-          $(this).children('.element-item').matchHeight({
-            byRow: false,
-            property: 'height',
-            target: null,
-            remove: false
-          });
+      $(function() {
+      	$('.element-item').matchHeight({
+        byRow: true,
+        property: 'height',
+        target: null,
+        remove: false
+        });
       });
-    });
-  });
     </script>
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,800" rel='stylesheet' type="text/css">
+
     <!--slider-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
@@ -39,8 +35,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
-
-
   </head>
 
   <body class="test-rows">
@@ -445,7 +439,6 @@
       });
       }
   </script>
-
 
   </body>
 </html>
