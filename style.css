@@ -1343,6 +1343,9 @@ div.tab button.active {
   margin: 0 auto;
   width: 100%;
 }
+.element-item {
+  min-height: 300px;
+}
 div.element-contents {
   padding-bottom: 10px;
 
@@ -1430,6 +1433,7 @@ div.element-contents:focus {
   }
   .element-item{
   width: 50%;
+  min-height: 400px;
   }
   .element-texts h3.post-sub-heading_1 {
     font-size: 25px;
@@ -1454,6 +1458,9 @@ div.element-contents:focus {
   }
   .button {
     font-size: 14px;
+  }
+  .element-item {
+    min-height: 450px;
   }
 }
 /* Desktop - large */
