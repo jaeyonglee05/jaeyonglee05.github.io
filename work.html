@@ -18,14 +18,20 @@
     <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="jquery.matchHeight.js" type="text/javascript"></script>
     <script type="text/javascript">
-    $(function() {
-    $('div.element-contents').matchHeight(
-      byRow: byRow,
-      property: 'height',
-      target: null,
-      remove: false);
-    });
+      $(function() {
+        var byRow = $('body').hasClass('test-rows');
+          });
+      $('.grid').each(function() {
+          $(this).children('.element-item').matchHeight({
+            byRow: byRow,
+            property: 'height',
+            target: null,
+            remove: false
+          });
+      });
+      -->
     </script>
+
     <!--slider-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
@@ -37,7 +43,7 @@
 
   </head>
 
-  <body>
+  <body class="test-rows">
     <div class="clearfix site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
