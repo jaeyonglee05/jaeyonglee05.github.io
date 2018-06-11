@@ -7,26 +7,13 @@
     <title>Jaeyong Lee</title>
     <!--normalize-->
     <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,800" rel='stylesheet' type="text/css">
     <!--favicon-->
     <link rel="shortcut icon" href="favicon.gif" type="image/gif">
     <!--stlying-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="dist/css/swiper.min.css">
-    <!--matchHeight-->
-    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="jquery.matchHeight.js" ></script>
-    <script type="text/javascript">
-      $(function() {
-      	$('.element-item').matchHeight({
-        byRow: true,
-        property: 'height',
-        target: null,
-        remove: false
-        });
-      });
-    </script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <!--slider-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
@@ -36,7 +23,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
   </head>
 
-  <body class="test-rows">
+  <body>
     <div class="clearfix site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
@@ -106,9 +93,9 @@
                     <button class="button" data-filter=".product">PRODUCT</button>
                   </div>
                 </div>
+
                 <div class="grid">
-                  <div class="element-item uxui" data-category="uxui" id="element1" data-mh= "matchHeight-group">
-                    <div class="element-contents">
+                  <div class="element-item uxui" data-category="uxui" id="element1">
                       <button class="tag-button-black" id="swiper-tag">UX / UI</button>
                       <a href="visualizingAirQuality.html">
                         <div class="element-image-wrapper">
@@ -120,148 +107,127 @@
                           <p class="post-sub-heading_2" id="air">Changing users’ behaviors regardingn air quality, <a href="http://www.philips.com" target="_blank"><span class="post-sub-heading-link">Philips</span></a></p>
                         </div>
                       </a>
-                    </div>
                   </div>
-                  <div class="element-item service uxui" data-category="service" data-mh= "matchHeight-group">
-                    <div class="element-contents">
-                      <button class="tag-button-black" id="swiper-tag">SERVICE</button>
-                      <a href="Verohallinto.html">
-                        <div class="element-image-wrapper">
-                          <img src="imgs/works/vero.jpg"/>
-                        </div>
-                        <div class="element-texts">
-                          <h3 class="post-sub-heading_1">Life Relevant E-tax Service</h3>
-                          <p class="post-sub-heading_2">A proposal for Finnish Tax Administration, <span class="post-sub-heading-link">Verohallinto</span></p>
-                        </div>
-                      </a>
+                    <div class="element-item service uxui" data-category="service">
+                        <button class="tag-button-black" id="swiper-tag">SERVICE</button>
+                        <a href="Verohallinto.html">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/vero.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">Life Relevant E-tax Service</h3>
+                            <p class="post-sub-heading_2">A proposal for Finnish Tax Administration, <span class="post-sub-heading-link">Verohallinto</span></p>
+                          </div>
+                        </a>
                     </div>
-                  </div>
-                  <div class="element-item graphic" data-category="graphic" data-mh= "matchHeight-group">
-                    <div class="element-contents">
-                      <button class="tag-button-black" id="swiper-tag">GRAPHIC</button>
-                      <a href="primaryCare.html">
-                        <div class="element-image-wrapper">
-                          <img src="imgs/works/primaryCare.jpg"/>
-                        </div>
-                        <div class="element-texts">
-                          <h3 class="post-sub-heading_1">Primary Care Project</h3>
-                          <p class="post-sub-heading_2">Information visualization for the primary care project, <span class="post-sub-heading-link">Philips</span></p>
-                        </div>
-                     </a>
+                    <div class="element-item graphic" data-category="graphic">
+                        <button class="tag-button-black" id="swiper-tag">GRAPHIC</button>
+                        <a href="primaryCare.html">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/primaryCare.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">Primary Care Project</h3>
+                            <p class="post-sub-heading_2">Information visualization for the primary care project, <span class="post-sub-heading-link">Philips</span></p>
+                          </div>
+                       </a>
                     </div>
-                  </div>
-                  <div class="element-item uxui" data-category="uxui" data-mh= "matchHeight-group">
-                    <div class="element-contents">
-                      <button class="tag-button-black" id="swiper-tag">UX / UI</button>
-                      <a href="WeldingTrainingApp.html">
-                        <div class="element-image-wrapper">
-                          <img src="imgs/works/kemppi.jpg"/>
-                        </div>
-                        <div class="element-texts">
-                          <h3 class="post-sub-heading_1">Delivering the Feeling of Reality</h3>
-                          <p class="post-sub-heading_2">Welding training application concept, <span class="post-sub-heading-link">Kemppi</span></p>
-                        </div>
-                     </a>
+                    <div class="element-item uxui" data-category="uxui">
+                        <button class="tag-button-black" id="swiper-tag">UX / UI</button>
+                        <a href="WeldingTrainingApp.html">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/kemppi.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">Delivering the Feeling of Reality</h3>
+                            <p class="post-sub-heading_2">Welding training application concept, <span class="post-sub-heading-link">Kemppi</span></p>
+                          </div>
+                       </a>
                     </div>
-                  </div>
-                  <div class="element-item service uxui" data-category="service" data-mh= "matchHeight-group">
-                    <div class="element-contents">
-                      <button class="tag-button-black" id="swiper-tag">SERVICE</button>
-                      <a href="KalasatamaHospital.html">
-                        <div class="element-image-wrapper">
-                          <img src="imgs/works/kalasatama.jpg"/>
-                        </div>
-                        <div class="element-texts">
-                          <h3 class="post-sub-heading_1">For the Very First Contact</h3>
-                          <p class="post-sub-heading_2">Online booking platform for Kalasatama Hospital, <span class="post-sub-heading-link">City of Helsinki</span></p>
-                        </div>
-                      </a>
+                    <div class="element-item service uxui" data-category="service">
+                        <button class="tag-button-black" id="swiper-tag">SERVICE</button>
+                        <a href="KalasatamaHospital.html">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/kalasatama.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">For the Very First Contact</h3>
+                            <p class="post-sub-heading_2">Online booking platform for Kalasatama Hospital, <span class="post-sub-heading-link">City of Helsinki</span></p>
+                          </div>
+                        </a>
                     </div>
-                  </div>
-                  <div class="element-item uxui service" data-category="uxui" data-mh= "matchHeight-group">
-                    <div class="element-contents">
-                      <button class="tag-button-black" id="swiper-tag">UX / UI</button>
-                      <a href="pickysJourney.html">
-                        <div class="element-image-wrapper">
-                          <img src="imgs/works/picky.jpg"/>
-                        </div>
-                        <div class="element-texts">
-                          <h3 class="post-sub-heading_1">For Healthy Eating Habits of Children</h3>
-                          <p class="post-sub-heading_2">App for children’s healthy eating habit, <span class="post-sub-heading-link">Kemppi</span></p>
-                        </div>
-                      </a>
+                    <div class="element-item uxui service" data-category="uxui">
+                        <button class="tag-button-black" id="swiper-tag">UX / UI</button>
+                        <a href="pickysJourney.html">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/picky.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">For Healthy Eating Habits of Children</h3>
+                            <p class="post-sub-heading_2">App for children’s healthy eating habit, <span class="post-sub-heading-link">Kemppi</span></p>
+                          </div>
+                        </a>
                     </div>
-                  </div>
-                  <div class="element-item graphic" data-category="graphic" data-mh= "matchHeight-group">
-                    <div class="element-contents">
-                      <button class="tag-button-black" id="swiper-tag">GRAPHIC</button>
-                      <a href="experienceDrivenDesign.html">
-                        <div class="element-image-wrapper">
-                          <img src="imgs/works/EDD.jpg"/>
-                        </div>
-                        <div class="element-texts">
-                          <h3 class="post-sub-heading_1">Experience-Driven Design</h3>
-                          <p class="post-sub-heading_2">Visual identity design for Experience-Driven Design course, <span class="post-sub-heading-link">Aalto University</span></p>
-                        </div>
-                      </a>
+                    <div class="element-item graphic" data-category="graphic">
+                        <button class="tag-button-black" id="swiper-tag">GRAPHIC</button>
+                        <a href="experienceDrivenDesign.html">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/EDD.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">Experience-Driven Design</h3>
+                            <p class="post-sub-heading_2">Visual identity design for Experience-Driven Design course, <span class="post-sub-heading-link">Aalto University</span></p>
+                          </div>
+                        </a>
                     </div>
-                  </div>
-                  <div class="element-item graphic" data-category="graphic" data-mh= "matchHeight-group">
-                    <div class="element-contents">
-                      <button class="tag-button-black" id="swiper-tag">GRAPHIC</button>
-                      <a href="0100design.html">
-                        <div class="element-image-wrapper">
-                          <img src="imgs/works/0100.jpg"/>
-                        </div>
-                        <div class="element-texts">
-                          <h3 class="post-sub-heading_1">From 0 to 100</h3>
-                          <p class="post-sub-heading_2">Brand identity design, <span class="post-sub-heading-link">0100design</span></p>
-                        </div>
-                      </a>
+                    <div class="element-item graphic" data-category="graphic">
+                        <button class="tag-button-black" id="swiper-tag">GRAPHIC</button>
+                        <a href="0100design.html">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/0100.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">From 0 to 100</h3>
+                            <p class="post-sub-heading_2">Brand identity design, <span class="post-sub-heading-link">0100design</span></p>
+                          </div>
+                        </a>
                     </div>
-                  </div>
-                  <div class="element-item service" data-category="service" data-mh= "matchHeight-group">
-                    <div class="element-contents">
-                      <button class="tag-button-black" id="swiper-tag">SERVICE</button>
-                      <a href="81project.html">
-                        <div class="element-image-wrapper">
-                          <img src="imgs/works/81project.jpg"/>
-                        </div>
-                        <div class="element-texts">
-                          <h3 class="post-sub-heading_1">81 Project</h3>
-                          <p class="post-sub-heading_2">Campaign for the public etiquettes</p>
-                        </div>
-                      </a>
+                    <div class="element-item service" data-category="service">
+                        <button class="tag-button-black" id="swiper-tag">SERVICE</button>
+                        <a href="81project.html">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/81project.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">81 Project</h3>
+                            <p class="post-sub-heading_2">Campaign for the public etiquettes</p>
+                          </div>
+                        </a>
                     </div>
-                  </div>
-                  <div class="element-item product" data-category="product" data-mh= "matchHeight-group">
-                    <div class="element-contents">
-                      <button class="tag-button-black" id="swiper-tag">PRODUCT</button>
-                      <a href="travlersPaperKit.html">
-                        <div class="element-image-wrapper">
-                          <img src="imgs/works/paperkit.jpg"/>
-                        </div>
-                        <div class="element-texts">
-                          <h3 class="post-sub-heading_1">Travelers Paper Kit</h3>
-                          <p class="post-sub-heading_2">Portable survival kit for emergency situations</p>
-                        </div>
-                      </a>
+                    <div class="element-item product" data-category="product">
+                        <button class="tag-button-black" id="swiper-tag">PRODUCT</button>
+                        <a href="travlersPaperKit.html">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/paperkit.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">Travelers Paper Kit</h3>
+                            <p class="post-sub-heading_2">Portable survival kit for emergency situations</p>
+                          </div>
+                        </a>
                     </div>
-                  </div>
-                  <div class="element-item product" data-category="product" data-mh= "matchHeight-group">
-                    <div class="element-contents">
-                      <button class="tag-button-black" id="swiper-tag">PRODUCT</button>
-                      <a href="lifeLight.html">
-                        <div class="element-image-wrapper">
-                          <img src="imgs/works/life-light.jpg"/>
-                        </div>
-                        <div class="element-texts">
-                          <h3 class="post-sub-heading_1">Life-Light</h3>
-                          <p class="post-sub-heading_2">Design for emergency evacuation system</p>
-                        </div>
-                      </a>
+                    <div class="element-item product" data-category="product">
+                        <button class="tag-button-black" id="swiper-tag">PRODUCT</button>
+                        <a href="lifeLight.html">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/life-light.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">Life-Light</h3>
+                            <p class="post-sub-heading_2">Design for emergency evacuation system</p>
+                          </div>
+                        </a>
                     </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -378,14 +344,20 @@
       }
     </script>
     <!--Tab and transition-->
-    <script src="https://unpkg.com/isotope-layout@2.2.2/dist/isotope.pkgd.min.js"></script>
+    <script>
+
+    </script>
     <script>
       // init Isotope
+      var grid = document.querySelector('.grid');
       var iso = new Isotope( '.grid', {
       itemSelector: '.element-item',
       layoutMode: 'fitRows'
       });
-
+      imagesLoaded( grid ).on( 'progress', function() {
+          // layout Isotope after each image loads
+          iso.layout();
+        });
       // filter functions
       var filterFns = {
       // show if number is greater than 50
@@ -430,7 +402,13 @@
         event.target.classList.add('is-checked');
       });
       }
-  </script>
-
+    </script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Montserrat:300,600,800']
+        }
+      });
+    </script>
   </body>
 </html>

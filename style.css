@@ -857,6 +857,7 @@ img.arrow-icon {
      cursor: pointer;
 }
 #swiper-tag {position: absolute;
+  padding: 0 10px;
 }
 .image-wrapper {position: relative;
 }
@@ -1343,19 +1344,11 @@ div.tab button.active {
   margin: 0 auto;
   width: 100%;
 }
-.element-item {
-  min-height: 300px;
-}
-div.element-contents {
-  padding-bottom: 10px;
-
-}
-div.element-item:hover {
-  border-bottom: 3px solid black;
-}
-div.element-contetns:active,
-div.element-contents:focus {
-  outline: 0;
+.element-item > * {
+  margin: 0;
+  padding: 0;
+  outline:none !important;
+  overflow: hidden;
 }
 .element-item {
   position: relative;
@@ -1365,13 +1358,8 @@ div.element-contents:focus {
   margin: 0 0 20px 0;
   padding: 0 10px;
 }
-.element-item > * {
-  margin: 0;
-  padding: 0;
-  outline:none !important;
-}
-.element-item {
-  overflow: hidden;
+div.element-item:hover {
+  border-bottom: 3px solid black;
 }
 .element-image-wrapper {
   width: 100%;
@@ -1386,7 +1374,6 @@ div.element-contents:focus {
   -ms-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
-  vertical-align: middle;
 }
 .element-item img:hover {
   -webkit-transform:scale(1.1); /* Safari and Chrome */
@@ -1433,7 +1420,6 @@ div.element-contents:focus {
   }
   .element-item{
   width: 50%;
-  min-height: 370px;
   }
   .element-texts h3.post-sub-heading_1 {
     font-size: 25px;
@@ -1460,10 +1446,6 @@ div.element-contents:focus {
     font-size: 14px;
   }
   .element-item {
-    min-height: 450px;
-  }
-  #element1 {
-    min-height: 500px;
   }
 }
 /* Desktop - large */
