@@ -45,7 +45,7 @@ a[href^="tel:"] {
 }
 
 p {
-  margin-bottom: 24px !important;
+  margin-bottom: 24px;
 }
 
 .white {
@@ -1273,7 +1273,7 @@ a h5.post-contents:hover {text-decoration: underline;
     margin-top: 80px;
   }
   p {
-    margin-bottom: 30px !important;
+    margin-bottom: 30px;
   }
 
   /*button*/
@@ -1284,7 +1284,7 @@ a h5.post-contents:hover {text-decoration: underline;
 /* Tab */
 .work-list {
   width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 .work-list-contents {
   margin: 0 auto;
@@ -1355,18 +1355,21 @@ div.tab button.active {
   width: 100%;
   color: #262524;
   float: left;
-  margin: 0 0 20px 0;
-  padding: 0 10px;
+  margin: 0 0 15px 0;
+  padding: 0 16px ;
 }
-div.element-item:hover {
+div.element-contents:hover {
   border-bottom: 3px solid black;
 }
 .element-image-wrapper {
   width: 100%;
+  heigt: auto;
   display: inline-block;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 .element-item img {
+  vertical-align:bottom;
   width: 100%;
   height: auto;
   -webkit-transition: all .3s ease;
@@ -1381,9 +1384,6 @@ div.element-item:hover {
   -ms-transform:scale(1.1); /* IE 9 */
   -o-transform:scale(1.1); /* Opera */
   transform:scale(1.1);
-}
-.element-item h3.post-sub-heading_1 {
-  margin: 20px 0 0 0;
 }
 .element-item p.post-sub-heading_2 {
   margin: 10px 0 10px 0;
@@ -1415,12 +1415,19 @@ div.element-item:hover {
 /* Responsive design */
 /* Tablet */
 @media only screen and (min-width: 600px) {
+  .work-list {
+    margin-bottom: 50px;
+  }
   div.tab {
     display: block;
   }
   .element-item{
   width: 50%;
+  margin-bottom: 20px;
   }
+  .element-item p.post-sub-heading_2 {
+    margin-bottom: 12px;
+ }
   .element-texts h3.post-sub-heading_1 {
     font-size: 25px;
   }
@@ -1433,6 +1440,12 @@ div.element-item:hover {
 }
 /* Desktop - small */
 @media only screen and (min-width: 768px) {
+  .element-item {
+    margin-bottom: 26px;
+  }
+  .element-item p.post-sub-heading_2 {
+    margin-bottom: 20px;
+  }
   .element-texts h3.post-sub-heading_1 {
     font-size: 30px;
   }
@@ -1444,8 +1457,6 @@ div.element-item:hover {
   }
   .button {
     font-size: 14px;
-  }
-  .element-item {
   }
 }
 /* Desktop - large */
@@ -1755,9 +1766,6 @@ input[type=text]:focus, select, textarea {
 
 /* 2.1 Contents of WORK */
 /* WORK Global */
-.element-image-wrapper {
-  margin-bottom: 10px;
-}
 .contents-wrapper {
   width: 100%;
   height: auto;
