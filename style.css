@@ -47,7 +47,9 @@ a[href^="tel:"] {
 p {
   margin-bottom: 24px;
 }
-
+p.post-contents {
+  margin-bottom: 24px;
+}
 .white {
   color: black !important;
 }
@@ -76,6 +78,7 @@ p {
   margin: 0;
   letter-spacing: 0.5px;
   line-height: 1.2;
+  color: black;
 }
 .post-sub-heading_2 {
   font-family: georgia, times, serif;
@@ -1037,6 +1040,12 @@ h3.numbers_2 {
 }
 a h5.post-contents:hover {text-decoration: underline;
 }
+.ityped-footer {
+  color: white;
+}
+#footerNoAnimation {
+  color: white;
+}
 /* Responsive Design*/
 /* For mobile phones: */
 [class*="col-"] {width: 100%;}
@@ -1560,8 +1569,8 @@ div.aboutme-contents p.post-contents {
   vertical-align: middle;
 }
 .somefacts-img img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 .somefacts-txt {
@@ -1639,6 +1648,11 @@ div.aboutme-contents article .post-contents {
   .aboutme-texts {
     width: 75%;
   }
+  .somefacts-img img {
+    width: 60px;
+    height: 60px;
+  }
+
 }
 
 /* 4. CONTACT - contact.html */
