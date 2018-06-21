@@ -43,7 +43,6 @@ a[href^="tel:"] {
   color: #FFFFFF;
   text-decoration: underline;
 }
-
 p {
   margin-bottom: 24px;
 }
@@ -1394,6 +1393,38 @@ div.element-contents:hover {
   -o-transform:scale(1.1); /* Opera */
   transform:scale(1.1);
 }
+#password.element-image-wrapper {
+  position: relative;
+  width: 100%;
+}
+.element-image-wrapper:hover .lock{
+  opacity: 0.8;
+}
+.lock {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100% !important;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: black;
+}
+.lockIcon {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.fa-user:hover {
+  color: #eee;
+}
 .element-item p.post-sub-heading_2 {
   margin: 10px 0 10px 0;
 }
@@ -1492,7 +1523,7 @@ div.element-contents:hover {
 
 .aboutme-wrapper {
   margin: 0 auto 80px auto;
-  padding: 0 10px;
+  padding: 0 16px;
 }
 
 .aboutme-contents {
@@ -1945,6 +1976,12 @@ ul.nav-tabs li.active a:hover {
   margin-right: -20%;
   margin-left: 3%;
 }
+#floatingImg_3 {
+  float: right;
+  width: 30%;
+  margin-right: -20%;
+  margin-left: 3%;
+}
 .body-contents-left p,
 .body-contents-left span,
 .body-contents-left h3
@@ -2086,7 +2123,8 @@ img.demo {
 
 @media only screen and (max-width: 600px) {
   #floatingImg,
-  #floatingImg_2 {
+  #floatingImg_2,
+  #floatingImg_3 {
     margin: 0 0 30px 0;
     float: right;
     width: 100%;
@@ -2205,6 +2243,13 @@ img.demo {
 #fullWidth_lifeLight_1 {
   background-image: url('imgs/works/lifeLight/life-light_15.jpg');
 }
+/* 2.12 CDIP */
+#cdip_headBg {
+  z-index: -1000 !important;
+  background-color: #d6d4d7;
+  background-image: url('imgs/works/CDIP/CDIP_large.jpg');
+}
+
 /* Responsive design for each content page */
 /* tablet to desktop */
 @media only screen and (min-width: 600px) {
