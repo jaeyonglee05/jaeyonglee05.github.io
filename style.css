@@ -44,10 +44,10 @@ a[href^="tel:"] {
   text-decoration: underline;
 }
 p {
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 p.post-contents {
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 .white {
   color: black !important;
@@ -2249,7 +2249,21 @@ img.demo {
   background-color: #d6d4d7;
   background-image: url('imgs/works/CDIP/CDIP_large.jpg');
 }
-
+/* 2.13 Interventional CT */
+#ICT_headBg {
+  z-index: -1000 !important;
+  background-color: #d6d4d7;
+  background-image: url('imgs/works/InterventionalCT/interventionalCT_1_1.jpg');
+}
+#fullWidth_ICT_1 {
+  background-image: url('imgs/works/InterventionalCT/interventionalCT_1_1.jpg');
+}
+/* 2.14 embodied UI */
+#embodiedUI_headBg {
+  z-index: -1000 !important;
+  background-color: #d6d4d7;
+  background-image: url('imgs/works/embodiedUI_Air/embodiedUI_air_2_1.jpg');
+}
 /* Responsive design for each content page */
 /* tablet to desktop */
 @media only screen and (min-width: 600px) {
