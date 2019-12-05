@@ -43,6 +43,9 @@ a[href^="tel:"] {
   color: #FFFFFF;
   text-decoration: underline;
 }
+b{
+  font-weight: 600 !important;
+}
 p {
   margin-bottom: 30px;
 }
@@ -90,6 +93,7 @@ p.post-contents {
 }
 .post-sub-heading_3 {
   font-family: "Montserrat", sans-serif;
+  font-style: italic;
   font-weight: normal;
   font-size: 16px;
   color: #666666;
@@ -163,6 +167,15 @@ p.post-contents {
   margin: 0;
   letter-spacing: 0.5px;
   line-height: 1.2;
+}
+.post-bullet {
+  font-family: "Montserrat", sans-serif;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+  line-height: 1.6;
 }
 /* 0.2.2 Buttons */
 button {
@@ -1096,8 +1109,8 @@ a h5.post-contents:hover {text-decoration: underline;
     .post-heading {font-size: 55px;}
     .post-sub-heading_1 {font-size: 30px;}
     .post-sub-heading_2,
-    .post-sub-heading_3,
     .post-sub-heading-link {font-size: 18px;}
+    .post-sub-heading_3 {font-size: 16px;}
     .post-contents,.post-contents-link,.post-contents-link-2 {font-size: 16px;}
     .post-quotes {font-size: 30px;}
     h3.numbers {font-size: 80px;}
@@ -1244,11 +1257,11 @@ a h5.post-contents:hover {text-decoration: underline;
     .post-sub-heading_1 {font-size: 35px;
     }
     .post-sub-heading_2,
-    .post-sub-heading_3,
-    .post-sub-heading-link {font-size: 20px;
+    .post-sub-heading-link {font-size: 24px;
     }
+    .post-sub-heading_3 {font-size: 20px;}
     .post-contents,.post-contents-link,.post-contents-link-2 {font-size: 17px;}
-    .post-quotes {font-size: 35px;}
+    .post-quotes {font-size: 30px;}
     h3.numbers {font-size: 80px;
     }
     nav.mastfoot-nav {font-size: 35px;
@@ -1903,8 +1916,8 @@ input[type=text]:focus, select, textarea {
   z-index: 2000;
 }
 ul.nav-tabs {
-  width: 13%;
-  min-width: 150px;
+  width: 15%;
+  min-width: 180px;
   position: absolute;
   right:10%;
   top: 680px;
@@ -1982,6 +1995,7 @@ ul.nav-tabs li.active a:hover {
   margin-right: -20%;
   margin-left: 3%;
 }
+
 .body-contents-left p,
 .body-contents-left span,
 .body-contents-left h3
@@ -2015,13 +2029,20 @@ div.halfImg > img {
   width: 100%;
   left:0;
   right:0;
-  height: 300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .fullWidthFake {
   height: 300px;
+  width: 100%;
+}
+.fullwidthFake_mid {
+  height: 400px;
+  width: 100%;
+}
+.fullWidthFake_long {
+  height: 1100px;
   width: 100%;
 }
 /* Lightbox */
@@ -2158,7 +2179,7 @@ img.demo {
 #visualizingAirQuality_headBg {
   z-index: -1000 !important;
   background-color: #d6d4d7;
-  background-image: url('imgs/works/visualizingAirQuality/smartdetector in a context_4.jpg');
+  background-image: url('imgs/featured-works-carousel-1.jpg');
 }
 #fullWidth_smartairdetector_1 {
   background-image: url('imgs/works/visualizingAirQuality/fullWidth_smartAirDetector_3.jpg');
@@ -2263,6 +2284,28 @@ img.demo {
   z-index: -1000 !important;
   background-color: #d6d4d7;
   background-image: url('imgs/works/embodiedUI_Air/embodiedUI_air_2.jpg');
+}
+/*2.15 InteractCity */
+#makingCitiesSmarter_headBg {
+  background-color: #d6d4d7;
+  background-image: url('imgs/works/InteractCity/backgroundImage_header.png');
+}
+#interactCityUI {
+  height: 1100px;
+  background-image: url('imgs/works/InteractCity/makingCitiesSmarter_headBg.png');
+}
+#visualizingAssets {
+  height: 400px;
+  background-color: #d6d4d7;
+  background-image: url('imgs/works/InteractCity/visualizingAssets.png');
+}
+#configuringAssets {
+  height: 400px;
+  background-color: #d6d4d7;
+  background-image: url('imgs/works/InteractCity/ConfiguringAssets.png');
+}
+#bottomMargin {
+  margin-bottom: 40px;
 }
 /* Responsive design for each content page */
 /* tablet to desktop */
