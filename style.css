@@ -889,11 +889,11 @@ img.arrow-icon {
   position: absolute;
   z-index: 50;
 }
-.img1 {background-image: url('imgs/featured-works-carousel-1.jpg');
+.img1 {background-image: url('imgs/works/InteractCity/makingCitiesSmarter_headBg_small.png');
 }
-.img2 {background-image: url('imgs/featured-works-carousel-2.jpg');
+.img2 {background-image: url('imgs/featured-works-carousel-1.jpg');
 }
-.img3 {background-image: url('imgs/featured-works-carousel-3.jpg');
+.img3 {background-image: url('imgs/works/embodiedUI_Air/embodiedUI_air_1.jpg');
 }
 .img-wrapper:hover .swiper-overlay {opacity: 0.8;
 }
