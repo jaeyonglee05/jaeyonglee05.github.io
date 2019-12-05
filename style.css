@@ -895,7 +895,7 @@ img.arrow-icon {
 }
 .img3 {background-image: url('imgs/featured-works-carousel-3.jpg');
 }
-.img-wrapper:hover .swiper-overlay {opacity: 1;
+.img-wrapper:hover .swiper-overlay {opacity: 0.8;
 }
 .swiper-overlay {
   position: absolute;
