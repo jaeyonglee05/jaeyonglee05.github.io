@@ -7,545 +7,435 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-77270924-1');
     </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jaeyong Lee</title>
     <!--normalize-->
     <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,800" rel='stylesheet' type="text/css">
     <!--favicon-->
     <link rel="shortcut icon" href="favicon.gif" type="image/gif">
     <!--stlying-->
-    <link rel="stylesheet" href="style.css">
-    <!--animate-->
-    <link rel="stylesheet" href="animate/animate.css">
-    <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+    <link rel="stylesheet" href="style_update.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,800" rel='stylesheet' type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez:400,400i&display=swap" rel="stylesheet">
+    <!--slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <!--icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 
-<body data-spy="scroll" data-target="#myScrollspy">
-	<div class="clearfix site-wrapper">
-		<div class="site-wrapper-inner">
-			<div class="cover-container">
-				<header>
-					<div class="masthead-w">
-						<a href="index.html"><div class="brand" id="logo-w"></div></a>
-						<div class="menu-mobile-w">
-							 <div class="menu-icon" onclick="openNav()">
-							 <div class="bar1-w"></div>
-							 <div class="bar2-w"></div>
-							 <div class="bar3-w"></div>
-						 </div>
-					 </div>
-					<div class="menu-desktop">
-						<nav>
-							<ul class="masthead-nav white">
-								<li><a href="work.html"><span class="current">WORK</span></a></li>
-								<li><a href="about.html">ABOUT</a></li>
-								<li><a href="contact.html">CONTACT</a></li>
-								<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-							</ul>
-							<div class="menu-desktop-icon">
-							 <div class="menu-icon" onclick="openNav()">
-									 <div class="bar1-w"></div>
-									 <div class="bar2-w"></div>
-									 <div class="bar3-w"></div>
-							 </div>
-						 </div>
-					 </div>
-						 <div id="myNav" class="overlay-w">
-							 <a href="javascript:void(0)" class="closebtn-w" onclick="closeNav()">&times;</a>
-							 <div class="post-heading overlay-contents-w">
-									 <a href="index.html" class="current"><span>HOME</span></a>
-                   <a href="work.html"><span>WORK</span></a>
-                   <a href="about.html"><span>ABOUT</span></a>
-                   <a href="contact.html"><span>CONTACT</span></a>
-							 </div>
-						</nav>
-					</div>
-				</div>
-				</header>
-
-				<main class="contents-wrapper">
-					<div class="head-section">
-						<div id="visualizingAirQuality_headBg" class="head-background rellax" data-rellax-speed="-5"></div>
-						<div class="head-texts">
-							<h1 class="post-heading white animated fadeInUp">Visualizing Air Quality</h1>
-							<h2 class="post-sub-heading_2 animated fadeInUp">Changing users’ behaviors regarding air quality</h2>
-						</div>
-					</div>
-
-					<div class="body-section">
-				    <div class="col-9 col-m-9 body-contents">
-				     <div class="body-contents-left">
-							<div id="overview">
-                <button id="workbutton" class="tag-button-black">UX / UI</button>
-								<div class="goBack" onclick="goBack()">&lt; BACK TO PREVIOUS PAGE</div>
-								<div class="workInfo post-sub-heading_2">
-									<span class="bold">Year:</span> 2016<br>
-									<span class="bold">Designer:</span> Jaeyong Lee<br>
-									<span class="bold">Roles:</span> User Research, UX/UI design, Interaction design, Information Visualiziation<br>
-                  <span class="bold">Partnership: </span><a href="http://www.philips.com" target="_blank"><span id="workinfo_link" class="post-sub-heading-link">Philips</span></a><br>
+  <body>
+    <div class="clearfix site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <header id="navbar">
+            <div class="masthead">
+              <div class="masthead-center">
+                <a href="index.html"><div class="brand" id="logo"></div></a>
+                <div class="menu-desktop">
+                  <nav>
+                    <ul class="masthead-nav">
+                      <li><a href="index.html"><span class="current">Work</a></li>
+                      <li><a href="about.html">About</span></a></li>
+                      <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    </ul>
+                  </nav>
                 </div>
-								<p class="post-contents" id="initialSpace">This project is a design outcome of <a href="https://drive.google.com/file/d/0ByZY5d_bsVv_UnRNNnJ1Y1BpYWc/view?usp=sharing" target="_blank"><span class="post-contents-link-2">Master of Arts thesis: ‘Visual Communication for Behavior Change’,</span></a> which aimed to find interconnections between visual communication design and behavior change by specifically focusing on people’s diverse motivations in the context of air quality. The partner of thesis was multinational company ‘Philips’, hence the study did a case study via Philips Smart Air Purifier. To effectively influence users’ behaviors in the context of air quality, the project proposed two concepts: Smart Air Detector – a data measuring device for real-time air quality and a renewed Philips Smart Air – mobile application.
-								<br><br>
-								You can also check the <a href="https://youtu.be/HtFRS-ONgc8" target="_blank"><span class="post-contents-link-2">Master’s thesis presentation.</span></a>
-								</p>
-								<div class="videoWrapper">
-									<iframe src="https://www.youtube.com/embed/u9Ma9wONiqU?rel=0&amp;showinfo=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
-								</div>
-								<div class="halfImg">
-									<img src="imgs/works/visualizingAirQuality/smartdetector in a context_4.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-									<img src="imgs/works/visualizingAirQuality/smartdetector in a context_3.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-								</div>
-								<img src="imgs/works/visualizingAirQuality/smartairdetector_emoticonanimation.gif" onclick="openModal();currentSlide(3)" class="hover-shadow">
-								<span class="post-description"> Smart Air Detector and its animated emoticons</span>
-				      </div>
-
-							<div id="background">
-								<h3 id="sectionTitle" class="post-sub-heading_1">Background</h3>
-								<p class="post-contents">
-									During the recent years, an increasing attention has been directed towards changing user behaviors and bringing long-term customer engagement through utilizing data from individual users. Considering that most of digital devices use visual languages as a main medium to communicate with users, deeper studies in the interconnection of visual communication design and behavior change has become necessary.
-									<br><br>
-									The Master of Arts thesis has investigated the role of visual communication design for behavior change of people who are differently motivated in the context of air quality. It has endeavored to bring forth fundamental understandings of human behavior and visual communication design by conducting desk and user researches and shift the findings into an empirical case study.
-								</p>
-							</div>
-							<div id="designConcept">
-								<h3 id="sectionTitle" class="post-sub-heading_1">Design Concept</h3>
-								<p class="post-contents">
-									The study identified that being aware of a subject is the first step of change from the results of desk and user researches, so it built a design concept increasing the users’ awareness through visual communication to develop their motivational levels, which ultimately influence the behavior change. To concretely support the idea, it brought three auxiliary methods; 1) visualizing the invisible air qualities to enhance experience of users, 2) layering information structure to deliver context-relevant information, and 3) providing personalized functions and information to support users’ contextual differences.
-								</p>
-							</div>
-
-							<div id="designOutcome">
-								<h3 id="sectionTitle" class="post-sub-heading_1">Design Outcome</h3>
-								<img id="floatingImg" src="imgs/works/visualizingAirQuality/smartdetector_system.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"/>
-								<p class="post-contents">
-									The final concept products consist of an air detector and a mobile application. With the Philips Smart Air Purifier, the concept products simultaneously work together to deliver real-time air data with doable insights and tailored information for motivating users constantly.
-									<br><br>
-									The air quality dat a can be measured and collected by the Philips Smart Air Purifier, Smart Air Detector and the public API. The air detector collects accurate air data anywhere people visit. The collected data sets are visualized in the Smart Air Detector as well as in the mobile application via persuasive visual languages, so that people can monitor things happening around them and do intended behaviors.
-								</p>
-								<h4 id="sectionTitle" class="post-sub-heading_2">1. Smart Air Detector</h4>
-								<div id="fullWidth_smartairdetector_1" class="fullWidthImg hover-shadow" onclick="openModal();currentSlide(5)"></div>
-								<div class="fullWidthFake"></div>
-								<span class="post-description">Smart Air Detector on a bag</span>
-								<p class="post-contents">
-									The Smart Air Detector is a data measuring device that collects real-time air data in any location in which people are standing. Users can freely carry it on their bag, clothe or their key ring and place it where they desire to. The device automatically measures the current air quality data, and users are allowed to freely access to it. The analyzed air quality is represented by visualizations: animated emoticons, colors and descriptive texts, on its digital screen.
-								</p>
-								<img src="imgs/works/visualizingAirQuality/smartairdetector in a context.gif" onclick="openModal();currentSlide(6)" class="hover-shadow">
-								<span class="post-description">Smart Air Detetor in a context: Closed and opened window</span>
-								<h4 id="sectionTitle" class="post-sub-heading_2">2. Renewed Philips Smart Air (iOS)</h4>
-								<div id="fullWidth_smartairdetector_2" class="fullWidthImg" onclick="openModal();currentSlide(7)" class="hover-shadow"></div>
-								<div class="fullWidthFake"></div>
-								<span class="post-description">UI Design: renewed Philips Smart Air</span>
-								<p class="post-contents">
-									The new proposal of a Philips Smart Air - mobile application, works together with the Smart Air Detector. When the Smart Air Detector collects air data and visualizes it on the product, the data also goes to the users’ mobile application, so that people can monitor details with more tailored and doable insights based on their contextual differences along with developing their own motivation constantly.
-									<br><br>
-									The prototype of the renewed Philips Smart Air is available at:<br>
-									<a href="https://invis.io/5N7WX5HE7" target="_blank"><span class="post-contents-link-1">https://invis.io/5N7WX5HE7</span></a>
-								</p>
               </div>
+            </div>
+          </header>
 
-                <div id="aboutme-callapse" class="collapse">
-                  <h5 id="sectionTitle_normal" class="post-sub-heading_3">App structure</h5>
-  								<p class="post-contents">
-  									The structure of the mobile application mainly consists of five menus: Dashboard, Insights, Health, Filters and Profile. Along with it, there is also a Control panel – allowing users to remotely control their air purifiers, and Settings – for adjusting to diverse options.
-  								</p>
-                  <img src="imgs/works/visualizingAirQuality/appStructure.jpg"/ onclick="openModal();currentSlide(8)" class="hover-shadow">
-                  <span class="post-description">Information structure of the app</span>
-                  <h5 id="sectionTitle_normal" class="post-sub-heading_3">Onboarding process</h5>
-                  <p class="post-contents">One of my recent working experience was in Philips as a design intern. I have successfully worked in actual company projects: creating information visualizations for Primary Care Project and developing UI Design for Philips Online Shop Singapore website. The experience has allowed me to be a designer whom is confident working in new environment with international teams and creating design solutions for large-scale projects. After the experience, I am currently working on my master’s thesis with Philips: Visual Communication for Behavior Change, which will be finalized in the middle of November, 2016. 
-                  </p>
-                  <img src="imgs/works/visualizingAirQuality/workflow_onboarding_1.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
-                  <img src="imgs/works/visualizingAirQuality/workflow_onboarding_2.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
-                  <span class="post-description">Onboarding process: personalization</span>
-                  <h5 id="sectionTitle_normal" class="post-sub-heading_3">Dashboard</h5>
-                  <p class="post-contents">Users could land to the main page consisting of different data visualizations after the onboarding process. Dashboard includes Notification Bar, Current Air and various Data Visualizations: Air Surrounding You, Air Map, Air History and Pollutants.
-                  </p>
-                  <img src="imgs/works/visualizingAirQuality/dashboard_1.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
-                  <img src="imgs/works/visualizingAirQuality/dashboard_2.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
-                  <span class="post-description">Dashboard</span>
-                  <h5 id="sectionTitle_normal" class="post-sub-heading_3">Insights</h5>
-                  <p class="post-contents">
-                    Insights gives opportunities utilizing the collected data sets: from users, behaviors and environments, and transforms it to a doable behavior suggestion for individual users. Due to the complexity of understanding data visualization in the Dashboard, the Insights gives more understandable, actionable and digestible information to users.
-                  </p>
-                  <h5 id="sectionTitle_normal" class="post-sub-heading_3">Health</h5>
-                  <p class="post-contents">
-                    Health conveys health information reflecting from one’s contexts. To increase the credibility of the given health information, the information can be provided or supported by real-life doctors who can possibly work with Philips, and give more credible and authorized health information rather than simply providing common knowledge.
-                    <br>
-                    The Health also shows simulations of health effects depending on air qualities, time, and people. Users can freely adjust those options and can check the anticipated health effects with detailed descriptions.
-                  </p>
-                  <img src="imgs/works/visualizingAirQuality/Insights.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
-                  <span class="post-description">Behavioral insights and health related suggestions</span>
-                  <h5 id="sectionTitle_normal" class="post-sub-heading_3">Profile</h5>
-                  <p class="post-contents">
-                    Profile shows the registered personal and contextual information: home location, workplace, health vulnerability, family and so on. It constantly encourages users to invest their time and effort by visual stimuli: completion rate of one’s profile.
-                  </p>
-                  <h5 id="sectionTitle_normal" class="post-sub-heading_3">Control</h5>
-                  <p class="post-contents">
-                    Control allows users to remotely control their air purifier via smart phone with the visualization of the current home air quality. By the visualization sucking dust particles, users could visually see the process of air purification and the virtual result of it.
-                  </p>
-                  <img src="imgs/works/visualizingAirQuality/filter.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
-                  <span class="post-description">Filter status, profile: personalization, and control</span>
-                  <h4 id="sectionTitle" class="post-sub-heading_2">3. Behavior changes</h4>
-                  <p class="post-contents">
-                    Designed interventions are explained via a persona’s story: Veera. Target behaviors the design examined was 1) open windows, 2) Blow out candles and 3) Wear a mask.
-                  </p>
-                  <h5 id="sectionTitle_normal" class="post-sub-heading_3">1) Open windows</h5>
-                  <img id="floatingImg" src="imgs/works/visualizingAirQuality/Vera's story_1.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow">
-                  <p class="post-contents_2">
-                    Veera has an afternoon work shift in a coffee shop in Hongkou, Shanghai  (1). The café usually is full of coffee aroma every day, and there are many customers in the place from morning until evening.
-                    During her work, she sees that her Smart Air Detector on the wall shows vigilance emoticon: moderate air quality (2), so she opens the mobile application to check air quality of the place (3).
-                    <br><br>
-                    She sees that the indoor air quality in the café is moderate. As the application asks ‘where are you now?’, she pushes the ‘indoor’ button.
-                    <br><br>
-                    She sees a page of suggestions. She can check a simple description of the current air status, an air map showing the air quality of the nearby place and the changes of air quality in the café during 4 hours. Below that, she can see possible behaviors that she could consider to do. She thinks that she can probably open windows, since the application says that the current outdoor air quality is very good (PM 2.5 12).
-                    <br><br>
-                    When she reached the Open windows page, she could see a clear explanation how long time she needs to ventilate the air based on the outdoor air quality of the neighborhood (4). She understands that it is good to ventilate air for a while, and then she decides to open windows (5). She pushes the ‘Okay’ button.
-                    <br><br>
-                    Windows have been opened for 30 minutes, and the Smart Air Detector also shows a serenity emoticon (6). Since she was busy for doing her job, she could not see the changed emoticon on the device. Later, she found out that there is an unread message on the application. She opens the application, and it shows the message ‘Your air is clean now.’ It also asks possible reasons for the previous moderate air quality, and she thinks that it was because she did not do ventilation for a while. She selects ventilation as the reason, and the applications records the data. Application shows collected pollutants data, and guide her to more personalized insights.
-                  </p>
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_1_1.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_1_2.jpg" onclick="openModal();currentSlide(17)" class="hover-shadow">
-                  <span class="post-description">UX flow: open windows</span>
-                  <h5 id="sectionTitle_normal" class="post-sub-heading_3">2) Blow out candles</h5>
-                  <img id="floatingImg" src="imgs/works/visualizingAirQuality/Vera's story_2.png" onclick="openModal();currentSlide(18)" class="hover-shadow">
-                  <p class="post-contents_2">
-                    Veera and her friends are invited for a dinner in her friend’s home (1). When the dinner starts, her friend uses candles as usual. Windows are closed, 4 people are in the living room area, and people are casually talking with each other. At some point, Veera can see her Smart Air Detector that attached on her bag shows the air quality is unhealthy (2). She also gets a mobile notification for the changed air quality, so she opens the application to check details (3).
-                    <br><br>
-                    She sees the apprehension emoticon, flying dust and purple color that arouse her attention. She chooses ‘indoor’ button to see suggestions that she could do in the situation. The application illustrates the current status in detail and possible behavioral suggestions.
-                     <br><br>
-                    Among different suggestions, she clicks ‘Remove pollutants’ button. She can see possible reasons of making unhealthy air quality, and find out that the candles could be a reason.
-                     <br><br>
-                    Since it is not her home, she hesitates to blow out candles
-                    by her own decision. Instead of it, she talks to other friends that the air is unhealthy, and it could be because of the carcinogenic toxins from the burning candles (4). Other friends are interested in the topic and they start to talk about Veera’s Smart Air Detector. She has used the product for a month, so she can explain how it works, and what she can do in those kinds of situations. At the end, Veera and her friends decide to blow out the candles and ventilate the air for a while (5).
-                     <br><br>
-                    After having dinner, Veera can see that the application asks the reason for the unhealthy air quality that is turned to clean status (6). As she anticipates, she chooses ‘Candle’ as the possible reason, the system applauses her contribution, and it collects the data for making other insights.
-                  </p>
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_2_1.jpg" onclick="openModal();currentSlide(19)" class="hover-shadow">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_2_2.jpg" onclick="openModal();currentSlide(20)" class="hover-shadow">
-                  <span class="post-description">UX flow: blow out candles</span>
-                  <h5 id="sectionTitle_normal" class="post-sub-heading_3">3) Wear a mask</h5>
-                  <img id="floatingImg" src="imgs/works/visualizingAirQuality/Vera's story_3.jpg" onclick="openModal();currentSlide(21)" class="hover-shadow">
-                  <p class="post-contents_2">
-                    In the morning, Veera wakes up and checks her phone on her bed. She sees a message from Philips Smart Air Purifier application, which says that the air quality is going to be very unhealthy for today in Shanghai (1).
-                    <br><br>
-                    She opens the application and checks the details about the air forecasting. When she notices an emoticon wearing a mask with dense dust particles with red background color in the application, she almost feels fear for the situation (2). The application indicates that the air quality would be very unhealthy from 08:00 to 20:00, with a maximum of PM 2.5 level 355.
-                    <br><br>
-                    The application shows an air map and a bar graph; Veera could
-                    check the anticipated changes of outdoor air quality by time, and suggestions that she can consider. Veera checks the first suggestion – ‘Prepare air pollution mask’. The application explains the possible influences of the unhealthy air quality on her body and different types of air pollution masks that she can use.
-                    <br><br>
-                    She already puts her mask on her face before going out, and tries to not take it off until arriving at the school. When she goes out, the city was dark and dim, and she can see many people were wearing masks on the road (3). When she gets in a bus stop, her mobile notifies that her Smart Air Detector analyzes the current air quality in the location, and it is very unhealthy. The application suggests to her wearing a mask immediately, and she answers that she already wears it. It applauses her proactive behavior with a ‘Great’ message and a thumbs up icon.
-                    <br><br>
-                    After arriving in the school, she  thinks that she might talk about this unhealthy air quality and its health impact to her friends who do not care it very much, since she regards it as a very important issue for everyone (4).
-                    <br><br>
-                    Around 20:00, she checks outdoor air quality before heading back to her home. The application says that the outdoor air quality is clean now (5). Now she feels relieved, and goes to home without the mask (6).
-                  </p>
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_3_1.jpg" onclick="openModal();currentSlide(22)" class="hover-shadow">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_3_2.jpg" onclick="openModal();currentSlide(23)" class="hover-shadow">
-                  <span class="post-description">UX flow: Wear a mask</span>
-                </div>
+          <main class="contents-wrapper">
+            <div class="head-section">
+  						<div id="visualizingAirQuality_headBg" class="head-background rellax" data-rellax-speed="-5"></div>
+  						<div class="head-texts">
+  							<h1 class="post-heading animated fadeInUp">Visualizing Air Quality</h1>
+  							<h2 class="post-heading_2 animated fadeInUp">Changing users’ behaviors regarding air quality</h2>
+  						</div>
+  					</div>
 
-                <button type="button" class="btn button-button-black" data-toggle="collapse" data-target="#aboutme-callapse" id="seeMore">
-                 SEE MORE
-                </button>
-						</div>
+            <div class="grid-wrapper">
+              <div class="grid-container">
+                <div class="grid-full">
 
-            <!-- Modal images -->
-            <div id="myModal" class="modal">
-              <span class="modalclosebtn-w" onclick="closeModal()">&times;</span>
-              <div class="modal-contents">
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/smartdetector in a context_4.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/smartdetector in a context_3.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/smartairdetector_emoticonanimation.gif">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/smartdetector_system.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/fullWidth_smartAirDetector_3_modal.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/smartairdetector in a context.gif">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/fullWidth_smartAirDetector_2_modal.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/appStructure.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/workflow_onboarding_1.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/workflow_onboarding_2.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/dashboard_1.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/dashboard_2.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/Insights.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/filter.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_1.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_1_1.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_1_2.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_2.png">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_2_1.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_2_2.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_3.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_3_1.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/visualizingAirQuality/Vera's story_3_2.jpg">
-                </div>
+                  <div class="body-contents-left">
+     							 <div id="overview quotes">
+     								<div class="workInfo post-quotes">
+     									<span class="bold">Year:</span> 2016<br>
+     									<span class="bold">Designer:</span> Jaeyong Lee<br>
+     									<span class="bold">Roles:</span> User Research, UX/UI design, Interaction design, Information Visualiziation<br>
+                       <span class="bold">Partnership: </span><a href="http://www.philips.com" target="_blank" class="post-quotes-link">Philips</span></a><br>
+                     </div>
+     								<p class="post-contents" id="initialSpace">This project is a design outcome of <a href="https://drive.google.com/file/d/0ByZY5d_bsVv_UnRNNnJ1Y1BpYWc/view?usp=sharing" target="_blank"><span class="post-contents-link">Master of Arts thesis: ‘Visual Communication for Behavior Change’,</span></a> which aimed to find interconnections between visual communication design and behavior change by specifically focusing on people’s diverse motivations in the context of air quality. The partner of thesis was multinational company ‘Philips’, hence the study did a case study via Philips Smart Air Purifier. To effectively influence users’ behaviors in the context of air quality, the project proposed two concepts: Smart Air Detector – a data measuring device for real-time air quality and a renewed Philips Smart Air – mobile application.
+     								<br><br>
+     								You can also check the <a href="https://youtu.be/HtFRS-ONgc8" target="_blank"><span class="post-contents-link">Master’s thesis presentation.</span></a>
+     								</p>
+     								<div class="videoWrapper">
+     									<iframe src="https://www.youtube.com/embed/u9Ma9wONiqU?rel=0&amp;showinfo=0?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+     								</div>
+     								<div class="halfImg">
+     									<img src="imgs/works/visualizingAirQuality/smartdetector in a context_4.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+     									<img src="imgs/works/visualizingAirQuality/smartdetector in a context_3.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+     								</div>
+     								<img src="imgs/works/visualizingAirQuality/smartairdetector_emoticonanimation.gif" onclick="openModal();currentSlide(3)" class="hover-shadow">
+     								<span class="post-description"> Smart Air Detector and its animated emoticons</span>
+     				      </div>
 
-                <a class="prev" onclick="plusSlides(-1)"><img src="svgs/arrow_prev.svg"></a>
-                <a class="next" onclick="plusSlides(1)"><img src="svgs/arrow_next.svg"></a>
+     							 <div id="background">
+     								<h3 id="sectionTitle" class="post-sub-heading_1">Background</h3>
+     								<p class="post-contents">
+     									During the recent years, an increasing attention has been directed towards changing user behaviors and bringing long-term customer engagement through utilizing data from individual users. Considering that most of digital devices use visual languages as a main medium to communicate with users, deeper studies in the interconnection of visual communication design and behavior change has become necessary.
+     									<br><br>
+     									The Master of Arts thesis has investigated the role of visual communication design for behavior change of people who are differently motivated in the context of air quality. It has endeavored to bring forth fundamental understandings of human behavior and visual communication design by conducting desk and user researches and shift the findings into an empirical case study.
+     								</p>
+     							</div>
+     							 <div id="designConcept">
+     								<h3 id="sectionTitle" class="post-sub-heading_1">Design Concept</h3>
+     								<p class="post-contents">
+     									The study identified that being aware of a subject is the first step of change from the results of desk and user researches, so it built a design concept increasing the users’ awareness through visual communication to develop their motivational levels, which ultimately influence the behavior change. To concretely support the idea, it brought three auxiliary methods; 1) visualizing the invisible air qualities to enhance experience of users, 2) layering information structure to deliver context-relevant information, and 3) providing personalized functions and information to support users’ contextual differences.
+     								</p>
+     							</div>
+     							 <div id="designOutcome">
+     								<h3 id="sectionTitle" class="post-sub-heading_1">Design Outcome</h3>
+     								<img id="floatingImg" src="imgs/works/visualizingAirQuality/smartdetector_system.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"/>
+     								<p class="post-contents">
+     									The final concept products consist of an air detector and a mobile application. With the Philips Smart Air Purifier, the concept products simultaneously work together to deliver real-time air data with doable insights and tailored information for motivating users constantly.
+     									<br><br>
+     									The air quality dat a can be measured and collected by the Philips Smart Air Purifier, Smart Air Detector and the public API. The air detector collects accurate air data anywhere people visit. The collected data sets are visualized in the Smart Air Detector as well as in the mobile application via persuasive visual languages, so that people can monitor things happening around them and do intended behaviors.
+     								</p>
+     								<h4 id="sectionTitle" class="post-sub-heading_2">1. Smart Air Detector</h4>
+     								<div id="fullWidth_smartairdetector_1" class="fullWidthImg hover-shadow" onclick="openModal();currentSlide(5)"></div>
+     								<div class="fullWidthFake"></div>
+     								<span class="post-description">Smart Air Detector on a bag</span>
+     								<p class="post-contents">
+     									The Smart Air Detector is a data measuring device that collects real-time air data in any location in which people are standing. Users can freely carry it on their bag, clothe or their key ring and place it where they desire to. The device automatically measures the current air quality data, and users are allowed to freely access to it. The analyzed air quality is represented by visualizations: animated emoticons, colors and descriptive texts, on its digital screen.
+     								</p>
+     								<img src="imgs/works/visualizingAirQuality/smartairdetector in a context.gif" onclick="openModal();currentSlide(6)" class="hover-shadow">
+     								<span class="post-description">Smart Air Detetor in a context: Closed and opened window</span>
+     								<h4 id="sectionTitle" class="post-sub-heading_2">2. Renewed Philips Smart Air (iOS)</h4>
+     								<div id="fullWidth_smartairdetector_2" class="fullWidthImg" onclick="openModal();currentSlide(7)" class="hover-shadow"></div>
+     								<div class="fullWidthFake"></div>
+     								<span class="post-description">UI Design: renewed Philips Smart Air</span>
+     								<p class="post-contents">
+     									The new proposal of a Philips Smart Air - mobile application, works together with the Smart Air Detector. When the Smart Air Detector collects air data and visualizes it on the product, the data also goes to the users’ mobile application, so that people can monitor details with more tailored and doable insights based on their contextual differences along with developing their own motivation constantly.
+     									<br><br>
+     									The prototype of the renewed Philips Smart Air is available at:<br>
+     									<a class="post-contents_link" href="https://invis.io/5N7WX5HE7" target="_blank"><span class="post-contents-link">https://invis.io/5N7WX5HE7</span></a>
+     								</p>
+                   </div>
 
-                <div class="caption-container">
-                  <p id="caption"></p>
+                     <div id="aboutme-callapse" class="collapse">
+                       <h5 id="sectionTitle_normal" class="post-sub-heading_3">App structure</h5>
+       								<p class="post-contents">
+       									The structure of the mobile application mainly consists of five menus: Dashboard, Insights, Health, Filters and Profile. Along with it, there is also a Control panel – allowing users to remotely control their air purifiers, and Settings – for adjusting to diverse options.
+       								</p>
+                       <img src="imgs/works/visualizingAirQuality/appStructure.jpg"/ onclick="openModal();currentSlide(8)" class="hover-shadow">
+                       <span class="post-description">Information structure of the app</span>
+                       <h5 id="sectionTitle_normal" class="post-sub-heading_3">Onboarding process</h5>
+                       <p class="post-contents">One of my recent working experience was in Philips as a design intern. I have successfully worked in actual company projects: creating information visualizations for Primary Care Project and developing UI Design for Philips Online Shop Singapore website. The experience has allowed me to be a designer whom is confident working in new environment with international teams and creating design solutions for large-scale projects. After the experience, I am currently working on my master’s thesis with Philips: Visual Communication for Behavior Change, which will be finalized in the middle of November, 2016. 
+                       </p>
+                       <img src="imgs/works/visualizingAirQuality/workflow_onboarding_1.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+                       <img src="imgs/works/visualizingAirQuality/workflow_onboarding_2.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+                       <span class="post-description">Onboarding process: personalization</span>
+                       <h5 id="sectionTitle_normal" class="post-sub-heading_3">Dashboard</h5>
+                       <p class="post-contents">Users could land to the main page consisting of different data visualizations after the onboarding process. Dashboard includes Notification Bar, Current Air and various Data Visualizations: Air Surrounding You, Air Map, Air History and Pollutants.
+                       </p>
+                       <img src="imgs/works/visualizingAirQuality/dashboard_1.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+                       <img src="imgs/works/visualizingAirQuality/dashboard_2.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+                       <span class="post-description">Dashboard</span>
+                       <h5 id="sectionTitle_normal" class="post-sub-heading_3">Insights</h5>
+                       <p class="post-contents">
+                         Insights gives opportunities utilizing the collected data sets: from users, behaviors and environments, and transforms it to a doable behavior suggestion for individual users. Due to the complexity of understanding data visualization in the Dashboard, the Insights gives more understandable, actionable and digestible information to users.
+                       </p>
+                       <h5 id="sectionTitle_normal" class="post-sub-heading_3">Health</h5>
+                       <p class="post-contents">
+                         Health conveys health information reflecting from one’s contexts. To increase the credibility of the given health information, the information can be provided or supported by real-life doctors who can possibly work with Philips, and give more credible and authorized health information rather than simply providing common knowledge.
+                         <br>
+                         The Health also shows simulations of health effects depending on air qualities, time, and people. Users can freely adjust those options and can check the anticipated health effects with detailed descriptions.
+                       </p>
+                       <img src="imgs/works/visualizingAirQuality/Insights.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+                       <span class="post-description">Behavioral insights and health related suggestions</span>
+                       <h5 id="sectionTitle_normal" class="post-sub-heading_3">Profile</h5>
+                       <p class="post-contents">
+                         Profile shows the registered personal and contextual information: home location, workplace, health vulnerability, family and so on. It constantly encourages users to invest their time and effort by visual stimuli: completion rate of one’s profile.
+                       </p>
+                       <h5 id="sectionTitle_normal" class="post-sub-heading_3">Control</h5>
+                       <p class="post-contents">
+                         Control allows users to remotely control their air purifier via smart phone with the visualization of the current home air quality. By the visualization sucking dust particles, users could visually see the process of air purification and the virtual result of it.
+                       </p>
+                       <img src="imgs/works/visualizingAirQuality/filter.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+                       <span class="post-description">Filter status, profile: personalization, and control</span>
+                       <h4 id="sectionTitle" class="post-sub-heading_2">3. Behavior changes</h4>
+                       <p class="post-contents">
+                         Designed interventions are explained via a persona’s story: Veera. Target behaviors the design examined was 1) open windows, 2) Blow out candles and 3) Wear a mask.
+                       </p>
+                       <h5 id="sectionTitle_normal" class="post-sub-heading_3">1) Open windows</h5>
+                       <img id="floatingImg" src="imgs/works/visualizingAirQuality/Vera's story_1.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow">
+                       <p class="post-contents">
+                         Veera has an afternoon work shift in a coffee shop in Hongkou, Shanghai  (1). The café usually is full of coffee aroma every day, and there are many customers in the place from morning until evening.
+                         During her work, she sees that her Smart Air Detector on the wall shows vigilance emoticon: moderate air quality (2), so she opens the mobile application to check air quality of the place (3).
+                         <br><br>
+                         She sees that the indoor air quality in the café is moderate. As the application asks ‘where are you now?’, she pushes the ‘indoor’ button.
+                         <br><br>
+                         She sees a page of suggestions. She can check a simple description of the current air status, an air map showing the air quality of the nearby place and the changes of air quality in the café during 4 hours. Below that, she can see possible behaviors that she could consider to do. She thinks that she can probably open windows, since the application says that the current outdoor air quality is very good (PM 2.5 12).
+                         <br><br>
+                         When she reached the Open windows page, she could see a clear explanation how long time she needs to ventilate the air based on the outdoor air quality of the neighborhood (4). She understands that it is good to ventilate air for a while, and then she decides to open windows (5). She pushes the ‘Okay’ button.
+                         <br><br>
+                         Windows have been opened for 30 minutes, and the Smart Air Detector also shows a serenity emoticon (6). Since she was busy for doing her job, she could not see the changed emoticon on the device. Later, she found out that there is an unread message on the application. She opens the application, and it shows the message ‘Your air is clean now.’ It also asks possible reasons for the previous moderate air quality, and she thinks that it was because she did not do ventilation for a while. She selects ventilation as the reason, and the applications records the data. Application shows collected pollutants data, and guide her to more personalized insights.
+                       </p>
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_1_1.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_1_2.jpg" onclick="openModal();currentSlide(17)" class="hover-shadow">
+                       <span class="post-description">UX flow: open windows</span>
+                       <h5 id="sectionTitle_normal" class="post-sub-heading_3">2) Blow out candles</h5>
+                       <img id="floatingImg" src="imgs/works/visualizingAirQuality/Vera's story_2.png" onclick="openModal();currentSlide(18)" class="hover-shadow">
+                       <p class="post-contents">
+                         Veera and her friends are invited for a dinner in her friend’s home (1). When the dinner starts, her friend uses candles as usual. Windows are closed, 4 people are in the living room area, and people are casually talking with each other. At some point, Veera can see her Smart Air Detector that attached on her bag shows the air quality is unhealthy (2). She also gets a mobile notification for the changed air quality, so she opens the application to check details (3).
+                         <br><br>
+                         She sees the apprehension emoticon, flying dust and purple color that arouse her attention. She chooses ‘indoor’ button to see suggestions that she could do in the situation. The application illustrates the current status in detail and possible behavioral suggestions.
+                          <br><br>
+                         Among different suggestions, she clicks ‘Remove pollutants’ button. She can see possible reasons of making unhealthy air quality, and find out that the candles could be a reason.
+                          <br><br>
+                         Since it is not her home, she hesitates to blow out candles
+                         by her own decision. Instead of it, she talks to other friends that the air is unhealthy, and it could be because of the carcinogenic toxins from the burning candles (4). Other friends are interested in the topic and they start to talk about Veera’s Smart Air Detector. She has used the product for a month, so she can explain how it works, and what she can do in those kinds of situations. At the end, Veera and her friends decide to blow out the candles and ventilate the air for a while (5).
+                          <br><br>
+                         After having dinner, Veera can see that the application asks the reason for the unhealthy air quality that is turned to clean status (6). As she anticipates, she chooses ‘Candle’ as the possible reason, the system applauses her contribution, and it collects the data for making other insights.
+                       </p>
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_2_1.jpg" onclick="openModal();currentSlide(19)" class="hover-shadow">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_2_2.jpg" onclick="openModal();currentSlide(20)" class="hover-shadow">
+                       <span class="post-description">UX flow: blow out candles</span>
+                       <h5 id="sectionTitle_normal" class="post-sub-heading_3">3) Wear a mask</h5>
+                       <img id="floatingImg" src="imgs/works/visualizingAirQuality/Vera's story_3.jpg" onclick="openModal();currentSlide(21)" class="hover-shadow">
+                       <p class="post-contents">
+                         In the morning, Veera wakes up and checks her phone on her bed. She sees a message from Philips Smart Air Purifier application, which says that the air quality is going to be very unhealthy for today in Shanghai (1).
+                         <br><br>
+                         She opens the application and checks the details about the air forecasting. When she notices an emoticon wearing a mask with dense dust particles with red background color in the application, she almost feels fear for the situation (2). The application indicates that the air quality would be very unhealthy from 08:00 to 20:00, with a maximum of PM 2.5 level 355.
+                         <br><br>
+                         The application shows an air map and a bar graph; Veera could
+                         check the anticipated changes of outdoor air quality by time, and suggestions that she can consider. Veera checks the first suggestion – ‘Prepare air pollution mask’. The application explains the possible influences of the unhealthy air quality on her body and different types of air pollution masks that she can use.
+                         <br><br>
+                         She already puts her mask on her face before going out, and tries to not take it off until arriving at the school. When she goes out, the city was dark and dim, and she can see many people were wearing masks on the road (3). When she gets in a bus stop, her mobile notifies that her Smart Air Detector analyzes the current air quality in the location, and it is very unhealthy. The application suggests to her wearing a mask immediately, and she answers that she already wears it. It applauses her proactive behavior with a ‘Great’ message and a thumbs up icon.
+                         <br><br>
+                         After arriving in the school, she  thinks that she might talk about this unhealthy air quality and its health impact to her friends who do not care it very much, since she regards it as a very important issue for everyone (4).
+                         <br><br>
+                         Around 20:00, she checks outdoor air quality before heading back to her home. The application says that the outdoor air quality is clean now (5). Now she feels relieved, and goes to home without the mask (6).
+                       </p>
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_3_1.jpg" onclick="openModal();currentSlide(22)" class="hover-shadow">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_3_2.jpg" onclick="openModal();currentSlide(23)" class="hover-shadow">
+                       <span class="post-description">UX flow: Wear a mask</span>
+                     </div>
+     						 </div>
+
+                 <!-- Modal images -->
+                 <div id="myModal" class="modal">
+                   <span class="modalclosebtn-w" onclick="closeModal()">&times;</span>
+                   <div class="modal-contents">
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/smartdetector in a context_4.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/smartdetector in a context_3.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/smartairdetector_emoticonanimation.gif">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/smartdetector_system.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/fullWidth_smartAirDetector_3_modal.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/smartairdetector in a context.gif">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/fullWidth_smartAirDetector_2_modal.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/appStructure.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/workflow_onboarding_1.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/workflow_onboarding_2.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/dashboard_1.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/dashboard_2.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/Insights.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/filter.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_1.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_1_1.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_1_2.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_2.png">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_2_1.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_2_2.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_3.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_3_1.jpg">
+                     </div>
+                     <div class="mySlides">
+                       <img src="imgs/works/visualizingAirQuality/Vera's story_3_2.jpg">
+                     </div>
+
+                     <a class="prev" onclick="plusSlides(-1)"><img src="svgs/arrow_prev.svg"></a>
+                     <a class="next" onclick="plusSlides(1)"><img src="svgs/arrow_next.svg"></a>
+
+                     <div class="caption-container">
+                       <p id="caption"></p>
+                     </div>
+                   </div>
+                 </div>
+
                 </div>
-
               </div>
             </div>
 
-						<div class="col-3 col-m-3 body-contents-right">
-						</div>
-
-            <div id="myScrollspy">
-              <ul class="nav nav-tabs nav-stacked" data-offset-top="580" data-spy="affix">
-                <li class="active"><a href="#overview">OVERVIEW</a></li>
-                <li><a href="#background">BACKGROUND</a></li>
-                <li><a href="#designConcept">DESIGN CONCEPT</a></li>
-                <li><a href="#designOutcome">DESIGN OUTCOME</a></li>
-              </ul>
-            </div>
-				  </div>
-				</div>
-
-        <div class="mastfoot">
-          <div class="col-9 col-m-9 mastfoot-contents">
-            <div class="col-6 col-m-6 mastfoot-information">
-              <h3 class="post-sub-heading_1" id="footerAnimation">
-                <span class="ityped-footer"></span>
-              </h3>
-              <!-- Disable footer animation and place plain text for mobile-->
-              <h3 class="post-sub-heading_1" id="footerNoAnimation">
-                <span>JAEYONG LEE.</span>
-              </h3>
-              <div class="social">
-                <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook_w.svg" class="social-icons" id="facebook"></a></div>
-                <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter_w.svg" class="social-icons"></a></div>
-                <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram_w.svg" class="social-icons"></a></div>
-                <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin_w.svg" class="social-icons"></a></div>
-              </div>
-              <div class="contact-information">
-                <p class="post-contents" id="copyright">
-                  <a href="tel:+8613127631775">+86 131 2763 1775</a><br>
-                  <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a>
-                  <br><br>
-                  Copyright © Jaeyong Lee</p>
+            <div class="mastfoot">
+              <div class="mastfoot-contents">
+                <div class="mastfoot-information">
+                <h3 class="post-sub-heading_1 white">Jaeyong Lee.</h3>
+                  <span class="post-contents_2">Sr. Interaction Designer at Philips Lighting</span><br>
+                  <div class="socialnetwork">
+                  <a href="mailto:jaeyonglee05@gmail.com"><i class="fa fa-envelope"></i></a>
+                  <a href="https://www.linkedin.com/in/jaeyonglee05/" class="fa fa-linkedin" target="_blank"></a>
+                  <a href="https://www.facebook.com/jaeyonglee05" class="fa fa-facebook" target="_blank"></a>
+                  <a href="https://www.instagram.com/jaeyonglee05/" class="fa fa-instagram" target="_blank"></a>
+                  </div>
+                </div>
               </div>
             </div>
+          </main>
 
-            <div class="col-6 col-m-6 mastfoot-navigation">
-              <nav class=mastfoot-nav>
-                <ul>
-                  <li><a href="index.html" class="current"><span>HOME</span></li>
-                  <li><a href="work.html"><span>WORK</span></a></li>
-                  <li><a href="about.html"><span>ABOUT</span></a></li>
-                  <li><a href="contact.html"><span>CONTACT</span></a></li>
-                </ul>
-            </div>
-          </div>
         </div>
-			</main>
+      </div>
+    </div>
 
 
-			</div>
-		</div>
-	</div>
+    <!--Smooth scrolling effect to anchors-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
 
-	<!--Smooth scrolling effect to anchors-->
-	<script>
-	$(document).ready(function(){
-		// Add smooth scrolling to all links
-		$("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
 
-			// Make sure this.hash has a value before overriding default behavior
-			if (this.hash !== "") {
-				// Prevent default anchor click behavior
-				event.preventDefault();
+          // Store hash
+          var hash = this.hash;
 
-				// Store hash
-				var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
 
-				// Using jQuery's animate() method to add smooth page scroll
-				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-				$('html, body').animate({
-					scrollTop: $(hash).offset().top
-				}, 800, function(){
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    <!--text animation-->
+    <script src="dist/ityped.js"></script>
+  	<script>
+  		window.ityped.init(document.querySelector('.ityped'), {
+              strings : ['Critical thinker','Visual communicator','Versatile collaborator'],
+              typeSpeed: 75,
+              backSpeed: 40,
+              backDelay: 1300,
+              startDelay: 500,
+              loop : true
+          });
 
-					// Add hash (#) to URL when done scrolling (default click behavior)
-					window.location.hash = hash;
-				});
-			} // End if
-		});
-	});
-	</script>
-	<!--resizing menu-->
-	<script src="classie.js"></script>
-	<script>
-		function init() {
-			window.addEventListener('scroll', function(e){
-					var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-							shrinkOn = 300,
-							header = document.querySelector("header");
-					if (distanceY > shrinkOn) {
-							classie.add(header,"smaller");
-					} else {
-							if (classie.has(header,"smaller")) {
-									classie.remove(header,"smaller");
-							}
-					}
-			});
-	}
-		window.onload = init();
-	</script>
-	<!--Full screen navigation-->
-	<script>
-		function openNav() {
-		document.getElementById("myNav").style.height = "100%";
-		}
-
-		function closeNav() {
-		document.getElementById("myNav").style.height = "0%";
-		}
-	</script>
-	<!--text animation-->
-	<script src="dist/ityped.js"></script>
-	<script>
-		window.ityped.init(document.querySelector('.ityped-footer'), {
-						strings : ['JAEYONG LEE.'],
-						loop : true
-				});
-	</script>
-	<!--resizing menu-->
-	<script src="classie.js"></script>
-	<script>
-		function init() {
-			window.addEventListener('scroll', function(e){
-					var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-							shrinkOn = 300,
-							header = document.querySelector("header");
-					if (distanceY > shrinkOn) {
-							classie.add(header,"smaller");
-					} else {
-							if (classie.has(header,"smaller")) {
-									classie.remove(header,"smaller");
-							}
-					}
-			});
-	}
-		window.onload = init();
-	</script>
-	<!--parallax-->
-	<script src="parallax/rellax.min.js"></script>
-	<script>
-		// Also can pass in optional settings block
-		var rellax = new Rellax('.rellax');
-	</script>
-	<!--Go Back Button-->
-	<script>
-		function goBack() {
-				window.history.back();
-		}
-	</script>
-	<!--callapsing button-->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script>
-		$(document).ready(function(){
-			$("#aboutme-callapse").on("hide.bs.collapse", function(){
-				$(".btn").html('SEE MORE');
-			});
-			$("#aboutme-callapse").on("show.bs.collapse", function(){
-				$(".btn").html('SEE LESS');
-			});
-		});
-	</script>
-  <!-- Light box -->
-  <script>
-    function openModal() {
-      document.getElementById('myModal').style.display = "block";
+      window.ityped.init(document.querySelector('.ityped-footer'), {
+              strings : ['Jaeyong Lee.'],
+              typeSpeed: 100,
+              backSpeed: 40,
+              backDelay: 1600,
+              startDelay: 500,
+              loop : true
+          });
+    </script>
+    <!--resizing menu-->
+    <script src="classie.js"></script>
+    <script>
+      function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
     }
-
-    function closeModal() {
-      document.getElementById('myModal').style.display = "none";
-    }
-
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+      window.onload = init();
+    </script>
+    <!--Full screen navigation-->
+    <script>
+      function openNav() {
+      document.getElementById("myNav").style.height = "100%";
       }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+
+      function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
       }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-  </script>
-</body>
+    </script>
+
+    <!--Show menu when scroll up-->
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-65px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
+  </body>
 </html>

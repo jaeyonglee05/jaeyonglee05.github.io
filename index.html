@@ -7,23 +7,23 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-77270924-1');
     </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jaeyong Lee</title>
     <!--normalize-->
     <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,800" rel='stylesheet' type="text/css">
     <!--favicon-->
     <link rel="shortcut icon" href="favicon.gif" type="image/gif">
     <!--stlying-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_update.css">
     <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,800" rel='stylesheet' type="text/css">
     <!--slider-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
@@ -31,263 +31,301 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <!--icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
-    <div class="clearfix site-wrapper">
+    <div class="clearfix site-wrapper background">
       <div class="site-wrapper-inner">
-        <div class="cover-container" id="gradient">
-          <!-- dot bg <div class="background-dots"></div>-->
-            <header>
-              <div class="masthead">
+        <div class="cover-container">
+          <header id="navbar">
+            <div class="masthead">
+              <div class="masthead-center">
                 <a href="index.html"><div class="brand" id="logo"></div></a>
-                <div class="menu-mobile" >
-                   <div class="menu-icon" onclick="openNav()">
-                   <div class="bar1"></div>
-                   <div class="bar2"></div>
-                   <div class="bar3"></div>
-                 </div>
-               </div>
-              <div class="menu-desktop">
-                <nav>
-                  <ul class="masthead-nav">
-                    <li><a href="work.html">WORK</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                  </ul>
-                  <div class="menu-desktop-icon">
-                   <div class="menu-icon" onclick="openNav()">
-                       <div class="bar1"></div>
-                       <div class="bar2"></div>
-                       <div class="bar3"></div>
-                   </div>
-                 </div>
-               </div>
-                 <div id="myNav" class="overlay">
-                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                   <div class="post-heading overlay-contents">
-                       <a href="index.html" class="current"><span>HOME</span></a>
-                       <a href="work.html"><span>WORK</span></a>
-                       <a href="about.html"><span>ABOUT</span></a>
-                       <a href="contact.html"><span>CONTACT</span></a>
-                   </div>
-                </nav>
+                <div class="menu-desktop">
+                  <nav>
+                    <ul class="masthead-nav">
+                      <li><a href="index.html"><span class="current">Work</span></a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    </ul>
+                  </nav>
+                </div>
               </div>
             </div>
           </header>
 
           <div class="all-contents">
             <div class="animation">
-              <div class="col-9 col-m-9 animation-contents">
+              <div class="animation-contents">
                 <h2 class="post-heading" id="headerAnimation"><span class="ityped"></span></h2>
-                <!-- Disable animation for mobile-->
-                <h2 class="post-heading" id="headerNoAnimation"><span>JAEYONG LEE.</span></h2>
-              </div>
-              <div class="arrow-box">
-                <a href="#profile-anchor"><img src="svgs/arrow_down.svg" class="arrow-icon" id="arrow_down"></a>
-              </div>
-              <div class="profile-anchor" id="profile-anchor">
               </div>
             </div>
 
-            <div class="profile">
-              <div class="profile-image"></div>
-              <div class="col-9 col-m-9 profile-contents">
-                <button class="tag-button-black"><a href="about.html">PROFILE</a></button>
-                <div class="profile-contents-inner">
-                  <img id="profile-small" src="imgs/jaeyonglee_profile_small.jpg" alt="jaeyonglee_profile"/>
-                  <h3 class="post-sub-heading_1"><span class="profile-name">Jaeyong Lee</span></h3>
-                  <h4 class="post-sub-heading_2">Senior Interaction Designer at <a href="http://www.signify.com" target="_blank" class="post-sub-heading-link">Philips Lighting (Signify)</a><h4>
-                  <div class="short-line">
-                    <svg height="8" width="30">
-                      <line x1="0" y1="0" x2="200" y2="0" style="stroke: #231F20;stroke-width:8" />
-                    </svg>
-                  </div>
-                  <h5 class="post-contents" id="profile-description"><span>I am a UI/UX designer who endeavors to bring positive changes in people’s lives by transforming complex design issues into persuasive, experiential and effective design solutions.<span></h5>
-                <button class="button-button-black" id="profile-button"><a href="about.html#aboutme-anchor" onclick="open('about.html#aboutme-anchor')">SEE MORE</a></button>
-              </div>
-            </div>
-          </div>
-
-            <div class="featured-works">
-              <div class="featured-works-wrapper">
-              <div class="col-9 col-m-9 featured-works-contents">
-                <button class="tag-button-white"><a href="work.html">FEATURED WORKS</a></button>
-              </div>
-                <div class="col-12 col-m-12 featured-works-navigation">
-                  <!--Swiper for desktop-->
-                  <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <div class="img-wrapper">
-                            <button class="tag-button-black" id="swiper-tag">UX / UI</button>
-                            <div class="img1"></div>
-                            <a href="passwordValidation_interactCity.html">
-                              <div class="swiper-overlay">
-                                <div class="slide-text">
-                                  <div class="slide-text-title post-sub-heading_1">Make Cities Smarter</div><br>
-                                  <div class="slide-text-sub-title post-sub-heading_2">Connected lighting system for cities <span>Philips Lighting</span>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
+            <div class="grid-wrapper">
+              <div class="grid-container">
+                <div class="box1 grid-card uxui">
+                  <a href="passwordValidation_interactCity.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/iaCity.png" id="small"/>
+                          <img src="imgs/works/interactCity/makingCitiesSmarter_headBg_small.png" id="large"/>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">Make cities smarter</h3>
+                            <p class="post-sub-heading_4">Connected lighting system for cities, Philips Lighting</p>
                           </div>
                         </div>
-                        <div class="swiper-slide">
-                          <div class="img-wrapper">
-                            <button class="tag-button-black" id="swiper-tag">GRAPHIC</button>
-                            <div class="img2"></div>
-                            <a href="visualizingAirQuality.html">
-                              <div class="swiper-overlay">
-                                <div class="slide-text">
-                                  <div class="slide-text-title post-sub-heading_1">Visualizing Air Quality</div><br>
-                                  <div class="slide-text-sub-title post-sub-heading_2">Changing users’ behaviors regardinng air quality, <span>Philips</span>
-                                  </div>
-                                </div>
-                              </div>
-                           </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="img-wrapper">
-                            <button class="tag-button-black" id="swiper-tag">UX / UI</button>
-                            <div class="img3"></div>
-                            <a href="embodiedUI.html">
-                              <div class="swiper-overlay">
-                                <div class="slide-text">
-                                  <div class="slide-text-title post-sub-heading_1">Future Generation of UI</div><br>
-                                  <div class="slide-text-sub-title post-sub-heading_2">Embodied UI design, <span>Philips</span>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                    </div>
-                    <!-- Pagination -->
-                    <div class="swiper-pagination swiper-pagination-white"></div>
-                    <!-- Arrows -->
-                    <div class="swiper-button-next swiper-button-white"></div>
-                    <div class="swiper-button-prev swiper-button-white"></div>
-                  </div>
-
-                  <!--For tablet and mobile-->
-                  <div class="col-9 col-m-9 swiper-container-tablet">
-                    <div class="img-wrapper-tablet">
-                      <div class="img-tablet-box">
-                        <button class="tag-button-black" id="swiper-tag">UI / UX</button>
-                        <div class="img-tablet img1"></div>
-                        <a href="visualizingAirQuality.html">
-                          <div class="swiper-overlay">
-                            <div class="slide-text">
-                              <div class="slide-text-title post-sub-heading_1">Visualizing Air Quality</div><br>
-                              <div class="slide-text-sub-title post-sub-heading_2">Changing users’ behaviors regardinng air quality, <span>Philips</span>
-                              </div>
-                            </div>
-                          </div>
-                      </a>
-                      </div>
-                      <div class="img-tablet-box">
-                        <button class="tag-button-black" id="swiper-tag">GRAPHIC</button>
-                          <div class="img-tablet img2"></div>
-                          <a href="primaryCare.html">
-                            <div class="swiper-overlay">
-                              <div class="slide-text">
-                                <div class="slide-text-title post-sub-heading_1">Primary Care Project</div><br>
-                                <div class="slide-text-sub-title post-sub-heading_2">Information visualization in a primary care project, <span>Philips</span>
-                                </div>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-
-                      <div class="img-tablet-box">
-                        <button class="tag-button-black" id="swiper-tag">UX / UI</button>
-                        <div class="img-tablet img3"></div>
-                        <a href="Verohallinto.html">
-                          <div class="swiper-overlay">
-                            <div class="slide-text">
-                              <div class="slide-text-title post-sub-heading_1">Proposal for Vero.fi</div><br>
-                              <div class="slide-text-sub-title post-sub-heading_2">Life relevant e-service, <span>Verohalinto</span>
-                              </div>
-                            </div>
-                          </div>
-                        </a>
                       </div>
                     </div>
-                  </div>
-               <button class="button-button-white"><a href="work.html#work-anchor" onclick="open('work.html#work-anchor')">SEE MORE</a></button>
-             </div>
-           </div>
-         </div>
+                  </a>
+                </div>
 
-            <div class="some-facts">
-              <div class="col-9 col-m-9 some-facts-contents">
-                <button class="tag-button-black"><a href="about.html">SOME FACTS</a></button>
-                <div class="some-facts-container">
-                    <div class="col-3 col-m-3 some-facts-box-1">
-                        <div class="hover"><img src="svgs/icon_1.svg" class="icon"></div>
-                        <h3 class="numbers">6</h3>
-                        <h5 class="post-contents">Over 6 years of working experiences in various design industiries<h5>
+                <div class="grid-card box2 uxui">
+                  <a href="visualizingAirQuality.html">
+                    <div class="element-item ">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/smartAirDetector.jpg"/>
+                        </div>
+                        <div class="element-texts">
+                          <h3 class="post-sub-heading_1">Visualizing air quality</h3>
+                          <p class="post-sub-heading_4" id="air">Changing users’ behaviors regarding air quality, Philips</p>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-3 col-m-3 some-facts-box-2">
-                        <div class="hover"><img src="svgs/icon_2.svg" class="icon"></div>
-                        <h3 class="numbers">6</h3>
-                        <h5 class="post-contents">times awarded in international design competitions<h5>
+                  </a>
+                </div>
+
+                <div class="grid-card box3 uxui">
+                  <a href="embodiedUI.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/embodiedUI_air_2.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">Future generation of UI</h3>
+                            <p class="post-sub-heading_4" id="air">Embodied UI design, Philips</p>
+                          </div>
+                      </div>
                     </div>
-                    <div class="col-3 col-m-3 some-facts-box-3">
-                        <div class="hover"><img src="svgs/icon_3.svg" class="icon"></div>
-                        <h3 class="numbers">24</h3>
-                        <h5 class="post-contents">selected as a full scholarship student by the <span class="post-contents-link-1">NIIED</span> for the 24 months of his master’s study</h5>
-                  </div>
-                  <button class="button-button-black"><a href="about.html#aboutme-anchor" onclick="open('about.html#aboutme-anchor')">SEE MORE</a></button>
+                  </a>
+                </div>
+
+                <div class="grid-card box4 uxui">
+                  <a href="WeldingTrainingApp.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/kemppi.jpg"/>
+                        </div>
+                        <div class="element-texts">
+                          <h3 class="post-sub-heading_1">Delivering feeling of reality</h3>
+                          <p class="post-sub-heading_4">Welding training application concept, Kemppi</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid-card box5 service uxui">
+                  <a href="Verohallinto.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/vero.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">Life relevant E-tax service</h3>
+                            <p class="post-sub-heading_4">A proposal for Finnish Tax Administration, Verohallinto</p>
+                          </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid-card box6 uxui">
+                  <a href="interventionalCT.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/interventionalCT.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">Interventional CT</h3>
+                            <p class="post-sub-heading_4" id="air">Interventional CT Scanner gantry panel design, Philips</p>
+                          </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="grid-card box7 uxui">
+                  <a href="chinadigitalinnovationplatform.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                          <div class="element-image-wrapper">
+                            <img src="imgs/works/cdip.jpg"/>
+                          </div>
+                          <div class="element-texts">
+                            <h3 class="post-sub-heading_1">China digital innovation platform</h3>
+                            <p class="post-sub-heading_4" id="air">Advanced Push Notification System, Philips</p>
+                          </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="grid-card box8 graphic">
+                  <a href="primaryCare.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/primaryCare.jpg"/>
+                        </div>
+                        <div class="element-texts">
+                          <h3 class="post-sub-heading_1">Primary care matters</h3>
+                          <p class="post-sub-heading_4">Information visualization for the primary care project, Philips</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="grid-card box9 service uxui">
+                  <a href="KalasatamaHospital.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/kalasatama.jpg"/>
+                        </div>
+                        <div class="element-texts">
+                          <h3 class="post-sub-heading_1">For the very first contact</h3>
+                          <p class="post-sub-heading_4">Online booking platform for Kalasatama Hospital, City of Helsinki</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="grid-card box10 uxui service">
+                  <a href="pickysJourney.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/picky.jpg"/>
+                        </div>
+                        <div class="element-texts">
+                          <h3 class="post-sub-heading_1">For healthy eating habits of children</h3>
+                          <p class="post-sub-heading_4">App for children’s healthy eating habit</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="grid-card box11 graphic">
+                  <a href="experienceDrivenDesign.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/EDD.jpg"/>
+                        </div>
+                        <div class="element-texts">
+                          <h3 class="post-sub-heading_1">Experience-driven design</h3>
+                          <p class="post-sub-heading_4">Visual identity design, Aalto University</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="grid-card box12 graphic">
+                  <a href="0100design.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/0100.jpg"/>
+                        </div>
+                        <div class="element-texts">
+                          <h3 class="post-sub-heading_1">From 0 to 100</h3>
+                          <p class="post-sub-heading_4">Brand identity design, 0100design</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="grid-card box13 service">
+                  <a href="81project.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/81project.jpg"/>
+                        </div>
+                        <div class="element-texts">
+                          <h3 class="post-sub-heading_1">81 Project</h3>
+                          <p class="post-sub-heading_4">Campaign for the public etiquettes</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="grid-card box14 product">
+                  <a href="travelersPaperKit.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/paperkit.jpg"/>
+                        </div>
+                        <div class="element-texts">
+                          <h3 class="post-sub-heading_1">Traveler's paper kit</h3>
+                          <p class="post-sub-heading_4">Portable survival kit for emergency situations</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="grid-card box15 product">
+                  <a href="lifeLight.html">
+                    <div class="element-item">
+                      <div class="element-contents">
+                        <div class="element-image-wrapper">
+                          <img src="imgs/works/life-light.jpg"/>
+                        </div>
+                        <div class="element-texts">
+                          <h3 class="post-sub-heading_1">Life-light</h3>
+                          <p class="post-sub-heading_4">Design for emergency evacuation system</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div class="mastfoot">
-              <div class="col-9 col-m-9 mastfoot-contents">
-                <div class="col-6 col-m-6 mastfoot-information">
-                  <h3 class="post-sub-heading_1" id="footerAnimation">
-                    <span class="ityped-footer"></span>
-                  </h3>
-                  <!-- Disable footer animation and place plain text for mobile-->
-                  <h3 class="post-sub-heading_1" id="footerNoAnimation">
-                    <span>JAEYONG LEE.</span>
-                  </h3>
-                  <div class="social">
-                    <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook_w.svg" class="social-icons" id="facebook"></a></div>
-                    <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter_w.svg" class="social-icons"></a></div>
-                    <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram_w.svg" class="social-icons"></a></div>
-                    <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin_w.svg" class="social-icons"></a></div>
-                  </div>
-                  <div class="contact-information">
-                    <p class="post-contents" id="copyright">
-                      <a href="tel:+8613127631775">+86 131 2763 1775</a><br>
-                      <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a>
-                      <br><br>
-                      Copyright © Jaeyong Lee</p>
-                  </div>
-                </div>
-
-                <div class="col-6 col-m-6 mastfoot-navigation">
-                  <nav class=mastfoot-nav>
-                    <ul>
-                      <li><a href="index.html" class="current"><span>HOME</span></li>
-                      <li><a href="work.html"><span>WORK</span></a></li>
-                      <li><a href="about.html"><span>ABOUT</span></a></li>
-                      <li><a href="contact.html"><span>CONTACT</span></a></li>
-                    </ul>
+              <div class="mastfoot-contents">
+                <div class="mastfoot-information">
+                <h3 class="post-sub-heading_1 white">Jaeyong Lee.</h3>
+                  <span class="post-contents_2">Sr. Interaction Designer at Philips Lighting</span><br>
+                  <div class="socialnetwork">
+                  <a href="mailto:jaeyonglee05@gmail.com"><i class="fa fa-envelope"></i></a>
+                  <a href="https://www.linkedin.com/in/jaeyonglee05/" class="fa fa-linkedin" target="_blank"></a>
+                  <a href="https://www.facebook.com/jaeyonglee05" class="fa fa-facebook" target="_blank"></a>
+                  <a href="https://www.instagram.com/jaeyonglee05/" class="fa fa-instagram" target="_blank"></a>
                 </div>
               </div>
             </div>
-
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+
+
     <!--Smooth scrolling effect to anchors-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
@@ -320,11 +358,20 @@
     <script src="dist/ityped.js"></script>
   	<script>
   		window.ityped.init(document.querySelector('.ityped'), {
-              strings : ['JAEYONG LEE.'],
+              strings : ['Coherent interaction','Persuasive interface','Human-centric service'],
+              typeSpeed: 75,
+              backSpeed: 40,
+              backDelay: 1300,
+              startDelay: 500,
               loop : true
           });
+
       window.ityped.init(document.querySelector('.ityped-footer'), {
-              strings : ['JAEYONG LEE.'],
+              strings : ['Jaeyong Lee.'],
+              typeSpeed: 100,
+              backSpeed: 40,
+              backDelay: 1600,
+              startDelay: 500,
               loop : true
           });
     </script>
@@ -345,7 +392,7 @@
             }
         });
     }
-    window.onload = init();
+      window.onload = init();
     </script>
     <!--Full screen navigation-->
     <script>
@@ -357,26 +404,19 @@
       document.getElementById("myNav").style.height = "0%";
       }
     </script>
-    <!--slider -->
-    <script src="dist/js/swiper.min.js"></script>
+
+    <!--Show menu when scroll up-->
     <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        slidesPerView: 'auto',
-        centeredSlides: true,
-        paginationClickable: true,
-        spaceBetween: 60,
-        autoplay: 4000,
-        loop: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev'
-    });
-    </script>
-    <!--parallax-->
-    <script src="parallax/rellax.min.js"></script>
-    <script>
-      // Also can pass in optional settings block
-      var rellax = new Rellax('.rellax');
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-65px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
     </script>
   </body>
 </html>

@@ -7,23 +7,24 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-77270924-1');
     </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jaeyong Lee</title>
     <!--normalize-->
     <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,800" rel='stylesheet' type="text/css">
     <!--favicon-->
     <link rel="shortcut icon" href="favicon.gif" type="image/gif">
     <!--stlying-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_update.css">
     <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,800" rel='stylesheet' type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez:400,400i&display=swap" rel="stylesheet">
     <!--slider-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
@@ -31,188 +32,144 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
-    <!--callapsing button-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!--matchHeight-->
-    <script src="jquery.matchHeight.js" type="text/javascript"></script>
-    </head>
+    <!--icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 
   <body>
-    <div class="clearfix site-wrapper">
+    <div class="clearfix site-wrapper background">
       <div class="site-wrapper-inner">
         <div class="cover-container">
-          <header>
-            <div class="masthead-w">
-              <a href="index.html"><div class="brand" id="logo-w"></div></a>
-              <div class="menu-mobile-w">
-                 <div class="menu-icon" onclick="openNav()">
-                 <div class="bar1-w"></div>
-                 <div class="bar2-w"></div>
-                 <div class="bar3-w"></div>
-               </div>
-             </div>
-            <div class="menu-desktop">
-              <nav>
-                <ul class="masthead-nav white">
-                  <li><a href="work.html">WORK</a></li>
-                  <li><a href="about.html"><span class="current">ABOUT</span></a></li>
-                  <li><a href="contact.html">CONTACT</a></li>
-                  <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                </ul>
-                <div class="menu-desktop-icon">
-                 <div class="menu-icon" onclick="openNav()">
-                     <div class="bar1-w"></div>
-                     <div class="bar2-w"></div>
-                     <div class="bar3-w"></div>
-                 </div>
-               </div>
-             </div>
-               <div id="myNav" class="overlay-w">
-                 <a href="javascript:void(0)" class="closebtn-w" onclick="closeNav()">&times;</a>
-                 <div class="post-heading overlay-contents-w">
-                     <a href="index.html" class="current"><span>HOME</span></a>
-                     <a href="work.html"><span>WORK</span></a>
-                     <a href="about.html"><span>ABOUT</span></a>
-                     <a href="contact.html"><span>CONTACT</span></a>
-                 </div>
-              </nav>
+          <header id="navbar">
+            <div class="masthead">
+              <div class="masthead-center">
+                <a href="index.html"><div class="brand" id="logo"></div></a>
+                <div class="menu-desktop">
+                  <nav>
+                    <ul class="masthead-nav">
+                      <li><a href="index.html">Work</a></li>
+                      <li><a href="about.html"><span class="current">About</span></a></li>
+                      <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
             </div>
-          </div>
           </header>
 
           <div class="all-contents">
             <div class="animation">
-              <div class="col-9 col-m-9 animation-contents">
-                <h2 class="post-heading white" id="headerAnimation"><span class="ityped"></span></h2>
-                <!-- Disable animation for mobile-->
-                <h2 class="post-heading white" id="headerNoAnimation"><span>VISUAL COMMUNICATOR.</span></h2>
+              <div class="animation-contents">
+                <h2 class="post-heading" id="headerAnimation"><span class="ityped"></span></h2>
               </div>
-              <div class="arrow-box">
-                <a href="#profile-anchor"><img src="svgs/arrow_down-w.svg" class="arrow-icon" id="arrow_down"></a>
+            </div>
+            <div class="grid-wrapper">
+              <div class="grid-container">
+                <div class="grid-full">
+                  <div class="aboutme-contents">
+                    <div class="aboutme-pic">
+                    </div>
+                    <h3 class="post-sub-heading_1"><span class="profile-name">Jaeyong Lee.</span></h3>
+                    <h4 class="post-sub-heading_3">Sr. Interaction Designer at Philips Lighting</h4>
+                    <div class="aboutme-buttons">
+                      <a href="https://drive.google.com/file/d/1aVMoLuNyau_yRFKS121ixb9nbJhLNmpo/view?usp=sharing" target="_blank"><button id="aboutme-buttons" class="button_quite">CV</button></a>
+                      <a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><button id="aboutme-buttons" class="button_primary">LinkedIn</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-full">
+                  <p class="post-sub-heading_1">Hi there,</p>
+                  <p class="post-contents">
+                    I’m Jaeyong. I believe the power of design: it makes an electronic gadget more usable, a hospital service more patient-centric, and a digital app to alter the way we interact with the world. It enhances people's lives by degrees, and ultimately transforms how we perceive, think and behave. My endeavours is in the pursuit of those good designs toward the needs of people.
+                    <br><br>
+                    Nowadays, I am designing <a href="#" class="post-contents_link">the future lighting management system for cities</a> at <a href="#" class="post-contents_link">Philips lighting</a> - over 2.5 million light points across 57 countries around the world.
+                    <br><br>
+                    In my ex-careers, I helped companies to nurture their future businesses; led <a href="#" class="post-contents_link">embodied UI/UX design for various Air products</a>; co-designed various Male Grooming mobile apps and <a href="#" class="post-contents_link">Healthcare products</a>, and created <a href="#" class="post-contents_link">award-wining concept designs</a>.
+                    <br><br>
+                    I am currently based in Shanghai, but originally from a small town from South Korea, Masan. Since the moment I left my country, I have been wandering around the world to design, explore and challenge: Seoul, Helsinki, Singapore and Shanghai so far.
+                    <br><br>
+                    Thank you for stopping by.
+                  </p>
+                </div>
+                <p class="grid-full post-sub-heading_1">Jaeyong is...</p>
+                <div class="grid-half-left quotes_multiColumn">
+                  <p class="post-quotes">
+                    “Such an inspiring designer and has always shown a high level of responsibility for his work. Here I can list 3 words to describe him very well, but not limited as below: Innovative, hardworking and trustworthy.”
+                  </p>
+                  <p class="post-quotes-reference" id="bottomAlign">
+                    Jianxong (Jex) Zhang, UX designer at Alibaba
+                  </p>
+                </div>
+                <div class="grid-half-right quotes_multiColumn">
+                  <p class="post-quotes">
+                    “Open minded and good listener, he is a great team player, always building up on each other’s ideas.”
+                  </p>
+                  <p class="post-quotes-reference" id="bottomAlign">
+                    Carmen Escano Serrano, Healthspace design lead, Philips
+                  </p>
+                </div>
+                <div class="grid-full">
+                  <p class="post-sub-heading_1">Recent inspirations come by</p>
+                </div>
+                <div class="grid-thirds-first">
+                  <div class="grid-thirds-first-image">
+                    <img id="flexImage" src="imgs/about/reading.png">
+                  </div>
+                  <p class="post-description_2">
+                    <a href="https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" target="_blank" class="post-description_2_link">Thinking, fast and slow</a><br>-Daniel Kahneman
+                  </p>
+                </div>
+                <div class="grid-thirds-second">
+                  <div class="grid-thirds-second-image">
+                    <img id="flexImage" src="imgs/about/listening.png">
+                  </div>
+                  <p class="post-description_2">
+                    <a href="https://www.amazon.com/CASE-STUDY-Explicit-Daniel-Caesar/dp/B07T86XF8W" target="_blank" class="post-description_2_link">Case study 01</a><br>-Daniel Caesar
+                  </p>
+                </div>
+                <div class="grid-thirds-third">
+                  <div class="grid-thirds-third-image">
+                    <img id="flexImage" src="imgs/about/drinking.png">
+                  </div>
+                  <p class="post-description_2">Bbing meiche (Ice coffee in Chinese)<br>-Myself
+                  </p>
+                </div>
               </div>
-              <div class="profile-anchor" id="profile-anchor"></div>
             </div>
 
-            <div class="aboutme" id="aboutme-anchor">
-                <div class="col-9 col-m-9 aboutme-wrapper">
-                <div class="aboutme-contents">
-                  <img id="aboutme-pic" src="imgs/jaeyonglee_profile_small.jpg" alt="jaeyonglee_profile"/>
-                  <h3 class="post-sub-heading_1"><span class="profile-name">Jaeyong Lee</span></h3>
-                  <h4 class="post-sub-heading_2">Senior Interaction Designer at</h4>
-                  <h4><a href="http://www.signify.com" target="_blank" class="post-sub-heading-link">Philips Lighting (Signify)</a><h4>
-                  <p class="post-contents">Currently living and working in Shanghai.</p>
-                  <div class="aboutme-buttons">
-                    <a href="https://drive.google.com/file/d/1ehhvpAfe-1z85n5Z_LXxrZ_S8lo08Jen/view?usp=sharing" target="_blank"><button id="aboutme-buttons" class="button-button-black">CV</button></a>
-                    <a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><button id="aboutme-buttons" class="button-button-black">LINKED IN</button></a>
-                  </div>
-                </div>
+            <!--
+            <div class="gridImage">
+                <div class="gridImage-1"></div>
+                <div class="gridImage-2"></div>
+                <div class="gridImage-3"></div>
+                <div class="gridImage-4"></div>
+                <div class="gridImage-5"></div>
+                <div class="gridImage-6"></div>
+                <div class="gridImage-7"></div>
+                <div class="gridImage-8"></div>
+                <div class="gridImage-9"></div>
+                <div class="gridImage-10"></div>
+            </div>
+          -->
 
-                  <div class="aboutme-somefacts">
-                    <div class="somefacts-wrapper">
-                      <div class="somefacts">
-                        <div class="somefacts-img"><img src="svgs/somefacts_1.svg"/></div>
-                        <div class="somefacts-txt post-contents ">Diverse design backgrounds: art, craft, animation, visual design, UX design and service design.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="somefacts-wrapper">
-                      <div class="somefacts">
-                        <div class="somefacts-img"><img src="svgs/somefacts_4.svg"/></div>
-                        <div class="somefacts-txt post-contents ">Have been working in international environments: South Korea, Finland, Singapore and China.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="somefacts-wrapper">
-                      <div class="somefacts">
-                        <div class="somefacts-img"><img src="svgs/somefacts_2.svg"/></div>
-                        <div class="somefacts-txt post-contents ">Have been awarded 6 times in international design competitions and selected as a full scholarship student of NIIED for M.A.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="somefacts-wrapper">
-                      <div class="somefacts">
-                        <div class="somefacts-img"><img src="svgs/somefacts_3.svg"/></div>
-                        <div class="somefacts-txt post-contents ">Constantly learning technologies: at the moment, HTML, CSS and JavaScript.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="somefacts-wrapper">
-                      <div class="somefacts">
-                        <div class="somefacts-img"><img src="svgs/somefacts_6.svg"/></div>
-                        <div class="somefacts-txt post-contents ">Higly interested in digital innovation through persuasive design, data visualization and conversational UI.
-                      </div>
-                    </div>
-                  </div>
-                    <div class="somefacts-wrapper">
-                      <div class="somefacts">
-                        <div class="somefacts-img"><img src="svgs/somefacts_5.svg"/></div>
-                        <div class="somefacts-txt post-contents ">Enthusiastic for creating impactful digital services, which can positively influence people’s lives and change their behaviors.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <article class="aboutme-texts">
-                    <span class="post-sub-heading_1 white">About me</span>
-                    <br><br>
-                    <p class="post-contents">
-                      Hi, I’m Jaeyong. I believe the power of design: it makes an electronic gadget more usable, a hospital service more patient-centric, and a digital app to alter the way we interact with the world. It enhances people's lives by degrees, and ultimately transforms how we perceive, think and behave. My endeavours is in the pursuit of those good designs toward the needs of people.
-                      <br><br>
-                      Nowadays, I am designing the future lighting management system for cities at Philips lighting - over 2 million light points across 57 countries around the world.
-                      <br><br>
-                      In my ex-career, I helped companies to nurture their future businesses; led embodied UI/UX design for various Air products; co-designed various Male Grooming mobile apps and Healthcare products, and created award-wining concept designs.
-                      <br><br>
-                      I am currently based in Shanghai, but originally from a small town from South Korea, Masan. Since the moment I left my country, I have been wandering around the world to design, explore and challenge: Seoul, Helsinki, Singapore and Shanghai so far.
-                      <br><br>
-                      Thank you for stopping by.
-                  </article>
+            <div class="mastfoot">
+              <div class="mastfoot-contents">
+                <div class="mastfoot-information">
+                <h3 class="post-sub-heading_1 white">Jaeyong Lee.</h3>
+                  <span class="post-contents_2">Sr. Interaction Designer at Philips Lighting</span><br>
+                  <div class="socialnetwork">
+                  <a href="mailto:jaeyonglee05@gmail.com"><i class="fa fa-envelope"></i></a>
+                  <a href="https://www.linkedin.com/in/jaeyonglee05/" class="fa fa-linkedin" target="_blank"></a>
+                  <a href="https://www.facebook.com/jaeyonglee05" class="fa fa-facebook" target="_blank"></a>
+                  <a href="https://www.instagram.com/jaeyonglee05/" class="fa fa-instagram" target="_blank"></a>
                 </div>
               </div>
-
-              <div class="mastfoot">
-                <div class="col-9 col-m-9 mastfoot-contents">
-                  <div class="col-6 col-m-6 mastfoot-information">
-                    <h3 class="post-sub-heading_1" id="footerAnimation">
-                      <span class="ityped-footer"></span>
-                    </h3>
-                    <!-- Disable footer animation and place plain text for mobile-->
-                    <h3 class="post-sub-heading_1" id="footerNoAnimation">
-                      <span>JAEYONG LEE.</span>
-                    </h3>
-                    <div class="social">
-                      <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook_w.svg" class="social-icons" id="facebook"></a></div>
-                      <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter_w.svg" class="social-icons"></a></div>
-                      <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram_w.svg" class="social-icons"></a></div>
-                      <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin_w.svg" class="social-icons"></a></div>
-                    </div>
-                    <div class="contact-information">
-                      <p class="post-contents" id="copyright">
-                        <a href="tel:+8613127631775">+86 131 2763 1775</a><br>
-                        <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a>
-                        <br><br>
-                        Copyright © Jaeyong Lee</p>
-                    </div>
-                  </div>
-
-                  <div class="col-6 col-m-6 mastfoot-navigation">
-                    <nav class=mastfoot-nav>
-                      <ul>
-                        <li><a href="index.html" class="current"><span>HOME</span></li>
-                        <li><a href="work.html"><span>WORK</span></a></li>
-                        <li><a href="about.html"><span>ABOUT</span></a></li>
-                        <li><a href="contact.html"><span>CONTACT</span></a></li>
-                      </ul>
-                  </div>
-                </div>
-              </div>
-
+            </div>
+          </div>
           </div>
         </div>
       </div>
-
     </div>
-  </div>
-  <!--Callpasing button-->
 
     <!--Smooth scrolling effect to anchors-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -246,15 +203,20 @@
     <script src="dist/ityped.js"></script>
   	<script>
   		window.ityped.init(document.querySelector('.ityped'), {
-              strings : ['CRITICAL THINKER','VERSATILE COLLABORATOR','VISUAL STORYTELLER'],
-              typeSpeed: 100,
-              backSpeed: 45,
-              backDelay: 1600,
+              strings : ['Critical thinker','Visual communicator','Versatile collaborator'],
+              typeSpeed: 75,
+              backSpeed: 40,
+              backDelay: 1300,
               startDelay: 500,
               loop : true
           });
+
       window.ityped.init(document.querySelector('.ityped-footer'), {
-              strings : ['JAEYONG LEE.'],
+              strings : ['Jaeyong Lee.'],
+              typeSpeed: 100,
+              backSpeed: 40,
+              backDelay: 1600,
+              startDelay: 500,
               loop : true
           });
     </script>
@@ -275,7 +237,7 @@
             }
         });
     }
-    window.onload = init();
+      window.onload = init();
     </script>
     <!--Full screen navigation-->
     <script>
@@ -287,51 +249,19 @@
       document.getElementById("myNav").style.height = "0%";
       }
     </script>
-    <!--slider -->
-    <script src="dist/js/swiper.min.js"></script>
+s
+    <!--Show menu when scroll up-->
     <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        slidesPerView: 'auto',
-        centeredSlides: true,
-        paginationClickable: true,
-        spaceBetween: 60,
-        autoplay: 3000,
-        loop: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev'
-    });
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-65px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
     </script>
-    <!--callapsing button-->
-    <!--test adding two lines
-    https://stackoverflow.com/questions/20719607/bootstrap-3-navbar-collapse-button-not-working
-    -->
-    <script src="js/bootstrap.js"></script>
-    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-     </script>
-
-    <script>
-      $(document).ready(function(){
-        $("#aboutme-callapse").on("hide.bs.collapse", function(){
-          $(".btn").html('SEE MORE');
-        });
-        $("#aboutme-callapse").on("show.bs.collapse", function(){
-          $(".btn").html('SEE LESS');
-        });
-      });
-    </script>
-    <!--match height-->
-    <script>
-    $(function() {
-  	$('div.element-contents').matchHeight(
-      byRow: true,
-      property: 'height',
-      target: null,
-      remove: false);
-  });
-    </script>
-
   </body>
 </html>

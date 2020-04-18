@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
-    <title>Brand_logo Copy</title>
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
-    <g id="Brand_logo-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Logo" transform="translate(22.000000, 22.000000)" fill="#FFFFFF">
-            <circle id="Oval" cx="17.6" cy="16" r="2.4"></circle>
-            <path d="M10.88,16.96 C9.76,18 8.32,18.56 6.4,18.56 C3.92,18.56 1.92,17.6 0.24,15.68 L2.32,12.56 C2.96,13.2 3.6,13.68 4.24,14 C4.88,14.32 5.52,14.48 6,14.48 C6.56,14.48 7.04,14.32 7.36,13.92 C7.68,13.6 7.84,13.04 7.84,12.4 L7.84,4.4 L1.76,4.4 L1.76,0.56 L12.48,0.56 L12.48,12.48 C12.56,14.48 12,15.92 10.88,16.96 Z" id="XMLID_4_" fill-rule="nonzero"></path>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group">
+                <rect id="Rectangle-2" fill="#303034" x="0" y="0" width="64" height="64"></rect>
+                <g id="Group-3" transform="translate(22.000000, 22.000000)" fill="#FFFFFF">
+                    <circle id="Oval" cx="17.6" cy="16" r="2.4"></circle>
+                    <path d="M10.88,16.96 C9.76,18 8.32,18.56 6.4,18.56 C3.92,18.56 1.92,17.6 0.24,15.68 L2.32,12.56 C2.96,13.2 3.6,13.68 4.24,14 C4.88,14.32 5.52,14.48 6,14.48 C6.56,14.48 7.04,14.32 7.36,13.92 C7.68,13.6 7.84,13.04 7.84,12.4 L7.84,4.4 L1.76,4.4 L1.76,0.56 L12.48,0.56 L12.48,12.48 C12.56,14.48 12,15.92 10.88,16.96 Z" id="XMLID_4_" fill-rule="nonzero"></path>
+                </g>
+            </g>
         </g>
     </g>
 </svg>

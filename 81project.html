@@ -7,378 +7,240 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-77270924-1');
     </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jaeyong Lee</title>
     <!--normalize-->
     <link rel="normalize" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,800" rel='stylesheet' type="text/css">
     <!--favicon-->
     <link rel="shortcut icon" href="favicon.gif" type="image/gif">
     <!--stlying-->
-    <link rel="stylesheet" href="style.css">
-    <!--animate-->
-    <link rel="stylesheet" href="animate/animate.css">
-    <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+    <link rel="stylesheet" href="style_update.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,800" rel='stylesheet' type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez:400,400i&display=swap" rel="stylesheet">
+    <!--slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <!--icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 
-<body data-spy="scroll" data-target="#myScrollspy">
-	<div class="clearfix site-wrapper">
-		<div class="site-wrapper-inner">
-			<div class="cover-container">
-				<header>
-					<div class="masthead-w">
-						<a href="index.html"><div class="brand" id="logo-w"></div></a>
-						<div class="menu-mobile-w">
-							 <div class="menu-icon" onclick="openNav()">
-							 <div class="bar1-w"></div>
-							 <div class="bar2-w"></div>
-							 <div class="bar3-w"></div>
-						 </div>
-					 </div>
-					<div class="menu-desktop">
-						<nav>
-							<ul class="masthead-nav white">
-								<li><a href="work.html"><span class="current">WORK</span></a></li>
-								<li><a href="about.html">ABOUT</a></li>
-								<li><a href="contact.html">CONTACT</a></li>
-								<li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-							</ul>
-							<div class="menu-desktop-icon">
-							 <div class="menu-icon" onclick="openNav()">
-									 <div class="bar1-w"></div>
-									 <div class="bar2-w"></div>
-									 <div class="bar3-w"></div>
-							 </div>
-						 </div>
-					 </div>
-						 <div id="myNav" class="overlay-w">
-							 <a href="javascript:void(0)" class="closebtn-w" onclick="closeNav()">&times;</a>
-							 <div class="post-heading overlay-contents-w">
-									 <a href="index.html" class="current"><span>HOME</span></a>
-                   <a href="work.html"><span>WORK</span></a>
-                   <a href="about.html"><span>ABOUT</span></a>
-                   <a href="contact.html"><span>CONTACT</span></a>
-							 </div>
-						</nav>
-					</div>
-				</div>
-				</header>
-
-				<main class="contents-wrapper">
-					<div class="head-section">
-						<div id="project81_headBg" class="head-background rellax" data-rellax-speed="-5"></div>
-						<div class="head-texts">
-							<h1 class="post-heading white animated fadeInUp">81 Project</h1>
-							<h2 class="post-sub-heading_2 animated fadeInUp">Design campaign to encourage citizens for the better public etiquettes</h2>
-						</div>
-					</div>
-
-					<div class="body-section">
-				    <div class="col-9 col-m-9 body-contents">
-				     <div class="body-contents-left">
-							<div id="project81_overview">
-                <button id="workbutton" class="tag-button-black">GRAPHIC</button>
-								<div class="goBack" onclick="goBack()">&lt; BACK TO PREVIOUS PAGE</div>
-								<div class="workInfo post-sub-heading_2">
-                  <span class="bold">Year:</span>2012<br>
-									<span class="bold">Designers:</span> Jaeyong Lee, Seonju Ryu, Sooji Park, Yoonjung Lee, Jongwon Baek<br>
-                  <span class="bold">Roles:</span> project lead, graphic design <br>
+  <body>
+    <div class="clearfix site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <header id="navbar">
+            <div class="masthead">
+              <div class="masthead-center">
+                <a href="index.html"><div class="brand" id="logo"></div></a>
+                <div class="menu-desktop">
+                  <nav>
+                    <ul class="masthead-nav">
+                      <li><a href="index.html"><span class="current">Work</a></li>
+                      <li><a href="about.html">About</span></a></li>
+                      <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    </ul>
+                  </nav>
                 </div>
-								<p class="post-contents" id="initialSpace">
-                  The 81 project is a campaign for etiquettes for the public that began in the summer of 2011 in South Korea. At the time, four designers who involved in this project recognized a social phenomenon in South Korea that some people demonstrated irrational behaviors in public, and sometimes it hurts others emotionally and physically. To deliver social messages to the public to stop such negative behaviors, the 81 project designed ban stickers and installed in the subway line number 2 in Seoul. We also made a short film about this issue with all the processes of installations. The film was shared on major online communities and encouraged discussions among people to bring attentions for this issue.
-                  <br><br>
-                  81 project showed the impact of a simple visual design and design actions reflecting the context of a phenomenon, and how designers could involve themselves in such issues that socially happening around.
-								</p>
-								<div class="videoWrapper">
-                  <iframe src="https://player.vimeo.com/video/118392817" width="640" height="426" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
-				      </div>
-
-							<div id="project81_background">
-								<h3 id="sectionTitle" class="post-sub-heading_1">Background</h3>
-								<p class="post-contents">
-                  The most crowded subway line in the Seoul metro system is line 2. Around 1.5 million people use line 2 per day, and this line registered the highest ratio of annual users among subway lines 1 to 8. Since many travelers use the line, many troubles have been reported. Line 2 showed the highest number of incidents in the subway lines, reaching as many as 6,919 in the first half of 2013. For these reasons, we chose line 2 as the performance target.
-                </p>
-                <img src="imgs/works/81project/81project_2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-                <div class="halfImg">
-									<img src="imgs/works/81project/81project_3.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-									<img src="imgs/works/81project/81project_4.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-								</div>
-							</div>
-							<div id="project81_designConcept">
-								<h3 id="sectionTitle" class="post-sub-heading_1">Design Concept</h3>
-								<p class="post-contents">
-                  The stickers had 4 types that swear words are represented as a weapon, a knife, lightning, and as 81 (the number '18’ means a swear word in Korean). The symbols convey a message that irrational words or behaviors could threaten someone in public, and it should be banned.
-                </p>
-                <img src="imgs/works/81project/81project_5.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-                <span class="post-description">Stickers</span>
-							</div>
-
-							<div id="project81_designOutcome">
-  							<h3 id="sectionTitle" class="post-sub-heading_1">Design Outcome</h3>
-                <img src="imgs/works/81project/81project_6.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
-                <img src="imgs/works/81project/81project_6_1.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
-                <span class="post-description">Installing stickers in subways</span>
-  							<p class="post-contents">
-                  The video that includes all the processes and the executions was shared it on the Internet on major online communities and social networks. The video recorded over 20,000 views and 210 comments.
-                  <br><br>
-                  Many people already knew the issue, and gave cheerful comments to the implementation. Among various feedbacks, some people also gave objective criticisms about our project; it should have not only the installation of ban stickers, but also the result of people’s feedbacks and comments.
-                  <br><br>
-                  We do not think the stickers would be the best way to solve the problem, but we tried to attract people’s attention into the issue, so that it raises a question that how we would react or behave about this situation. We do not know the answer yet, but we believe that we should appropriately behave when we are in public. Until we shared this issue on the internet, new incidents constantly had been reported. What can designers do to resolve these social issues?
-                </p>
-                <img src="imgs/works/81project/81project_7.jpg">
-                <span class="post-description">Feedbacks from online users</span>
-                <div id="bottom_space"></div>
               </div>
-						</div>
+            </div>
+          </header>
 
+          <main class="contents-wrapper">
+            <div class="head-section">
+  						<div id="project81_headBg" class="head-background rellax" data-rellax-speed="-5"></div>
+  						<div class="head-texts">
+  							<h1 class="post-heading animated fadeInUp">81 Project</h1>
+  							<h2 class="post-heading_2 animated fadeInUp">Design campaign to encourage citizens for the better public etiquettes</h2>
+  						</div>
+  					</div>
 
-            <!-- Modal images -->
-            <div id="myModal" class="modal">
-              <span class="modalclosebtn-w" onclick="closeModal()">&times;</span>
-              <div class="modal-contents">
-                <div class="mySlides">
-                  <img src="imgs/works/81project/81project_2.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/81project/81project_3.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/81project/81project_4.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/81project/81project_5.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/81project/81project_6.jpg">
-                </div>
-                <div class="mySlides">
-                  <img src="imgs/works/81project/81project_6_1.jpg">
-                </div>
+            <div class="grid-wrapper">
+              <div class="grid-container">
+                <div class="grid-full">
 
-                <a class="prev" onclick="plusSlides(-1)"><img src="svgs/arrow_prev.svg"></a>
-                <a class="next" onclick="plusSlides(1)"><img src="svgs/arrow_next.svg"></a>
+                  <div class="body-contents-left">
+                   <div id="project81_overview">
+                     <div class="workInfo post-quotes">
+                       <span class="bold">Year:</span>2012<br>
+                       <span class="bold">Designers:</span> Jaeyong Lee, Seonju Ryu, Sooji Park, Yoonjung Lee, Jongwon Baek<br>
+                       <span class="bold">Roles:</span> Project lead, graphic design, fliming & editing <br>
+                     </div>
+                     <p class="post-contents" id="initialSpace">
+                       The 81 project is a campaign for etiquettes for the public that began in the summer of 2011 in South Korea. At the time, four designers who involved in this project recognized a social phenomenon in South Korea that some people demonstrated irrational behaviors in public, and sometimes it hurts others emotionally and physically. To deliver social messages to the public to stop such negative behaviors, the 81 project designed ban stickers and installed in the subway line number 2 in Seoul. We also made a short film about this issue with all the processes of installations. The film was shared on major online communities and encouraged discussions among people to bring attentions for this issue.
+                       <br><br>
+                       81 project showed the impact of a simple visual design and design actions reflecting the context of a phenomenon, and how designers could involve themselves in such issues that socially happening around.
+                     </p>
+                     <div class="videoWrapper">
+                       <iframe src="https://player.vimeo.com/video/118392817" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                     </div>
+                   </div>
 
-                <div class="caption-container">
-                  <p id="caption"></p>
-                </div>
+                   <div id="project81_background">
+                     <h3 id="sectionTitle" class="post-sub-heading_1">Background</h3>
+                     <p class="post-contents">
+                       The most crowded subway line in the Seoul metro system is line 2. Around 1.5 million people use line 2 per day, and this line registered the highest ratio of annual users among subway lines 1 to 8. Since many travelers use the line, many troubles have been reported. Line 2 showed the highest number of incidents in the subway lines, reaching as many as 6,919 in the first half of 2013. For these reasons, we chose line 2 as the performance target.
+                     </p>
+                     <img src="imgs/works/81project/81project_2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                     <div class="halfImg">
+                       <img src="imgs/works/81project/81project_3.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                       <img src="imgs/works/81project/81project_4.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                     </div>
+                   </div>
+                   <div id="project81_designConcept">
+                     <h3 id="sectionTitle" class="post-sub-heading_1">Design Concept</h3>
+                     <p class="post-contents">
+                       The stickers had 4 types that swear words are represented as a weapon, a knife, lightning, and as 81 (the number '18’ means a swear word in Korean). The symbols convey a message that irrational words or behaviors could threaten someone in public, and it should be banned.
+                     </p>
+                     <img src="imgs/works/81project/81project_5.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                     <span class="post-description">Stickers</span>
+                   </div>
 
+                   <div id="project81_designOutcome">
+                     <h3 id="sectionTitle" class="post-sub-heading_1">Design Outcome</h3>
+                     <img src="imgs/works/81project/81project_6.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                     <img src="imgs/works/81project/81project_6_1.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                     <span class="post-description">Installing stickers in subways</span>
+                     <p class="post-contents">
+                       The video that includes all the processes and the executions was shared it on the Internet on major online communities and social networks. The video recorded over 20,000 views and 210 comments.
+                       <br><br>
+                       Many people already knew the issue, and gave cheerful comments to the implementation. Among various feedbacks, some people also gave objective criticisms about our project; it should have not only the installation of ban stickers, but also the result of people’s feedbacks and comments.
+                       <br><br>
+                       We do not think the stickers would be the best way to solve the problem, but we tried to attract people’s attention into the issue, so that it raises a question that how we would react or behave about this situation. We do not know the answer yet, but we believe that we should appropriately behave when we are in public. Until we shared this issue on the internet, new incidents constantly had been reported. What can designers do to resolve these social issues?
+                     </p>
+                     <img src="imgs/works/81project/81project_7.jpg">
+                     <span class="post-description">Feedbacks from online users</span>
+                     <div id="bottom_space"></div>
+                   </div>
+                  </div>
+
+               </div>
               </div>
             </div>
 
-						<div class="col-3 col-m-3 body-contents-right">
-						</div>
-
-            <div id="myScrollspy">
-              <ul class="nav nav-tabs nav-stacked" data-offset-top="580" data-spy="affix">
-                <li class="active"><a href="#project81_overview">OVERVIEW</a></li>
-                <li><a href="#project81_background">BACKGROUND</a></li>
-                <li><a href="#project81_designConcept">DESIGN CONCEPT</a></li>
-                <li><a href="#project81_designOutcome">DESIGN OUTCOME</a></li>
-              </ul>
-            </div>
-				  </div>
-				</div>
-
-        <div class="mastfoot">
-          <div class="col-9 col-m-9 mastfoot-contents">
-            <div class="col-6 col-m-6 mastfoot-information">
-              <h3 class="post-sub-heading_1" id="footerAnimation">
-                <span class="ityped-footer"></span>
-              </h3>
-              <!-- Disable footer animation and place plain text for mobile-->
-              <h3 class="post-sub-heading_1" id="footerNoAnimation">
-                <span>JAEYONG LEE.</span>
-              </h3>
-              <div class="social">
-                <div class="social-hover"><a href="https://www.facebook.com/jaeyonglee05" target="_blank"><img src="svgs/facebook_w.svg" class="social-icons" id="facebook"></a></div>
-                <div class="social-hover"><a href="https://twitter.com/Jaeyonglee05" target="_blank"><img src="svgs/twitter_w.svg" class="social-icons"></a></div>
-                <div class="social-hover"><a href="https://www.instagram.com/jaeyonglee05/" target="_blank"><img src="svgs/instagram_w.svg" class="social-icons"></a></div>
-                <div class="social-hover"><a href="https://www.linkedin.com/in/jaeyonglee05/" target="_blank"><img src="svgs/linkedin_w.svg" class="social-icons"></a></div>
-              </div>
-              <div class="contact-information">
-                <p class="post-contents" id="copyright">
-                  <a href="tel:+8613127631775">+86 131 2763 1775</a><br>
-                  <a href="mailto:jaeyonglee05@gmail.com">jaeyonglee05@gmail.com</a>
-                  <br><br>
-                  Copyright © Jaeyong Lee</p>
+            <div class="mastfoot">
+              <div class="mastfoot-contents">
+                <div class="mastfoot-information">
+                <h3 class="post-sub-heading_1 white">Jaeyong Lee.</h3>
+                  <span class="post-contents_2">Sr. Interaction Designer at Philips Lighting</span><br>
+                  <div class="socialnetwork">
+                  <a href="mailto:jaeyonglee05@gmail.com"><i class="fa fa-envelope"></i></a>
+                  <a href="https://www.linkedin.com/in/jaeyonglee05/" class="fa fa-linkedin" target="_blank"></a>
+                  <a href="https://www.facebook.com/jaeyonglee05" class="fa fa-facebook" target="_blank"></a>
+                  <a href="https://www.instagram.com/jaeyonglee05/" class="fa fa-instagram" target="_blank"></a>
+                  </div>
+                </div>
               </div>
             </div>
+          </main>
 
-            <div class="col-6 col-m-6 mastfoot-navigation">
-              <nav class=mastfoot-nav>
-                <ul>
-                  <li><a href="index.html" class="current"><span>HOME</span></li>
-                  <li><a href="work.html"><span>WORK</span></a></li>
-                  <li><a href="about.html"><span>ABOUT</span></a></li>
-                  <li><a href="contact.html"><span>CONTACT</span></a></li>
-                </ul>
-            </div>
-          </div>
         </div>
-			</main>
+      </div>
+    </div>
 
 
-			</div>
-		</div>
-	</div>
+    <!--Smooth scrolling effect to anchors-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
 
-	<!--Smooth scrolling effect to anchors-->
-	<script>
-	$(document).ready(function(){
-		// Add smooth scrolling to all links
-		$("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
 
-			// Make sure this.hash has a value before overriding default behavior
-			if (this.hash !== "") {
-				// Prevent default anchor click behavior
-				event.preventDefault();
+          // Store hash
+          var hash = this.hash;
 
-				// Store hash
-				var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
 
-				// Using jQuery's animate() method to add smooth page scroll
-				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-				$('html, body').animate({
-					scrollTop: $(hash).offset().top
-				}, 800, function(){
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    <!--text animation-->
+    <script src="dist/ityped.js"></script>
+  	<script>
+  		window.ityped.init(document.querySelector('.ityped'), {
+              strings : ['Critical thinker','Visual communicator','Versatile collaborator'],
+              typeSpeed: 75,
+              backSpeed: 40,
+              backDelay: 1300,
+              startDelay: 500,
+              loop : true
+          });
 
-					// Add hash (#) to URL when done scrolling (default click behavior)
-					window.location.hash = hash;
-				});
-			} // End if
-		});
-	});
-	</script>
-	<!--resizing menu-->
-	<script src="classie.js"></script>
-	<script>
-		function init() {
-			window.addEventListener('scroll', function(e){
-					var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-							shrinkOn = 300,
-							header = document.querySelector("header");
-					if (distanceY > shrinkOn) {
-							classie.add(header,"smaller");
-					} else {
-							if (classie.has(header,"smaller")) {
-									classie.remove(header,"smaller");
-							}
-					}
-			});
-	}
-		window.onload = init();
-	</script>
-	<!--Full screen navigation-->
-	<script>
-		function openNav() {
-		document.getElementById("myNav").style.height = "100%";
-		}
-
-		function closeNav() {
-		document.getElementById("myNav").style.height = "0%";
-		}
-	</script>
-	<!--text animation-->
-	<script src="dist/ityped.js"></script>
-	<script>
-		window.ityped.init(document.querySelector('.ityped-footer'), {
-						strings : ['JAEYONG LEE.'],
-						loop : true
-				});
-	</script>
-	<!--resizing menu-->
-	<script src="classie.js"></script>
-	<script>
-		function init() {
-			window.addEventListener('scroll', function(e){
-					var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-							shrinkOn = 300,
-							header = document.querySelector("header");
-					if (distanceY > shrinkOn) {
-							classie.add(header,"smaller");
-					} else {
-							if (classie.has(header,"smaller")) {
-									classie.remove(header,"smaller");
-							}
-					}
-			});
-	}
-		window.onload = init();
-	</script>
-	<!--parallax-->
-	<script src="parallax/rellax.min.js"></script>
-	<script>
-		// Also can pass in optional settings block
-		var rellax = new Rellax('.rellax');
-	</script>
-	<!--Go Back Button-->
-	<script>
-		function goBack() {
-				window.history.back();
-		}
-	</script>
-	<!--callapsing button-->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script>
-		$(document).ready(function(){
-			$("#aboutme-callapse").on("hide.bs.collapse", function(){
-				$(".btn").html('SEE MORE');
-			});
-			$("#aboutme-callapse").on("show.bs.collapse", function(){
-				$(".btn").html('SEE LESS');
-			});
-		});
-	</script>
-  <!-- Light box -->
-  <script>
-    function openModal() {
-      document.getElementById('myModal').style.display = "block";
+      window.ityped.init(document.querySelector('.ityped-footer'), {
+              strings : ['Jaeyong Lee.'],
+              typeSpeed: 100,
+              backSpeed: 40,
+              backDelay: 1600,
+              startDelay: 500,
+              loop : true
+          });
+    </script>
+    <!--resizing menu-->
+    <script src="classie.js"></script>
+    <script>
+      function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
     }
-
-    function closeModal() {
-      document.getElementById('myModal').style.display = "none";
-    }
-
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+      window.onload = init();
+    </script>
+    <!--Full screen navigation-->
+    <script>
+      function openNav() {
+      document.getElementById("myNav").style.height = "100%";
       }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+
+      function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
       }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-  </script>
-</body>
+    </script>
+
+    <!--Show menu when scroll up-->
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-65px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
+  </body>
 </html>
