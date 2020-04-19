@@ -46,7 +46,9 @@
 
 .grid-full {
   grid-column: 1/13;
-
+}
+.grid-narrow {
+  grid-column: 3/11;
 }
 .grid-half-left {
   grid-column: 1/7;
@@ -190,7 +192,10 @@ p.post-contents {
 }
 
 .bold {
-  font-weight: bold !important;
+  font-weight: 800 !important;
+}
+.medium {
+  font-weight: 500 !important;
 }
 .white {
   color: #FFFFFF !important;
@@ -381,104 +386,7 @@ p.post-contents {
 }
 button:focus {outline:0;
 }
-.tag-button-black {
-  display: block;
-  background-color: #303034;
-  color: white;
-  border: 0;
-  ;
-  border: 0px;
-  margin: 0px;
-}
 
-.tag-button-white {
-  display: block;
-  background-color: white;
-  color: #303034;
-  border: 0;
-  ;
-}
-
-.tag-button-white:hover {
-  background-color: #EFF0F0;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.button-button-black {
-  display: block;
-  background-color: transparent;
-  color: #303034;
-  border: 3px solid #303034;
-  ;
-  margin: 0 auto;
-}
-.button-button-white {
-  display: block;
-  background-color: transparent;
-  color: white;
-  border: 3px solid white;
-  ;
-  margin: 0 auto;
-}
-.button-button-black:hover {
-  display: block;
-  background-color: #303034;
-  color: white;
-  border: 3px solid #303034;
-  ;
-  margin: 0 auto;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-}
-.button-button-white:hover {
-  display: block;
-  background-color: white;
-  color: #303034;
-  border: 3px solid white;
-  ;
-  margin: 0 auto;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-}
-.goBack {
-  display: inline-block;
-  color: #303034;
-  ;
-  background-color: transparent;
-  border: 0;
-  line-height: 28px;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  text-align: middle;
-  vertical-align: middle;
-  text-decoration: none;
-  height: 28px;
-  letter-spacing: 0.5px;
-  cursor: pointer;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.goBack:hover {
-  color: #ffffff;
-  background-color: #303034;
-}
 /* 0.2.3 ETC */
 hr {
   border-width: 1.6px;
@@ -1904,17 +1812,17 @@ label {
 
 input[type=text], select, textarea {
     font-family: "Montserrat", sans-serif;
-    font-weight: normal;
+    font-weight: 200;
     font-size: 16px;
     width: 100%;
-    padding: 12px;
-    border: 0px;
-    border-radius: 0px;
-    background-color: #F1F2F2;
+    padding: 8px;
+    border: 1px solid #8A8A8D;
+    border-radius: 2px;
+    background-color: #ffffff;
     box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin: 20px 16px;
     resize: vertical;
+    height: 32px;
 }
 
 input[type=text]:focus, select, textarea {
@@ -2433,6 +2341,23 @@ img.demo {
 #bottomMargin {
   margin-bottom: 40px;
 }
+/* 2.15 password validation */
+.passwordValidation {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#password {
+  display: inline;
+  width: 400px;
+}
+#passwordButton {
+  display: inline;
+  width: 100px;
+  margin: 0 auto;
+}
+
 /* Responsive design for each content page */
 /* tablet to desktop */
 @media only screen and (min-width: 600px) {
